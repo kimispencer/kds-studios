@@ -1,0 +1,64 @@
+$tileTransition: opacity 300ms cubic-bezier(.33,0,.2,1);
+
+.projectLink {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.projectTile {
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  height: 50vh;
+  &:hover {
+    .image { opacity: 0; }
+    .projectTileText { opacity: 1; }
+  }
+}
+
+.figure {
+  display: block;
+  height: 100%;
+  width: 100%;
+  max-height: none;
+  max-width: none;
+  text-align: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.image {
+  object-fit: cover;
+  position: relative !important;
+  top: 0;
+  left: 0;
+  transition: $tileTransition;
+
+  &.loading {
+    scale: 1.1;
+    filter: blur(40px);
+  }
+  &.loaded {
+    scale: 1;
+    filter: blur(0);
+  }
+}
+
+.projectTileText {
+  opacity: 0;
+  border: 1px dashed green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: $tileTransition;
+}

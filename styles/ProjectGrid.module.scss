@@ -1,0 +1,16 @@
+.projectGrid {
+  border: 1px dashed blue;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0.5fr, 1fr));
+  // grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+  // --auto-grid-min-size: 100vw;
+  grid-gap: 1rem;
+}
+
+/* Large Tablet or Desktop */
+@media screen and (min-width:600px) {
+  .projectGrid {
+    border-color: red;
+    grid-template-columns: repeat(2, 50%);
+  }
+}
