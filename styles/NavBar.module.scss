@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  margin: 3vw auto;
+  padding-right: 5vw;
+  padding-left: 5vw;
+}
+
+.navItem {
+  border: 1px dashed red;
+  margin: 0 20px;
+}
+
+.navLeft {
+  border: 1px dashed black;
+}
+
+.navRight {
+  border: 1px dashed black;
+}
