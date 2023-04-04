@@ -1,22 +1,65 @@
+@import 'variables';
+
 .nav {
+  position: fixed;
+  z-index: $topLayer;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: $navBar_height;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100vw;
-  margin: 3vw auto;
-  padding-right: 5vw;
-  padding-left: 5vw;
+  background-color: $backgroundColor;
+  padding: 0 5vw;
 }
 
 .navItem {
-  border: 1px dashed red;
   margin: 0 20px;
 }
 
-.navLeft {
-  border: 1px dashed black;
+/* Mobile first nav */
+.navLinks {
+  position: fixed;
+  z-index: $topLayer;
+  top: $navBar_height;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $backgroundColor;
+  transition: $opacityTransition;
+  overflow-y: hidden;
 }
 
-.navRight {
-  border: 1px dashed black;
+.mobileOpen {
+  background-color: green;
+  .navLinks {
+    height: 100%;
+  }
+}
+.mobileClosed {
+  background-color: red;
+  .navLinks {
+    height: 0;
+  }
+}
+
+/* Large Tablet or Desktop */
+@media screen and (min-width: $desktop_breakpoint) {
+  .hamburgerBtn {
+    display: none;
+  }
+  .navLinks {
+    position: static;
+    display: block;
+    width: auto;
+  }
+  .mobileOpen, .mobileClosed {
+    .navLinks {
+      height: auto;
+    }
+  }
 }
