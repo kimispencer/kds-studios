@@ -1,4 +1,4 @@
-$tileTransition: opacity 300ms cubic-bezier(.33,0,.2,1);
+@import 'variables';
 
 .projectLink {
   display: block;
@@ -36,7 +36,7 @@ $tileTransition: opacity 300ms cubic-bezier(.33,0,.2,1);
   position: relative !important;
   top: 0;
   left: 0;
-  transition: $tileTransition;
+  transition: $opacityTransition;
 
   &.loading {
     scale: 1.1;
@@ -60,5 +60,5 @@ $tileTransition: opacity 300ms cubic-bezier(.33,0,.2,1);
   left: 0;
   width: 100%;
   height: 100%;
-  transition: $tileTransition;
+  transition: $opacityTransition;
 }

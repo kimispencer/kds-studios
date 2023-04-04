@@ -1,11 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
+import concatClassnames from '@/lib/functions'
 import styles from '@/styles/ProjectTile.module.scss'
-
-function cn(...classes: string[]) {
-  return classes.filter(Boolean).join(' ');
-}
 
 export default function ProjectTile() {
   const [isLoading, setLoading] = useState(true);
@@ -19,7 +16,7 @@ export default function ProjectTile() {
             src="https://loremflickr.com/320/240"
             fill
             // placeholder="blur"
-            className={cn(
+            className={concatClassnames(
               styles.image,
               isLoading
                 ? styles.loading
