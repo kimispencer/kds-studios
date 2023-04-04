@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import { useRouter } from 'next/router'
 import Link from 'next/link'
 import concatClassnames from '@/lib/functions'
 import styles from '@/styles/NavBar.module.scss'
@@ -21,15 +22,23 @@ const NAV_ITEMS =
     { to: "/about" , name: "About" },
   ]
 
-const NavItem = (data: NavItemData) => {
-  return (
-    <Link href={data.to} className={styles.navItem}>{data.name}</Link>
-  )
-}
-
 export default function Nav() {
-  // rather than using state use a checkbox input
-  const [isMobileOpen, setMobileOpen] = useState(false);
+  const [isMobileOpen, setMobileOpen] = useState(false)
+  const NavItem = ({to, name}: NavItemData) => {
+    const router = useRouter()
+    useEffect(() => {
+      const handleRouteChange = () => {
+        setMobileOpen(false)
+      }
+      router.events.on('routeChangeComplete', handleRouteChange)
+      return () => {
+        router.events.off('routeChangeComplete', handleRouteChange);
+      }
+    }, [router])
+    return (
+      <Link href={to} className={styles.navItem}>{name}</Link>
+    )
+  }
 
   return (
     <nav
