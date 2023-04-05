@@ -4,13 +4,13 @@ import Link from 'next/link'
 import concatClassnames from '@/lib/functions'
 import styles from '@/styles/NavBar.module.scss'
 
-type NavItemData =
+type NavLinkData =
   {
     to: string, //URL,
     name: string,
   }
 
-// interface NavItemData
+// interface NavLinkData
 //   {
 //     to: string, //URL,
 //     name: string,
@@ -24,7 +24,8 @@ const NAV_ITEMS =
 
 export default function Nav() {
   const [isMobileOpen, setMobileOpen] = useState(false)
-  const NavItem = ({to, name}: NavItemData) => {
+
+  const NavLink = ({to, name}: NavLinkData) => {
     const router = useRouter()
     useEffect(() => {
       const handleRouteChange = () => {
@@ -36,7 +37,7 @@ export default function Nav() {
       }
     }, [router])
     return (
-      <Link href={to} className={styles.navItem}>{name}</Link>
+      <Link href={to} className={styles.navLink}>{name}</Link>
     )
   }
 
@@ -49,15 +50,16 @@ export default function Nav() {
           : styles.mobileClosed
       )}
     >
-      <NavItem {...{to: "/", name: "logo"}} />
-      <div className={styles.navLinks}>
-        { NAV_ITEMS.map((item, i) => {
-          return (
-            // <Link key={i} href={item.to} className={styles.navItem}>{item.name}</Link>
-            <NavItem key={i} {...item} />
-          )
-        })
-        }
+      <Link href="/" className={styles.logo}>KDS Studios</Link>
+      <div className={styles.navLinksContainer}>
+        <div className={styles.navLinks}>
+          { NAV_ITEMS.map((item, i) => {
+            return (
+              <NavLink key={i} {...item} />
+            )
+          })
+          }
+        </div>
       </div>
       <span className={styles.hamburgerBtn} onClick={() => setMobileOpen(!isMobileOpen)}>|||</span>
     </nav>
