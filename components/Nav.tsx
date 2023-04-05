@@ -20,6 +20,7 @@ const NAV_ITEMS =
   [
     { to: "/" , name: "Work" },
     { to: "/about" , name: "About" },
+    { to: "/contact" , name: "Contact" },
   ]
 
 export default function Nav() {
@@ -61,7 +62,10 @@ export default function Nav() {
           }
         </div>
       </div>
-      <span className={styles.hamburgerBtn} onClick={() => setMobileOpen(!isMobileOpen)}>|||</span>
+      <div className={styles.hamburgerBtn} onClick={() => setMobileOpen(!isMobileOpen)}>
+        <span className={styles.openBtn}>|||</span>
+        <span className={styles.closeBtn}>X</span>
+      </div>
     </nav>
   )
 }

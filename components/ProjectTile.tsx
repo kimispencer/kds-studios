@@ -13,7 +13,7 @@ export default function ProjectTile() {
         <figure className={styles.figure}>
           <Image
             alt=""
-            src="https://loremflickr.com/320/240"
+            src="https://loremflickr.com/400/400"
             fill
             // placeholder="blur"
             className={concatClassnames(

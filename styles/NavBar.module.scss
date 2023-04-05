@@ -10,18 +10,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 5vw;
+  border: 1px dashed;
   background-color: $backgroundColor;
 }
 
 .navLink {
-  margin: 0 $defaultMargin;
   font-size: 32px;
   line-height: 1.6em;
   display: flex;
   justify-content: center;
   width: 100%;
   color: $fontColor;
+  border: 1px dashed;
 }
 
 .navLinks {
@@ -44,7 +44,20 @@
   overflow-y: hidden;
 }
 
+.logo, .hamburgerBtn {
+  padding: 0 5vw;
+  border: 1px dashed;
+}
+
 .mobileOpen {
+  .hamburgerBtn {
+    .openBtn {
+      display: none;
+    }
+    .closeBtn {
+      display: block;
+    }
+  }
   .navLink {
     animation: fadeIn 1000ms;
   }
@@ -59,6 +72,14 @@
   }
 }
 .mobileClosed {
+  .hamburgerBtn {
+    .openBtn {
+      display: block;
+    }
+    .closeBtn {
+      display: none;
+    }
+  }
   .navLinks {
     left: 100%;
   }
@@ -73,11 +94,16 @@
   .hamburgerBtn {
     display: none;
   }
+  .logo {
+    padding: 0;
+    margin: 0 $defaultSpacing;
+  }
   .navLink {
     font-size: $desktopFontSize;
     line-height: $desktopFontSize;
     display: unset;
     width: auto;
+    margin: 0 $defaultSpacing;
   }
   .navLinks {
     position: static;
