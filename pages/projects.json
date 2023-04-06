@@ -1,0 +1,22 @@
+[
+  { "title": "Smarty"
+  , "subtitle": "Lorem ipsum"
+  , "slug": "projects/smarty"
+  },
+  { "title": "Lumi"
+  , "subtitle": "Lorem ipsum"
+  , "slug": "projects/lumi"
+  },
+  { "title": "The Arrivals"
+  , "subtitle": "Lorem ipsum"
+  , "slug": "projects/the-arrivals"
+  },
+  { "title": "Suited"
+  , "subtitle": "Lorem ipsum"
+  , "slug": "projects/suited"
+  },
+  { "title": "Onomie"
+  , "subtitle": "Lorem ipsum"
+  , "slug": "projects/onomie"
+  }
+]

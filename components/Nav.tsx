@@ -18,7 +18,7 @@ type NavLinkData =
 
 const NAV_ITEMS =
   [
-    { to: "/" , name: "Work" },
+    { to: "/projects" , name: "Work" },
     { to: "/about" , name: "About" },
     { to: "/contact" , name: "Contact" },
   ]
@@ -54,7 +54,7 @@ export default function Nav() {
       <Link href="/" className={styles.logo}>KDS Studios</Link>
       <div className={styles.navLinksContainer}>
         <div className={styles.navLinks}>
-          { NAV_ITEMS.map((item, i) => {
+          {NAV_ITEMS.map((item, i) => {
             return (
               <NavLink key={i} {...item} />
             )

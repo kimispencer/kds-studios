@@ -1,7 +1,5 @@
-import ProjectGrid from '@/components/ProjectGrid'
-
 export default function Home() {
   return (
-    <ProjectGrid />
+    <h1>home page</h1>
   )
 }

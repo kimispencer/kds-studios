@@ -4,11 +4,19 @@ import { useState } from 'react'
 import concatClassnames from '@/lib/functions'
 import styles from '@/styles/ProjectTile.module.scss'
 
-export default function ProjectTile() {
+export type ProjectTileData =
+  {
+    title: string
+    , subtitle: string
+    , slug: string
+  }
+
+export default function ProjectTile(project: ProjectTileData) {
   const [isLoading, setLoading] = useState(true);
 
   return (
-    <Link href="#" className={styles.projectLink}>
+    <Link
+      href={project.slug} className={styles.projectLink }>
       <article className={styles.projectTile}>
         <figure className={styles.figure}>
           <Image
@@ -27,8 +35,8 @@ export default function ProjectTile() {
           {/* <figcaption>image caption</figcaption> */}
         </figure>
         <div className={styles.projectTileText}>
-          <h2>project title</h2>
-          <p>project subtitle</p>
+          <h2>{project.title}</h2>
+          <p>{project.subtitle}</p>
         </div>
       </article>
     </Link>
