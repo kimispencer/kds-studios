@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 import concatClassnames from '@/lib/functions'
-import styles from '@/styles/NavBar.module.scss'
+import styles from '@/styles/Nav.module.scss'
 
 type NavLinkData =
   {
