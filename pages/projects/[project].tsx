@@ -1,12 +1,21 @@
+import { NextPage } from "next";
 import { useRouter } from 'next/router'
+import { Project } from '@/lib/interfaces';
+import { projects }  from './data'
+import { NextPageContext } from 'next';
 
-export default function Project(name: string) {
+const ProjectDetailPage = () => {
   const router = useRouter()
-  const {project} = router.query
+  const projectId = router.query.project
+  const projectData = projects.find((project) => project.id === Number(projectId))
 
   return (
-    <>
-      <p>project {project} detail page</p>
-    </>
+    <div>
+      <p>project id#{projectId} detail page</p>
+      <p>hello, {projectData?.title}</p>
+      <p>{projectData?.subtitle}</p>
+    </div>
   )
 }
+
+export default ProjectDetailPage

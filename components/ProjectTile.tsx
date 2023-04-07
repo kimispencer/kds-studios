@@ -1,22 +1,16 @@
+import { Project } from '@/lib/interfaces';
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 import concatClassnames from '@/lib/functions'
 import styles from '@/styles/ProjectTile.module.scss'
 
-export type ProjectTileData =
-  {
-    title: string
-    , subtitle: string
-    , slug: string
-  }
-
-export default function ProjectTile(project: ProjectTileData) {
+const ProjectTile = (project: Project) => {
   const [isLoading, setLoading] = useState(true);
 
   return (
     <Link
-      href={project.slug} className={styles.projectLink }>
+      href="projects/[id]" as={`/projects/${project.id}`} className={styles.projectLink }>
       <article className={styles.projectTile}>
         <figure className={styles.figure}>
           <Image
@@ -42,3 +36,5 @@ export default function ProjectTile(project: ProjectTileData) {
     </Link>
   )
 }
+
+export default ProjectTile
