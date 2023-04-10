@@ -8,8 +8,8 @@ import styles from '@/styles/ProjectGrid.module.scss'
 // }
 
 // export default function ProjectGrid(projects: ProjectGridProps) {
-//   // TODO array from projects/index.tsx is outputting as an object... why???
-//   // because: function ProjectGrid(projects: ProjectGridProps), returns object { projects: Project[] }
+//   // TODO array from projects/index.tsx is outputting as an object... why?
+//   // ANSWER: function ProjectGrid(projects: ProjectGridProps), returns object { projects: Project[] }
 //   // we need to change this to: ProjectGrid({ projects }: ProjectGridProps), to return the projects array Project[]
 //   console.log(projects)
 //   return (
@@ -60,5 +60,4 @@ export default ProjectGrid
 //     </ul>
 //   );
 // };
-
 // export default ProjectGrid;
