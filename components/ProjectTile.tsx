@@ -1,12 +1,16 @@
-import { Project } from '@/lib/interfaces';
+import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useState } from 'react'
+import { Project } from '@/lib/interfaces';
 import concatClassnames from '@/lib/functions'
 import styles from '@/styles/ProjectTile.module.scss'
 
-const ProjectTile = (project: Project) => {
-  const [isLoading, setLoading] = useState(true);
+type ProjectTileProps = {
+  project: Project
+}
+
+const ProjectTile = ({ project }: ProjectTileProps) => {
+  const [isLoading, setLoading] = useState(true)
 
   return (
     <Link

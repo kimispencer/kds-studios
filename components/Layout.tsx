@@ -6,22 +6,12 @@ type Props = {
   children?: ReactNode
 }
 
-// const Layout = ({ children }: Props) => {
-//   return (
-//     <>
-//       <Nav />
-//       <main>{children}</main>
-//     </>
-//   )
-// }
-
-// export default Layout
-
-export default function Layout ({ children }: Props) {
+const Layout = ({ children }: Props) => {
   return (
     <>
-    <Nav />
-    <main className={styles.main}>{children}</main>
+      <Nav />
+      <main className={styles.main}>{children}</main>
     </>
   )
 }
+export default Layout

@@ -6,15 +6,9 @@ import styles from '@/styles/Nav.module.scss'
 
 type NavLinkData =
   {
-    to: string, //URL,
+    to: string,
     name: string,
   }
-
-// interface NavLinkData
-//   {
-//     to: string, //URL,
-//     name: string,
-//   }
 
 const NAV_ITEMS =
   [
@@ -23,9 +17,8 @@ const NAV_ITEMS =
     { to: "/contact" , name: "Contact" },
   ]
 
-export default function Nav() {
+const Nav = () => {
   const [isMobileOpen, setMobileOpen] = useState(false)
-
   const NavLink = ({to, name}: NavLinkData) => {
     const router = useRouter()
     useEffect(() => {
@@ -69,3 +62,4 @@ export default function Nav() {
     </nav>
   )
 }
+export default Nav
