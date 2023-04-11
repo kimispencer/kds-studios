@@ -1,14 +1,13 @@
-export interface Project {
-  id: number;
-  title: string;
-  subtitle: string;
-  slug: string;
-  active?: boolean;
-}
-
 export interface Tab {
   path: string;
   name: string;
   active?: boolean;
-  project?: Project;
+}
+export interface Project {
+  id: number;
+  slug: string;
+  active?: boolean;
+  title: string;
+  subtitle: string;
+  description: string;
 }

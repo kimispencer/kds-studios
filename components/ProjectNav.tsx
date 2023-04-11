@@ -20,7 +20,7 @@ const ProjectNav = ({ projects, currentSlug }: Props) => {
       {projects.map((tab) => (
         <Link
           key={tab.id}
-          href={`/projects/${tab.id}`}
+          href={`/projects/${tab.slug}`}
           className={concatClassnames(
             styles.projectNavLink,
             tab.active ? styles.active : ""

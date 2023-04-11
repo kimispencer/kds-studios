@@ -14,7 +14,7 @@ const ProjectTile = ({ project }: ProjectTileProps) => {
 
   return (
     <Link
-      href="projects/[id]" as={`/projects/${project.id}`} className={styles.projectLink }>
+      href="projects/[slug]" as={`/projects/${project.slug}`} className={styles.projectLink }>
       <article className={styles.projectTile}>
         <figure className={styles.figure}>
           <Image
