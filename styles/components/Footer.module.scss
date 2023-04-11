@@ -1,3 +1,9 @@
+@import 'variables';
+
 .footer {
   padding: 6.6vmax;
+}
+
+.copyRight {
+  @extend .smallFont;
 }

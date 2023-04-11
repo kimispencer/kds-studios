@@ -1,0 +1,10 @@
+@import 'variables';
+
+.servicesPage {
+  @extend .grid;
+}
+
+.serviceBlock {
+  border: 1px dashed;
+  grid-area: 1/2/7/10;
+}
