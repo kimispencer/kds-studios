@@ -1,26 +1,32 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
+import { Tab } from '@/lib/interfaces';
 import concatClassnames from '@/lib/functions'
 import styles from '@/styles/Nav.module.scss'
 
-type NavLinkData =
-  {
-    to: string,
-    name: string,
-  }
-
-const NAV_ITEMS =
+const tabs: Tab[] =
   [
-    { to: "/projects" , name: "Work" },
-    { to: "/about" , name: "About" },
-    { to: "/contact" , name: "Contact" },
+    { path: "/projects"
+    , name: "Work"
+    },
+    { path: "/about"
+    , name: "About"
+    },
+    { path: "/contact"
+    , name: "Contact"
+    },
   ]
 
 const Nav = () => {
   const [isMobileOpen, setMobileOpen] = useState(false)
-  const NavLink = ({to, name}: NavLinkData) => {
-    const router = useRouter()
+  const router = useRouter()
+  // set active tab
+  tabs.forEach((tab) => {
+    tab.active = router.pathname === tab.path
+  })
+
+  const NavLink = ({path, name, active}: Tab) => {
     useEffect(() => {
       const handleRouteChange = () => {
         setMobileOpen(false)
@@ -29,9 +35,16 @@ const Nav = () => {
       return () => {
         router.events.off('routeChangeComplete', handleRouteChange);
       }
-    }, [router])
+    }, [])
     return (
-      <Link href={to} className={styles.navLink}>{name}</Link>
+      <Link href={path}
+        className={concatClassnames(
+          styles.navLink,
+          active ? styles.active : ""
+        )}
+      >
+        {name}
+      </Link>
     )
   }
 
@@ -39,15 +52,13 @@ const Nav = () => {
     <nav
       className={concatClassnames(
         styles.nav,
-        isMobileOpen
-          ? styles.mobileOpen
-          : styles.mobileClosed
+        isMobileOpen ? styles.mobileOpen : styles.mobileClosed
       )}
     >
       <Link href="/" className={styles.logo}>KDS Studios</Link>
       <div className={styles.navLinksContainer}>
         <div className={styles.navLinks}>
-          {NAV_ITEMS.map((item, i) => {
+          {tabs.map((item, i) => {
             return (
               <NavLink key={i} {...item} />
             )

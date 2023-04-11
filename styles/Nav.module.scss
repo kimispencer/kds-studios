@@ -22,6 +22,9 @@
   width: 100%;
   color: $fontColor;
   border: 1px dashed;
+  &.active {
+    font-weight: bold;
+  }
 }
 
 .navLinks {
