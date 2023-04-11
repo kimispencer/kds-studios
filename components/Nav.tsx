@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import Link from 'next/link'
 import { Tab } from '@/lib/interfaces';
 import concatClassnames from '@/lib/functions'
-import styles from '@/styles/Nav.module.scss'
+import styles from '@/styles/components/Nav.module.scss'
 
 const tabs: Tab[] =
   [

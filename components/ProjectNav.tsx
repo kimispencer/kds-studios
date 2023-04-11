@@ -1,18 +1,35 @@
-import { useRouter } from 'next/router'
 import Link from 'next/link'
-import { useState, useEffect } from "react";
-import { Project } from '@/lib/interfaces';
+import { Project } from '@/lib/interfaces'
+import concatClassnames from '@/lib/functions'
+import styles from '@/styles/components/ProjectNav.module.scss'
 
-const ProjectNav = () => {
-  const router = useRouter()
-  const currentSlug = router.query.slug as string
-  const [projects, setProjects] = useState<Project[]>([])
-  const [currentProject, setCurrentProject] = useState<Project | undefined>()
-  const [previousProject, setPreviousProject] = useState<Project | null>(null)
-  const [nextProject, setNextProject] = useState<Project | null>(null)
+type Props = {
+  projects: Project[]
+  currentSlug: string
+}
+
+const ProjectNav = ({ projects, currentSlug }: Props) => {
+  // set active tab
+  projects.forEach((tab) => {
+    tab.active = currentSlug === tab.slug
+  })
 
   return (
-    <></>
+    <nav className={styles.projectNav}>
+      <Link href="/projects" className={styles.projectNavLink}>All</Link>
+      {projects.map((tab) => (
+        <Link
+          key={tab.id}
+          href={`/projects/${tab.id}`}
+          className={concatClassnames(
+            styles.projectNavLink,
+            tab.active ? styles.active : ""
+          )}
+        >
+          {tab.title}
+        </Link>
+      ))}
+    </nav>
   )
 }
 export default ProjectNav

@@ -1,0 +1,19 @@
+@import 'variables';
+
+.projectNav {
+  border: 1px dashed;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projectNavLink {
+  margin: calc(#{$defaultSpacing}/4);
+  padding: 0 calc(#{$defaultSpacing}/4);
+  color: $lightGrey;
+  font-size: $projectNavFontSize;
+  &.active {
+    color: $fontColor;
+  }
+}

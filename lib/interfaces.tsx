@@ -3,6 +3,7 @@ export interface Project {
   title: string;
   subtitle: string;
   slug: string;
+  active?: boolean;
 }
 
 export interface Tab {

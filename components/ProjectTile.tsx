@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Project } from '@/lib/interfaces';
 import concatClassnames from '@/lib/functions'
-import styles from '@/styles/ProjectTile.module.scss'
+import styles from '@/styles/components/ProjectTile.module.scss'
 
 type ProjectTileProps = {
   project: Project

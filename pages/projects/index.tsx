@@ -1,5 +1,5 @@
-import { NextPage, GetStaticProps } from "next";
-import { Project } from '@/lib/interfaces';
+import { NextPage, GetStaticProps } from "next"
+import { Project } from '@/lib/interfaces'
 import ProjectGrid from '@/components/ProjectGrid'
 
 type ProjectPageProps = {

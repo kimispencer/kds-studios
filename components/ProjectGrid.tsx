@@ -1,6 +1,6 @@
 import { Project } from '@/lib/interfaces';
 import ProjectTile from '@/components/ProjectTile'
-import styles from '@/styles/ProjectGrid.module.scss'
+import styles from '@/styles/components/ProjectGrid.module.scss'
 
 type ProjectGridProps = {
   projects: Project[]
