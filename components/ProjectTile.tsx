@@ -23,7 +23,7 @@ const ProjectTile = ({ project }: ProjectTileProps) => {
             fill
             // placeholder="blur"
             className={concatClassnames(
-              styles.image,
+              styles.projectImage,
               isLoading
                 ? styles.loading
                 : styles.loaded

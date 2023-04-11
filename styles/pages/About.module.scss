@@ -1,0 +1,37 @@
+@import 'variables';
+
+.aboutPage {
+  width: 100%;
+}
+
+.aboutImage {
+  @extend .image;
+  width: 100%;
+}
+
+.aboutCopy {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.aboutClients, .aboutDescription {
+  padding: $defaultSpacing;
+}
+.aboutDescription {
+
+}
+
+.aboutEmail {
+  text-decoration: underline;
+}
+
+/* Large Tablet or Desktop */
+@media screen and (min-width: $desktop_breakpoint) {
+  .aboutCopy {
+    flex-flow: row;
+  }
+  .aboutClients, .aboutDescription {
+    width: 50%;
+  }
+}

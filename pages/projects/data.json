@@ -49,10 +49,5 @@
   , "title": "Data visualization"
   , "subtitle": "Lorem ipsum"
   , "slug": "data-visualization"
-  },
-  { "id": 11
-  , "title": "Live visuals"
-  , "subtitle": "Lorem ipsum"
-  , "slug": "live-visuals"
   }
 ]

@@ -49,3 +49,21 @@ $layoutSpacing: 5vw;
   grid-template-rows: repeat(10,minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
   grid-template-columns: minmax(var(--grid-gutter), 1fr) repeat(24, minmax(0, var(--cell-max-width))) minmax(var(--grid-gutter), 1fr);
 }
+
+// Images
+.image {
+  object-fit: cover;
+  position: relative !important;
+  top: 0;
+  left: 0;
+  transition: $opacityTransition;
+
+  &.loading {
+    scale: 1.1;
+    filter: blur(40px);
+  }
+  &.loaded {
+    scale: 1;
+    filter: blur(0);
+  }
+}

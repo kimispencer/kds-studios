@@ -16,9 +16,6 @@ const tabs: Tab[] =
     { path: "/about"
     , name: "About"
     },
-    { path: "/contact"
-    , name: "Contact"
-    },
   ]
 
 const Nav = () => {
