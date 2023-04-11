@@ -106,12 +106,22 @@ a {
 //   }
 // }
 
+// Fluid typography
 h1 {
-  font-size: 5.9vw;
+  font-size: calc((4 - 1) * 1.2vw + 1rem);
+  line-height: calc(1.4 * (1 + (1 - 4)/25));
 }
+
 h2 {
-  font-size: 3.0vh;
+  font-size:calc((2.8 - 1) * 1.2vw + 1rem);
+  line-height: calc(1.4 * (1 + (1 - 2.8)/25))
 }
-p {
-  font-size: 2vmin;
+
+h3 {
+  font-size: calc((2.2 - 1) * 1.2vw + 1rem);
+  line-height: calc(1.4 * (1 + (1 - 2.2)/25));
+}
+
+h1, h2, h3 {
+  font-weight: normal;
 }

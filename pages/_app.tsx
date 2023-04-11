@@ -5,12 +5,7 @@ import '@/styles/globals.scss'
 import { Chivo } from 'next/font/google'
 
 const chivo = Chivo({ subsets: ['latin'] })
-
-// export default function App({ Component, pageProps }: AppProps) {
-//   return <Component {...pageProps} />
-// }
-
-export default function App({ Component, pageProps }: AppProps) {
+const App = ({ Component, pageProps }: AppProps) => {
   return (
     <>
     <Head>
@@ -27,3 +22,4 @@ export default function App({ Component, pageProps }: AppProps) {
     </>
   )
 }
+export default App

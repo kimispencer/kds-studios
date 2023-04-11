@@ -10,6 +10,9 @@ const tabs: Tab[] =
     { path: "/projects"
     , name: "Work"
     },
+    { path: "/services"
+    , name: "Services"
+    },
     { path: "/about"
     , name: "About"
     },

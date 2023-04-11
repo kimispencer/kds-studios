@@ -37,6 +37,7 @@ const ProjectTile = ({ project }: ProjectTileProps) => {
           <p>{project.subtitle}</p>
         </div>
       </article>
+      <h3 className={styles.projectTileSubheader}>{project.title}</h3>
     </Link>
   )
 }

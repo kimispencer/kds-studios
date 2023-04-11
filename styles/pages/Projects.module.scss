@@ -1,0 +1,20 @@
+@import 'variables';
+
+.projectDetailPage {
+  @extend .grid;
+}
+
+.projectDetailSlide {
+  grid-area: 1/2/19/20;
+}
+
+.projectDetailSlideHeader {
+  margin-bottom: $defaultSpacing;
+}
+
+/* Large Tablet or Desktop */
+@media screen and (min-width: $desktop_breakpoint) {
+  .projectDetailSlide {
+    grid-area: 4/5/11/23;
+  }
+}

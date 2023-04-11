@@ -1,9 +1,9 @@
 [
   { "id": 1
-  , "title": "Smarty"
+  , "title": "Smarty AI"
   , "subtitle": "Lorem ipsum"
   , "slug": "smarty"
-  , "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+  , "description": "Smarty unifies task management & calendar scheduling into one clean application. Powered with a natural language processing interface, users can enter text to create tasks, events, scheduling links and more."
   },
   { "id": 2
   , "title": "Lumi"
@@ -36,7 +36,7 @@
   , "slug": "bolster"
   },
   { "id": 8
-  , "title": "Tom Tom Mag"
+  , "title": "Tom Tom Magazine"
   , "subtitle": "Lorem ipsum"
   , "slug": "tom-tom"
   },

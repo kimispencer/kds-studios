@@ -2,6 +2,7 @@ import { useState } from "react"
 import { NextPage, GetStaticPaths, GetStaticProps } from "next"
 import { Project } from '@/lib/interfaces'
 import ProjectNav from "@/components/ProjectNav"
+import styles from '@/styles/pages/Projects.module.scss'
 
 type Props = {
   project: Project
@@ -24,11 +25,15 @@ export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
 
 const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
   return (
-    <div>
-      <p>{project.title}</p>
-      <p>{project.description}</p>
-      <ProjectNav projects={projects} currentSlug={project.slug} />
+    <>
+    <div className={styles.projectDetailPage}>
+      <div className={styles.projectDetailSlide}>
+        <h3 className={styles.projectDetailSlideHeader}>{project.title}</h3>
+        <h3>{project.description}</h3>
+      </div>
     </div>
+    <ProjectNav projects={projects} currentSlug={project.slug} />
+    </>
   )
 }
 export default ProjectDetailPage
