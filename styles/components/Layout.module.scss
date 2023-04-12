@@ -5,10 +5,9 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding-top: $navBar_height;
-  min-height: 100vh;
+  margin-top: $navBar_height;
+  min-height: calc(100vh - #{$navBar_height});
   background-color: $backgroundColor;
-  padding-right: 5vw;
-  padding-left: $layoutSpacing;
+  padding: 0 $layoutSpacing;
   border: 1px dashed;
 }

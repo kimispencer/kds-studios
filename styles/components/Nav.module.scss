@@ -45,7 +45,7 @@
 }
 
 .logo, .hamburgerBtn {
-  padding: 0 5vw;
+  padding: 0 $layoutSpacing;
   border: 1px dashed;
 }
 
@@ -96,7 +96,7 @@
   }
   .logo {
     padding: 0;
-    margin: 0 $defaultSpacing;
+    margin: 0 $layoutSpacing;
   }
   .navLink {
     font-size: $desktopNavFontSize;
@@ -104,6 +104,9 @@
     display: unset;
     width: auto;
     margin: 0 $defaultSpacing;
+    &:last-child {
+      margin-right: 0;
+    }
     &.active {
       font-weight: bold;
     }
@@ -113,6 +116,7 @@
     display: unset;
     width: auto;
     height: auto;
+    margin: 0 $layoutSpacing;
   }
   .navLinksContainer {
     position: static;

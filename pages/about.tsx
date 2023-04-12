@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Link from 'next/link'
 import Image from 'next/image'
 import concatClassnames from '@/lib/functions'
 import styles from '@/styles/pages/About.module.scss'
@@ -26,20 +27,23 @@ const About = () => {
       </figure>
       <div className={styles.aboutCopy}>
         <div className={styles.aboutClients}>
-          <p>CLIENTS:</p>
-          <br/>
-          <p>one</p>
-          <p>two</p>
-          <p>three</p>
+          <p className={styles.clientsTitle}>Clients:</p>
+          <p>Smarty AI</p>
+          <p>Lumi</p>
+          <p>The Arrivals</p>
+          <p>SUITED Magazine</p>
+          <Link href="/projects">
+            <p>+ more</p>
+          </Link>
         </div>
         <div className={styles.aboutDescription}>
-          <p>KDS Studios is a digital studio and the design practice of Kimi Spencer. In 2012 she graduated with a Masters degree in Interactive Technology and Design from NYU, Tisch</p>
+          <p>KDS Studios is a digital studio and the design practice of Kimi Spencer with a Masters degree in Interactive Technology and Design from NYU, Tisch</p>
           <br/>
-          <p>At KDS Studios she has worked with clients from San Francisco startups to NYC digital agencies; spanning industries from interactive advertising, online magazines/publications, AR games for museum education, to high-end fashion.</p>
+          <p>At KDS Studios she has worked with clients from San Francisco startups to NYC digital agencies; spanning industries from interactive advertising, online magazines/publications, AI driven applications, to high-end fashion.</p>
           <br/>
           <p>CV upon request.</p>
           <br/>
-          <p className={styles.aboutEmail}>Email me</p>
+          <p className={styles.aboutContact}>Contact</p>
         </div>
       </div>
     </div>

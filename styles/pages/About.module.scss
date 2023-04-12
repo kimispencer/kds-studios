@@ -7,27 +7,42 @@
 .aboutImage {
   @extend .image;
   width: 100%;
+  height: calc(80vh - #{$navBar_height});
 }
 
 .aboutCopy {
   display: flex;
   flex-flow: column;
+  flex-direction: column-reverse;
   justify-content: space-between;
+  padding-top: $layoutSpacing;
 }
 
 .aboutClients, .aboutDescription {
-  padding: $defaultSpacing;
-}
-.aboutDescription {
-
+  padding: $defaultSpacing 0;
 }
 
-.aboutEmail {
+.aboutClients {
+  & p {
+    margin-top: calc(#{$defaultSpacing} / 2);
+  }
+}
+
+.clientsTitle {
+  @extend .smallFont;
+  @extend .uppercase;
+}
+
+.aboutContact {
   text-decoration: underline;
 }
 
 /* Large Tablet or Desktop */
 @media screen and (min-width: $desktop_breakpoint) {
+  // TODO make this a Layout component variable
+  .aboutPage {
+    padding: 0 $layoutSpacing;
+  }
   .aboutCopy {
     flex-flow: row;
   }
