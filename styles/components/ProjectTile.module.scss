@@ -14,16 +14,30 @@
   height: 50vh;
   &:hover {
     .image { opacity: 0; }
-    .projectTileText { opacity: 1; }
+    .projectTileHoverText { opacity: 1; }
   }
 }
 
-.projectTileSubheader {
+.projectTileHoverText {
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: $opacityTransition;
+}
+
+.projectTileTouchscreenText {
   margin: calc(#{$defaultSpacing}/2) 0;
 }
 
 @media (hover: hover) {
-  .projectTileSubheader { display: none; }
+  .projectTileTouchscreenText { display: none; }
 }
 
 .figure {
@@ -41,19 +55,4 @@
 
 .projectImage {
   @extend .image;
-}
-
-.projectTileText {
-  opacity: 0;
-  border: 1px dashed green;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transition: $opacityTransition;
 }

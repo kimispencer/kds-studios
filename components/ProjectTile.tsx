@@ -32,12 +32,15 @@ const ProjectTile = ({ project }: ProjectTileProps) => {
           />
           {/* <figcaption>image caption</figcaption> */}
         </figure>
-        <div className={styles.projectTileText}>
+        <div className={styles.projectTileHoverText}>
           <h2>{project.title}</h2>
           <p>{project.subtitle}</p>
         </div>
       </article>
-      <h3 className={styles.projectTileSubheader}>{project.title}</h3>
+      <div className={styles.projectTileTouchscreenText}>
+        <h3>{project.title}</h3>
+        <p>{project.subtitle}</p>
+      </div>
     </Link>
   )
 }

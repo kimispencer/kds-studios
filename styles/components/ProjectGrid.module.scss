@@ -1,7 +1,7 @@
 @import 'variables';
 
 .projectGrid {
-  border: 1px dashed blue;
+  border: 1px dashed;
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(1, minmax(0.5fr, 1fr));
@@ -13,7 +13,6 @@
 /* Large Tablet or Desktop */
 @media screen and (min-width: $desktop_breakpoint) {
   .projectGrid {
-    border-color: red;
     grid-template-columns: repeat(2, 0.5fr);
   }
 }
