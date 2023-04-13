@@ -1,10 +1,38 @@
 @import 'variables';
 
-.servicesPage {
+.servicesAboveFold {
   @extend .grid;
+}
+
+.servicesHeader {
+  grid-area: 6/5/6/23;
+  text-align: center;
+}
+
+.servicesGrid {
+  @extend .grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: calc(#{$defaultSpacing} * 2);
+  grid-template-rows: auto;
+  grid-row-gap: $layoutSpacing;
 }
 
 .serviceBlock {
   border: 1px dashed;
-  grid-area: 1/2/7/10;
+}
+
+.serviceTile {
+  margin-bottom: $defaultSpacing;
+}
+
+/* Large Tablet or Desktop */
+@media screen and (min-width: $desktop_breakpoint) {
+  // TODO make this a Layout component variable?
+  .servicesPage {
+    padding: 0 $layoutSpacing;
+  }
+
+  .servicesGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

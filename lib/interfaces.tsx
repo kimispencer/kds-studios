@@ -11,3 +11,8 @@ export interface Project {
   subtitle: string;
   description: string;
 }
+
+export interface Service {
+  title: string;
+  description: string;
+}
