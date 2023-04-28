@@ -2,6 +2,7 @@ import { useState } from "react"
 import { NextPage, GetStaticPaths, GetStaticProps } from "next"
 import { Project } from '@/lib/interfaces'
 import ProjectNav from "@/components/ProjectNav"
+import DeviceFrame from "@/components/DeviceFrame"
 import styles from '@/styles/pages/Projects.module.scss'
 
 type Props = {
@@ -27,9 +28,36 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
   return (
     <>
     <div className={styles.projectDetailPage}>
-      <div className={styles.projectDetailSlide}>
-        <h3 className={styles.projectDetailSlideHeader}>{project.title}</h3>
-        <h3>{project.description}</h3>
+      <div className={styles.projectDetailAboveFold}>
+        <div className={styles.projectDetailAboveFoldContent}>
+          <h3 className={styles.projectDetailAboveFoldHeader}>{project.title}</h3>
+          <h3>{project.description}</h3>
+        </div>
+      </div>
+      <div className={styles.projectDetailImages}>
+        {project.images.map((image, i) => {
+          switch (image.imageType) {
+            case "desktop":
+              console.log("desktop")
+              break
+            case "iphone":
+              console.log("iphone")
+              break
+            default:
+              console.log("no match")
+          }
+          return (
+            <div key={i} className={styles.projectDetailImageSlide}>
+              <div className={styles.projectDetailImageSlideInnerImage}>
+                <DeviceFrame />
+              </div>
+              <div className={styles.projectDetailImageSlideInnerText}>
+                <h4>{image.imageText}</h4>
+              </div>
+            </div>
+          )
+        })
+        }
       </div>
     </div>
     <ProjectNav projects={projects} currentSlug={project.slug} />

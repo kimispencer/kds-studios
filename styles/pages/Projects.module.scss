@@ -1,20 +1,42 @@
 @import 'variables';
 
 .projectDetailPage {
-  @extend .grid;
+  width: 100%;
+  border: 1px dashed red;
 }
 
-.projectDetailSlide {
+.projectDetailAboveFold {
+  @extend .grid;
+  padding-top: 10vmax;
+  padding-bottom: 10vmax;
+}
+
+.projectDetailAboveFoldContent {
   grid-area: 1/2/19/20;
 }
 
-.projectDetailSlideHeader {
+.projectDetailAboveFoldHeader {
   margin-bottom: $defaultSpacing;
+}
+
+.projectDetailImageSlide {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
 
 /* Large Tablet or Desktop */
 @media screen and (min-width: $desktop_breakpoint) {
-  .projectDetailSlide {
-    grid-area: 4/5/11/23;
+  .projectDetailAboveFoldContent {
+    grid-area: 1/2/11/26;
+  }
+  .projectDetailImageSlide {
+    flex-flow: row;
+  }
+  .projectDetailImageSlideInnerImage, .projectDetailImageSlideInnerText {
+    flex: 0 0 50%;
+  }
+  .projectDetailImageSlide:nth-child(even) {
+    flex-flow: row-reverse;
   }
 }
