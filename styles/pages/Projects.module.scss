@@ -12,7 +12,7 @@
 }
 
 .projectDetailAboveFoldContent {
-  grid-area: 1/2/19/20;
+  grid-area: 1/1/1/26;
 }
 
 .projectDetailAboveFoldHeader {
@@ -28,7 +28,7 @@
 /* Large Tablet or Desktop */
 @media screen and (min-width: $desktop_breakpoint) {
   .projectDetailAboveFoldContent {
-    grid-area: 1/2/11/26;
+    grid-area: 1/5/11/23;
   }
   .projectDetailImageSlide {
     flex-flow: row;
