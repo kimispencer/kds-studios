@@ -1,146 +1,251 @@
-/* simulate a iPhone device frame
-	* https://codepen.io/havardob/pen/KzoOMB
+/* simulate a Macbook device frame
+* adapted from:
+* https://codepen.io/Naymapl/pen/XZyBVe
 */
-.iphone {
-  box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px #999, 0 0 30px 0px rgba(0, 0, 0, 0.7);
-  border: 5px solid #d9dbdc;
-  background: #f8f8f8;
-  padding: 15px;
-  border-radius: 50px;
-  width: 375px;
-  position: relative;
-  max-width: calc(100vw - 20px*5 - 30px - 10px);
-  min-height: 500px;
-  height: 800px;
-  position: relative;
-  /* Scale so that the iPhone fits in view*/
-  /*transform: scale(.8);*/
-  margin: 40px auto;
-}
-.iphone:before {
+.macbook,
+.macbook::before,
+.macbook::after,
+.macbook *,
+.macbook *::before,
+.macbook *::after {
+  box-sizing: border-box;
   display: block;
-  content: "";
-  width: 100%;
-  padding-top: 177.86667%;
-}
-.iphone > .content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-.iphone .iphoneTop {
-  width: 70%;
-  margin: 0 auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.iphone .iphoneTop .speaker {
-  display: block;
-  width: 70px;
-  height: 6px;
-  margin: 0 auto;
-  border-radius: 6px;
-  background: #292728;
-}
-.iphone .iphoneTop .camera {
-  display: block;
-  margin: 0 auto;
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-  margin-bottom: 13px;
-  background: #333;
-}
-.iphone .iphoneTop .sensor {
-  display: block;
-  width: 15px;
-  height: 15px;
-  background: #333;
-  border-radius: 50%;
-}
-.iphone .iphoneScreen {
-  overflow: scroll;
-  background: #eee;
-  border: 1px solid #fff;
-  height: 80%;
-  width: calc(100% - 20px*2);
-  margin: 0 auto;
-  border: 2px solid rgba(0, 0, 0, 0.9);
-  border-radius: 3px;
-  /*overflow: hidden;*/
-}
-.iphone .iphoneScreen .viewport {
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-}
-.iphone .buttons .on-off, .iphone .buttons .up, .iphone .buttons .down, .iphone .buttons .sleep {
-  display: block;
-  background: #999;
-  position: absolute;
-  border-radius: 2px 0px 0px 2px;
-}
-.iphone .buttons .on-off {
-  height: 40px;
-  width: 3px;
-  top: 100px;
-  left: -8px;
-}
-.iphone .buttons .up, .iphone .buttons .down, .iphone .buttons .sleep {
-  height: 60px;
-  width: 5px;
-  left: -10px;
-}
-.iphone .buttons .up {
-  top: 170px;
-}
-.iphone .buttons .down {
-  top: 250px;
-}
-.iphone .buttons .sleep {
-  left: auto;
-  right: -10px;
-  top: 170px;
-  border-radius: 0px 2px 2px 0px;
-}
-.iphone .iphone-bottom {
-  padding: 12px 0 0;
-  position: absolute;
-  left: 0;
-  width: 100%;
-}
-.iphone .iphone-bottom span {
-  display: block;
-  margin: 0 auto;
-  width: 58px;
-  height: 58px;
-  background: #ccc;
-  border-radius: 50%;
-  background: linear-gradient(135deg, #303233 0%, #b5b7b9 50%, #f0f2f2 69%, #303233 100%);
-  position: relative;
-}
-.iphone .iphone-bottom span:after {
-  content: "";
-  display: block;
-  width: 50px;
-  height: 50px;
-  background: #fff;
-  border-radius: 50%;
-  position: absolute;
-  left: 4px;
-  top: 4px;
 }
 
-@media only screen and (max-width: 640px) {
-  .iphone {
-    height: 500px;
+.macbook {
+  position: relative;
+  transform: scale(1);
+  z-index: 1;
+  margin: 1rem auto;
+}
+
+.macbook .deviceContent {
+  background-color: #fff;
+  background-position: center center;
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+}
+
+.macbook {
+  // height: 864px;
+  width: 740px;
+}
+
+.macbook .deviceFrame {
+  background: #0d0d0d;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0 2px #c8cacb;
+  height: 428px;
+  margin: 0 auto;
+  padding: 29px 19px 39px 19px;
+  position: relative;
+  width: 614px;
+}
+
+.macbook .deviceFrame::after {
+  background: #272626;
+  border-radius: 0 0 20px 20px;
+  bottom: 2px;
+  content: "";
+  height: 26px;
+  left: 2px;
+  position: absolute;
+  width: 610px;
+}
+
+.macbook .deviceFrame::before {
+  bottom: 10px;
+  color: #c8cacb;
+  content: "MacBook";
+  font-size: 12px;
+  height: 16px;
+  left: 50%;
+  line-height: 16px;
+  margin-left: -100px;
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  z-index: 1;
+}
+
+.macbook .deviceContent {
+  border: 2px solid #121212;
+  border-radius: 2px;
+  height: 360px;
+  width: 576px;
+}
+
+.macbook .devicePower {
+  background: #e2e3e4;
+  border: solid #d5d6d8;
+  border-radius: 2px 2px 0 0;
+  border-width: 0 4px;
+  height: 4px;
+  margin-top: -10px;
+  position: relative;
+  width: 740px;
+  z-index: 9;
+}
+
+.macbook .devicePower::after,
+.macbook .devicePower::before {
+  content: "";
+  position: absolute;
+}
+
+.macbook .devicePower::after {
+  background: radial-gradient(circle at center, #e2e3e4 0, #e2e3e4 85%, #a0a3a7 100%);
+  border: solid #adb0b3;
+  border-width: 0 2px;
+  height: 4px;
+  left: 50%;
+  margin-left: -60px;
+  width: 120px;
+}
+
+.macbook .devicePower::before {
+  background: #a0a3a7;
+  border-radius: 0 0 180px 180px/ 0 0 10px 10px;
+  box-shadow: inset 0 -2px 6px 0 #474a4d;
+  height: 10px;
+  left: -4px;
+  margin: 0 auto;
+  top: 4px;
+  width: 740px;
+}
+
+.macbook .deviceFrame {
+  box-shadow: inset 0 0 0 2px #767a7d;
+}
+
+.macbook .devicePower {
+  background: #909496;
+  border-color: #767a7d;
+}
+
+.macbook .devicePower::after {
+  background: radial-gradient(circle at center, #909496 0, #909496 85%, #515456 100%);
+  border-color: #5d6163;
+}
+
+.macbook .devicePower::before {
+  background: #515456;
+  box-shadow: inset 0 -2px 6px 0 black;
+}
+
+/* simulate an iPhone X device frame
+* adapted from:
+* https://codepen.io/adielhercules/pen/dJJGBQ
+*/
+.iphoneX {
+  position: relative;
+  margin: 40px auto;
+  width: 360px;
+  height: 780px;
+  background-color: #7371ee;
+  background-image: linear-gradient(60deg, #7371ee 1%,#a1d9d6 100%);
+  border-radius: 40px;
+  box-shadow: 0px 0px 0px 11px #1f1f1f, 0px 0px 0px 13px #191919, 0px 0px 0px 20px #111;
+
+  &:before,
+  &:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
   }
-  .iphone .iphoneScreen {
-    height: 75%;
+
+  // home button indicator
+  &:after {
+    bottom: 7px;
+    width: 140px;
+    height: 4px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
   }
-  .iphone .iphone-bottom {
-    display: none;
+
+  // frontal camera/speaker frame
+  &:before {
+    top: 0px;
+    width: 56%;
+    height: 30px;
+    background-color: #1f1f1f;
+    border-radius: 0px 0px 40px 40px;
+  }
+
+  i,
+  b,
+  s,
+  span {
+    position: absolute;
+    display: block;
+    color: transparent;
+  }
+
+  // speaker
+  i {
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, 6px);
+    height: 8px;
+    width: 15%;
+    background-color: #101010;
+    border-radius: 8px;
+    box-shadow: inset 0px -3px 3px 0px rgba(256, 256, 256, 0.2);
+  }
+
+  // camera
+  b {
+    left: 10%;
+    top: 0px;
+    transform: translate(180px, 4px);
+    width: 12px;
+    height: 12px;
+    background-color: #101010;
+    border-radius: 12px;
+    box-shadow: inset 0px -3px 2px 0px rgba(256, 256, 256, 0.2);
+
+    &:after {
+      content: '';
+      position: absolute;
+      background-color: #2d4d76;
+      width: 6px;
+      height: 6px;
+      top: 2px;
+      left: 2px;
+      top: 3px;
+      left: 3px;
+      display: block;
+      border-radius: 4px;
+      box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  // time
+  s {
+    top: 50px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    font-size: 70px;
+    font-weight: 100;
+    padding-top: 60px;
+  }
+
+  // action buttons
+  span {
+    bottom: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    left: 30px;
+
+    & + span {
+      left: auto;
+      right: 30px;
+    }
   }
 }

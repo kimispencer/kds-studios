@@ -7,15 +7,15 @@
   , "images":
       [ { "imagePath": ""
         , "imageText": "desktop description"
-        , "imageType": "desktop"
+        , "isDesktop": true
         }
       , { "imagePath": ""
         , "imageText": "first iphone description"
-        , "imageType": "iphone"
+        , "isDesktop": false
         }
       , { "imagePath": ""
         , "imageText": "second iphone description"
-        , "imageType": "iphone"
+        , "isDesktop": false
         }
       ]
   },

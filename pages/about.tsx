@@ -17,9 +17,7 @@ const About = () => {
           // placeholder="blur"
           className={concatClassnames(
             styles.aboutImage,
-            isLoading
-              ? styles.loading
-              : styles.loaded
+            isLoading ? styles.loading : styles.loaded
           )}
           onLoadingComplete={() => setLoading(false)}
         />

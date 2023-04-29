@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { NextPage, GetStaticPaths, GetStaticProps } from "next"
+import concatClassnames from '@/lib/functions'
 import { Project } from '@/lib/interfaces'
 import ProjectNav from "@/components/ProjectNav"
 import DeviceFrame from "@/components/DeviceFrame"
@@ -34,24 +35,32 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
           <h3>{project.description}</h3>
         </div>
       </div>
-      <div className={styles.projectDetailImages}>
+      <div>
         {project.images.map((image, i) => {
-          switch (image.imageType) {
-            case "desktop":
-              console.log("desktop")
-              break
-            case "iphone":
-              console.log("iphone")
-              break
-            default:
-              console.log("no match")
-          }
+          // let isDesktop: boolean;
+          // switch (image.imageType) {
+          //   case "desktop":
+          //     isDesktop = true
+          //     break
+          //   case "iphone":
+          //     isDesktop = false
+          //     break
+          //   default:
+          //     isDesktop = true
+          //     break
+          // }
           return (
-            <div key={i} className={styles.projectDetailImageSlide}>
-              <div className={styles.projectDetailImageSlideInnerImage}>
-                <DeviceFrame />
+            <div
+              key={i}
+              className={concatClassnames(
+                styles.projectDetailSlide,
+                image.isDesktop ? styles.desktop : styles.iphone
+              )}
+            >
+              <div className={styles.projectDetailSlideImage}>
+                <DeviceFrame isDesktop={image.isDesktop} />
               </div>
-              <div className={styles.projectDetailImageSlideInnerText}>
+              <div className={styles.projectDetailSlideText}>
                 <h4>{image.imageText}</h4>
               </div>
             </div>

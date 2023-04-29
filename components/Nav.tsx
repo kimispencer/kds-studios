@@ -6,16 +6,15 @@ import concatClassnames from '@/lib/functions'
 import styles from '@/styles/components/Nav.module.scss'
 
 const tabs: Tab[] =
-  [
-    { path: "/projects"
+  [ { path: "/projects"
     , name: "Work"
-    },
-    { path: "/services"
+    }
+  , { path: "/services"
     , name: "Services"
-    },
-    { path: "/about"
+    }
+  , { path: "/about"
     , name: "About"
-    },
+    }
   ]
 
 const Nav = () => {

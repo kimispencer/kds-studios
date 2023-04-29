@@ -2,7 +2,7 @@
 
 .projectDetailPage {
   width: 100%;
-  border: 1px dashed red;
+  border: 1px dashed;
 }
 
 .projectDetailAboveFold {
@@ -19,10 +19,11 @@
   margin-bottom: $defaultSpacing;
 }
 
-.projectDetailImageSlide {
+.projectDetailSlide {
   display: flex;
   flex-flow: column;
   align-items: center;
+  border: 1px dashed;
 }
 
 /* Large Tablet or Desktop */
@@ -30,13 +31,18 @@
   .projectDetailAboveFoldContent {
     grid-area: 1/5/11/23;
   }
-  .projectDetailImageSlide {
-    flex-flow: row;
+  .projectDetailSlide {
+    &.desktop {
+      flex-flow: column;
+    }
+    &.iphone {
+      flex-flow: row;
+    }
   }
-  .projectDetailImageSlideInnerImage, .projectDetailImageSlideInnerText {
+  .projectDetailSlideImage, .projectDetailSlideText {
     flex: 0 0 50%;
   }
-  .projectDetailImageSlide:nth-child(even) {
+  .projectDetailSlide:nth-child(even) {
     flex-flow: row-reverse;
   }
 }
