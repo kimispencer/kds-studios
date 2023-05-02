@@ -23,6 +23,7 @@
   display: flex;
   flex-flow: column;
   align-items: center;
+  justify-content: space-between;
   border: 1px dashed;
 }
 
@@ -38,9 +39,6 @@
     &.iphone {
       flex-flow: row;
     }
-  }
-  .projectDetailSlideImage, .projectDetailSlideText {
-    flex: 0 0 50%;
   }
   .projectDetailSlide.iphone:nth-child(even) {
     flex-flow: row-reverse;

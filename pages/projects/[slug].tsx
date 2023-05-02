@@ -46,12 +46,8 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
                   image.imageType === "desktop" ? styles.desktop : styles.iphone
                 )}
               >
-                <div className={styles.projectDetailSlideImage}>
-                  <DeviceFrame isDesktop={image.imageType === "desktop"} />
-                </div>
-                <div className={styles.projectDetailSlideText}>
-                  <h4>{image.imageText}</h4>
-                </div>
+                <DeviceFrame isDesktop={image.imageType === "desktop"} />
+                <h4>{image.imageText}</h4>
               </div>
             : <div key={i} className={concatClassnames(styles.projectDetailSlide, styles.screenshot)}>
                 <h4>screenshot</h4>

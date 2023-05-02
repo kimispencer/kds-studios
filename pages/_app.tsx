@@ -2,6 +2,7 @@ import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import Layout from '@/components/Layout'
 import '@/styles/globals.scss'
+import '@/styles/devices.scss'
 import { Chivo } from 'next/font/google'
 
 const chivo = Chivo({ subsets: ['latin'] })

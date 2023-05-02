@@ -7,20 +7,30 @@ type Props = {
 const DeviceFrame = ({ isDesktop }: Props) => {
   return (
     isDesktop ?
-    <div className={styles.macbook}>
-      <div className={styles.deviceFrame}></div>
-      <div className={styles.deviceStripe}></div>
-      <div className={styles.deviceHeader}></div>
-      <div className={styles.deviceSensors}></div>
-      <div className={styles.deviceBtns}></div>
-      <div className={styles.devicePower}></div>
-    </div>
-    : <div className={styles.iphoneX}>
-        <i>Speaker</i>
-        <b>Camera</b>
-        <s>10:24</s>
-        <span>Left action button</span>
-        <span>Right action button</span>
+      <div className={styles.desktopDeviceContainer}>
+        <div className="device device-macbook-pro">
+          <div className="device-frame">
+            {/* <img className="device-screen" src="assets/img/bg-10.jpg" loading="lazy"> */}
+          </div>
+          <div className="device-stripe"></div>
+          <div className="device-header"></div>
+          <div className="device-sensors"></div>
+          <div className="device-btns"></div>
+          <div className="device-power"></div>
+          <div className="device-home"></div>
+        </div>
+      </div>
+    : <div className={styles.iphoneDeviceContainer}>
+        <div className="device device-iphone-x">
+          <div className="device-frame">
+            {/* <img className="device-screen" src="..."> */}
+          </div>
+          <div className="device-stripe"></div>
+          <div className="device-header"></div>
+          <div className="device-sensors"></div>
+          <div className="device-btns"></div>
+          <div className="device-power"></div>
+        </div>
       </div>
   )
 }
