@@ -15,8 +15,8 @@ export interface Project {
 interface ProjectImages {
   imagePath: string;
   imageText: string;
-  // imageType: "iphone" | "desktop";
-  isDesktop: boolean;
+  imageType: "iphone" | "desktop" | "screenshot";
+  // isDesktop: boolean;
 }
 
 export interface Service {

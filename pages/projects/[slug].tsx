@@ -37,33 +37,25 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
       </div>
       <div>
         {project.images.map((image, i) => {
-          // let isDesktop: boolean;
-          // switch (image.imageType) {
-          //   case "desktop":
-          //     isDesktop = true
-          //     break
-          //   case "iphone":
-          //     isDesktop = false
-          //     break
-          //   default:
-          //     isDesktop = true
-          //     break
-          // }
           return (
-            <div
-              key={i}
-              className={concatClassnames(
-                styles.projectDetailSlide,
-                image.isDesktop ? styles.desktop : styles.iphone
-              )}
-            >
-              <div className={styles.projectDetailSlideImage}>
-                <DeviceFrame isDesktop={image.isDesktop} />
+            image.imageType === "desktop" || image.imageType === "iphone"
+            ? <div
+                key={i}
+                className={concatClassnames(
+                  styles.projectDetailSlide,
+                  image.imageType === "desktop" ? styles.desktop : styles.iphone
+                )}
+              >
+                <div className={styles.projectDetailSlideImage}>
+                  <DeviceFrame isDesktop={image.imageType === "desktop"} />
+                </div>
+                <div className={styles.projectDetailSlideText}>
+                  <h4>{image.imageText}</h4>
+                </div>
               </div>
-              <div className={styles.projectDetailSlideText}>
-                <h4>{image.imageText}</h4>
+            : <div key={i} className={concatClassnames(styles.projectDetailSlide, styles.screenshot)}>
+                <h4>screenshot</h4>
               </div>
-            </div>
           )
         })
         }

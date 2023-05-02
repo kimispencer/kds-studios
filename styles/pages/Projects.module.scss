@@ -42,7 +42,7 @@
   .projectDetailSlideImage, .projectDetailSlideText {
     flex: 0 0 50%;
   }
-  .projectDetailSlide:nth-child(even) {
+  .projectDetailSlide.iphone:nth-child(even) {
     flex-flow: row-reverse;
   }
 }
