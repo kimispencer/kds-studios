@@ -17,7 +17,11 @@
         , "imageText": "second iphone description"
         , "imageType": "iphone"
         }
-      , { "imagePath": ""
+      , { "imagePath": "/images/tresoire-thumbnail-1.jpeg"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      , { "imagePath": "/images/tresoire-thumbnail-1.jpeg"
         , "imageText": "screenshot description"
         , "imageType": "screenshot"
         }

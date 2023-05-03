@@ -10,13 +10,12 @@ export interface Project {
   title: string;
   subtitle: string;
   description: string;
-  images: ProjectImages[];
+  images: ProjectImage[];
 }
-interface ProjectImages {
+export interface ProjectImage {
   imagePath: string;
   imageText: string;
   imageType: "iphone" | "desktop" | "screenshot";
-  // isDesktop: boolean;
 }
 
 export interface Service {

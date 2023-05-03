@@ -1,9 +1,11 @@
 import { useState } from "react"
 import { NextPage, GetStaticPaths, GetStaticProps } from "next"
+import Image from 'next/image'
 import concatClassnames from '@/lib/functions'
 import { Project } from '@/lib/interfaces'
 import ProjectNav from "@/components/ProjectNav"
 import DeviceFrame from "@/components/DeviceFrame"
+import ScreenshotImage from "@/components/ScreenshotImage"
 import styles from '@/styles/pages/Projects.module.scss'
 
 type Props = {
@@ -46,11 +48,13 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
                   image.imageType === "desktop" ? styles.desktop : styles.iphone
                 )}
               >
-                <DeviceFrame isDesktop={image.imageType === "desktop"} />
-                <h4>{image.imageText}</h4>
+                <DeviceFrame image={image} />
+                <div className={styles.deviceImageText}>
+                  <h4>{image.imageText}</h4>
+                </div>
               </div>
             : <div key={i} className={concatClassnames(styles.projectDetailSlide, styles.screenshot)}>
-                <h4>screenshot</h4>
+                <ScreenshotImage image={image} />
               </div>
           )
         })

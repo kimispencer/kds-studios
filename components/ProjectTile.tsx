@@ -18,10 +18,10 @@ const ProjectTile = ({ project }: ProjectTileProps) => {
       <article className={styles.projectTile}>
         <figure className={styles.figure}>
           <Image
-            alt=""
             src="https://loremflickr.com/400/400"
+            alt={project.title}
+            loading="lazy"
             fill
-            // placeholder="blur"
             className={concatClassnames(
               styles.projectImage,
               isLoading

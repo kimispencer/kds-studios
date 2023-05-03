@@ -25,6 +25,13 @@
   align-items: center;
   justify-content: space-between;
   border: 1px dashed;
+  margin-bottom: $defaultSpacing;
+}
+
+.deviceImageText {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 /* Large Tablet or Desktop */

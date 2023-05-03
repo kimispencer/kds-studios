@@ -1,0 +1,7 @@
+.screenshotImageContainer {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2000/1400; // NOTE, this is only supported by modern browsers
+  // height: 0;
+  // padding-bottom: 70%;
+}
