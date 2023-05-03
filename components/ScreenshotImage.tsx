@@ -4,13 +4,14 @@ import styles from '@/styles/components/ScreenshotImage.module.scss'
 
 type Props = {
   image: ProjectImage
+  imageKey: string
 }
 
-const ScreenshotImage = ({ image }: Props) => {
+const ScreenshotImage = ({ image, imageKey }: Props) => {
   return (
     <div className={styles.screenshotImageContainer}>
       <Image
-        src={image.imagePath}
+        src={"/images/" + imageKey + "/" + image.imageFile}
         alt={image.imageText}
         loading="lazy"
         fill

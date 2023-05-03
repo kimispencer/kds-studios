@@ -4,24 +4,13 @@
   , "subtitle": "UI/UX"
   , "slug": "smarty"
   , "description": "Smarty unifies task management & calendar scheduling into one clean application. Powered with a natural language processing interface, users can enter text to create tasks, events, scheduling links and more."
+  , "imageKey": "smarty"
   , "images":
-      [ { "imagePath": ""
-        , "imageText": "desktop description"
-        , "imageType": "desktop"
-        }
-      , { "imagePath": ""
-        , "imageText": "first iphone description"
-        , "imageType": "iphone"
-        }
-      , { "imagePath": ""
-        , "imageText": "second iphone description"
-        , "imageType": "iphone"
-        }
-      , { "imagePath": "/images/tresoire-thumbnail-1.jpeg"
+      [ { "imageFile": "smarty-desktop-marcom-01.jpg"
         , "imageText": "screenshot description"
         , "imageType": "screenshot"
         }
-      , { "imagePath": "/images/tresoire-thumbnail-1.jpeg"
+      , { "imageFile": "Frame 3.jpg"
         , "imageText": "screenshot description"
         , "imageType": "screenshot"
         }
@@ -37,7 +26,13 @@
   , "title": "The Arrivals"
   , "subtitle": "UI/UX, Development"
   , "slug": "the-arrivals"
-  , "images": []
+  , "imageKey": "the-arrivals"
+  , "images":
+      [ { "imageFile": "Frame 4.jpg"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      ]
   },
   { "id": 4
   , "title": "SUITED"

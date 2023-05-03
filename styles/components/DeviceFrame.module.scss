@@ -1,15 +1,15 @@
 @import 'variables';
 
-.test {
-
-}
-
 .desktopDeviceContainer {
   transform: scale(0.5);
 }
 
 .iphoneDeviceContainer {
   transform: scale(0.75);
+}
+
+.deviceScreen {
+  position: static !important;
 }
 
 /* Large Tablet or Desktop */

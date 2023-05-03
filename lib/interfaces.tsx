@@ -10,10 +10,11 @@ export interface Project {
   title: string;
   subtitle: string;
   description: string;
+  imageKey: string;
   images: ProjectImage[];
 }
 export interface ProjectImage {
-  imagePath: string;
+  imageFile: string;
   imageText: string;
   imageType: "iphone" | "desktop" | "screenshot";
 }
