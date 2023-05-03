@@ -12,6 +12,7 @@ export interface Project {
   description: string;
   imageKey: string;
   images: ProjectImage[];
+  backgroundColor: string;
 }
 export interface ProjectImage {
   imageFile: string;

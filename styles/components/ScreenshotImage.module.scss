@@ -1,7 +1,23 @@
 .screenshotImageContainer {
   position: relative;
   width: 100%;
-  aspect-ratio: 2000/1400; // NOTE, this is only supported by modern browsers
+  aspect-ratio: 20/14; // NOTE, this is only supported by modern browsers
   // height: 0;
   // padding-bottom: 70%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.screenshotScrollContainer {
+  position: absolute;
+  aspect-ratio: 16/10;
+  width: 80%;
+  overflow: scroll;
+}
+
+.screenshotImage {
+  border: 1px dashed white;
+  height: auto !important;
 }

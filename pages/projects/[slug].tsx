@@ -52,7 +52,7 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
                 </div>
               </div>
             : <div key={i} className={concatClassnames(styles.projectDetailSlide, styles.screenshot)}>
-                <ScreenshotImage image={image} imageKey={project.imageKey} />
+                <ScreenshotImage image={image} imageKey={project.imageKey} backgroundColor={project.backgroundColor} />
               </div>
           )
         })

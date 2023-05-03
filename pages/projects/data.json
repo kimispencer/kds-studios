@@ -5,12 +5,21 @@
   , "slug": "smarty"
   , "description": "Smarty unifies task management & calendar scheduling into one clean application. Powered with a natural language processing interface, users can enter text to create tasks, events, scheduling links and more."
   , "imageKey": "smarty"
+  , "backgroundColor": "#17486D"
   , "images":
-      [ { "imageFile": "smarty-desktop-marcom-01.jpg"
+      [ { "imageFile": "desktop-00.jpg"
         , "imageText": "screenshot description"
         , "imageType": "screenshot"
         }
-      , { "imageFile": "Frame 3.jpg"
+      , { "imageFile": "desktop-01.jpg"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "desktop-02.jpg"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "desktop-03.jpg"
         , "imageText": "screenshot description"
         , "imageType": "screenshot"
         }
@@ -20,17 +29,45 @@
   , "title": "Lumi"
   , "subtitle": "UI/UX, Development"
   , "slug": "lumi"
-  , "images": []
+  , "imageKey": "lumi"
+  , "backgroundColor": "#9E9B1C"
+  , "images":
+      [ { "imageFile": "desktop-00.png"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "desktop-01.png"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "desktop-02.png"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "desktop-03.png"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+    ]
   },
   { "id": 3
   , "title": "The Arrivals"
   , "subtitle": "UI/UX, Development"
   , "slug": "the-arrivals"
   , "imageKey": "the-arrivals"
+  , "backgroundColor": "#36060A"
   , "images":
-      [ { "imageFile": "Frame 4.jpg"
+      [ { "imageFile": "desktop-00.png"
         , "imageText": "screenshot description"
         , "imageType": "screenshot"
+        }
+      , { "imageFile": "phone-00.jpg"
+        , "imageText": "screenshot description"
+        , "imageType": "iphone"
+        }
+      , { "imageFile": "phone-01.jpg"
+        , "imageText": "screenshot description"
+        , "imageType": "iphone"
         }
       ]
   },
@@ -38,7 +75,29 @@
   , "title": "SUITED"
   , "subtitle": "UI/UX, Development"
   , "slug": "suited"
-  , "images": []
+  , "imageKey": "suited"
+  , "images":
+      [ { "imageFile": "desktop-00.jpg"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "desktop-01.jpg"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "desktop-02.jpg"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "phone-00.jpg"
+        , "imageText": "screenshot description"
+        , "imageType": "iphone"
+        }
+      , { "imageFile": "phone-01.jpg"
+        , "imageText": "screenshot description"
+        , "imageType": "iphone"
+        }
+      ]
   },
   { "id": 5
   , "title": "Onomie"
