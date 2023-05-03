@@ -29,6 +29,7 @@
   , "title": "Lumi"
   , "subtitle": "UI/UX, Development"
   , "slug": "lumi"
+  , "description": "Lumi helps e-commerce companies produce custom packaging and handle supply chain logistics, with the goal of making custom manufacturing as scalable as the web."
   , "imageKey": "lumi"
   , "backgroundColor": "#9E9B1C"
   , "images":
@@ -54,6 +55,7 @@
   , "title": "The Arrivals"
   , "subtitle": "UI/UX, Development"
   , "slug": "the-arrivals"
+  , "description": "The Arrivals is a NYC based fashion line focusing on classic, architecturally-inspired garments crafted to last a lifetime and exclusively available online."
   , "imageKey": "the-arrivals"
   , "backgroundColor": "#36060A"
   , "images":
@@ -75,6 +77,7 @@
   , "title": "SUITED"
   , "subtitle": "UI/UX, Development"
   , "slug": "suited"
+  , "description": "SUITED is a biannual fashion and art publication with a singular mission in mind: to celebrate those who have found what they are well-suited for."
   , "imageKey": "suited"
   , "images":
       [ { "imageFile": "desktop-00.jpg"

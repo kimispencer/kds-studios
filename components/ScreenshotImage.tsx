@@ -1,5 +1,7 @@
+import { useState } from 'react'
 import Image from 'next/image'
 import { ProjectImage } from '@/lib/interfaces'
+import concatClassnames from '@/lib/functions'
 import styles from '@/styles/components/ScreenshotImage.module.scss'
 
 type Props = {
@@ -9,15 +11,23 @@ type Props = {
 }
 
 const ScreenshotImage = ({ image, imageKey, backgroundColor }: Props) => {
+  const [isLoading, setLoading] = useState(true)
+
   return (
     <div className={styles.screenshotImageContainer} style={{backgroundColor: backgroundColor}}>
       <div className={styles.screenshotScrollContainer}>
         <Image
-          className={styles.screenshotImage}
+          className={concatClassnames(
+            styles.screenshotImage,
+            isLoading
+              ? styles.loading
+              : styles.loaded
+          )}
           src={"/images/" + imageKey + "/" + image.imageFile}
           alt={image.imageText}
           loading="lazy"
           fill
+          onLoadingComplete={() => setLoading(false)}
         />
       </div>
     </div>

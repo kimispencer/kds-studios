@@ -1,3 +1,5 @@
+@import 'variables';
+
 .screenshotImageContainer {
   position: relative;
   width: 100%;
@@ -20,4 +22,5 @@
 .screenshotImage {
   border: 1px dashed white;
   height: auto !important;
+  @extend .image;
 }

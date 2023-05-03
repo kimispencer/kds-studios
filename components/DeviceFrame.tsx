@@ -7,9 +7,10 @@ import styles from '@/styles/components/DeviceFrame.module.scss'
 type Props = {
   image: ProjectImage
   imageKey: string
+  backgroundColor: string
 }
 
-const DeviceFrame = ({ image, imageKey }: Props) => {
+const DeviceFrame = ({ image, imageKey, backgroundColor }: Props) => {
   switch (image.imageType) {
     case "iphone":
       return (
@@ -62,7 +63,7 @@ const DeviceFrame = ({ image, imageKey }: Props) => {
       )
     default:
       return (
-        <ScreenshotImage image={image} imageKey={imageKey} />
+        <ScreenshotImage image={image} imageKey={imageKey} backgroundColor={backgroundColor} />
       )
   }
 }

@@ -46,7 +46,7 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
                   image.imageType === "desktop" ? styles.desktop : styles.iphone
                 )}
               >
-                <DeviceFrame image={image} imageKey={project.imageKey} />
+                <DeviceFrame image={image} imageKey={project.imageKey} backgroundColor={project.backgroundColor} />
                 <div className={styles.deviceImageText}>
                   <h4>{image.imageText}</h4>
                 </div>
