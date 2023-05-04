@@ -48,7 +48,7 @@
 }
 
 .projectDetailLink, .projectSkills {
-  margin-top: $defaultSpacing;
+  margin-top: calc(#{$defaultSpacing} * 2);
 }
 
 /* Large Tablet or Desktop */
@@ -69,6 +69,6 @@
   }
 
   .projectDetailSummary {
-    grid-area: 1/8/10/20;
+    grid-area: 1/8/11/20;
   }
 }

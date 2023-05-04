@@ -12,15 +12,15 @@ const services: Service[] =
     { title: "Development"
     , description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
-    { title: "Content Strategy"
+    { title: "Visual Design"
     , description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     { title: "UX Strategy"
     , description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
-    { title: "Visual Design"
+    { title: "Content Strategy"
     , description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+    }
   ]
 
 const Services = () => {

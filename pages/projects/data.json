@@ -177,10 +177,42 @@
   , "slug": "architecture"
   , "title": "Willard Park"
   , "subtitle": "Visual design, Architecture"
+  , "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend bibendum urna, ac posuere lectus porta non."
+  , "copy": "This proposal for a new Willard Park Community Center (located in Berkeley, CA) is inspired by the action word “emergence” and the concept of subtractive openness “to carve”— and the intention of creating a building that is an extension of the ground, and is carved open to external air and light. Meant to evoke a subtle connection to the natural landscape of the park, and invite community members to engage with it from different views and flows. To see it as a part of the park, emergent and carved from, rather than imposed."
+  , "backgroundColor": "#ffffff"
   , "imageKey": "architecture"
   , "indexImage": "index.jpg"
-  , "images": []
-  , "skills": []
+  , "fullscreen": true
+  , "images":
+      [ { "imageFile": "00.jpg"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "01.jpg"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "02.jpg"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "03.jpg"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "04.jpg"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "05.jpg"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      ]
+  , "skills":
+      [ "Visual Design"
+      , "Architecture"
+      ]
   },
   { "id": 7
   , "slug": "tom-tom-magazine"
