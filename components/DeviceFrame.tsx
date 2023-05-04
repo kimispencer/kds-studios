@@ -17,16 +17,20 @@ const DeviceFrame = ({ image, imageKey, backgroundColor }: Props) => {
         <div className={styles.iphoneDeviceContainer}>
           <div className="device device-iphone-x">
             <div className="device-frame">
-              <Image
+              <div
                 className={concatClassnames(
                   "device-screen",
                   styles.deviceScreen
                 )}
-                src={"/images/" + imageKey + "/" + image.imageFile}
-                alt={image.imageText}
-                loading="lazy"
-                fill
-              />
+              >
+                <Image
+                  className={styles.deviceImage}
+                  src={"/images/" + imageKey + "/" + image.imageFile}
+                  alt={image.imageText}
+                  loading="lazy"
+                  fill
+                />
+              </div>
             </div>
             <div className="device-stripe"></div>
             <div className="device-header"></div>
@@ -41,16 +45,20 @@ const DeviceFrame = ({ image, imageKey, backgroundColor }: Props) => {
         <div className={styles.desktopDeviceContainer}>
           <div className="device device-macbook-pro">
             <div className="device-frame">
-              <Image
+              <div
                 className={concatClassnames(
                   "device-screen",
                   styles.deviceScreen
                 )}
-                src={"/images/" + imageKey + "/" + image.imageFile}
-                alt={image.imageText}
-                loading="lazy"
-                fill
-              />
+              >
+                <Image
+                  className={styles.deviceImage}
+                  src={"/images/" + imageKey + "/" + image.imageFile}
+                  alt={image.imageText}
+                  loading="lazy"
+                  fill
+                />
+              </div>
             </div>
             <div className="device-stripe"></div>
             <div className="device-header"></div>

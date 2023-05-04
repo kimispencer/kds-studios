@@ -9,7 +9,13 @@
 }
 
 .deviceScreen {
-  position: static !important;
+  position: relative;
+  overflow: scroll;
+  height: 100%;
+}
+
+.deviceImage {
+  height: auto !important;
 }
 
 /* Large Tablet or Desktop */

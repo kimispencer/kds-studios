@@ -15,19 +15,12 @@
   z-index: 1;
 }
 
-.device .device-frame {
-  z-index: 1;
-  position: relative;
-  overflow: scroll;
-}
-
 .device .device-screen {
-  background-color: pink; //#000;
+  background-color: #000;
   background-position: center center;
   background-size: cover;
   object-fit: cover;
   position: relative;
-  height: auto !important;
 }
 
 .device-iphone-x {
