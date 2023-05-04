@@ -57,7 +57,7 @@
   , "subtitle": "UI/UX, Development"
   , "description": "The Arrivals is a NYC based fashion line focusing on classic, architecturally-inspired garments crafted to last a lifetime and exclusively available online."
   , "backgroundColor": "#36060A"
-  , "imageKey": "the-arrivals"
+  , "imageKey": "arrivals"
   , "images":
       [ { "imageFile": "desktop-00.png"
         , "imageText": "screenshot description"
@@ -78,8 +78,8 @@
       ]
   },
   { "id": 4
-  , "slug": "suited"
-  , "title": "SUITED"
+  , "slug": "suited-magazine"
+  , "title": "SUITED Magazine"
   , "subtitle": "UI/UX, Development"
   , "description": "SUITED is a biannual fashion and art publication with a singular mission in mind: to celebrate those who have found what they are well-suited for."
   , "backgroundColor": "#010101"
@@ -138,7 +138,7 @@
   , "images": []
   },
   { "id": 8
-  , "slug": "tom-tom"
+  , "slug": "tom-tom-magazine"
   , "title": "Tom Tom Magazine"
   , "subtitle": "UI/UX, Development"
   , "description": "Tom Tom Magazine is a quarterly print magazine and website based out of New York City. It is the only magazine in the world that is dedicated to female drummers."
@@ -171,7 +171,7 @@
   },
   { "id": 10
   , "slug": "data-visualization"
-  , "title": "Data visualization"
+  , "title": "Data Visualization"
   , "subtitle": "Visual design"
   , "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend bibendum urna, ac posuere lectus porta non."
   , "backgroundColor": "#010101"
