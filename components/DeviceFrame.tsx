@@ -8,9 +8,10 @@ type Props = {
   image: ProjectImage
   imageKey: string
   backgroundColor: string
+  fullscreen: boolean
 }
 
-const DeviceFrame = ({ image, imageKey, backgroundColor }: Props) => {
+const DeviceFrame = ({ image, imageKey, backgroundColor, fullscreen }: Props) => {
   switch (image.imageType) {
     case "iphone":
       return (
@@ -73,7 +74,12 @@ const DeviceFrame = ({ image, imageKey, backgroundColor }: Props) => {
       )
     default:
       return (
-        <ScreenshotImage image={image} imageKey={imageKey} backgroundColor={backgroundColor} />
+        <ScreenshotImage
+          image={image}
+          imageKey={imageKey}
+          backgroundColor={backgroundColor}
+          fullscreen={fullscreen}
+        />
       )
   }
 }

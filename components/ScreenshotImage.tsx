@@ -8,28 +8,36 @@ type Props = {
   image: ProjectImage
   imageKey: string
   backgroundColor: string
+  fullscreen: boolean
 }
 
-const ScreenshotImage = ({ image, imageKey, backgroundColor }: Props) => {
+const ScreenshotImage = ({ image, imageKey, backgroundColor, fullscreen }: Props) => {
   const [isLoading, setLoading] = useState(true)
 
   return (
     <div className={styles.screenshotImageContainer} style={{backgroundColor: backgroundColor}}>
-      <div className={styles.screenshotScrollContainer}>
-        <Image
+      <div className={styles.screenshotImageContainer} style={{backgroundColor: backgroundColor}}>
+        <div
           className={concatClassnames(
-            styles.screenshotImage,
-            isLoading
-              ? styles.loading
-              : styles.loaded
+            styles.screenshotScrollContainer,
+            !fullscreen ? styles.scrollable : styles.fullscreen
           )}
-          key={imageKey + "-" + image.imageFile}
-          src={"/images/" + imageKey + "/" + image.imageFile}
-          alt={image.imageText}
-          loading="lazy"
-          fill
-          onLoadingComplete={() => setLoading(false)}
-        />
+        >
+          <Image
+            className={concatClassnames(
+              styles.screenshotImage,
+              isLoading
+                ? styles.loading
+                : styles.loaded
+            )}
+            key={imageKey + "-" + image.imageFile}
+            src={"/images/" + imageKey + "/" + image.imageFile}
+            alt={image.imageText}
+            loading="lazy"
+            fill
+            onLoadingComplete={() => setLoading(false)}
+          />
+        </div>
       </div>
     </div>
   )

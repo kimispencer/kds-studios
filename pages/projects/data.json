@@ -6,6 +6,7 @@
   , "description": "Smarty unifies task management & calendar scheduling into one clean application. Powered with a natural language processing interface, users can enter text to create tasks, events, scheduling links and more."
   , "backgroundColor": "#17486D"
   , "imageKey": "smarty"
+  , "fullscreen": false
   , "images":
       [ { "imageFile": "desktop-00.jpg"
         , "imageText": "screenshot description"
@@ -32,6 +33,7 @@
   , "description": "Lumi helps e-commerce companies produce custom packaging and handle supply chain logistics, with the goal of making custom manufacturing as scalable as the web."
   , "backgroundColor": "#9E9B1C"
   , "imageKey": "lumi"
+  , "fullscreen": false
   , "images":
       [ { "imageFile": "desktop-00.png"
         , "imageText": "screenshot description"
@@ -58,6 +60,7 @@
   , "description": "The Arrivals is a NYC based fashion line focusing on classic, architecturally-inspired garments crafted to last a lifetime and exclusively available online."
   , "backgroundColor": "#36060A"
   , "imageKey": "arrivals"
+  , "fullscreen": false
   , "images":
       [ { "imageFile": "desktop-00.png"
         , "imageText": "screenshot description"
@@ -84,6 +87,7 @@
   , "description": "SUITED is a biannual fashion and art publication with a singular mission in mind: to celebrate those who have found what they are well-suited for."
   , "backgroundColor": "#010101"
   , "imageKey": "suited"
+  , "fullscreen": false
   , "images":
       [ { "imageFile": "desktop-00.jpg"
         , "imageText": "screenshot description"
@@ -114,6 +118,7 @@
   , "description": "Onomie is a direct-to-consumer cosmetics brand that is a cross between skincare and makeup."
   , "backgroundColor": "#ECD9D4"
   , "imageKey": "onomie"
+  , "fullscreen": false
   , "images":
       [ { "imageFile": "desktop-00.png"
         , "imageText": "screenshot description"
@@ -144,6 +149,7 @@
   , "description": "Tom Tom Magazine is a quarterly print magazine and website based out of New York City. It is the only magazine in the world that is dedicated to female drummers."
   , "backgroundColor": "#466638"
   , "imageKey": "tom-tom"
+  , "fullscreen": false
   , "images":
       [ { "imageFile": "desktop-00.png"
         , "imageText": "screenshot description"
@@ -174,8 +180,9 @@
   , "title": "Data Visualization"
   , "subtitle": "Visual design"
   , "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend bibendum urna, ac posuere lectus porta non."
-  , "backgroundColor": "#010101"
+  , "backgroundColor": "#ffffff"
   , "imageKey": "data-viz"
+  , "fullscreen": true
   , "images":
       [ { "imageFile": "00.jpg"
         , "imageText": "screenshot description"
@@ -190,10 +197,6 @@
         , "imageType": "screenshot"
         }
       , { "imageFile": "03.jpg"
-        , "imageText": "screenshot description"
-        , "imageType": "screenshot"
-        }
-      , { "imageFile": "04.jpg"
         , "imageText": "screenshot description"
         , "imageType": "screenshot"
         }

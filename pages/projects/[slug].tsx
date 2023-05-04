@@ -25,6 +25,7 @@ export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
   return { props: { project, projects } }
 }
 
+// @TODO add lazy loading
 const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
   return (
     <>
@@ -46,13 +47,23 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
                   image.imageType === "desktop" ? styles.desktop : styles.iphone
                 )}
               >
-                <DeviceFrame image={image} imageKey={project.imageKey} backgroundColor={project.backgroundColor} />
+                <DeviceFrame
+                  image={image}
+                  imageKey={project.imageKey}
+                  backgroundColor={project.backgroundColor}
+                  fullscreen={project.fullscreen}
+                />
                 <div className={styles.deviceImageText}>
                   <h4>{image.imageText}</h4>
                 </div>
               </div>
             : <div key={i} className={concatClassnames(styles.projectDetailSlide, styles.screenshot)}>
-                <ScreenshotImage image={image} imageKey={project.imageKey} backgroundColor={project.backgroundColor} />
+                <ScreenshotImage
+                  image={image}
+                  imageKey={project.imageKey}
+                  backgroundColor={project.backgroundColor}
+                  fullscreen={project.fullscreen}
+                />
               </div>
           )
         })

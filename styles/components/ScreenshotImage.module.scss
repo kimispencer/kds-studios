@@ -13,10 +13,16 @@
 }
 
 .screenshotScrollContainer {
-  position: absolute;
-  aspect-ratio: 16/10;
-  width: 80%;
-  overflow: scroll;
+  &.scrollable {
+    position: absolute;
+    aspect-ratio: 16/10;
+    width: 80%;
+    overflow: scroll;
+  }
+  &.fullscreen {
+    width: 100%;
+    overflow: hidden;
+  }
 }
 
 .screenshotImage {

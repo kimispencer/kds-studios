@@ -13,6 +13,7 @@ export interface Project {
   imageKey: string;
   images: ProjectImage[];
   backgroundColor: string;
+  fullscreen: boolean;
 }
 export interface ProjectImage {
   imageFile: string;
