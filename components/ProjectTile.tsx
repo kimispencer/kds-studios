@@ -1,8 +1,6 @@
-import { useState } from 'react'
-import Image from 'next/image'
+import LazyImage from '@/components/LazyImage'
 import Link from 'next/link'
 import { Project } from '@/lib/interfaces';
-import concatClassnames from '@/lib/functions'
 import styles from '@/styles/components/ProjectTile.module.scss'
 
 type ProjectTileProps = {
@@ -10,25 +8,16 @@ type ProjectTileProps = {
 }
 
 const ProjectTile = ({ project }: ProjectTileProps) => {
-  const [isLoading, setLoading] = useState(true)
-
   return (
     <Link
       href="projects/[slug]" as={`/projects/${project.slug}`} className={styles.projectLink }>
       <article className={styles.projectTile}>
         <figure className={styles.figure}>
-          <Image
+          <LazyImage
+            keyString={project.slug}
             src="https://loremflickr.com/400/400"
             alt={project.title}
-            loading="lazy"
-            fill
-            className={concatClassnames(
-              styles.projectImage,
-              isLoading
-                ? styles.loading
-                : styles.loaded
-            )}
-            onLoadingComplete={() => setLoading(false)}
+            className={styles.projectImage}
           />
           {/* <figcaption>image caption</figcaption> */}
         </figure>

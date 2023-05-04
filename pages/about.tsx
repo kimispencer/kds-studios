@@ -1,25 +1,17 @@
-import { useState } from 'react'
+
 import Link from 'next/link'
-import Image from 'next/image'
-import concatClassnames from '@/lib/functions'
+import LazyImage from '@/components/LazyImage'
 import styles from '@/styles/pages/About.module.scss'
 
 const About = () => {
-  const [isLoading, setLoading] = useState(true)
-
   return (
     <div className={styles.aboutPage}>
       <figure className={styles.aboutImage}>
-        <Image
-          alt=""
+        <LazyImage
+          keyString={"about-00"}
           src="https://loremflickr.com/1200/800"
-          fill
-          // placeholder="blur"
-          className={concatClassnames(
-            styles.aboutImage,
-            isLoading ? styles.loading : styles.loaded
-          )}
-          onLoadingComplete={() => setLoading(false)}
+          alt="About KDS Studios"
+          className={styles.aboutImage}
         />
         {/* <figcaption>image caption</figcaption> */}
       </figure>

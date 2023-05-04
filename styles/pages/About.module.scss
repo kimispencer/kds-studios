@@ -5,7 +5,6 @@
 }
 
 .aboutImage {
-  @extend .image;
   width: 100%;
   height: calc(80vh - #{$navBar_height});
 }

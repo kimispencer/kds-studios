@@ -13,7 +13,7 @@
   position: relative;
   height: 50vh;
   &:hover {
-    .image { opacity: 0; }
+    .projectImage { opacity: 0; }
     .projectTileHoverText { opacity: 1; }
   }
 }
@@ -51,8 +51,4 @@
   right: 0;
   bottom: 0;
   left: 0;
-}
-
-.projectImage {
-  @extend .image;
 }

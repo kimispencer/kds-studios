@@ -1,0 +1,42 @@
+@import 'variables';
+
+.loadingSpinnerContainer {
+  border: 1px dashed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loadingSpinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(0, 0, 0, 0.2);
+  border-left-color: $lightGrey;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.lazyImage {
+  object-fit: cover;
+  position: relative !important;
+  top: 0;
+  left: 0;
+  transition: $opacityTransition;
+
+  &.loading {
+    scale: 1.1;
+    filter: blur(40px);
+  }
+  &.loaded {
+    scale: 1;
+    filter: blur(0);
+  }
+}

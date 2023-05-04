@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import LazyImage from '@/components/LazyImage'
 import { ProjectImage } from '@/lib/interfaces'
 import ScreenshotImage from "@/components/ScreenshotImage"
 import concatClassnames from '@/lib/functions'
@@ -24,13 +24,11 @@ const DeviceFrame = ({ image, imageKey, backgroundColor, fullscreen }: Props) =>
                   styles.deviceScreen
                 )}
               >
-                <Image
-                  className={styles.deviceImage}
-                  key={imageKey + "-" + image.imageFile}
+                <LazyImage
+                  keyString={imageKey + "-" + image.imageFile}
                   src={"/images/" + imageKey + "/" + image.imageFile}
                   alt={image.imageText}
-                  loading="lazy"
-                  fill
+                  className={styles.deviceImage}
                 />
               </div>
             </div>
@@ -53,13 +51,11 @@ const DeviceFrame = ({ image, imageKey, backgroundColor, fullscreen }: Props) =>
                   styles.deviceScreen
                 )}
               >
-                <Image
-                  className={styles.deviceImage}
-                  key={imageKey + "-" + image.imageFile}
+                <LazyImage
+                  keyString={imageKey + "-" + image.imageFile}
                   src={"/images/" + imageKey + "/" + image.imageFile}
                   alt={image.imageText}
-                  loading="lazy"
-                  fill
+                  className={styles.deviceImage}
                 />
               </div>
             </div>
