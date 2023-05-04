@@ -25,6 +25,7 @@ const DeviceFrame = ({ image, imageKey, backgroundColor }: Props) => {
               >
                 <Image
                   className={styles.deviceImage}
+                  key={imageKey + "-" + image.imageFile}
                   src={"/images/" + imageKey + "/" + image.imageFile}
                   alt={image.imageText}
                   loading="lazy"
@@ -53,6 +54,7 @@ const DeviceFrame = ({ image, imageKey, backgroundColor }: Props) => {
               >
                 <Image
                   className={styles.deviceImage}
+                  key={imageKey + "-" + image.imageFile}
                   src={"/images/" + imageKey + "/" + image.imageFile}
                   alt={image.imageText}
                   loading="lazy"

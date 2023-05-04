@@ -23,6 +23,7 @@ const ScreenshotImage = ({ image, imageKey, backgroundColor }: Props) => {
               ? styles.loading
               : styles.loaded
           )}
+          key={imageKey + "-" + image.imageFile}
           src={"/images/" + imageKey + "/" + image.imageFile}
           alt={image.imageText}
           loading="lazy"

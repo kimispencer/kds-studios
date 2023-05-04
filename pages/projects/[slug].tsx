@@ -40,7 +40,7 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
           return (
             image.imageType === "desktop" || image.imageType === "iphone"
             ? <div
-                key={i}
+                key={project.slug + "-" + i}
                 className={concatClassnames(
                   styles.projectDetailSlide,
                   image.imageType === "desktop" ? styles.desktop : styles.iphone
