@@ -1,11 +1,11 @@
 [
   { "id": 1
+  , "slug": "smarty"
   , "title": "Smarty AI"
   , "subtitle": "UI/UX"
-  , "slug": "smarty"
   , "description": "Smarty unifies task management & calendar scheduling into one clean application. Powered with a natural language processing interface, users can enter text to create tasks, events, scheduling links and more."
-  , "imageKey": "smarty"
   , "backgroundColor": "#17486D"
+  , "imageKey": "smarty"
   , "images":
       [ { "imageFile": "desktop-00.jpg"
         , "imageText": "screenshot description"
@@ -26,12 +26,12 @@
       ]
   },
   { "id": 2
+  , "slug": "lumi"
   , "title": "Lumi"
   , "subtitle": "UI/UX, Development"
-  , "slug": "lumi"
   , "description": "Lumi helps e-commerce companies produce custom packaging and handle supply chain logistics, with the goal of making custom manufacturing as scalable as the web."
-  , "imageKey": "lumi"
   , "backgroundColor": "#9E9B1C"
+  , "imageKey": "lumi"
   , "images":
       [ { "imageFile": "desktop-00.png"
         , "imageText": "screenshot description"
@@ -52,14 +52,18 @@
     ]
   },
   { "id": 3
+  , "slug": "the-arrivals"
   , "title": "The Arrivals"
   , "subtitle": "UI/UX, Development"
-  , "slug": "the-arrivals"
   , "description": "The Arrivals is a NYC based fashion line focusing on classic, architecturally-inspired garments crafted to last a lifetime and exclusively available online."
-  , "imageKey": "the-arrivals"
   , "backgroundColor": "#36060A"
+  , "imageKey": "the-arrivals"
   , "images":
       [ { "imageFile": "desktop-00.png"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "desktop-01.png"
         , "imageText": "screenshot description"
         , "imageType": "screenshot"
         }
@@ -74,10 +78,11 @@
       ]
   },
   { "id": 4
+  , "slug": "suited"
   , "title": "SUITED"
   , "subtitle": "UI/UX, Development"
-  , "slug": "suited"
   , "description": "SUITED is a biannual fashion and art publication with a singular mission in mind: to celebrate those who have found what they are well-suited for."
+  , "backgroundColor": "#010101"
   , "imageKey": "suited"
   , "images":
       [ { "imageFile": "desktop-00.jpg"
@@ -103,39 +108,95 @@
       ]
   },
   { "id": 5
+  , "slug": "onomie"
   , "title": "Onomie"
   , "subtitle": "UI/UX, Development"
-  , "slug": "onomie"
-  , "images": []
+  , "description": "Onomie is a direct-to-consumer cosmetics brand that is a cross between skincare and makeup."
+  , "backgroundColor": "#ECD9D4"
+  , "imageKey": "onomie"
+  , "images":
+      [ { "imageFile": "desktop-00.png"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "phone-00.png"
+        , "imageText": "screenshot description"
+        , "imageType": "iphone"
+        }
+      ]
   },
   { "id": 6
+  , "slug": "architecture"
   , "title": "Willard Park"
   , "subtitle": "Visual design, Architecture"
-  , "slug": "architecture"
   , "images": []
   },
   { "id": 7
+  , "slug": "bolster"
   , "title": "Bolster"
   , "subtitle": "UI/UX, Development"
-  , "slug": "bolster"
   , "images": []
   },
   { "id": 8
+  , "slug": "tom-tom"
   , "title": "Tom Tom Magazine"
   , "subtitle": "UI/UX, Development"
-  , "slug": "tom-tom"
-  , "images": []
+  , "description": "Tom Tom Magazine is a quarterly print magazine and website based out of New York City. It is the only magazine in the world that is dedicated to female drummers."
+  , "backgroundColor": "#466638"
+  , "imageKey": "tom-tom"
+  , "images":
+      [ { "imageFile": "desktop-00.png"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "desktop-01.png"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "phone-00.png"
+        , "imageText": "screenshot description"
+        , "imageType": "iphone"
+        }
+      , { "imageFile": "phone-01.png"
+        , "imageText": "screenshot description"
+        , "imageType": "iphone"
+        }
+      ]
   },
   { "id": 9
+  , "slug": "rga"
   , "title": "R/GA"
   , "subtitle": "UI/UX, Branding"
-  , "slug": "rga"
   , "images": []
   },
   { "id": 10
-  , "title": "Data visualization"
-  , "subtitle": "Lorem ipsum"
   , "slug": "data-visualization"
-  , "images": []
+  , "title": "Data visualization"
+  , "subtitle": "Visual design"
+  , "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend bibendum urna, ac posuere lectus porta non."
+  , "backgroundColor": "#010101"
+  , "imageKey": "data-viz"
+  , "images":
+      [ { "imageFile": "00.jpg"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "01.jpg"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "02.jpg"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "03.jpg"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "04.jpg"
+        , "imageText": "screenshot description"
+        , "imageType": "screenshot"
+        }
+      ]
   }
 ]
