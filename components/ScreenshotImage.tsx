@@ -21,7 +21,7 @@ const ScreenshotImage = ({ image, imageKey, backgroundColor, fullscreen }: Props
           )}
         >
           <LazyImage
-            key={imageKey + "-" + image.imageFile}
+            keyString={imageKey + "-" + image.imageFile}
             src={"/images/" + imageKey + "/" + image.imageFile}
             alt={image.imageText}
             className={styles.screenshotImage}
