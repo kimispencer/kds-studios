@@ -5,7 +5,7 @@
   , "title": "Smarty AI"
   , "subtitle": "UI/UX"
   , "description": "Smarty unifies task management & calendar scheduling into one clean application. Powered with a natural language processing interface, users can enter text to create tasks, events, scheduling links and more."
-  , "copy": "Dignissim suspendisse in est ante in nibh mauris cursus mattis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Leo a diam sollicitudin tempor id eu nisl. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Adipiscing diam donec adipiscing tristique. Ultrices tincidunt arcu non sodales. Amet purus gravida quis blandit turpis cursus. In hac habitasse platea dictumst. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Nisi est sit amet facilisis magna etiam tempor. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis."
+  , "copy": "Lead product designer, creating the foundational core interface for Smarty's responsive desktop & mobile app and Chrome extension. Working closely with the CEO and engineering team, created the core UI component library and app interfaces, as well as conducted user research & testing."
   , "backgroundColor": "#17486D"
   , "imageKey": "smarty"
   , "fullscreen": false
@@ -28,9 +28,8 @@
         }
       ]
   , "skills":
-      [ "Creative Direction"
-      , "Design"
-      , "Development"
+      [ "Product Design"
+      , "UI/UX Design & Research"
       ]
   },
   { "id": 2
@@ -39,7 +38,7 @@
   , "title": "Lumi"
   , "subtitle": "UI/UX, Development"
   , "description": "Lumi helps e-commerce companies produce custom packaging and handle supply chain logistics, with the goal of making custom manufacturing as scalable as the web."
-  , "copy": "Dignissim suspendisse in est ante in nibh mauris cursus mattis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Leo a diam sollicitudin tempor id eu nisl. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Adipiscing diam donec adipiscing tristique. Ultrices tincidunt arcu non sodales. Amet purus gravida quis blandit turpis cursus. In hac habitasse platea dictumst. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Nisi est sit amet facilisis magna etiam tempor. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis."
+  , "copy": "Designed and developed a UI component library to maintain cohesiveness across Lumi's various app user interfaces and visual design, also open sourced to the public. Contributed to the migration of Lumi's web applications into a strongly-typed functional programming language, on top of a React framework."
   , "backgroundColor": "#9E9B1C"
   , "imageKey": "lumi"
   , "fullscreen": false
@@ -62,8 +61,8 @@
         }
     ]
   , "skills":
-      [ "Creative Direction"
-      , "Design"
+      [ "Product Design"
+      , "UI Component Design"
       , "Development"
       ]
   },
@@ -73,7 +72,7 @@
   , "title": "The Arrivals"
   , "subtitle": "UI/UX, Development"
   , "description": "The Arrivals is a NYC based fashion line focusing on classic, architecturally-inspired garments crafted to last a lifetime and exclusively available online."
-  , "copy": "Dignissim suspendisse in est ante in nibh mauris cursus mattis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Leo a diam sollicitudin tempor id eu nisl. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Adipiscing diam donec adipiscing tristique. Ultrices tincidunt arcu non sodales. Amet purus gravida quis blandit turpis cursus. In hac habitasse platea dictumst. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Nisi est sit amet facilisis magna etiam tempor. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis."
+  , "copy": "Lead product designer & front-end engineer responsible for the creation and implementation of all front-end code and interface design for a responsive, cross-platform e-commerce web app. As well as designing and developing bi-weekly interactive campaigns, supported multiple product launches, and improved the site interface based on A/B studies."
   , "backgroundColor": "#36060A"
   , "imageKey": "arrivals"
   , "fullscreen": false
@@ -96,8 +95,8 @@
         }
       ]
   , "skills":
-      [ "Creative Direction"
-      , "Design"
+      [ "Product Design"
+      , "UI/UX Design & Research"
       , "Development"
       ]
   },
@@ -107,7 +106,7 @@
   , "title": "SUITED Magazine"
   , "subtitle": "UI/UX, Development"
   , "description": "SUITED is a biannual fashion and art publication with a singular mission in mind: to celebrate those who have found what they are well-suited for."
-  , "copy": "Dignissim suspendisse in est ante in nibh mauris cursus mattis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Leo a diam sollicitudin tempor id eu nisl. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Adipiscing diam donec adipiscing tristique. Ultrices tincidunt arcu non sodales. Amet purus gravida quis blandit turpis cursus. In hac habitasse platea dictumst. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Nisi est sit amet facilisis magna etiam tempor. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis."
+  , "copy": "Primary UI/UX designer and front-end engineer for the premier launch of the online edition SUITED magazine. Created a customized CMS driven template design built on top of the Squarespace developer platform. Collaborated one-on-one with the Creative Director & Editor-in-Chief to translate the print publication brand into a digital experience."
   , "backgroundColor": "#010101"
   , "imageKey": "suited"
   , "fullscreen": false
@@ -135,7 +134,7 @@
       ]
   , "skills":
       [ "Creative Direction"
-      , "Design"
+      , "Product Design"
       , "Development"
       ]
   },
@@ -145,7 +144,7 @@
   , "title": "Onomie"
   , "subtitle": "UI/UX, Development"
   , "description": "Onomie is a direct-to-consumer cosmetics brand that is a cross between skincare and makeup."
-  , "copy": "Dignissim suspendisse in est ante in nibh mauris cursus mattis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Leo a diam sollicitudin tempor id eu nisl. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Adipiscing diam donec adipiscing tristique. Ultrices tincidunt arcu non sodales. Amet purus gravida quis blandit turpis cursus. In hac habitasse platea dictumst. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Nisi est sit amet facilisis magna etiam tempor. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis."
+  , "copy": "Lead product designer & front-end engineer for Onomie to help it stand out from a competitive market by featuring interactive trials and science backed beauty products."
   , "backgroundColor": "#ECD9D4"
   , "imageKey": "onomie"
   , "fullscreen": false
@@ -160,8 +159,8 @@
         }
       ]
   , "skills":
-      [ "Creative Direction"
-      , "Design"
+      [ "Product Design"
+      , "UI/UX Design & Research"
       , "Development"
       ]
   },
@@ -186,7 +185,7 @@
   , "title": "Tom Tom Magazine"
   , "subtitle": "UI/UX, Development"
   , "description": "Tom Tom Magazine is a quarterly print magazine and website based out of New York City. It is the only magazine in the world that is dedicated to female drummers."
-  , "copy": "Dignissim suspendisse in est ante in nibh mauris cursus mattis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Leo a diam sollicitudin tempor id eu nisl. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Adipiscing diam donec adipiscing tristique. Ultrices tincidunt arcu non sodales. Amet purus gravida quis blandit turpis cursus. In hac habitasse platea dictumst. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Nisi est sit amet facilisis magna etiam tempor. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis."
+  , "copy": "Lead designer & developer for Tom Tom's e-commerce platform to leverage site visits into opportunities to sell the publication or goods related to the brand. Using the Shopify CMS built a custom responsive template theme for the Tom Tom store."
   , "backgroundColor": "#466638"
   , "imageKey": "tom-tom"
   , "fullscreen": false
@@ -209,8 +208,8 @@
         }
       ]
   , "skills":
-      [ "Creative Direction"
-      , "Design"
+      [ "Product Design"
+      , "UI/UX Design"
       , "Development"
       ]
   },
@@ -227,7 +226,7 @@
   , "title": "Data Visualization"
   , "subtitle": "Visual design"
   , "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend bibendum urna, ac posuere lectus porta non."
-  , "copy": "Dignissim suspendisse in est ante in nibh mauris cursus mattis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Leo a diam sollicitudin tempor id eu nisl. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Adipiscing diam donec adipiscing tristique. Ultrices tincidunt arcu non sodales. Amet purus gravida quis blandit turpis cursus. In hac habitasse platea dictumst. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Nisi est sit amet facilisis magna etiam tempor. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis."
+  , "copy": "Data visualization analyzing language patterns to produce detailed visualizations of popular music lyrics; examining relationships between entities (such as \"I\" and \"you\"), as well as common verbs that express relationships between those entities (such as \"love\", or \"hate\") using Natural Language Processing."
   , "backgroundColor": "#ffffff"
   , "imageKey": "data-viz"
   , "fullscreen": true
@@ -250,8 +249,8 @@
         }
       ]
   , "skills":
-      [ "Creative Direction"
-      , "Design"
+      [ "Visual Design"
+      , "Data Visualization"
       , "Development"
       ]
   }
