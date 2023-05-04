@@ -1,9 +1,11 @@
 [
   { "id": 1
   , "slug": "smarty"
+  , "siteUrl": "https://www.smarty.ai/"
   , "title": "Smarty AI"
   , "subtitle": "UI/UX"
   , "description": "Smarty unifies task management & calendar scheduling into one clean application. Powered with a natural language processing interface, users can enter text to create tasks, events, scheduling links and more."
+  , "copy": "Dignissim suspendisse in est ante in nibh mauris cursus mattis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Leo a diam sollicitudin tempor id eu nisl. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Adipiscing diam donec adipiscing tristique. Ultrices tincidunt arcu non sodales. Amet purus gravida quis blandit turpis cursus. In hac habitasse platea dictumst. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Nisi est sit amet facilisis magna etiam tempor. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis."
   , "backgroundColor": "#17486D"
   , "imageKey": "smarty"
   , "fullscreen": false
@@ -25,12 +27,19 @@
         , "imageType": "screenshot"
         }
       ]
+  , "skills":
+      [ "Creative Direction"
+      , "Design"
+      , "Development"
+      ]
   },
   { "id": 2
   , "slug": "lumi"
+  , "siteUrl": "https://www.lumi.com/"
   , "title": "Lumi"
   , "subtitle": "UI/UX, Development"
   , "description": "Lumi helps e-commerce companies produce custom packaging and handle supply chain logistics, with the goal of making custom manufacturing as scalable as the web."
+  , "copy": "Dignissim suspendisse in est ante in nibh mauris cursus mattis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Leo a diam sollicitudin tempor id eu nisl. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Adipiscing diam donec adipiscing tristique. Ultrices tincidunt arcu non sodales. Amet purus gravida quis blandit turpis cursus. In hac habitasse platea dictumst. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Nisi est sit amet facilisis magna etiam tempor. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis."
   , "backgroundColor": "#9E9B1C"
   , "imageKey": "lumi"
   , "fullscreen": false
@@ -52,12 +61,19 @@
         , "imageType": "screenshot"
         }
     ]
+  , "skills":
+      [ "Creative Direction"
+      , "Design"
+      , "Development"
+      ]
   },
   { "id": 3
   , "slug": "the-arrivals"
+  , "siteUrl": "https://thearrivals.com/"
   , "title": "The Arrivals"
   , "subtitle": "UI/UX, Development"
   , "description": "The Arrivals is a NYC based fashion line focusing on classic, architecturally-inspired garments crafted to last a lifetime and exclusively available online."
+  , "copy": "Dignissim suspendisse in est ante in nibh mauris cursus mattis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Leo a diam sollicitudin tempor id eu nisl. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Adipiscing diam donec adipiscing tristique. Ultrices tincidunt arcu non sodales. Amet purus gravida quis blandit turpis cursus. In hac habitasse platea dictumst. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Nisi est sit amet facilisis magna etiam tempor. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis."
   , "backgroundColor": "#36060A"
   , "imageKey": "arrivals"
   , "fullscreen": false
@@ -79,12 +95,19 @@
         , "imageType": "iphone"
         }
       ]
+  , "skills":
+      [ "Creative Direction"
+      , "Design"
+      , "Development"
+      ]
   },
   { "id": 4
   , "slug": "suited-magazine"
+  , "siteUrl": "https://suitedmagazine.com/"
   , "title": "SUITED Magazine"
   , "subtitle": "UI/UX, Development"
   , "description": "SUITED is a biannual fashion and art publication with a singular mission in mind: to celebrate those who have found what they are well-suited for."
+  , "copy": "Dignissim suspendisse in est ante in nibh mauris cursus mattis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Leo a diam sollicitudin tempor id eu nisl. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Adipiscing diam donec adipiscing tristique. Ultrices tincidunt arcu non sodales. Amet purus gravida quis blandit turpis cursus. In hac habitasse platea dictumst. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Nisi est sit amet facilisis magna etiam tempor. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis."
   , "backgroundColor": "#010101"
   , "imageKey": "suited"
   , "fullscreen": false
@@ -110,12 +133,19 @@
         , "imageType": "iphone"
         }
       ]
+  , "skills":
+      [ "Creative Direction"
+      , "Design"
+      , "Development"
+      ]
   },
   { "id": 5
   , "slug": "onomie"
+  , "siteUrl": "https://onomie.com/"
   , "title": "Onomie"
   , "subtitle": "UI/UX, Development"
   , "description": "Onomie is a direct-to-consumer cosmetics brand that is a cross between skincare and makeup."
+  , "copy": "Dignissim suspendisse in est ante in nibh mauris cursus mattis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Leo a diam sollicitudin tempor id eu nisl. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Adipiscing diam donec adipiscing tristique. Ultrices tincidunt arcu non sodales. Amet purus gravida quis blandit turpis cursus. In hac habitasse platea dictumst. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Nisi est sit amet facilisis magna etiam tempor. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis."
   , "backgroundColor": "#ECD9D4"
   , "imageKey": "onomie"
   , "fullscreen": false
@@ -129,24 +159,34 @@
         , "imageType": "iphone"
         }
       ]
+  , "skills":
+      [ "Creative Direction"
+      , "Design"
+      , "Development"
+      ]
   },
   { "id": 6
   , "slug": "architecture"
   , "title": "Willard Park"
   , "subtitle": "Visual design, Architecture"
   , "images": []
+  , "skills": []
   },
   { "id": 7
   , "slug": "bolster"
+  , "siteUrl": "https://www.bolster.us/"
   , "title": "Bolster"
   , "subtitle": "UI/UX, Development"
   , "images": []
+  , "skills": []
   },
   { "id": 8
   , "slug": "tom-tom-magazine"
+  , "siteUrl": "https://tomtommag.com/"
   , "title": "Tom Tom Magazine"
   , "subtitle": "UI/UX, Development"
   , "description": "Tom Tom Magazine is a quarterly print magazine and website based out of New York City. It is the only magazine in the world that is dedicated to female drummers."
+  , "copy": "Dignissim suspendisse in est ante in nibh mauris cursus mattis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Leo a diam sollicitudin tempor id eu nisl. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Adipiscing diam donec adipiscing tristique. Ultrices tincidunt arcu non sodales. Amet purus gravida quis blandit turpis cursus. In hac habitasse platea dictumst. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Nisi est sit amet facilisis magna etiam tempor. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis."
   , "backgroundColor": "#466638"
   , "imageKey": "tom-tom"
   , "fullscreen": false
@@ -168,18 +208,26 @@
         , "imageType": "iphone"
         }
       ]
+  , "skills":
+      [ "Creative Direction"
+      , "Design"
+      , "Development"
+      ]
   },
   { "id": 9
   , "slug": "rga"
+  , "siteUrl": "https://rga.com/"
   , "title": "R/GA"
   , "subtitle": "UI/UX, Branding"
   , "images": []
+  , "skills": []
   },
   { "id": 10
   , "slug": "data-visualization"
   , "title": "Data Visualization"
   , "subtitle": "Visual design"
   , "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend bibendum urna, ac posuere lectus porta non."
+  , "copy": "Dignissim suspendisse in est ante in nibh mauris cursus mattis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Leo a diam sollicitudin tempor id eu nisl. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Adipiscing diam donec adipiscing tristique. Ultrices tincidunt arcu non sodales. Amet purus gravida quis blandit turpis cursus. In hac habitasse platea dictumst. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Nisi est sit amet facilisis magna etiam tempor. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis."
   , "backgroundColor": "#ffffff"
   , "imageKey": "data-viz"
   , "fullscreen": true
@@ -200,6 +248,11 @@
         , "imageText": "screenshot description"
         , "imageType": "screenshot"
         }
+      ]
+  , "skills":
+      [ "Creative Direction"
+      , "Design"
+      , "Development"
       ]
   }
 ]

@@ -1,4 +1,5 @@
 import { NextPage, GetStaticPaths, GetStaticProps } from "next"
+import Link from 'next/link'
 import concatClassnames from '@/lib/functions'
 import { Project } from '@/lib/interfaces'
 import ProjectNav from "@/components/ProjectNav"
@@ -75,13 +76,20 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
       <div className={styles.projectDetailSummarySlide}>
         <div className={styles.projectDetailSummary}>
           <div className={styles.projectDetailSummaryDescription}>
-            <p>Dignissim suspendisse in est ante in nibh mauris cursus mattis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Leo a diam sollicitudin tempor id eu nisl. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Adipiscing diam donec adipiscing tristique. Ultrices tincidunt arcu non sodales. Amet purus gravida quis blandit turpis cursus. In hac habitasse platea dictumst. Cras fermentum odio eu feugiat pretium nibh ipsum consequat. Nisi est sit amet facilisis magna etiam tempor. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis.</p>
-            <h4 className={styles.projectDetailLink}>Visit the site</h4>
+            <p>{project.copy}</p>
+            {project.siteUrl &&
+              <Link href={project.siteUrl} target="_blank">
+                <h4 className={styles.projectDetailLink}>Visit the site</h4>
+              </Link>
+            }
           </div>
           <div className={styles.projectSkills}>
-            <h4>Creative Direction</h4>
-            <h4>Design</h4>
-            <h4>Development</h4>
+            {project.skills.map((skill, i) => {
+              return (
+                <h4 key={i}>{skill}</h4>
+              )
+            })
+            }
           </div>
         </div>
       </div>

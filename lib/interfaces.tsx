@@ -10,10 +10,13 @@ export interface Project {
   title: string;
   subtitle: string;
   description: string;
+  copy: string
   imageKey: string;
   images: ProjectImage[];
   backgroundColor: string;
   fullscreen: boolean;
+  skills: string[];
+  siteUrl?: string;
 }
 export interface ProjectImage {
   imageFile: string;
