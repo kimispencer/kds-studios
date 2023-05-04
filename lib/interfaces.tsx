@@ -18,11 +18,17 @@ export interface Project {
   fullscreen: boolean;
   skills: string[];
   siteUrl?: string;
+  supplementalUrl?: Url;
 }
 export interface ProjectImage {
   imageFile: string;
   imageText: string;
   imageType: "iphone" | "desktop" | "screenshot";
+}
+
+interface Url {
+  path: string;
+  name: string;
 }
 
 export interface Service {

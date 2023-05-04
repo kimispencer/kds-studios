@@ -36,10 +36,14 @@
   { "id": 2
   , "slug": "lumi"
   , "siteUrl": "https://www.lumi.com/"
+  , "supplementalUrl":
+      { "path": "https://lumihq.github.io/purescript-lumi-components/#/v2/box"
+      , "name": "View UI component library"
+      }
   , "title": "Lumi"
   , "subtitle": "UI/UX, Development"
   , "description": "Lumi helps e-commerce companies produce custom packaging and handle supply chain logistics, with the goal of making custom manufacturing as scalable as the web."
-  , "copy": "Designed and developed a UI component library to maintain cohesiveness across Lumi's various app user interfaces and visual design, also open sourced to the public. Contributed to the migration of Lumi's web applications into a strongly-typed functional programming language, on top of a React framework."
+  , "copy": "Designed and developed a modular UI component library to maintain cohesiveness across Lumi's various app user interfaces and visual design. Contributed to the migration of Lumi's web applications into a strongly-typed functional programming language, on top of a React framework."
   , "backgroundColor": "#9E9B1C"
   , "imageKey": "lumi"
   , "indexImage": "index.png"

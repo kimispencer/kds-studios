@@ -82,6 +82,11 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
                 <h4 className={styles.projectDetailLink}>Visit the site</h4>
               </Link>
             }
+            {project.supplementalUrl &&
+              <Link href={project.supplementalUrl.path} target="_blank">
+                <h4 className={styles.projectDetailLink}>{project.supplementalUrl.name}</h4>
+              </Link>
+            }
           </div>
           <div className={styles.projectSkills}>
             {project.skills.map((skill, i) => {
