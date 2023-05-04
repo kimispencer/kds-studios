@@ -12,6 +12,7 @@ export interface Project {
   description: string;
   copy: string
   imageKey: string;
+  indexImage: string;
   images: ProjectImage[];
   backgroundColor: string;
   fullscreen: boolean;

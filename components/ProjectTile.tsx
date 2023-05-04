@@ -15,7 +15,7 @@ const ProjectTile = ({ project }: ProjectTileProps) => {
         <figure className={styles.figure}>
           <LazyImage
             keyString={project.slug}
-            src="https://loremflickr.com/400/400"
+            src={"/images/" + project.imageKey + "/" + project.indexImage} //"https://loremflickr.com/400/400"
             alt={project.title}
             className={styles.projectImage}
           />
