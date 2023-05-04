@@ -19,7 +19,7 @@
   margin-bottom: $defaultSpacing;
 }
 
-.projectDetailSlide {
+.projectDetailImageSlide {
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -34,12 +34,29 @@
   width: 100%;
 }
 
+.projectDetailSummarySlide {
+  @extend .grid;
+  padding: calc(#{$defaultSpacing} * 4) 0;
+}
+
+.projectDetailSummary {
+  grid-area: 1/2/16/26;
+}
+
+.projectDetailLink {
+  text-decoration: underline;
+}
+
+.projectDetailLink, .projectSkills {
+  margin-top: $defaultSpacing;
+}
+
 /* Large Tablet or Desktop */
 @media screen and (min-width: $desktop_breakpoint) {
   .projectDetailAboveFoldContent {
     grid-area: 1/5/11/23;
   }
-  .projectDetailSlide {
+  .projectDetailImageSlide {
     &.desktop {
       flex-flow: column;
     }
@@ -47,7 +64,11 @@
       flex-flow: row;
     }
   }
-  .projectDetailSlide.iphone:nth-child(even) {
+  .projectDetailImageSlide.iphone:nth-child(even) {
     flex-flow: row-reverse;
+  }
+
+  .projectDetailSummary {
+    grid-area: 1/8/10/20;
   }
 }
