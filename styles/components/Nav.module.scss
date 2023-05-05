@@ -10,7 +10,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px dashed;
   background-color: $backgroundColor;
 }
 
@@ -21,7 +20,6 @@
   justify-content: center;
   width: 100%;
   color: $fontColor;
-  border: 1px dashed;
 }
 
 .navLink, .logo {
@@ -50,7 +48,6 @@
 
 .logo, .hamburgerBtn {
   padding: 0 $layoutSpacing;
-  border: 1px dashed;
 }
 
 .mobileOpen {
@@ -121,7 +118,7 @@
       margin-right: 0;
     }
     &.active {
-      font-weight: bold;
+      text-decoration: underline;
     }
   }
   .navLinks {

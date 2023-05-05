@@ -14,7 +14,7 @@
   flex-flow: column;
   flex-direction: column-reverse;
   justify-content: space-between;
-  padding: $layoutSpacing 0;
+  padding-top: $layoutSpacing;
 }
 
 .aboutClients, .aboutDescription {
@@ -39,5 +39,6 @@
   }
   .aboutClients, .aboutDescription {
     width: 50%;
+    padding: 0;
   }
 }

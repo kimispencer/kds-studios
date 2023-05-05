@@ -16,7 +16,7 @@ const ProjectNav = ({ projects, currentSlug }: Props) => {
 
   return (
     <nav className={styles.projectNav}>
-      <Link href="/projects" className={styles.projectNavLink}>All</Link>
+      <Link href="/projects" className={styles.projectNavLink}><h5>All</h5></Link>
       {projects.map((tab) => (
         <Link
           key={tab.id}
@@ -26,7 +26,7 @@ const ProjectNav = ({ projects, currentSlug }: Props) => {
             tab.active ? styles.active : ""
           )}
         >
-          {tab.title}
+          <h5>{tab.title}</h5>
         </Link>
       ))}
     </nav>

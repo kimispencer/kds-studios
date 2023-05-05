@@ -1,7 +1,6 @@
 @import 'variables';
 
 .projectGrid {
-  border: 1px dashed;
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(1, minmax(0.5fr, 1fr));

@@ -13,6 +13,7 @@ $backgroundColor: rgb(255, 255, 255);
 $whiteSmoke: rgb(236, 236, 236);
 $mutedBlack: rgb(18,18,18);
 $lightGrey: rgb(227, 227, 227);
+$darkGrey: #b4b5b7;
 
 // Heights
 $navBar_height: 50px;
@@ -48,7 +49,6 @@ $layoutSpacing: 5vw;
 
 // Grid system
 .grid {
-  border: 1px dashed;
   --gutter: 3vw;
   --max-width: 1900px;
   --grid-gutter: calc(var(--gutter, 4vw) - 11.0px);

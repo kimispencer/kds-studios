@@ -1,7 +1,6 @@
 @import 'variables';
 
 .projectNav {
-  border: 1px dashed;
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
@@ -11,8 +10,9 @@
 .projectNavLink {
   margin: calc(#{$defaultSpacing}/4);
   padding: 0 calc(#{$defaultSpacing}/4);
-  color: $lightGrey;
+  color: $darkGrey;
   font-size: $projectNavFontSize;
+  text-decoration: none;
   &.active {
     color: $fontColor;
   }

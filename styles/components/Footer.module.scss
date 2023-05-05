@@ -1,7 +1,7 @@
 @import 'variables';
 
 .footer {
-  padding: $layoutSpacing;
+  padding: calc(#{$defaultSpacing * 4}) $layoutSpacing;
 }
 
 .footerLink {

@@ -2,7 +2,6 @@
 
 .projectDetailPage {
   width: 100%;
-  border: 1px dashed;
 }
 
 .projectDetailAboveFold {
@@ -12,7 +11,7 @@
 }
 
 .projectDetailAboveFoldContent {
-  grid-area: 1/1/1/26;
+  grid-area: 5/1/5/26;
 }
 
 .projectDetailAboveFoldHeader {
@@ -24,30 +23,29 @@
   flex-flow: column;
   align-items: center;
   justify-content: space-between;
-  border: 1px dashed;
-  margin-bottom: $defaultSpacing;
+  // margin-bottom: $defaultSpacing;
+  // &:last-child {
+  //   margin-bottom: 0;
+  // }
 }
 
 .deviceImageTextContainer, .screenshotImageTextContainer {
-  border: 1px dashed;
-  padding: calc(#{$defaultSpacing} * 2);
+  padding: calc(#{$defaultSpacing} * 2) 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   width: 100%;
 }
 
 .projectDetailSummarySlide {
   @extend .grid;
-  padding: calc(#{$defaultSpacing} * 4) 0;
 }
 
 .projectDetailSummary {
-  grid-area: 1/2/16/26;
+  grid-area: 5/1/5/26;
 }
 
-.projectDetailLink, .projectSkills {
+.projectLinksContainer, .projectSkills {
   margin-top: calc(#{$defaultSpacing} * 2);
 }
 
@@ -64,12 +62,22 @@
       flex-flow: row;
     }
   }
+
   .projectDetailImageSlide.iphone:nth-child(even) {
     flex-flow: row-reverse;
   }
 
+  .deviceImageTextContainer, .screenshotImageTextContainer {
+    text-align: center;
+    padding: calc(#{$defaultSpacing} * 2);
+  }
+
+  .projectDetailSummarySlide {
+    padding: calc(#{$defaultSpacing} * 4) 0;
+  }
+
   .projectDetailSummary {
-    grid-area: 1/8/11/20;
+    grid-area: 1/5/11/23;
   }
 
   .screenshotImageText {

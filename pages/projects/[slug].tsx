@@ -79,15 +79,19 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
         <div className={styles.projectDetailSummary}>
           <div className={styles.projectDetailSummaryDescription}>
             <h5>{project.copy}</h5>
-            {project.siteUrl &&
-              <Link href={project.siteUrl} target="_blank">
-                <h4 className={styles.projectDetailLink}>Visit the site</h4>
-              </Link>
-            }
-            {project.supplementalUrl &&
-              <Link href={project.supplementalUrl.path} target="_blank">
-                <h4 className={styles.projectDetailLink}>{project.supplementalUrl.name}</h4>
-              </Link>
+            {(project.siteUrl || project.supplementalUrl) &&
+              <div className={styles.projectLinksContainer}>
+                {project.siteUrl &&
+                  <Link href={project.siteUrl} target="_blank">
+                    <h4 className={styles.projectDetailLink}>Visit the site</h4>
+                  </Link>
+                }
+                {project.supplementalUrl &&
+                  <Link href={project.supplementalUrl.path} target="_blank">
+                    <h4 className={styles.projectDetailLink}>{project.supplementalUrl.name}</h4>
+                  </Link>
+                }
+              </div>
             }
           </div>
           <div className={styles.projectSkills}>
