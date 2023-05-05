@@ -73,6 +73,10 @@
         , "imageText": "The manufacturer dashboard used the same UI component library to standardize visual cohesiveness but with a UX focus on the manufacturer's need to respond to consumer brand requests and providing quotes, feedback and status updates."
         , "imageType": "screenshot"
         }
+      , { "imageFile": "ui-components.jpg"
+        , "imageText": "Modular UI component library example for a LabeledField input."
+        , "imageType": "screenshot"
+        }
     ]
   , "skills":
       [ "Product Design"
