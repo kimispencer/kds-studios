@@ -1,13 +1,5 @@
 @import 'variables';
 
-.desktopDeviceContainer {
-  transform: scale(0.5);
-}
-
-.iphoneDeviceContainer {
-  transform: scale(0.75);
-}
-
 .deviceScreen {
   position: relative;
   overflow: scroll;
@@ -16,11 +8,4 @@
 
 .deviceImage {
   height: auto !important;
-}
-
-/* Large Tablet or Desktop */
-@media screen and (min-width: $desktop_breakpoint) {
-  .desktopDeviceContainer, .iphoneDeviceContainer {
-    transform: scale(1);
-  }
 }

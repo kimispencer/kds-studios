@@ -1,3 +1,5 @@
+@import 'variables';
+
 /*! Devices.css v0.2.0 | MIT License | github.com/picturepan2/devices.css */
 .device,
 .device::before,
@@ -23,9 +25,21 @@
   position: relative;
 }
 
+// aspect ratio 428px / 868px = 0.49:1
+// width * 2.04081633 = height
+$iphone_aspect_ratio: 0.49/1;
+$iphone_aspect_ratio_width_multiplier: 2.04081633;
+
+// device height 868px- screen height 812px = 56px
+// device width 428px - screen width 375px = 53px
+$device_height_frame_padding: 56px;
+$device_width_frame_padding: 53px;
+
 .device-iphone-x {
   height: 868px;
   width: 428px;
+  max-height: calc((100vw - (#{$layoutSpacing} * 2)) * #{$iphone_aspect_ratio_width_multiplier});
+  max-width: calc(100vw - (#{$layoutSpacing} * 2));
 }
 
 .device-iphone-x .device-frame {
@@ -35,12 +49,16 @@
   height: 868px;
   padding: 28px;
   width: 428px;
+  max-height: calc((100vw - (#{$layoutSpacing} * 2)) * #{$iphone_aspect_ratio_width_multiplier});
+  max-width: calc(100vw - (#{$layoutSpacing} * 2));
 }
 
 .device-iphone-x .device-screen {
   border-radius: 40px;
   height: 812px;
   width: 375px;
+  max-height: calc(((100vw - (#{$layoutSpacing} * 2)) * #{$iphone_aspect_ratio_width_multiplier}) - #{$device_height_frame_padding});
+  max-width: calc((100vw - (#{$layoutSpacing} * 2)) - #{$device_width_frame_padding});
 }
 
 .device-iphone-x .device-stripe::after,
