@@ -40,6 +40,10 @@
   padding: calc(#{$defaultSpacing} * 2) 0;
 }
 
+.featuredWorkText {
+  padding: 0 $defaultSpacing;
+}
+
 .featuredWorkLink {
   text-decoration: underline;
   padding-top: calc(#{$defaultSpacing} * 2);
@@ -58,5 +62,9 @@
   .homepageSlideText {
     width: 50%;
     padding: calc(#{$defaultSpacing} * 4) 0;
+  }
+
+  .featuredWorkText {
+    max-width: 50%;
   }
 }
