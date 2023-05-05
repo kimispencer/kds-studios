@@ -14,7 +14,7 @@
   flex-flow: column;
   flex-direction: column-reverse;
   justify-content: space-between;
-  padding-top: $layoutSpacing;
+  padding: $layoutSpacing 0;
 }
 
 .aboutClients, .aboutDescription {
@@ -34,9 +34,6 @@
 
 /* Large Tablet or Desktop */
 @media screen and (min-width: $desktop_breakpoint) {
-  .aboutPage {
-    padding: 0 $layoutSpacing;
-  }
   .aboutCopy {
     flex-flow: row;
   }
