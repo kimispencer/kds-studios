@@ -4,6 +4,11 @@
   padding: 6.6vmax;
 }
 
+.footerLink {
+  display: block;
+  margin-bottom: $defaultSpacing;
+}
+
 .copyRight {
   @extend .smallFont;
 }

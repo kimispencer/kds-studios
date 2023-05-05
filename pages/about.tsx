@@ -33,7 +33,9 @@ const About = () => {
           <br/>
           <p>CV upon request.</p>
           <br/>
-          <p className={styles.aboutContact}>Contact</p>
+          <Link href="mailto:hello@kimispencer.com">
+            <p>Contact</p>
+          </Link>
         </div>
       </div>
     </div>

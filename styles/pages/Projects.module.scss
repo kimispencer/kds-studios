@@ -47,10 +47,6 @@
   grid-area: 1/2/16/26;
 }
 
-.projectDetailLink {
-  text-decoration: underline;
-}
-
 .projectDetailLink, .projectSkills {
   margin-top: calc(#{$defaultSpacing} * 2);
 }

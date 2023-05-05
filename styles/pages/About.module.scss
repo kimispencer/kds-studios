@@ -32,10 +32,6 @@
   @extend .uppercase;
 }
 
-.aboutContact {
-  text-decoration: underline;
-}
-
 /* Large Tablet or Desktop */
 @media screen and (min-width: $desktop_breakpoint) {
   .aboutPage {
