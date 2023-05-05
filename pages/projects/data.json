@@ -49,20 +49,28 @@
   , "indexImage": "index.png"
   , "fullscreen": false
   , "images":
-      [ { "imageFile": "desktop-00.png"
-        , "imageText": "screenshot description"
+      [ { "imageFile": "desktop-00.jpg"
+        , "imageText": "Because Lumi provides services to users that are consumer brands in need of packaging as well as packaging suppliers & manufacturers, a marketing site that targets multiple user types was designed."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-01.png"
-        , "imageText": "screenshot description"
+        , "imageText": "Initial design focus was to standardize the app experience with a modular UI component library for both the consumer brand-facing dashboard and the manufacturer-facing dashboard."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-02.png"
-        , "imageText": "screenshot description"
+        , "imageText": "Consumer brand users needed to be able to select and specify their packaging needs and designs."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-03.png"
-        , "imageText": "screenshot description"
+      , { "imageFile": "flapjack-00-supplier-recommendations.jpg"
+        , "imageText": "But additionally, consumer brands needed to be able to compare from many manufacturers, to solve this an interface was created for displaying rich data regarding packaging specifications, quote comparisons and lead times."
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "flapjack-00-supplier-profile.jpg"
+        , "imageText": "From the manufacturer's perspective, they needed to able to market themselves to prospective consumer brands. So an app interface to create manufacturer profiles with detailed information about their products & services and a scorecard rating was designed."
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "bravo-00.jpg"
+        , "imageText": "The manufacturer dashboard used the same UI component library to standardize visual cohesiveness but with a UX focus on the manufacturer's need to respond to consumer brand requests and providing quotes, feedback and status updates."
         , "imageType": "screenshot"
         }
     ]
@@ -85,19 +93,19 @@
   , "fullscreen": false
   , "images":
       [ { "imageFile": "desktop-00.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "As a high-end NYC fashion line, The Arrivals required bi-weekly interactive campaigns, supporting multiple product launches."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-01.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "An interactive e-commerce store was designed & developed to display the rich array of products in multiple-styles, with a focus on the consumer user with sorting filters based on best selling, price or inventory."
         , "imageType": "screenshot"
         }
       , { "imageFile": "phone-00.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "As an e-commerce brand, The Arrivals needed mobile-first designs and a responsive website UX was designed & developed."
         , "imageType": "iphone"
         }
       , { "imageFile": "phone-01.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "With an emphasis on its architectural roots, campaign updates to the site emphasized a structural UI & texture."
         , "imageType": "iphone"
         }
       ]

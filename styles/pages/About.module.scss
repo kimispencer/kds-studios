@@ -38,7 +38,6 @@
 
 /* Large Tablet or Desktop */
 @media screen and (min-width: $desktop_breakpoint) {
-  // TODO make this a Layout component variable
   .aboutPage {
     padding: 0 $layoutSpacing;
   }

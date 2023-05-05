@@ -32,7 +32,7 @@ const Home = () => {
             alt="Featured work"
             className={styles.homepageFeaturedWorkImage}
           />
-          <p>Website and UI component library design for a LA based packaging company.</p>
+          <p>Website and UI component library design for a LA based packaging company with multiple dashboards target different user types.</p>
           <Link href="/projects/lumi" className={styles.featuredWorkLink}>View project</Link>
         </div>
         <h4 className={styles.homepageSlideText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</h4>

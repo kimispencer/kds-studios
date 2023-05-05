@@ -26,7 +26,6 @@ export const getStaticProps: GetStaticProps<Props> = async ({ params }) => {
   return { props: { project, projects } }
 }
 
-// @TODO add lazy loading
 const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
   return (
     <>
@@ -54,8 +53,8 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
                   backgroundColor={project.backgroundColor}
                   fullscreen={project.fullscreen}
                 />
-                <div className={styles.deviceImageText}>
-                  <h4>{image.imageText}</h4>
+                <div className={styles.deviceImageTextContainer}>
+                  <h5 className={styles.deviceImageText}>{image.imageText}</h5>
                 </div>
               </div>
             : <div
@@ -68,6 +67,9 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
                   backgroundColor={project.backgroundColor}
                   fullscreen={project.fullscreen}
                 />
+                <div className={styles.screenshotImageTextContainer}>
+                  <h5 className={styles.screenshotImageText}>{image.imageText}</h5>
+                </div>
               </div>
           )
         })
@@ -76,7 +78,7 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
       <div className={styles.projectDetailSummarySlide}>
         <div className={styles.projectDetailSummary}>
           <div className={styles.projectDetailSummaryDescription}>
-            <p>{project.copy}</p>
+            <h5>{project.copy}</h5>
             {project.siteUrl &&
               <Link href={project.siteUrl} target="_blank">
                 <h4 className={styles.projectDetailLink}>Visit the site</h4>

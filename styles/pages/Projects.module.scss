@@ -28,9 +28,13 @@
   margin-bottom: $defaultSpacing;
 }
 
-.deviceImageText {
+.deviceImageTextContainer, .screenshotImageTextContainer {
+  border: 1px dashed;
+  padding: calc(#{$defaultSpacing} * 2);
   display: flex;
   justify-content: center;
+  align-items: center;
+  text-align: center;
   width: 100%;
 }
 
@@ -70,5 +74,12 @@
 
   .projectDetailSummary {
     grid-area: 1/8/11/20;
+  }
+
+  .screenshotImageText {
+    max-width: 80%;
+  }
+  .deviceImageText {
+    max-width: 60%;
   }
 }
