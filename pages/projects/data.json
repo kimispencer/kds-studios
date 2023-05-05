@@ -84,11 +84,11 @@
   , "indexImage": "index.jpg"
   , "fullscreen": false
   , "images":
-      [ { "imageFile": "desktop-00.png"
+      [ { "imageFile": "desktop-00.jpg"
         , "imageText": "screenshot description"
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-01.png"
+      , { "imageFile": "desktop-01.jpg"
         , "imageText": "screenshot description"
         , "imageType": "screenshot"
         }
@@ -158,11 +158,11 @@
   , "indexImage": "index.jpg"
   , "fullscreen": false
   , "images":
-      [ { "imageFile": "desktop-00.png"
+      [ { "imageFile": "desktop-00.jpg"
         , "imageText": "screenshot description"
         , "imageType": "screenshot"
         }
-      , { "imageFile": "phone-00.png"
+      , { "imageFile": "phone-00.jpg"
         , "imageText": "screenshot description"
         , "imageType": "iphone"
         }
@@ -226,7 +226,7 @@
   , "indexImage": "index.jpg"
   , "fullscreen": false
   , "images":
-      [ { "imageFile": "desktop-00.png"
+      [ { "imageFile": "desktop-00.jpg"
         , "imageText": "screenshot description"
         , "imageType": "screenshot"
         }
@@ -234,7 +234,7 @@
         , "imageText": "screenshot description"
         , "imageType": "screenshot"
         }
-      , { "imageFile": "phone-00.png"
+      , { "imageFile": "phone-00.jpg"
         , "imageText": "screenshot description"
         , "imageType": "iphone"
         }
