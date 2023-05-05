@@ -66,8 +66,10 @@ const Nav = () => {
         </div>
       </div>
       <div className={styles.hamburgerBtn} onClick={() => setMobileOpen(!isMobileOpen)}>
-        <span className={styles.openBtn}>|||</span>
-        <span className={styles.closeBtn}>X</span>
+        <div className={isMobileOpen ? styles.openHamburgerBtn : styles.closedCrossBtn}>
+          <span></span>
+          <span></span>
+        </div>
       </div>
     </nav>
   )

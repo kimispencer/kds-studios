@@ -50,14 +50,6 @@
 }
 
 .mobileOpen {
-  .hamburgerBtn {
-    .openBtn {
-      display: none;
-    }
-    .closeBtn {
-      display: block;
-    }
-  }
   .navLink {
     animation: fadeIn 1000ms;
   }
@@ -72,20 +64,37 @@
   }
 }
 .mobileClosed {
-  .hamburgerBtn {
-    .openBtn {
-      display: block;
-    }
-    .closeBtn {
-      display: none;
-    }
-  }
   .navLinks {
     left: 100%;
   }
   .navLinksContainer {
     visibility: hidden;
     background-color: $whiteSmoke;
+  }
+}
+
+/* CSS hamburger button animation */
+.hamburgerBtn span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  background: $mutedBlack;
+  transform-origin: center;
+  transition: transform 0.1s cubic-bezier(0.77,0.2,0.05,1.0);
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.hamburgerBtn .openHamburgerBtn span {
+  opacity: 1;
+  background: #232323;
+  &:first-child {
+    transform: rotate(45deg) translate(0px, 6px);
+  }
+  &:last-child {
+    transform: rotate(-45deg) translate(0, -6px);
   }
 }
 
