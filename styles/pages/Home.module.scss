@@ -1,18 +1,62 @@
 @import 'variables';
 
-.homePage {
-  @extend .grid;
+.homepage {
   width: 100%;
-  height: calc(100vh - #{$navBar_height});
+  min-height: calc(100vh - #{$navBar_height});
 }
 
-.header {
+.homepageAboveFold {
+  @extend .grid;
+}
+
+.aboveFoldHeader {
   grid-area: 5/1/5/26;
+}
+
+.homepageSlide {
+  border: 1px dashed;
+}
+
+.homepageSlideText {
+  padding: calc(#{$defaultSpacing} * 2) 0;
+}
+
+.homepageSlideBackgroundImage {
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  padding: calc(#{$defaultSpacing} * 4) 0;
+}
+
+.homepageFeaturedWorkImage {
+  width: 75% !important;
+  padding: calc(#{$defaultSpacing} * 2) 0;
+}
+
+.featuredWorkLink {
+  text-decoration: underline;
+  padding-top: calc(#{$defaultSpacing} * 2);
 }
 
 /* Large Tablet or Desktop */
 @media screen and (min-width: $desktop_breakpoint) {
-  .header {
-  grid-area: 7/2/14/20;
+  .homepageAboveFold {
+    min-height: 75vh;
+  }
+
+  .aboveFoldHeader {
+  grid-area: 4/2/11/22;
+  }
+
+  .homepageSlideText {
+    width: 50%;
+    padding: calc(#{$defaultSpacing} * 4) 0;
   }
 }

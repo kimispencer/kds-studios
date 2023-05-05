@@ -9,7 +9,7 @@ const About = () => {
       <figure className={styles.aboutImage}>
         <LazyImage
           keyString={"about-00"}
-          src="https://loremflickr.com/1200/800"
+          src="/images/about/profile.jpg"
           alt="About KDS Studios"
           className={styles.aboutImage}
         />
