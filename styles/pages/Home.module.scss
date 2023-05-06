@@ -13,8 +13,16 @@
   grid-area: 5/1/5/26;
 }
 
-.homepageSlideText {
-  padding: calc(#{$defaultSpacing} * 2) 0;
+.homepageSlide {
+  border: 1px dashed;
+}
+
+.homepageSlideText, .homepageSlideLink {
+  margin: calc(#{$defaultSpacing} * 2) 0;
+}
+
+.homepageSlideLink {
+  display: block;
 }
 
 .homepageSlideBackgroundImage {
@@ -54,9 +62,9 @@
   grid-area: 4/2/11/22;
   }
 
-  .homepageSlideText {
+  .homepageSlideText, .homepageSlideLink {
     width: 50%;
-    padding: calc(#{$defaultSpacing} * 4) 0;
+    margin: calc(#{$defaultSpacing} * 4) 0;
   }
 
   .featuredWorkText {
