@@ -42,7 +42,7 @@ const Nav = () => {
           active ? styles.active : ""
         )}
       >
-        {name}
+        <p>{name}</p>
       </Link>
     )
   }
@@ -54,7 +54,9 @@ const Nav = () => {
         isMobileOpen ? styles.mobileOpen : styles.mobileClosed
       )}
     >
-      <Link href="/" className={styles.logo}>KDS Studios</Link>
+      <Link href="/" className={styles.logo}>
+        <p>KDS Studios</p>
+      </Link>
       <div className={styles.navLinksContainer}>
         <div className={styles.navLinks}>
           {tabs.map((item, i) => {
