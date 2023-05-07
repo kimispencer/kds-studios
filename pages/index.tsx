@@ -35,7 +35,7 @@ const Home = () => {
             alt="Featured work"
             className={styles.homepageFeaturedWorkImage}
           />
-          <h5 className={styles.featuredWorkText}>Website and UI component library design for a LA based packaging company with multiple dashboards targeting different user types.</h5>
+          <h5 className={styles.featuredWorkText}>Website and UI component library design and development for an LA based packaging company.</h5>
           <Link href="/projects/lumi" className={styles.featuredWorkLink}><h5>View project</h5></Link>
         </div>
         <h4 className={styles.homepageSlideText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</h4>

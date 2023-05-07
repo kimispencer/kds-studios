@@ -13,10 +13,6 @@
   grid-area: 5/1/5/26;
 }
 
-.homepageSlide {
-  border: 1px dashed;
-}
-
 .homepageSlideText, .homepageSlideLink {
   margin: calc(#{$defaultSpacing} * 2) 0;
 }
@@ -49,7 +45,7 @@
 }
 
 .featuredWorkLink {
-  padding-top: calc(#{$defaultSpacing} * 2);
+  margin-top: calc(#{$defaultSpacing} * 2);
 }
 
 /* Large Tablet or Desktop */
