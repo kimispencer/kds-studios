@@ -1,5 +1,6 @@
 
 import Link from 'next/link'
+import Image from 'next/image'
 import LazyImage from '@/components/LazyImage'
 import styles from '@/styles/pages/About.module.scss'
 
@@ -31,11 +32,16 @@ const About = () => {
           <br/>
           <p>At KDS Studios she has worked with clients from San Francisco startups to NYC digital agencies; spanning industries from interactive advertising, online magazines/publications, AI driven applications, to high-end fashion.</p>
           <br/>
-          <p>CV upon request.</p>
+          <p>CV available upon request.</p>
           <br/>
-          <Link href="mailto:hello@kimispencer.com">
-            <p>Contact</p>
-          </Link>
+          <div className={styles.logoContainer}>
+            <Link href="https://github.com/kimispencer" target="_blank">
+              <Image alt="LinkedIn logo" src="/images/icons/linkedin.svg" width={24} height={24} />
+            </Link>
+            <Link href="https://www.linkedin.com/in/kimispencer/" target="_blank">
+              <Image alt="Github logo" src="/images/icons/github.svg" width={24} height={24} />
+            </Link>
+          </div>
         </div>
       </div>
     </div>

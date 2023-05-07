@@ -17,6 +17,12 @@
   padding-top: $layoutSpacing;
 }
 
+.logoContainer {
+  display: flex;
+  flex-flow: row;
+  gap: $defaultSpacing;
+}
+
 .aboutClients, .aboutDescription {
   padding: $defaultSpacing 0;
 }
