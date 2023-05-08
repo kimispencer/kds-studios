@@ -12,19 +12,27 @@
   , "fullscreen": false
   , "images":
       [ { "imageFile": "desktop-00.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "A marketing site was designed to communicate the power of Smarty's suite of scheduling & task management tools powered by a natural language processing interface with a low barrier to entry."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-01.jpg"
-        , "imageText": "screenshot description"
-        , "imageType": "screenshot"
-        }
-      , { "imageFile": "desktop-02.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "After user testing and research the onboarding experience was designed for first-time users to Smarty allowing them to explore the app interface without signing up, this lowering the barrier to entry and allowing them to test out Smarty's suite of features and onboard to the app through engagement with the platform itself."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-03.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "The Smarty app allows users to input content through a purely textual interface, including a / command to set Tasks, Notes, Events and Scheduling Links. Both calendar events and tasks list are unified into one clean view, allowing users to more efficiently use their time without context switching between multiple applications."
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "desktop-04.jpg"
+        , "imageText": "Designed to emphasize a clean minimal UI, so users can focus on what's important. To add contextual information when required users can simply use the text driven / command, prioritizing accessibility as the UI was designed to be keyboard and language driven."
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "desktop-05.jpg"
+        , "imageText": "Smarty handles task management and scheduling for users, and the AI powered auto-scheduling feature allows users to avoid conflicts and prioritize their most important tasks."
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "desktop-06.jpg"
+        , "imageText": "Users can also create shareable Scheduling Links and view their content in a calendar UI. Free times are auto-detected, and reminders go out automatically. Smarty takes the work out of connecting with others so users can work less overwhelmed & focus on the meeting itself not scheduling."
         , "imageType": "screenshot"
         }
       ]
@@ -97,7 +105,7 @@
   , "fullscreen": false
   , "images":
       [ { "imageFile": "desktop-00.jpg"
-        , "imageText": "As a high-end NYC fashion line, The Arrivals required bi-weekly interactive campaigns, supporting multiple product launches."
+        , "imageText": "As a high-end NYC fashion line, The Arrivals required bi-weekly interactive campaigns, supporting multiple product launches. Creating new campaign designs in regular sprint intervals required standardization of the Arrival's branded visual design system and prioritizing high impact & fast turn over of designs."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-01.jpg"
@@ -132,23 +140,23 @@
   , "fullscreen": false
   , "images":
       [ { "imageFile": "desktop-00.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "As a print publication, translating the SUITED experience online focused on designing a UI that highlights rich imagery and featured content. As content needed to be regularly updated a custom CMS drive template was created on top of the SquareSpace developer platform."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-01.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "Because SUITED's primary initial experience is their printed content the site was designed to highlight previous issues and allow users to order copies for themselves."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-02.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "SUITED magazines aesthetic was minimal, black & white and high-end. The site was designed to emphasize the physical experience into a fashion and art focused digital site."
         , "imageType": "screenshot"
         }
       , { "imageFile": "phone-00.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "Mobile accessibility was of importance so users could experience the site across a variety of devices. The site was designed and developed mobile-first."
         , "imageType": "iphone"
         }
       , { "imageFile": "phone-01.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "With the mobile device UX in mind, the mobile app version of the site prioritized the rich imagery and content to be viewed as easily on phones as desktops."
         , "imageType": "iphone"
         }
       ]
@@ -171,11 +179,11 @@
   , "fullscreen": false
   , "images":
       [ { "imageFile": "desktop-00.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "Onomie is an e-commerce brand using scientific backing for it's skincare and makeup products. To emphasize this on the site, before and after UI sliders and visual illustrations were used to demonstrate the quality of product ingredients and effect on skin improvement."
         , "imageType": "screenshot"
         }
       , { "imageFile": "phone-00.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "As an e-commerce site, the experience was design mobile-first so users could experience and purchase Onomie products on a variety of devices."
         , "imageType": "iphone"
         }
       ]
@@ -189,35 +197,35 @@
   , "slug": "architecture"
   , "title": "Willard Park"
   , "subtitle": "Visual design, Architecture"
-  , "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend bibendum urna, ac posuere lectus porta non."
-  , "copy": "This proposal for a new Willard Park Community Center (located in Berkeley, CA) is inspired by the action word “emergence” and the concept of subtractive openness “to carve”— and the intention of creating a building that is an extension of the ground, and is carved open to external air and light. Meant to evoke a subtle connection to the natural landscape of the park, and invite community members to engage with it from different views and flows. To see it as a part of the park, emergent and carved from, rather than imposed."
+  , "description": "A proposal for a new Willard Park Community Center (located in Berkeley, CA) inspired by the action word “emergence” and the concept of subtractive openness “to carve”— designed with the intention of creating a building that is an extension of the ground, and is carved open to external air and light."
+  , "copy": "Visual and architectural designer created a 3D spatial proposal in Rhino, as well as isometric and blueprint designs to communicate the vision for a reimagined community center in Willard Park. Using Photoshop visuals were created to demonstrate how community members would experience the space."
   , "backgroundColor": "#ffffff"
   , "imageKey": "architecture"
   , "indexImage": "index.jpg"
   , "fullscreen": true
   , "images":
       [ { "imageFile": "00.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "The Willard Park proposal is architectural exploration of how an existing public space could be utilized to better serve the community while respecting the natual landscape."
         , "imageType": "screenshot"
         }
       , { "imageFile": "01.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "Designed to communicate a multi-dimensional exploration of how layered designs would operate cohesively. The foundational earthen mound informs the basis of the design. The building’s structure is extended from the topography and the interior courtyard carved out. The main body of the structure is surrounded by the mounded earth. The structure is created by a balance between curvature and angular cuts."
         , "imageType": "screenshot"
         }
       , { "imageFile": "02.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "Detailed layouts were created to show how users would utilize the space; providing public restrooms, office spaces for staff and community spaces for events and classes."
         , "imageType": "screenshot"
         }
       , { "imageFile": "03.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "A top-level view of a green roof design integrated into the natural landscape that also provides additional usable space for community members to explore and use for recreational purposes."
         , "imageType": "screenshot"
         }
       , { "imageFile": "04.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "The green roof extends into the ground and creates a seamless extension, the open-air corridor and rooms are made of planked concrete as an affordable and durable option that represents organic wood and stone; with steel guard railings built along the walkable green roof around the courtyard for safety. And large glass windows allow external views into the interior, and provide light to all the rooms."
         , "imageType": "screenshot"
         }
       , { "imageFile": "05.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "The courtyard plays with natural materiality: stone, wood, earthen supports for a vertical garden, as well as contain interior trees and small garden areas. The vertical gardens in the courtyard reinforce the connection of the structure as emergent from the earth."
         , "imageType": "screenshot"
         }
       ]
@@ -232,26 +240,26 @@
   , "title": "Tom Tom Magazine"
   , "subtitle": "UI/UX, Development"
   , "description": "Tom Tom Magazine is a quarterly print magazine and website based out of New York City. It is the only magazine in the world that is dedicated to female drummers."
-  , "copy": "Lead designer & developer for Tom Tom's e-commerce platform to leverage site visits into opportunities to sell the publication or goods related to the brand. Using the Shopify CMS built a custom responsive template theme for the Tom Tom store."
+  , "copy": "Lead designer & developer for Tom Tom's e-commerce platform to leverage site visits into opportunities to sell the publication or goods related to the brand. Using the Shopify CMS built a custom responsive template theme was designed and developed for the Tom Tom store."
   , "backgroundColor": "#466638"
   , "imageKey": "tom-tom"
   , "indexImage": "index.jpg"
   , "fullscreen": false
   , "images":
       [ { "imageFile": "desktop-00.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "As a print publication Tom Tom Magazine needed a digital site that reflected their focus on music related content."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-01.png"
-        , "imageText": "screenshot description"
+        , "imageText": "Additionally an e-commerce site was needed for users to purchase branded products, and was built by creating a custom Shopify template with CMS integration. Allowing team members to easily track inventory and sales related data.."
         , "imageType": "screenshot"
         }
       , { "imageFile": "phone-00.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "Responsive mobile-first designs were implemented to create a seamless experience on across a variety of devices for users."
         , "imageType": "iphone"
         }
       , { "imageFile": "phone-01.png"
-        , "imageText": "screenshot description"
+        , "imageText": "As well as the mobile designs for the e-commerce site experience."
         , "imageType": "iphone"
         }
       ]
