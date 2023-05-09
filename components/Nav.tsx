@@ -24,8 +24,15 @@ const Nav = () => {
   tabs.forEach((tab) => {
     tab.active = router.pathname === tab.path
   })
+  // disable page scroll when mobile nav is open
+  useEffect(() => {
+    isMobileOpen
+      ? (document.body.style.overflow = 'hidden')
+      : (document.body.style.overflow = 'auto')
+  }, [isMobileOpen])
 
   const NavLink = ({path, name, active}: Tab) => {
+    // on route change close mobile nav
     useEffect(() => {
       const handleRouteChange = () => {
         setMobileOpen(false)

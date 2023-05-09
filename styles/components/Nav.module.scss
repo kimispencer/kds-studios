@@ -42,7 +42,7 @@
   top: $navBar_height;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: calc(100% - #{$navBar_height});
   overflow-y: hidden;
 }
 
