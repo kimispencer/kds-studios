@@ -18,7 +18,9 @@
 }
 
 .serviceBlock {
-  border: 1px dashed;
+  li {
+    list-style: none;
+  }
 }
 
 .serviceTile {
