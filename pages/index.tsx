@@ -21,7 +21,7 @@ const Home = () => {
           <h5 className={styles.featuredWorkText}>Responsive website design and development for a NYC based fashion line.</h5>
           <Link href="/projects/the-arrivals" className={styles.featuredWorkLink}><h5>View project</h5></Link>
         </div>
-        <h4 className={styles.homepageSlideText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</h4>
+        <h4 className={styles.homepageSlideText}>KDS Studios creates digital identity and experiences through concept development, UI/UX & visual design, and creative coding solutions.</h4>
         <Link href="/projects" className={styles.homepageSlideLink}>
           <h4>View all projects</h4>
       </Link>
@@ -38,9 +38,9 @@ const Home = () => {
           <h5 className={styles.featuredWorkText}>Website and UI component library design and development for an LA based packaging company.</h5>
           <Link href="/projects/lumi" className={styles.featuredWorkLink}><h5>View project</h5></Link>
         </div>
-        <h4 className={styles.homepageSlideText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</h4>
-        <Link href="mailto:hello@kimispencer.com" className={styles.homepageSlideLink}>
-          <h4>Let's work together!</h4>
+        <h4 className={styles.homepageSlideText}>KDS Studios is a digital studio and the design practice of Kimi Spencer, a product designer & software engineer.</h4>
+        <Link href="/about" className={styles.homepageSlideLink}>
+          <h4>Learn more</h4>
       </Link>
       </div>
       <div className={styles.homepageSlide}>

@@ -19,19 +19,19 @@
         , "imageText": "After user testing and research the onboarding experience was designed for first-time users to Smarty allowing them to explore the app interface without signing up, this lowering the barrier to entry and allowing them to test out Smarty's suite of features and onboard to the app through engagement with the platform itself."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-03.jpg"
+      , { "imageFile": "desktop-02.jpg"
         , "imageText": "The Smarty app allows users to input content through a purely textual interface, including a / command to set Tasks, Notes, Events and Scheduling Links. Both calendar events and tasks list are unified into one clean view, allowing users to more efficiently use their time without context switching between multiple applications."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-04.jpg"
+      , { "imageFile": "desktop-03.jpg"
         , "imageText": "Designed to emphasize a clean minimal UI, so users can focus on what's important. To add contextual information when required users can simply use the text driven / command, prioritizing accessibility as the UI was designed to be keyboard and language driven."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-05.jpg"
+      , { "imageFile": "desktop-04.jpg"
         , "imageText": "Smarty handles task management and scheduling for users, and the AI powered auto-scheduling feature allows users to avoid conflicts and prioritize their most important tasks."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-06.jpg"
+      , { "imageFile": "desktop-05.jpg"
         , "imageText": "Users can also create shareable Scheduling Links and view their content in a calendar UI. Free times are auto-detected, and reminders go out automatically. Smarty takes the work out of connecting with others so users can work less overwhelmed & focus on the meeting itself not scheduling."
         , "imageType": "screenshot"
         }

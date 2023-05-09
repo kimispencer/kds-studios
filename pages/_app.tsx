@@ -13,7 +13,7 @@ const App = ({ Component, pageProps }: AppProps) => {
       <title>KDS Studio</title>
       <meta name="description" content="KDS Studio's portfolio site" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/images/icons/kds.ico" />
     </Head>
     <div className={chivo.className}>
       <Layout>
