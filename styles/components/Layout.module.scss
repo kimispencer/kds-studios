@@ -7,6 +7,5 @@
   align-items: center;
   margin-top: $navBar_height;
   min-height: calc(100vh - #{$navBar_height});
-  background-color: $backgroundColor;
   padding: 0 $layoutSpacing;
 }

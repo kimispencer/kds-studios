@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: $backgroundColor;
+  background-color: #{$whiteBackgroundColor};
 }
 
 .navLink {
@@ -19,7 +19,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  color: $fontColor;
+  color: #{$darkFontColor};
 }
 
 .navLink, .logo {
@@ -60,8 +60,7 @@
   }
   .navLinksContainer {
     visibility: visible;
-    transition: background-color 1000ms linear;
-    background-color: $backgroundColor;
+    background-color: #{$whiteBackgroundColor};
   }
 }
 .mobileClosed {
@@ -70,7 +69,6 @@
   }
   .navLinksContainer {
     visibility: hidden;
-    background-color: $whiteSmoke;
   }
 }
 
@@ -80,7 +78,7 @@
   width: 33px;
   height: 4px;
   margin-bottom: 5px;
-  background: $mutedBlack;
+  background-color: #{$darkFontColor};
   transform-origin: center;
   transition: transform 0.1s cubic-bezier(0.77,0.2,0.05,1.0);
   &:last-child {
@@ -90,7 +88,6 @@
 
 .hamburgerBtn .openHamburgerBtn span {
   opacity: 1;
-  background: #232323;
   &:first-child {
     transform: rotate(45deg) translate(0px, 6px);
   }
@@ -121,7 +118,6 @@
   }
   .navLinks {
     position: static;
-    // display: unset;
     flex-flow: row;
     width: auto;
     height: auto;
@@ -134,9 +130,27 @@
   }
   .mobileOpen, .mobileClosed {
     .navLinksContainer {
-      background-color: $backgroundColor;
+      background-color: #{$whiteBackgroundColor};
       visibility: visible;
       transition: none;
+    }
+  }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .nav {
+    background-color: #{$blackBackgroundColor};
+  }
+  .navLink {
+    color: #{$whiteFontColor};
+  }
+  .hamburgerBtn span {
+    background-color: #{$whiteFontColor};
+  }
+  .mobileOpen, .mobileClosed {
+    .navLinksContainer {
+      background-color: #{$blackBackgroundColor};
     }
   }
 }

@@ -10,9 +10,19 @@
 .projectNavLink {
   margin: calc(#{$defaultSpacing}/4);
   padding: 0 calc(#{$defaultSpacing}/4);
-  color: $darkGrey;
+  color: #{$darkMutedFontColor};
   text-decoration: none;
   &.active {
-    color: $fontColor;
+    color: $darkFontColor;
+  }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .projectNavLink {
+    color: #{$whiteMutedFontColor};
+    &.active {
+      color: #{$whiteFontColor};
+    }
   }
 }
