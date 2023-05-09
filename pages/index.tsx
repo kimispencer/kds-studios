@@ -39,7 +39,7 @@ const Home = () => {
           <Link href="/projects/lumi" className={styles.featuredWorkLink}><h5>View project</h5></Link>
         </div>
         <h4 className={styles.homepageSlideText}>KDS Studios creates digital identity and experiences through concept development, UI/UX & visual design, and creative coding solutions.</h4>
-        <Link href="/about" className={styles.homepageSlideLink}>
+        <Link href="/services" className={styles.homepageSlideLink}>
           <h4>Learn more</h4>
       </Link>
       </div>
