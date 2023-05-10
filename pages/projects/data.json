@@ -32,7 +32,7 @@
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-05.jpg"
-        , "imageText": "Users can also create shareable Scheduling Links and view their content in a calendar UI. Free times are auto-detected, and reminders go out automatically. Smarty takes the work out of connecting with others so users can work less overwhelmed & focus on the meeting itself not scheduling."
+        , "imageText": "Users can also view their scheduled Tasks & Events in a calendar UI, and create shareable Scheduling Links. Free times are auto-detected, and reminders go out automatically. Smarty takes the work out of connecting with others so users can work less overwhelmed & focus on the activity at hand itself not scheduling it."
         , "imageType": "screenshot"
         }
       ]
@@ -58,23 +58,23 @@
   , "fullscreen": false
   , "images":
       [ { "imageFile": "desktop-00.jpg"
-        , "imageText": "Because Lumi provides services to users that are consumer brands in need of packaging as well as packaging suppliers & manufacturers, a marketing site that targets multiple user types was designed."
+        , "imageText": "Lumi provides services to users that are consumer brands in need of packaging as well as packaging suppliers & manufacturers, so a marketing site that communicates to multiple user demographics was designed."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-01.png"
-        , "imageText": "Initial design focus was to standardize the app experience with a modular UI component library for both the consumer brand-facing dashboard and the manufacturer-facing dashboard."
+        , "imageText": "Initial design focus was to standardize the app experience with a modular UI component library for both the consumer brand-facing dashboard and the manufacturer-facing dashboard. Allowing users to easily view & purchase any packaging needs."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-02.png"
-        , "imageText": "Consumer brand users needed to be able to select and specify their packaging needs and designs."
+        , "imageText": "Consumer brand users needed to be able to select and specify their packaging needs and designs, so the app experience was designed to easily assist users into the cart & payment flow and view essential information about quantity & price."
         , "imageType": "screenshot"
         }
       , { "imageFile": "flapjack-00-supplier-recommendations.jpg"
-        , "imageText": "Additionally, consumer brands needed to be able to compare from many manufacturers, to solve this an interface was created for displaying rich data regarding packaging specifications, quote comparisons and lead times."
+        , "imageText": "To assist consumer brands in comparing across a marketplace of many manufacturers, an interface was created for displaying rich data regarding packaging specifications, quote comparisons and lead times."
         , "imageType": "screenshot"
         }
       , { "imageFile": "flapjack-00-supplier-profile.jpg"
-        , "imageText": "From the manufacturer's perspective, they needed to able to market themselves to prospective consumer brands. So an app interface to create manufacturer profiles with detailed information about their products & services and a scorecard rating was designed."
+        , "imageText": "From the manufacturer's perspective, they needed to able to market themselves to prospective consumer brands. So an app UI to create unique manufacturer profiles with detailed information about their products & services and a scorecard rating was designed."
         , "imageType": "screenshot"
         }
       , { "imageFile": "bravo-00.jpg"
@@ -82,7 +82,7 @@
         , "imageType": "screenshot"
         }
       , { "imageFile": "ui-components.jpg"
-        , "imageText": "Modular UI component library example for a LabeledField input."
+        , "imageText": "A modular UI component library example for a LabeledField input. By designing and utilizing a reusable modular component library & establishing a design system each app targeted for a specific user demographic maintained visual branding consistency and user experience."
         , "imageType": "screenshot"
         }
     ]
@@ -198,7 +198,7 @@
   , "title": "Willard Park"
   , "subtitle": "Visual design, Architecture"
   , "description": "A proposal for a new Willard Park Community Center (located in Berkeley, CA) inspired by the action word “emergence” and the concept of subtractive openness “to carve”— designed with the intention of creating a building that is an extension of the ground, and is carved open to external air and light."
-  , "copy": "Visual and architectural designer created a 3D spatial proposal in Rhino, as well as isometric and blueprint designs to communicate the vision for a reimagined community center in Willard Park. Using Photoshop visuals were created to demonstrate how community members would experience the space."
+  , "copy": "Visual and architectural designer of a 3D spatial proposal in Rhino, as well as isometric and blueprint designs to communicate the vision for a reimagined community center in Willard Park. Using Photoshop visuals were created to demonstrate how community members would experience the space."
   , "imageKey": "architecture"
   , "indexImage": "index.jpg"
   , "fullscreen": true
