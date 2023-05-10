@@ -14,7 +14,7 @@ export interface Project {
   imageKey: string;
   indexImage: string;
   images: ProjectImage[];
-  backgroundColor: string;
+  backgroundColor?: string;
   fullscreen: boolean;
   skills: string[];
   siteUrl?: string;

@@ -199,7 +199,6 @@
   , "subtitle": "Visual design, Architecture"
   , "description": "A proposal for a new Willard Park Community Center (located in Berkeley, CA) inspired by the action word “emergence” and the concept of subtractive openness “to carve”— designed with the intention of creating a building that is an extension of the ground, and is carved open to external air and light."
   , "copy": "Visual and architectural designer created a 3D spatial proposal in Rhino, as well as isometric and blueprint designs to communicate the vision for a reimagined community center in Willard Park. Using Photoshop visuals were created to demonstrate how community members would experience the space."
-  , "backgroundColor": "#ffffff"
   , "imageKey": "architecture"
   , "indexImage": "index.jpg"
   , "fullscreen": true
@@ -275,7 +274,6 @@
   , "subtitle": "Visual design"
   , "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend bibendum urna, ac posuere lectus porta non."
   , "copy": "Data visualization analyzing language patterns to produce detailed visualizations of popular music lyrics; examining relationships between entities (such as \"I\" and \"you\"), as well as common verbs that express relationships between those entities (such as \"love\", or \"hate\") using Natural Language Processing."
-  , "backgroundColor": "#ffffff"
   , "imageKey": "data-viz"
   , "indexImage": "index.jpg"
   , "fullscreen": true

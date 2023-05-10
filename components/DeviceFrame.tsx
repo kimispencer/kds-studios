@@ -7,7 +7,7 @@ import styles from '@/styles/components/DeviceFrame.module.scss'
 type Props = {
   image: ProjectImage
   imageKey: string
-  backgroundColor: string
+  backgroundColor?: string
   fullscreen: boolean
 }
 
