@@ -272,26 +272,22 @@
   , "slug": "data-visualization"
   , "title": "Data Visualization"
   , "subtitle": "Visual design"
-  , "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend bibendum urna, ac posuere lectus porta non."
-  , "copy": "Data visualization analyzing language patterns to produce detailed visualizations of popular music lyrics; examining relationships between entities (such as \"I\" and \"you\"), as well as common verbs that express relationships between those entities (such as \"love\", or \"hate\") using Natural Language Processing."
+  , "description": "Data visualization of language patterns and lyrical analysis of top Billboard charting songs over the 20th century."
+  , "copy": "Creative director & developer of a data visualization examining language patterns in musical lyrics over time, revealing cultural trends and moods of different time periods as expressed in top-charting songs. Presented as large format digital images and print posters."
   , "imageKey": "data-viz"
   , "indexImage": "index.jpg"
   , "fullscreen": true
   , "images":
       [ { "imageFile": "00.jpg"
-        , "imageText": "screenshot description"
-        , "imageType": "screenshot"
-        }
-      , { "imageFile": "01.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "What do popular song lyrics say about cultural moods, concerns and political issues of different times? To answer this question, a Python web scraping script was developed to pull lyrics from the top Billboard charts since its inception in the early 1900's. Using a Java based IDE and natural language processing, visualized relationships between entities (such as \"I\" and \"you\"), as well as common verbs that express relationships between those entities (such as \"love\", or \"hate\")."
         , "imageType": "screenshot"
         }
       , { "imageFile": "02.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "Topical patterns of time also emerge, as song lyrics from different decades reveal societal patterns and trending topics."
         , "imageType": "screenshot"
         }
       , { "imageFile": "03.jpg"
-        , "imageText": "screenshot description"
+        , "imageText": "Frequency of keywords were used to weight their size (more frequent use of a noun phrase resulted in a larger font size), and bézier curves to visualization semantic linkages between different keyword entities."
         , "imageType": "screenshot"
         }
       ]
