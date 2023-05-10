@@ -48,6 +48,7 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
                 )}
               >
                 <DeviceFrame
+                  priority={i == 0 ? true : false}
                   image={image}
                   imageKey={project.imageKey}
                   backgroundColor={project.backgroundColor}
@@ -62,6 +63,7 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
                 className={concatClassnames(styles.projectDetailImageSlide, styles.screenshot)}
               >
                 <ScreenshotImage
+                  priority={i == 0 ? true : false}
                   image={image}
                   imageKey={project.imageKey}
                   backgroundColor={project.backgroundColor}

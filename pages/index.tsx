@@ -13,6 +13,7 @@ const Home = () => {
         <div className={styles.homepageSlideBackgroundImage} style={{backgroundImage: "url(" + "/images/homepage/featured-work-00.jpg" + ")"}}>
           <h2>Featured Work</h2>
           <LazyImage
+            priority={true}
             keyString="featuredWork"
             src="/images/homepage/featured-project-00.jpg"
             alt="Featured work"
@@ -30,6 +31,7 @@ const Home = () => {
         <div className={styles.homepageSlideBackgroundImage} style={{backgroundImage: "url(" + "/images/homepage/featured-work-01.jpg" + ")"}}>
           <h2>Case Study</h2>
           <LazyImage
+            priority={false}
             keyString="featuredWork"
             src="/images/homepage/featured-project-01.jpg"
             alt="Featured work"

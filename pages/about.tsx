@@ -9,6 +9,7 @@ const About = () => {
     <div className={styles.aboutPage}>
       <figure className={styles.aboutImage}>
         <LazyImage
+          priority={true}
           keyString={"about-00"}
           src="/images/about/profile.jpg"
           alt="About KDS Studios"

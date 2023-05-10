@@ -4,13 +4,14 @@ import concatClassnames from '@/lib/functions'
 import styles from '@/styles/components/LazyImage.module.scss'
 
 type Props = {
+  priority: boolean
   keyString: string
   src: string
   alt: string
   className?: string
 }
 
-const LazyImage = ({ keyString, src, alt, className }: Props) => {
+const LazyImage = ({ priority, keyString, src, alt, className }: Props) => {
   const [isLoading, setLoading] = useState(true)
 
   return (
@@ -21,10 +22,11 @@ const LazyImage = ({ keyString, src, alt, className }: Props) => {
         </div>
       )}
       <Image
+        priority={priority}
         key={keyString}
         src={src}
         alt={alt}
-        loading="lazy"
+        loading={priority ? undefined : "lazy"}
         fill
         className={concatClassnames(
           className ? className : "",

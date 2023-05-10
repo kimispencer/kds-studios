@@ -4,13 +4,14 @@ import concatClassnames from '@/lib/functions'
 import styles from '@/styles/components/ScreenshotImage.module.scss'
 
 type Props = {
+  priority: boolean
   image: ProjectImage
   imageKey: string
   backgroundColor?: string
   fullscreen: boolean
 }
 
-const ScreenshotImage = ({ image, imageKey, backgroundColor, fullscreen }: Props) => {
+const ScreenshotImage = ({ priority, image, imageKey, backgroundColor, fullscreen }: Props) => {
   return (
     <div className={styles.screenshotImageContainer} style={{backgroundColor: fullscreen ? "" : backgroundColor}}>
       <div
@@ -20,6 +21,7 @@ const ScreenshotImage = ({ image, imageKey, backgroundColor, fullscreen }: Props
         )}
       >
         <LazyImage
+          priority={priority}
           keyString={imageKey + "-" + image.imageFile}
           src={"/images/" + imageKey + "/" + image.imageFile}
           alt={image.imageText}

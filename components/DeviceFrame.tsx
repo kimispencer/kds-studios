@@ -5,13 +5,14 @@ import concatClassnames from '@/lib/functions'
 import styles from '@/styles/components/DeviceFrame.module.scss'
 
 type Props = {
+  priority: boolean
   image: ProjectImage
   imageKey: string
   backgroundColor?: string
   fullscreen: boolean
 }
 
-const DeviceFrame = ({ image, imageKey, backgroundColor, fullscreen }: Props) => {
+const DeviceFrame = ({ priority, image, imageKey, backgroundColor, fullscreen }: Props) => {
   switch (image.imageType) {
     case "iphone":
       return (
@@ -24,6 +25,7 @@ const DeviceFrame = ({ image, imageKey, backgroundColor, fullscreen }: Props) =>
               )}
             >
               <LazyImage
+                priority={priority}
                 keyString={imageKey + "-" + image.imageFile}
                 src={"/images/" + imageKey + "/" + image.imageFile}
                 alt={image.imageText}
@@ -49,6 +51,7 @@ const DeviceFrame = ({ image, imageKey, backgroundColor, fullscreen }: Props) =>
               )}
             >
               <LazyImage
+                priority={priority}
                 keyString={imageKey + "-" + image.imageFile}
                 src={"/images/" + imageKey + "/" + image.imageFile}
                 alt={image.imageText}
@@ -67,6 +70,7 @@ const DeviceFrame = ({ image, imageKey, backgroundColor, fullscreen }: Props) =>
     default:
       return (
         <ScreenshotImage
+          priority={priority}
           image={image}
           imageKey={imageKey}
           backgroundColor={backgroundColor}

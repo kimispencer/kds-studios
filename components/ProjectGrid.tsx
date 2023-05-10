@@ -11,7 +11,10 @@ const ProjectGrid = ({ projects }: ProjectGridProps) => {
     <div className={styles.projectGrid}>
       {projects.map((p, i) => (
         <div key={i}>
-          <ProjectTile project={p} />
+          <ProjectTile
+            priority={(i == 0) || (i == 1) ? true : false}
+            project={p}
+          />
         </div>
       ))}
     </div>
