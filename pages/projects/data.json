@@ -112,12 +112,16 @@
         , "imageText": "An interactive e-commerce store was designed & developed to display the rich array of products in multiple-styles, with a focus on the consumer user with sorting filters based on best selling, price or inventory."
         , "imageType": "screenshot"
         }
+      , { "imageFile": "desktop-02.jpg"
+        , "imageText": "Product detail pages needed to display rich imagery detailing the product's aesthetic as well as information regarding fit, materials and allowing users to receive contextual information before making a purchase commitment. As well as designed to provide suggestions of similar product styles that the user might be interested in. "
+        , "imageType": "screenshot"
+        }
       , { "imageFile": "phone-00.jpg"
-        , "imageText": "As an e-commerce brand, The Arrivals needed mobile-first designs and a responsive website UX was designed & developed."
+        , "imageText": "As an e-commerce brand, The Arrivals needed mobile-first designs so users could view and purchase products across any device type, and a responsive website UX was designed & developed."
         , "imageType": "iphone"
         }
       , { "imageFile": "phone-01.jpg"
-        , "imageText": "With an emphasis on its architectural roots, campaign updates to the site emphasized a structural UI & texture."
+        , "imageText": "With an emphasis on its architectural roots, a structural & textured UI was created focusing on visually displaying compelling imagery and video content."
         , "imageType": "iphone"
         }
       ]
