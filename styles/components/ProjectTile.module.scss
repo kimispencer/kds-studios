@@ -12,10 +12,6 @@
   overflow: hidden;
   position: relative;
   height: 50vh;
-  &:hover {
-    .projectImage { opacity: 0; }
-    .projectTileHoverText { opacity: 1; }
-  }
 }
 
 .projectTileHoverText {
@@ -37,7 +33,19 @@
 }
 
 @media (hover: hover) {
-  .projectTileTouchscreenText { display: none; }
+  .projectTile {
+    &:hover {
+      .projectImage { opacity: 0; }
+      .projectTileHoverText { opacity: 1; }
+    }
+    .projectTileTouchscreenText { display: none; }
+  }
+}
+
+@media (hover: none) {
+  .projecTile {
+    .projectTileHoverText { display: none; }
+  }
 }
 
 .figure {
