@@ -1,5 +1,11 @@
 @import 'variables';
 
+.lazyImageContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
 .loadingSpinnerContainer {
   width: 100%;
   height: 100%;

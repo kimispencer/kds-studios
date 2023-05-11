@@ -15,7 +15,7 @@ const LazyImage = ({ priority, keyString, src, alt, className }: Props) => {
   const [isLoading, setLoading] = useState(true)
 
   return (
-    <>
+    <div className={styles.lazyImageContainer}>
       {isLoading && (
         <div className={styles.loadingSpinnerContainer}>
           <div className={styles.loadingSpinner}></div>
@@ -28,6 +28,7 @@ const LazyImage = ({ priority, keyString, src, alt, className }: Props) => {
         alt={alt}
         loading={priority ? undefined : "lazy"}
         fill
+        sizes="100%"
         className={concatClassnames(
           className ? className : "",
           styles.lazyImage,
@@ -37,7 +38,7 @@ const LazyImage = ({ priority, keyString, src, alt, className }: Props) => {
         )}
         onLoadingComplete={() => setLoading(false)}
       />
-    </>
+    </div>
   )
 }
 
