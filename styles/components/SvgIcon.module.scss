@@ -1,0 +1,8 @@
+@import 'variables';
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .Icon {
+    fill: #{$whiteFontColor};
+  }
+}

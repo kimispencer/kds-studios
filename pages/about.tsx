@@ -1,7 +1,7 @@
 
 import Link from 'next/link'
-import Image from 'next/image'
 import LazyImage from '@/components/LazyImage'
+import SvgIcon from '@/components/SvgIcon'
 import styles from '@/styles/pages/About.module.scss'
 
 const About = () => {
@@ -37,10 +37,10 @@ const About = () => {
           <br/>
           <div className={styles.logoContainer}>
             <Link href="https://github.com/kimispencer" target="_blank">
-              <Image alt="LinkedIn logo" src="/images/icons/linkedin.svg" width={24} height={24} />
+              <SvgIcon type="LinkedIn" />
             </Link>
             <Link href="https://www.linkedin.com/in/kimispencer/" target="_blank">
-              <Image alt="Github logo" src="/images/icons/github.svg" width={24} height={24} />
+              <SvgIcon type="Github" />
             </Link>
           </div>
         </div>
