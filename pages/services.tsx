@@ -7,16 +7,16 @@ const services: Service[] =
     , description: "Designing creative & appealing products, from ideation all the way to launch. From rapidly prototyped design explorations to pixel perfect products."
     },
     { title: "UI/UX Design"
-    , description: "Creating design prototypes, high fidelity mockups & wireframes and user journey maps; with a focus on designing modular reusable UI component libraries and design systems."
+    , description: "Creating design prototypes, high fidelity mockups & wireframes, and user journey maps; with a focus on designing modular reusable UI component libraries and design systems."
     },
     { title: "Development"
     , description: "Specializing in front-end web development & engineering solutions; with over 10 years experience in building responsive sites from e-commerce to high data density dashboards."
     },
     { title: "Visual Design"
-    , description: "Creating design systems and visual libraries to establish a brand voice and maintain cohesiveness across various digital user experiences."
+    , description: "Creating design systems & visual libraries to establish a brand voice and maintain cohesiveness across various digital user experiences."
     },
     { title: "UX Strategy"
-    , description: "Conducting user research, A/B testing and analysis to understand user behaviors and best serve their needs in the digital experience."
+    , description: "Conducting user research, A/B testing and analysis to understand user behaviors and best serve their needs in the digital product experience."
     },
     { title: "Content Strategy"
     , description: "Helping brands plan, create and develop content to promote their online experiences and products."
