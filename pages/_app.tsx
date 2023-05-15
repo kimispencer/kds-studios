@@ -1,9 +1,13 @@
-import type { AppProps } from 'next/app'
+import type { AppProps, NextWebVitalsMetric } from 'next/app'
 import Head from 'next/head'
 import Layout from '@/components/Layout'
 import '@/styles/globals.scss'
 import '@/styles/devices.scss'
 import { Chivo } from 'next/font/google'
+
+export function reportWebVitals(metric: NextWebVitalsMetric) {
+  console.log(metric);
+}
 
 const chivo = Chivo({ subsets: ['latin'] })
 const App = ({ Component, pageProps }: AppProps) => {
