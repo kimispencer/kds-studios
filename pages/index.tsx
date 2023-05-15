@@ -6,8 +6,7 @@ const Home = () => {
   return (
     <div className={styles.homepage}>
       <div className={styles.homepageAboveFold}>
-        <h1 className={styles.aboveFoldHeader}>KDS Studios is a digital product agency that focuses on design and development.</h1>
-        {/* <h1 className={styles.header}>Kimi is a product designer and software engineer based in Brooklyn, NY. Currently the Founder & Principle Designer at KDS Studios.</h1> */}
+        <h1 className={styles.aboveFoldHeader}>KDS Studios is a digital studio and the design practice of Kimi Spencer.</h1>
       </div>
       <div className={styles.homepageSlide}>
         <div className={styles.homepageSlideBackgroundImage} style={{backgroundImage: "url(" + "/images/homepage/featured-work-00.jpg" + ")"}}>
@@ -22,7 +21,7 @@ const Home = () => {
           <h5 className={styles.featuredWorkText}>Responsive website design and development for a NYC based fashion line.</h5>
           <Link href="/projects/the-arrivals" className={styles.featuredWorkLink}><h5>View project</h5></Link>
         </div>
-        <h4 className={styles.homepageSlideText}>KDS Studios is a digital studio and the design practice of Kimi Spencer, a product designer & software engineer.</h4>
+        <h4 className={styles.homepageSlideText}>Kimi Spencer is a product designer, developer & founder of KDS Studios, a digital product studio that focuses on design and development.</h4>
         <Link href="/projects" className={styles.homepageSlideLink}>
           <h4>View all projects</h4>
       </Link>
@@ -41,7 +40,7 @@ const Home = () => {
           <Link href="/projects/lumi" className={styles.featuredWorkLink}><h5>View project</h5></Link>
         </div>
         <h4 className={styles.homepageSlideText}>KDS Studios creates digital identity and experiences through concept development, UI/UX & visual design, and creative coding solutions.</h4>
-        <Link href="/services" className={styles.homepageSlideLink}>
+        <Link href="/skills" className={styles.homepageSlideLink}>
           <h4>Learn more</h4>
       </Link>
       </div>

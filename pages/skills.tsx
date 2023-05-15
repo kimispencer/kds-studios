@@ -1,7 +1,7 @@
-import { Service, Tool } from '@/lib/interfaces';
-import styles from '@/styles/pages/Services.module.scss'
+import { Skill, Tool } from '@/lib/interfaces';
+import styles from '@/styles/pages/Skills.module.scss'
 
-const services: Service[] =
+const skills: Skill[] =
   [
     { title: "Product Design"
     , description: "Designing creative & appealing products, from ideation all the way to launch. From rapidly prototyped design explorations to pixel perfect products."
@@ -52,18 +52,18 @@ const tools: Tool[] =
     }
   ]
 
-const Services = () => {
+const Skills = () => {
   return (
-    <div className={styles.servicesPage}>
-      <div className={styles.servicesAboveFold}>
-        <h2 className={styles.servicesHeader}>Services</h2>
+    <div className={styles.skillsPage}>
+      <div className={styles.skillsAboveFold}>
+        <h2 className={styles.skillsHeader}>Skills</h2>
       </div>
-      <div className={styles.servicesGrid}>
-        {services.map((service, i) => {
+      <div className={styles.skillsGrid}>
+        {skills.map((skill, i) => {
             return (
               <div className={styles.serviceBlock} key={i}>
-                <h4 className={styles.serviceTile}>{service.title}</h4>
-                <h5>{service.description}</h5>
+                <h4 className={styles.serviceTile}>{skill.title}</h4>
+                <h5>{skill.description}</h5>
               </div>
             )
           })
@@ -90,4 +90,4 @@ const Services = () => {
     </div>
   )
 }
-export default Services
+export default Skills

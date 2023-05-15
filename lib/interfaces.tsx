@@ -31,7 +31,7 @@ interface Url {
   name: string;
 }
 
-export interface Service {
+export interface Skill {
   title: string;
   description: string;
 }
