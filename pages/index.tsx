@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className={styles.homepage}>
       <div className={styles.homepageAboveFold}>
-        <h1 className={styles.aboveFoldHeader}>KDS Studios is a digital studio and the design practice of Kimi Spencer.</h1>
+        <h1 className={styles.aboveFoldHeader}>KDS Studios is a digital product studio, and the design practice of Kimi Spencer.</h1>
       </div>
       <div className={styles.homepageSlide}>
         <div

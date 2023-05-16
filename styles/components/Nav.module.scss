@@ -26,6 +26,10 @@
   text-decoration: none;
 }
 
+.logo {
+  @extend .largeFont;
+}
+
 .navLinks {
   position: relative;
   top: 0;
