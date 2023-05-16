@@ -17,7 +17,8 @@ const ProjectTile = ({ project, priority }: ProjectTileProps) => {
           <LazyImage
             priority={priority}
             keyString={project.slug}
-            src={"/images/" + project.imageKey + "/" + project.indexImage} //"https://loremflickr.com/400/400"
+            imageKey={project.imageKey}
+            fileName={project.indexImage}
             alt={project.title}
             className={styles.projectImage}
           />

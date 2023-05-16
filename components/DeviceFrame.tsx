@@ -1,7 +1,7 @@
 import LazyImage from '@/components/LazyImage'
 import { ProjectImage } from '@/lib/interfaces'
 import ScreenshotImage from "@/components/ScreenshotImage"
-import concatClassnames from '@/lib/functions'
+import { concatClassnames } from '@/lib/functions'
 import styles from '@/styles/components/DeviceFrame.module.scss'
 
 type Props = {
@@ -27,7 +27,8 @@ const DeviceFrame = ({ priority, image, imageKey, backgroundColor, fullscreen }:
               <LazyImage
                 priority={priority}
                 keyString={imageKey + "-" + image.imageFile}
-                src={"/images/" + imageKey + "/" + image.imageFile}
+                imageKey={imageKey}
+                fileName={image.imageFile}
                 alt={image.imageText}
                 className={styles.deviceImage}
               />
@@ -53,7 +54,8 @@ const DeviceFrame = ({ priority, image, imageKey, backgroundColor, fullscreen }:
               <LazyImage
                 priority={priority}
                 keyString={imageKey + "-" + image.imageFile}
-                src={"/images/" + imageKey + "/" + image.imageFile}
+                imageKey={imageKey}
+                fileName={image.imageFile}
                 alt={image.imageText}
                 className={styles.deviceImage}
               />

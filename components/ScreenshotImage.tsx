@@ -1,6 +1,6 @@
 import LazyImage from '@/components/LazyImage'
 import { ProjectImage } from '@/lib/interfaces'
-import concatClassnames from '@/lib/functions'
+import { concatClassnames } from '@/lib/functions'
 import styles from '@/styles/components/ScreenshotImage.module.scss'
 
 type Props = {
@@ -23,7 +23,8 @@ const ScreenshotImage = ({ priority, image, imageKey, backgroundColor, fullscree
         <LazyImage
           priority={priority}
           keyString={imageKey + "-" + image.imageFile}
-          src={"/images/" + imageKey + "/" + image.imageFile}
+          imageKey={imageKey}
+          fileName={image.imageFile}
           alt={image.imageText}
           className={styles.screenshotImage}
         />

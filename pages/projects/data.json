@@ -8,30 +8,30 @@
   , "copy": "Lead product designer, creating the foundational core interface for Smarty's responsive desktop & mobile app, and Chrome extension. Working closely with the CEO and engineering team, created the foundational UI component library and app interfaces, as well as conducted user research & testing."
   , "backgroundColor": "#17486D"
   , "imageKey": "smarty"
-  , "indexImage": "index.png"
+  , "indexImage": "index_mcyprd.png"
   , "fullscreen": false
   , "images":
-      [ { "imageFile": "desktop-00.jpg"
+      [ { "imageFile": "desktop-00_si6twc.jpg"
         , "imageText": "To communicate the power of Smarty's suite of scheduling & task management tools powered by a natural language processing interface with a low barrier to entry, a marketing site was designed with animated visual content & graphics to demonstrate how Smarty can help users."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-01.jpg"
+      , { "imageFile": "desktop-01_sjfnjb.jpg"
         , "imageText": "After user testing and research the sign-up experience was designed to allow first-time users explore the app interface without requiring any login or form information. Thus lowering the barrier to entry and letting users test out Smarty's suite of features, as well as onboard to the app through engagement with the platform itself."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-02.jpg"
+      , { "imageFile": "desktop-02_n7owis.jpg"
         , "imageText": "The Smarty app allows users to input content through a purely textual interface, such as the / command to set Tasks, Notes, Events and Scheduling Links. Both calendar events and tasks list were designed to be unified into one clean view, allowing users to more efficiently use their time without context switching between multiple applications."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-03.jpg"
+      , { "imageFile": "desktop-03_v9ig3f.jpg"
         , "imageText": "Based on user research of existing systems & methodologies Smarty's target demographic uses to handle managing tasks & scheduling events, the app was designed to emphasize a clean minimal UI so users can focus on what's important. To add contextual information when required, users can simply type as they would in a physical notebook or calendar, triggering natural language driven actions."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-04.jpg"
+      , { "imageFile": "desktop-04_v8uelm.jpg"
         , "imageText": "Smarty handles task management and scheduling for users, and the AI powered auto-scheduling feature allows users to avoid conflicts and prioritize their most important tasks. The UI was designed to help automate actions for users but still allow them to have discrete control."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-05.jpg"
+      , { "imageFile": "desktop-05_eymraa.jpg"
         , "imageText": "Users can also view their scheduled Tasks & Events in a calendar UI view, and create shareable Scheduling Links. Free times are auto-detected, and reminders go out automatically; with the app design streamlined to help users take the work out of connecting with others, so they can focus on the activity at hand itself not scheduling it."
         , "imageType": "screenshot"
         }
@@ -55,34 +55,34 @@
   , "copy": "Product designer and developer of a modular UI component library to maintain cohesiveness across Lumi's various app user interfaces and visual design. Senior front-end engineer contributing to the migration of Lumi's web applications into a strongly-typed functional programming language, on top of a React framework."
   , "backgroundColor": "#9E9B1C"
   , "imageKey": "lumi"
-  , "indexImage": "index.png"
+  , "indexImage": "index_twciyu.png"
   , "fullscreen": false
   , "images":
-      [ { "imageFile": "desktop-00.jpg"
+      [ { "imageFile": "desktop-00_kt9yef.jpg"
         , "imageText": "Lumi provides services to users that are consumer brands in need of packaging as well as packaging suppliers & manufacturers, to communicate to these multiple user demographics a marketing site was designed to provide tailored content to both buyers and suppliers."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-01.png"
+      , { "imageFile": "desktop-01_crelk5.png"
         , "imageText": "Initial design focus was to standardize the app experience by establishing a modular UI component library for both the consumer brand-facing dashboard and the manufacturer-facing dashboard. For the buyer's app, users needed to be able to easily create & purchase any custom packaging needs."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-02.png"
+      , { "imageFile": "desktop-02_esmwtr.png"
         , "imageText": "Consumer brand users needed to be able to select and specify their packaging requirements and designs, so the app experience was designed to easily assist users digest high-density data about pakacaging products, flow into the cart & payment funnel, and view essential information about quantity & price."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "flapjack-00-supplier-recommendations.jpg"
+      , { "imageFile": "flapjack-00-supplier-recommendations_kxwgnv.jpg"
         , "imageText": "To assist consumer brands in comparing across a marketplace of many manufacturers, an interface was created for displaying rich data regarding packaging specifications, quote comparisons and lead times."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "flapjack-00-supplier-profile.jpg"
+      , { "imageFile": "flapjack-00-supplier-profile_kydp8p.jpg"
         , "imageText": "From the manufacturer's perspective, they needed to be able to market themselves to prospective consumer brands. So an app UI to create unique manufacturer profiles with detailed information about their products & services and a scorecard rating was designed."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "bravo-00.jpg"
+      , { "imageFile": "bravo-00_a5b3uk.jpg"
         , "imageText": "The manufacturer dashboard utilizes the same UI component library to standardize visual cohesiveness, but with a UX focus on the manufacturer's need to respond to consumer brand requests, providing quotes, feedback, and status updates."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "ui-components.jpg"
+      , { "imageFile": "ui-components_ahj0vm.jpg"
         , "imageText": "A modular UI component library example for a LabeledField input. By designing and utilizing a reusable modular component library & establishing a design system, each app targeted for a specific user demographic maintained visual branding consistency and user experience."
         , "imageType": "screenshot"
         }
@@ -102,26 +102,26 @@
   , "copy": "Lead product designer & front-end engineer responsible for the creation and implementation of all front-end code and interface design for a responsive, cross-platform e-commerce web app. As well as designing and developing bi-weekly interactive campaigns, supported multiple product launches, and improved the site interface based on A/B studies."
   , "backgroundColor": "#36060A"
   , "imageKey": "arrivals"
-  , "indexImage": "index.jpg"
+  , "indexImage": "index_zpp9zz.jpg"
   , "fullscreen": false
   , "images":
-      [ { "imageFile": "desktop-00.jpg"
+      [ { "imageFile": "desktop-00_pnqeg0.jpg"
         , "imageText": "As a high-end NYC fashion line, The Arrivals required bi-weekly interactive campaigns, supporting multiple product launches. Creating new campaign designs in regular sprint intervals required standardization of the Arrival's branded visual design system and prioritizing high impact & fast turn over of designs."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-01.jpg"
+      , { "imageFile": "desktop-01_wzpfw6.jpg"
         , "imageText": "The interactive e-commerce store was designed & developed to display the rich array of products in multiple-styles, with a focus on the consumer user navigation experience by creating sorting filters based on best selling, price or inventory."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-02.jpg"
+      , { "imageFile": "desktop-02_h3ssv4.jpg"
         , "imageText": "Product detail pages needed to display rich imagery detailing the product's aesthetic as well as information regarding fit, materials, and allowing users to receive contextual information before making a purchase commitment. As well as designed to provide suggestions of similar product styles to leverage user interest. "
         , "imageType": "screenshot"
         }
-      , { "imageFile": "phone-00.jpg"
+      , { "imageFile": "phone-00_bphwzt.jpg"
         , "imageText": "As an e-commerce brand, The Arrivals needed mobile-first designs so users could view and purchase products across any device type, and a responsive website UX was designed & developed."
         , "imageType": "iphone"
         }
-      , { "imageFile": "phone-01.jpg"
+      , { "imageFile": "phone-01_mi5u4f.jpg"
         , "imageText": "With an emphasis on its architectural roots, a structural & textured UI was created focusing on visually displaying compelling imagery and video content."
         , "imageType": "iphone"
         }
@@ -141,26 +141,26 @@
   , "copy": "Primary UI/UX designer and front-end engineer for the premier launch of the online edition SUITED magazine. Created a customized CMS driven template design built on top of the SquareSpace developer platform. Collaborated one-on-one with the Creative Director & Editor-in-Chief to translate the print publication brand into a digital experience."
   , "backgroundColor": "#010101"
   , "imageKey": "suited"
-  , "indexImage": "index.jpg"
+  , "indexImage": "index_cxa5mu.jpg"
   , "fullscreen": false
   , "images":
-      [ { "imageFile": "desktop-00.jpg"
+      [ { "imageFile": "desktop-00_grb6ee.jpg"
         , "imageText": "As a print publication, translating the SUITED experience online focused on designing a UI that highlights rich imagery and featured content. As content needed to be regularly updated, a custom CMS driven template was created on top of the SquareSpace developer platform."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-01.jpg"
+      , { "imageFile": "desktop-01_viqxjl.jpg"
         , "imageText": "Because SUITED's initial experience was their printed content, the site was designed to highlight previous issues and leverage site visits into opportunities for users to order hard copies."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-02.jpg"
+      , { "imageFile": "desktop-02_j2vnfj.jpg"
         , "imageText": "SUITED magazine's aesthetic is minimal, black & white and high-end. The site was designed to emphasize the physical experience into a fashion and art focused digital site."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "phone-00.jpg"
+      , { "imageFile": "phone-00_fhkper.jpg"
         , "imageText": "Mobile accessibility was of importance so users could experience the site across a variety of devices. The site was designed and developed mobile-first."
         , "imageType": "iphone"
         }
-      , { "imageFile": "phone-01.jpg"
+      , { "imageFile": "phone-01_dpupjy.jpg"
         , "imageText": "With the mobile device UX in mind, the mobile app version of the site prioritized the rich imagery and content to be viewed as easily on phones as desktops."
         , "imageType": "iphone"
         }
@@ -180,14 +180,14 @@
   , "copy": "Lead product designer & front-end engineer for Onomie to help it stand out from a competitive market by featuring interactive trials and science backed beauty products."
   , "backgroundColor": "#ECD9D4"
   , "imageKey": "onomie"
-  , "indexImage": "index.jpg"
+  , "indexImage": "index_znl5gq.jpg"
   , "fullscreen": false
   , "images":
-      [ { "imageFile": "desktop-00.jpg"
+      [ { "imageFile": "desktop-00_reuedh.jpg"
         , "imageText": "Onomie is an e-commerce brand using scientific backing for its skincare and makeup products. To emphasize the power of Onomie's skincare products on the site, interactive before & after UI sliders and visual illustrations were used to demonstrate the quality of product ingredients and effect on skin improvement."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "phone-00.jpg"
+      , { "imageFile": "phone-00_xlzqhw.jpg"
         , "imageText": "As an e-commerce site, the experience was designed mobile-first, so users could experience and purchase Onomie products on a variety of devices."
         , "imageType": "iphone"
         }
@@ -205,30 +205,30 @@
   , "description": "A proposal for a new Willard Park Community Center (located in Berkeley, CA) inspired by the action word “emergence” and the concept of subtractive openness “to carve”— designed with the intention of creating a building that is an extension of the ground, and is carved open to external air and light."
   , "copy": "Visual and architectural designer of a 3D spatial proposal in Rhino, as well as isometric and blueprint designs to communicate the vision for a reimagined community center in Willard Park. Using Photoshop, visuals were created to demonstrate how community members would experience the space."
   , "imageKey": "architecture"
-  , "indexImage": "index.jpg"
+  , "indexImage": "index_ds3teu.jpg"
   , "fullscreen": true
   , "images":
-      [ { "imageFile": "00.jpg"
+      [ { "imageFile": "00_khd9dq.jpg"
         , "imageText": "The Willard Park proposal is architectural exploration of how an existing public space could be utilized to better serve the community while respecting the natual landscape."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "01.jpg"
+      , { "imageFile": "01_uhyxpu.jpg"
         , "imageText": "Designed to communicate a multi-dimensional exploration of how layered designs would operate cohesively. The foundational earthen mound informs the basis of the design. The building’s structure is extended from the topography and the interior courtyard carved out. The main body of the structure is surrounded by the mounded earth. The structure is created by a balance between curvature and angular cuts."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "02.jpg"
+      , { "imageFile": "02_qk6jfj.jpg"
         , "imageText": "Detailed layouts were created to show how users would utilize the space; providing public restrooms, office spaces for staff and community spaces for events and classes."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "03.jpg"
+      , { "imageFile": "03_n2gnmo.jpg"
         , "imageText": "A top-level view of a green roof design integrated into the natural landscape that also provides additional usable space for community members to explore and use for recreational purposes."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "04.jpg"
+      , { "imageFile": "04_zy6i7b.jpg"
         , "imageText": "The green roof design integrates into the natural landscape of the park and creates a seamless extension, the open-air corridor and rooms are made of planked concrete as an affordable and durable option that represents organic materials; with steel guard railings built along the walkable green roof around the courtyard for safety. And large glass windows allow external views into the interior, and provide light to all the rooms."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "05.jpg"
+      , { "imageFile": "05_ytalbo.jpg"
         , "imageText": "The courtyard plays with natural materiality: stone, wood, earthen supports for a vertical garden, as well as contain interior trees and small garden areas. The vertical gardens in the courtyard reinforce the connection of the structure as emergent from the earth."
         , "imageType": "screenshot"
         }
@@ -247,22 +247,22 @@
   , "copy": "Lead designer & developer for Tom Tom's e-commerce platform to leverage site visits into opportunities to sell the publication or goods related to the brand. Using the Shopify CMS a custom responsive template theme was designed and developed for the Tom Tom store."
   , "backgroundColor": "#466638"
   , "imageKey": "tom-tom"
-  , "indexImage": "index.jpg"
+  , "indexImage": "index_qlv9aq.jpg"
   , "fullscreen": false
   , "images":
-      [ { "imageFile": "desktop-00.jpg"
+      [ { "imageFile": "desktop-00_rk4b3t.jpg"
         , "imageText": "As a print publication Tom Tom Magazine needed a digital site that reflected their focus on music related content."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-01.png"
+      , { "imageFile": "desktop-01_apeeoi.png"
         , "imageText": "Additionally an e-commerce site was needed for users to purchase branded products, and was built by creating a custom Shopify template with CMS integration. Allowing team members to easily track inventory and sales related data."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "phone-00.jpg"
+      , { "imageFile": "phone-00_g3ussj.jpg"
         , "imageText": "Responsive mobile-first designs were implemented to create a seamless experience on across a variety of devices for users."
         , "imageType": "iphone"
         }
-      , { "imageFile": "phone-01.png"
+      , { "imageFile": "phone-01_b8mg99.png"
         , "imageText": "As well as the mobile designs for the e-commerce site experience."
         , "imageType": "iphone"
         }
@@ -280,18 +280,18 @@
   , "description": "Data visualization of language patterns and lyrical analysis of top Billboard charting songs over the 20th century."
   , "copy": "Creative director & developer of a data visualization examining language patterns in musical lyrics over time, revealing cultural trends and moods of different time periods as expressed in top-charting songs. Presented as large format digital images and print posters."
   , "imageKey": "data-viz"
-  , "indexImage": "index.jpg"
+  , "indexImage": "index_ojot2o.jpg"
   , "fullscreen": true
   , "images":
-      [ { "imageFile": "00.jpg"
+      [ { "imageFile": "00_nl0ni3.jpg"
         , "imageText": "What do popular song lyrics say about cultural moods, concerns and political issues of different times? To answer this question and because no database of this information existed at the time, a Python web scraping script was developed to pull lyrics from the top Billboard charts since its inception in the early 1900's. Using a Java based IDE and natural language processing, frequencies of noun entities (such as \"I\" and \"you\"), as well as common verbs that express relationships between those entities (such as \"love\", or \"hate\") were visualized."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "02.jpg"
+      , { "imageFile": "01_bs8nk7.jpg"
         , "imageText": "With this data visualization topical patterns of time became evident, as song lyrics from different decades reveal societal patterns and trending topics."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "03.jpg"
+      , { "imageFile": "02_ydrfxz.jpg"
         , "imageText": "Frequency of keywords were used to weight their size (more frequent use of a noun phrase resulted in a larger font size), and bézier curves to visualization semantic linkages between different keyword entities."
         , "imageType": "screenshot"
         }

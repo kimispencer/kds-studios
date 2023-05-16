@@ -11,7 +11,8 @@ const About = () => {
         <LazyImage
           priority={true}
           keyString={"about-00"}
-          src="/images/about/profile.jpg"
+          imageKey="about"
+          fileName="profile_v3qfvn.jpg"
           alt="About KDS Studios"
           className={styles.aboutImage}
         />
