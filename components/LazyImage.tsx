@@ -1,6 +1,6 @@
-import { CldImage } from 'next-cloudinary';
+import Image from 'next/image'
 import { useState } from 'react'
-import { concatClassnames, getImageSrc } from '@/lib/functions'
+import { concatClassnames, getImageUrl } from '@/lib/functions'
 import styles from '@/styles/components/LazyImage.module.scss'
 
 type Props = {
@@ -21,20 +21,20 @@ const LazyImage = ({ priority, keyString, imageKey, fileName, alt, className }: 
           <div className={styles.loadingSpinner}></div>
         </div>
       )}
-      <CldImage
+      <Image
         priority={priority}
         key={keyString}
-        src={getImageSrc(imageKey, fileName)}
+        src={getImageUrl(imageKey, fileName)}
         alt={alt}
         loading={priority ? undefined : "lazy"}
         fill
         sizes="100%"
         className={concatClassnames(
-          className ? className : "",
-          styles.lazyImage,
-          isLoading
-            ? styles.loading
-            : styles.loaded
+          className ? className : ""
+          , styles.lazyImage
+          , isLoading
+              ? styles.loading
+              : styles.loaded
         )}
         onLoadingComplete={() => setLoading(false)}
       />
