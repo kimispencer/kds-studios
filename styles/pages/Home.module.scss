@@ -1,5 +1,16 @@
 @import 'variables';
 
+@mixin homepageImageAspectRatio {
+  aspect-ratio: 16/10;
+  // fallback
+  @supports not (aspect-ratio: 16/10) {
+    padding-bottom: calc(10 / 16 * 100%);
+    height: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
 .homepage {
   width: 100%;
   min-height: calc(100vh - #{$navBar_height});
@@ -35,9 +46,11 @@
   padding: calc(#{$defaultSpacing} * 4) 0;
 }
 
-.homepageFeaturedWorkImage {
-  width: 90% !important;
-  padding: calc(#{$defaultSpacing} * 2) 0;
+.homepageImageContainer {
+  position: relative;
+  width: 90%;
+  margin: calc(#{$defaultSpacing} * 2) 0;
+  @include homepageImageAspectRatio;
 }
 
 .featuredWorkText {

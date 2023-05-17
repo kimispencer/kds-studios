@@ -16,14 +16,15 @@ const Home = () => {
           style={{backgroundImage: "url(" + getImageUrl("homepage", "featured-work-00_rfb5am.jpg") + ")"}}
         >
           <h2>Featured Work</h2>
-          <LazyImage
-            priority={true}
-            keyString="featuredWork"
-            imageKey={imageKey}
-            fileName="featured-project-00_gy0qa7.jpg"
-            alt="Featured work"
-            className={styles.homepageFeaturedWorkImage}
-          />
+          <div className={styles.homepageImageContainer}>
+            <LazyImage
+              priority={true}
+              keyString="featuredWork"
+              imageKey={imageKey}
+              fileName="featured-project-00_vkava1.jpg"
+              alt="Featured work"
+            />
+          </div>
           <h5 className={styles.featuredWorkText}>Responsive website design and development for a NYC based fashion line.</h5>
           <Link href="/projects/the-arrivals" className={styles.featuredWorkLink}><h5>View project</h5></Link>
         </div>
@@ -38,14 +39,15 @@ const Home = () => {
           style={{backgroundImage: "url(" + getImageUrl("homepage", "/featured-work-01_w941ex.jpg") + ")"}}
         >
           <h2>Case Study</h2>
-          <LazyImage
-            priority={false}
-            keyString="featuredWork"
-            imageKey={imageKey}
-            fileName="featured-project-01_uj2l5l.jpg"
-            alt="Featured work"
-            className={styles.homepageFeaturedWorkImage}
-          />
+          <div className={styles.homepageImageContainer}>
+            <LazyImage
+              priority={false}
+              keyString="featuredWork"
+              imageKey={imageKey}
+              fileName="featured-project-01_uj2l5l.jpg"
+              alt="Featured work"
+            />
+          </div>
           <h5 className={styles.featuredWorkText}>Website and UI component library design and development for an LA based packaging company.</h5>
           <Link href="/projects/lumi" className={styles.featuredWorkLink}><h5>View project</h5></Link>
         </div>
