@@ -1,4 +1,4 @@
-import { Skill, Tool } from '@/lib/interfaces';
+import { Skill, Tool } from '@/util/interfaces';
 import styles from '@/styles/pages/Skills.module.scss'
 
 const skills: Skill[] =

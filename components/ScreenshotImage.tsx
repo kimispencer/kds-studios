@@ -1,6 +1,6 @@
 import LazyImage from '@/components/LazyImage'
-import { ProjectImage } from '@/lib/interfaces'
-import { concatClassnames } from '@/lib/functions'
+import { ProjectImage } from '@/util/interfaces'
+import { concatClassnames } from '@/util/functions'
 import styles from '@/styles/components/ScreenshotImage.module.scss'
 
 type Props = {

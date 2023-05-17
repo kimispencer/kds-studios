@@ -1,4 +1,4 @@
-import { Project } from '@/lib/interfaces';
+import { Project } from '@/util/interfaces';
 import ProjectTile from '@/components/ProjectTile'
 import styles from '@/styles/components/ProjectGrid.module.scss'
 

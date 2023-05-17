@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import { useState } from 'react'
-import { concatClassnames, getImageUrl } from '@/lib/functions'
+import { useEffect, useState } from 'react'
+import { concatClassnames, getImageUrl, getBase64ImageUrl } from '@/util/functions'
 import styles from '@/styles/components/LazyImage.module.scss'
 
 type Props = {
@@ -13,31 +13,40 @@ type Props = {
 }
 
 const LazyImage = ({ priority, keyString, imageKey, fileName, alt, className }: Props) => {
-  const [isLoading, setLoading] = useState(true)
+  const [blurDataURL, setBlurDataURL] = useState('')
+
+  useEffect(() => {
+    const fetchBlurDataURL = async () => {
+      const url = await getBase64ImageUrl(imageKey, fileName);
+      setBlurDataURL(url);
+    };
+
+    fetchBlurDataURL();
+  }, [imageKey, fileName])
+
   return (
     <div className={styles.lazyImageContainer}>
-      {isLoading && (
+      {!blurDataURL ?
         <div className={styles.loadingSpinnerContainer}>
           <div className={styles.loadingSpinner}></div>
         </div>
-      )}
-      <Image
-        priority={priority}
-        key={keyString}
-        src={getImageUrl(imageKey, fileName)}
-        alt={alt}
-        loading={priority ? undefined : "lazy"}
-        fill
-        sizes="100%"
-        className={concatClassnames(
-          className ? className : ""
-          , styles.lazyImage
-          , isLoading
-              ? styles.loading
-              : styles.loaded
-        )}
-        onLoadingComplete={() => setLoading(false)}
-      />
+        :<Image
+          priority={priority}
+          key={keyString}
+          src={getImageUrl(imageKey, fileName)}
+          alt={alt}
+          loading={priority ? undefined : "lazy"}
+          fill
+          sizes="100vw"
+          quality={75}
+          placeholder="blur"
+          blurDataURL={blurDataURL}
+          className={concatClassnames(
+            className ? className : ""
+            , styles.lazyImage
+          )}
+        />
+      }
     </div>
   )
 }

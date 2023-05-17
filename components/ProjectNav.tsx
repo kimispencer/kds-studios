@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { Project } from '@/lib/interfaces'
-import { concatClassnames } from '@/lib/functions'
+import { Project } from '@/util/interfaces'
+import { concatClassnames } from '@/util/functions'
 import styles from '@/styles/components/ProjectNav.module.scss'
 
 type Props = {

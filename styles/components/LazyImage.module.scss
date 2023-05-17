@@ -35,13 +35,4 @@
   top: 0;
   left: 0;
   transition: $opacityTransition;
-
-  &.loading {
-    scale: 1.1;
-    filter: blur(40px);
-  }
-  &.loaded {
-    scale: 1;
-    filter: blur(0);
-  }
 }

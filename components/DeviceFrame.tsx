@@ -1,7 +1,7 @@
 import LazyImage from '@/components/LazyImage'
-import { ProjectImage } from '@/lib/interfaces'
+import { ProjectImage } from '@/util/interfaces'
 import ScreenshotImage from "@/components/ScreenshotImage"
-import { concatClassnames } from '@/lib/functions'
+import { concatClassnames } from '@/util/functions'
 import styles from '@/styles/components/DeviceFrame.module.scss'
 
 type Props = {

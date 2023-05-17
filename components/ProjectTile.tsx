@@ -1,6 +1,6 @@
 import LazyImage from '@/components/LazyImage'
 import Link from 'next/link'
-import { Project } from '@/lib/interfaces';
+import { Project } from '@/util/interfaces';
 import styles from '@/styles/components/ProjectTile.module.scss'
 
 type ProjectTileProps = {

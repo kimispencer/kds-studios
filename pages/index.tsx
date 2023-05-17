@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import LazyImage from '@/components/LazyImage'
-import { getImageUrl } from '@/lib/functions'
+import { getImageUrl } from '@/util/functions'
 import styles from '@/styles/pages/Home.module.scss'
 
 const Home = () => {

@@ -1,7 +1,7 @@
 import { NextPage, GetStaticPaths, GetStaticProps } from "next"
 import Link from 'next/link'
-import { concatClassnames } from '@/lib/functions'
-import { Project } from '@/lib/interfaces'
+import { concatClassnames } from '@/util/functions'
+import { Project } from '@/util/interfaces'
 import ProjectNav from "@/components/ProjectNav"
 import DeviceFrame from "@/components/DeviceFrame"
 import ScreenshotImage from "@/components/ScreenshotImage"
