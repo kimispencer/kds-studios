@@ -12,7 +12,7 @@ const About = () => {
           priority={true}
           keyString={"about-00"}
           imageKey="about"
-          fileName="profile_v3qfvn.jpg"
+          fileName="profile_bdcmco.jpg"
           alt="About KDS Studios"
           className={styles.aboutImage}
         />

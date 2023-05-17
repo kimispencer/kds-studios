@@ -13,7 +13,7 @@ const Home = () => {
       <div className={styles.homepageSlide}>
         <div
           className={styles.homepageSlideBackgroundImage}
-          style={{backgroundImage: "url(" + getImageUrl("homepage", "featured-work-00_rfb5am.jpg") + ")"}}
+          style={{backgroundImage: "url(" + getImageUrl("homepage", "featured-work-00-alt_aqzgfn.jpg") + ")"}}
         >
           <h2>Featured Work</h2>
           <div className={styles.homepageImageContainer}>
