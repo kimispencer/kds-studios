@@ -13,6 +13,7 @@ type Props = {
 }
 
 const LazyImage = ({ priority, keyString, imageKey, fileName, alt, className }: Props) => {
+  const [isLoading, setLoading] = useState(true)
   const [blurDataURL, setBlurDataURL] = useState('')
 
   useEffect(() => {
@@ -30,22 +31,26 @@ const LazyImage = ({ priority, keyString, imageKey, fileName, alt, className }: 
         <div className={styles.loadingSpinnerContainer}>
           <div className={styles.loadingSpinner}></div>
         </div>
-        :<Image
-          priority={priority}
-          key={keyString}
-          src={getImageUrl(imageKey, fileName)}
-          alt={alt}
-          loading={priority ? undefined : "lazy"}
-          fill
-          sizes="100vw"
-          quality={75}
-          placeholder="blur"
-          blurDataURL={blurDataURL}
-          className={concatClassnames(
-            className ? className : ""
-            , styles.lazyImage
-          )}
-        />
+        : <Image
+            priority={priority}
+            key={keyString}
+            src={getImageUrl(imageKey, fileName)}
+            alt={alt}
+            loading={priority ? undefined : "lazy"}
+            fill
+            sizes="100vw"
+            quality={75}
+            placeholder="blur"
+            blurDataURL={blurDataURL}
+            className={concatClassnames(
+              className ? className : ""
+              , styles.lazyImage
+              , isLoading
+                  ? styles.loading
+                  : styles.loaded
+            )}
+            onLoad={() => setLoading(false)}
+          />
       }
     </div>
   )
