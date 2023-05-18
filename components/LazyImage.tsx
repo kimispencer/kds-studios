@@ -36,7 +36,6 @@ const LazyImage = ({ priority, keyString, imageKey, fileName, alt, className }: 
             key={keyString}
             src={getImageUrl(imageKey, fileName)}
             alt={alt}
-            loading={priority ? undefined : "lazy"}
             fill
             sizes="(max-width: 768px) 70vw, 1400px"
             quality={75}
