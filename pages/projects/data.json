@@ -11,7 +11,7 @@
   , "indexImage": "index_mcyprd.png"
   , "fullscreen": false
   , "images":
-      [ { "imageFile": "desktop-00_si6twc.jpg"
+      [ { "imageFile": "desktop-00-alt_wnqbk1.jpg"
         , "imageText": "To communicate the power of Smarty's suite of scheduling & task management tools powered by a natural language processing interface with a low barrier to entry, a marketing site was designed with animated visual content & graphics to demonstrate how Smarty can help users."
         , "imageType": "screenshot"
         }
@@ -58,7 +58,7 @@
   , "indexImage": "index_twciyu.png"
   , "fullscreen": false
   , "images":
-      [ { "imageFile": "desktop-00_kt9yef.jpg"
+      [ { "imageFile": "desktop-00-alt_zivikv.jpg"
         , "imageText": "Lumi provides services to users that are consumer brands in need of packaging as well as packaging suppliers & manufacturers, to communicate to these multiple user demographics a marketing site was designed to provide tailored content to both buyers and suppliers."
         , "imageType": "screenshot"
         }
@@ -70,11 +70,11 @@
         , "imageText": "Consumer brand users needed to be able to select and specify their packaging requirements and designs, so the app experience was designed to easily assist users digest high-density data about pakacaging products, flow into the cart & payment funnel, and view essential information about quantity & price."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "flapjack-00-supplier-recommendations_kxwgnv.jpg"
+      , { "imageFile": "flapjack-00-supplier-recommendations-alt_ebe1g3.jpg"
         , "imageText": "To assist consumer brands in comparing across a marketplace of many manufacturers, an interface was created for displaying rich data regarding packaging specifications, quote comparisons and lead times."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "flapjack-00-supplier-profile_kydp8p.jpg"
+      , { "imageFile": "flapjack-00-supplier-profile-alt-2_hq20qf.jpg"
         , "imageText": "From the manufacturer's perspective, they needed to be able to market themselves to prospective consumer brands. So an app UI to create unique manufacturer profiles with detailed information about their products & services and a scorecard rating was designed."
         , "imageType": "screenshot"
         }
@@ -105,7 +105,7 @@
   , "indexImage": "index_zpp9zz.jpg"
   , "fullscreen": false
   , "images":
-      [ { "imageFile": "desktop-00_pnqeg0.jpg"
+      [ { "imageFile": "desktop-00-alt_jg0jcn.jpg"
         , "imageText": "As a high-end NYC fashion line, The Arrivals required bi-weekly interactive campaigns, supporting multiple product launches. Creating new campaign designs in regular sprint intervals required standardization of the Arrival's branded visual design system and prioritizing high impact & fast turn over of designs."
         , "imageType": "screenshot"
         }
@@ -113,11 +113,11 @@
         , "imageText": "The interactive e-commerce store was designed & developed to display the rich array of products in multiple-styles, with a focus on the consumer user navigation experience by creating sorting filters based on best selling, price or inventory."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-02_h3ssv4.jpg"
+      , { "imageFile": "desktop-02-alt_qpzl9s.jpg"
         , "imageText": "Product detail pages needed to display rich imagery detailing the product's aesthetic as well as information regarding fit, materials, and allowing users to receive contextual information before making a purchase commitment. As well as designed to provide suggestions of similar product styles to leverage user interest. "
         , "imageType": "screenshot"
         }
-      , { "imageFile": "phone-00_bphwzt.jpg"
+      , { "imageFile": "phone-00-alt_klkoug.jpg"
         , "imageText": "As an e-commerce brand, The Arrivals needed mobile-first designs so users could view and purchase products across any device type, and a responsive website UX was designed & developed."
         , "imageType": "iphone"
         }
@@ -144,15 +144,15 @@
   , "indexImage": "index_cxa5mu.jpg"
   , "fullscreen": false
   , "images":
-      [ { "imageFile": "desktop-00_grb6ee.jpg"
+      [ { "imageFile": "desktop-00-alt_nzitee.jpg"
         , "imageText": "As a print publication, translating the SUITED experience online focused on designing a UI that highlights rich imagery and featured content. As content needed to be regularly updated, a custom CMS driven template was created on top of the SquareSpace developer platform."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-01_viqxjl.jpg"
+      , { "imageFile": "desktop-01-alt_sh0epo.jpg"
         , "imageText": "Because SUITED's initial experience was their printed content, the site was designed to highlight previous issues and leverage site visits into opportunities for users to order hard copies."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-02_j2vnfj.jpg"
+      , { "imageFile": "desktop-02-alt_lxw4wk.jpg"
         , "imageText": "SUITED magazine's aesthetic is minimal, black & white and high-end. The site was designed to emphasize the physical experience into a fashion and art focused digital site."
         , "imageType": "screenshot"
         }
@@ -183,7 +183,7 @@
   , "indexImage": "index_znl5gq.jpg"
   , "fullscreen": false
   , "images":
-      [ { "imageFile": "desktop-00_reuedh.jpg"
+      [ { "imageFile": "desktop-00-alt_garycg.jpg"
         , "imageText": "Onomie is an e-commerce brand using scientific backing for its skincare and makeup products. To emphasize the power of Onomie's skincare products on the site, interactive before & after UI sliders and visual illustrations were used to demonstrate the quality of product ingredients and effect on skin improvement."
         , "imageType": "screenshot"
         }
@@ -250,7 +250,7 @@
   , "indexImage": "index_qlv9aq.jpg"
   , "fullscreen": false
   , "images":
-      [ { "imageFile": "desktop-00_rk4b3t.jpg"
+      [ { "imageFile": "desktop-00-alt_flcebt.jpg"
         , "imageText": "As a print publication Tom Tom Magazine needed a digital site that reflected their focus on music related content."
         , "imageType": "screenshot"
         }

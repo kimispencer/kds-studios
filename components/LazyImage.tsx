@@ -38,7 +38,7 @@ const LazyImage = ({ priority, keyString, imageKey, fileName, alt, className }: 
             alt={alt}
             loading={priority ? undefined : "lazy"}
             fill
-            sizes="100vw"
+            sizes="(max-width: 768px) 70vw, 1400px"
             quality={75}
             placeholder="blur"
             blurDataURL={blurDataURL}
