@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { useEffect, useState } from 'react'
+import { useEffect, useState, CSSProperties } from 'react'
 import { concatClassnames, getImageUrl, getBase64ImageUrl } from '@/util/functions'
 import styles from '@/styles/components/LazyImage.module.scss'
 
@@ -10,9 +10,10 @@ type Props = {
   fileName: string
   alt: string
   className?: string
+  style_?: CSSProperties
 }
 
-const LazyImage = ({ priority, keyString, imageKey, fileName, alt, className }: Props) => {
+const LazyImage = ({ priority, keyString, imageKey, fileName, alt, className, style_ }: Props) => {
   const [isLoading, setLoading] = useState(true)
   const [blurDataURL, setBlurDataURL] = useState('')
 
@@ -37,18 +38,17 @@ const LazyImage = ({ priority, keyString, imageKey, fileName, alt, className }: 
             src={getImageUrl(imageKey, fileName)}
             alt={alt}
             fill
-            // sizes="(max-width: 768px) 70vw, 1400px"
             quality={75}
             placeholder="blur"
             blurDataURL={blurDataURL}
             className={concatClassnames(
-              className ? className : ""
-              , styles.lazyImage
+              styles.lazyImage
               , isLoading
                   ? styles.loading
-                  : styles.loaded
+                  : concatClassnames(styles.loaded, className ? className : "")
             )}
-            onLoad={() => setLoading(false)}
+            style={style_}
+            onLoadingComplete={() => setLoading(false)}
           />
       }
     </div>

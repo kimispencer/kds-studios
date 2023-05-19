@@ -44,7 +44,7 @@ const Home = () => {
               priority={false}
               keyString="featuredWork"
               imageKey={imageKey}
-              fileName="featured-project-01_uj2l5l.jpg"
+              fileName="featured-project-01-alt_qvfeay.jpg"
               alt="Featured work"
             />
           </div>

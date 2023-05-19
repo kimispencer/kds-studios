@@ -46,3 +46,7 @@
     @include fullImageAspectRatio;
   }
 }
+
+.screenshotImage {
+  height: auto !important;
+}
