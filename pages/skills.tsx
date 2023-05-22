@@ -10,7 +10,7 @@ const skills: Skill[] =
     , description: "Creating design prototypes, high fidelity mockups & wireframes, and user journey maps; with a focus on designing modular reusable UI component libraries and design systems."
     },
     { title: "Development"
-    , description: "Specializing in front-end web development & engineering solutions; with over 10 years experience in building responsive sites from e-commerce to high data density dashboards."
+    , description: "Specializing in front-end web development & engineering solutions; with over 10 years experience in building responsive sites from e-commerce to high density data dashboards."
     },
     { title: "Visual Design"
     , description: "Creating design systems & visual libraries to establish a brand voice and maintain cohesiveness across various digital user experiences."

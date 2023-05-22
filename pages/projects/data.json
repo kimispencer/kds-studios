@@ -12,23 +12,23 @@
   , "fullscreen": false
   , "images":
       [ { "imageFile": "desktop-00-alt_wnqbk1.jpg"
-        , "imageText": "To communicate the power of Smarty's suite of scheduling & task management tools powered by a natural language processing interface with a low barrier to entry, a marketing site was designed with animated visual content & graphics to demonstrate how Smarty can help users."
+        , "imageText": "To communicate the capabilities of Smarty's suite of scheduling & task management tools, a marketing site was designed with animated visual content & graphics to demonstrate how Smarty can help users."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-01_sjfnjb.jpg"
-        , "imageText": "After user testing and research the sign-up experience was designed to allow first-time users explore the app interface without requiring any login or form information. Thus lowering the barrier to entry and letting users test out Smarty's suite of features, as well as onboard to the app through engagement with the platform itself."
+        , "imageText": "After user testing and research, the sign-up experience was designed to let first-time users explore the app interface without requiring any login or form information. Thus lowering the barrier of entry for new users to experience Smarty's feature set, as well as onboard to the app through engagement with the platform itself."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-02_n7owis.jpg"
-        , "imageText": "The Smarty app allows users to input content through a purely textual interface, such as the / command to set Tasks, Notes, Events and Scheduling Links. Both calendar events and tasks list were designed to be unified into one clean view, allowing users to more efficiently use their time without context switching between multiple applications."
+        , "imageText": "Powered by a natural language processing interface, the Smarty app lets users build content through a purely textual UI, such as the / command to create Tasks, Notes, Events and Scheduling Links. Both calendar events and tasks list were designed to be unified into one clean view, allowing users to more efficiently use their time without context switching between multiple applications."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-03_v9ig3f.jpg"
-        , "imageText": "Based on user research of existing systems & methodologies Smarty's target demographic uses to handle managing tasks & scheduling events, the app was designed to emphasize a clean minimal UI so users can focus on what's important. To add contextual information when required, users can simply type as they would in a physical notebook or calendar, triggering natural language driven actions."
+        , "imageText": "Based on user research of existing systems & methodologies Smarty's target demographic use to handle managing tasks & scheduling events, the app was designed to emphasize a clean minimal UI so users can focus on what's important. To add contextual information when required, users can simply type as they would in a physical notebook or calendar, triggering natural language driven actions."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-04_v8uelm.jpg"
-        , "imageText": "Smarty handles task management and scheduling for users, and the AI powered auto-scheduling feature allows users to avoid conflicts and prioritize their most important tasks. The UI was designed to help automate actions for users but still allow them to have discrete control."
+        , "imageText": "Smarty handles task management and scheduling for users, and the AI powered auto-scheduling feature allows users to avoid conflicts and prioritize their most important tasks. The UI was designed to help automate actions for users but still let them have discrete control."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-05_eymraa.jpg"
@@ -59,7 +59,7 @@
   , "fullscreen": false
   , "images":
       [ { "imageFile": "desktop-00-alt_zivikv.jpg"
-        , "imageText": "Lumi provides services to users that are consumer brands in need of packaging as well as packaging suppliers & manufacturers, to communicate to these multiple user demographics a marketing site was designed to provide tailored content to both buyers and suppliers."
+        , "imageText": "Lumi provides services to users that are consumer brands in need of packaging, as well as packaging suppliers & manufacturers. To communicate to these multiple user demographics a marketing site was designed to provide tailored content to both buyers and suppliers."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-01_crelk5.png"
@@ -67,7 +67,7 @@
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-02_esmwtr.png"
-        , "imageText": "Consumer brand users needed to be able to select and specify their packaging requirements and designs, so the app experience was designed to easily assist users digest high-density data about pakacaging products, flow into the cart & payment funnel, and view essential information about quantity & price."
+        , "imageText": "Consumer brand users needed to be able to select and specify their packaging requirements and designs, so the app interface was designed to assist users in making informed decisions with high-density data about packaging products, flow into the cart & payment funnel, and view essential information about quantity & price."
         , "imageType": "screenshot"
         }
       , { "imageFile": "flapjack-00-supplier-recommendations-alt_ebe1g3.jpg"
@@ -138,7 +138,7 @@
   , "title": "SUITED Magazine"
   , "subtitle": "UI/UX, Development"
   , "description": "SUITED is a biannual fashion and art publication with a singular mission in mind: to celebrate those who have found what they are well-suited for."
-  , "copy": "Primary UI/UX designer and front-end engineer for the premier launch of the online edition SUITED magazine. Created a customized CMS driven template design built on top of the SquareSpace developer platform. Collaborated one-on-one with the Creative Director & Editor-in-Chief to translate the print publication brand into a digital experience."
+  , "copy": "Principle UI/UX designer and front-end engineer for the premier launch of the online edition SUITED magazine. Created a customized CMS driven template design built on top of the SquareSpace developer platform. Collaborated one-on-one with the Creative Director & Editor-in-Chief to translate the print publication brand into a digital experience."
   , "backgroundColor": "#010101"
   , "imageKey": "suited"
   , "indexImage": "index_cxa5mu.jpg"
@@ -172,11 +172,40 @@
       ]
   },
   { "id": 5
+  , "slug": "data-visualization"
+  , "title": "Data Visualization"
+  , "subtitle": "Visual design, Development"
+  , "description": "Data visualization of language patterns and lyrical analysis of top Billboard charting songs over the 20th century."
+  , "copy": "Creative director & developer of a data visualization examining language patterns in musical lyrics over time, revealing cultural trends and moods of different time periods as expressed in top-charting songs. Presented as large format digital images and print posters."
+  , "imageKey": "data-viz"
+  , "indexImage": "index_ojot2o.jpg"
+  , "fullscreen": true
+  , "images":
+      [ { "imageFile": "00_nl0ni3.jpg"
+        , "imageText": "What do popular song lyrics say about cultural moods, concerns and political issues of different times? To answer this question and because no database of this information existed at the time, a Python web scraping script was developed to pull lyrics from the top Billboard charts since its inception in the early 1900's. Using a Java based IDE and natural language processing, frequencies of noun entities (such as \"I\" and \"you\"), as well as common verbs that express relationships between those entities (such as \"love\", or \"hate\") were visualized."
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "01_bs8nk7.jpg"
+        , "imageText": "With this data visualization, topical patterns over time became evident as song lyrics from different decades reveal societal patterns and trending topics."
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "02_ydrfxz.jpg"
+        , "imageText": "Frequency of keywords were used to weight their size (more frequent use of a noun phrase resulted in a larger font size), and bézier curves to visualization semantic linkages between different keyword entities."
+        , "imageType": "screenshot"
+        }
+      ]
+  , "skills":
+      [ "Visual Design"
+      , "Data Visualization"
+      , "Development"
+      ]
+  },
+  { "id": 6
   , "slug": "onomie"
   , "siteUrl": "https://onomie.com/"
   , "title": "Onomie"
   , "subtitle": "UI/UX, Development"
-  , "description": "Onomie is a direct-to-consumer cosmetics brand that is a cross between skincare and makeup."
+  , "description": "Onomie is a direct-to-consumer cosmetics brand that is a cross between skincare and makeup. Created to simplify beauty by combining clinically-validated skincare formulas with advanced makeup technology."
   , "copy": "Lead product designer & front-end engineer for Onomie to help it stand out from a competitive market by featuring interactive trials and science backed beauty products."
   , "backgroundColor": "#ECD9D4"
   , "imageKey": "onomie"
@@ -196,46 +225,6 @@
       [ "Product Design"
       , "UI/UX Design & Research"
       , "Development"
-      ]
-  },
-  { "id": 6
-  , "slug": "architecture"
-  , "title": "Willard Park"
-  , "subtitle": "Visual design, Architecture"
-  , "description": "A proposal for a new Willard Park Community Center (located in Berkeley, CA) inspired by the action word “emergence” and the concept of subtractive openness “to carve”— designed with the intention of creating a building that is an extension of the ground, and is carved open to external air and light."
-  , "copy": "Visual and architectural designer of a 3D spatial proposal in Rhino, as well as isometric and blueprint designs to communicate the vision for a reimagined community center in Willard Park. Using Photoshop, visuals were created to demonstrate how community members would experience the space."
-  , "imageKey": "architecture"
-  , "indexImage": "index_ds3teu.jpg"
-  , "fullscreen": true
-  , "images":
-      [ { "imageFile": "00_khd9dq.jpg"
-        , "imageText": "The Willard Park proposal is architectural exploration of how an existing public space could be utilized to better serve the community while respecting the natual landscape."
-        , "imageType": "screenshot"
-        }
-      , { "imageFile": "01_uhyxpu.jpg"
-        , "imageText": "Designed to communicate a multi-dimensional exploration of how layered designs would operate cohesively. The foundational earthen mound informs the basis of the design. The building’s structure is extended from the topography and the interior courtyard carved out. The main body of the structure is surrounded by the mounded earth. The structure is created by a balance between curvature and angular cuts."
-        , "imageType": "screenshot"
-        }
-      , { "imageFile": "02_qk6jfj.jpg"
-        , "imageText": "Detailed layouts were created to show how users would utilize the space; providing public restrooms, office spaces for staff and community spaces for events and classes."
-        , "imageType": "screenshot"
-        }
-      , { "imageFile": "03_n2gnmo.jpg"
-        , "imageText": "A top-level view of a green roof design integrated into the natural landscape that also provides additional usable space for community members to explore and use for recreational purposes."
-        , "imageType": "screenshot"
-        }
-      , { "imageFile": "04_zy6i7b.jpg"
-        , "imageText": "The green roof design integrates into the natural landscape of the park and creates a seamless extension, the open-air corridor and rooms are made of planked concrete as an affordable and durable option that represents organic materials; with steel guard railings built along the walkable green roof around the courtyard for safety. And large glass windows allow external views into the interior, and provide light to all the rooms."
-        , "imageType": "screenshot"
-        }
-      , { "imageFile": "05_ytalbo.jpg"
-        , "imageText": "The courtyard plays with natural materiality: stone, wood, earthen supports for a vertical garden, as well as contain interior trees and small garden areas. The vertical gardens in the courtyard reinforce the connection of the structure as emergent from the earth."
-        , "imageType": "screenshot"
-        }
-      ]
-  , "skills":
-      [ "Visual Design"
-      , "Architecture"
       ]
   },
   { "id": 7
@@ -274,32 +263,43 @@
       ]
   },
   { "id": 8
-  , "slug": "data-visualization"
-  , "title": "Data Visualization"
-  , "subtitle": "Visual design, Development"
-  , "description": "Data visualization of language patterns and lyrical analysis of top Billboard charting songs over the 20th century."
-  , "copy": "Creative director & developer of a data visualization examining language patterns in musical lyrics over time, revealing cultural trends and moods of different time periods as expressed in top-charting songs. Presented as large format digital images and print posters."
-  , "imageKey": "data-viz"
-  , "indexImage": "index_ojot2o.jpg"
+  , "slug": "architecture"
+  , "title": "Willard Park"
+  , "subtitle": "Visual design, Architecture"
+  , "description": "A proposal for a new Willard Park Community Center (located in Berkeley, CA) inspired by the action word “emergence” and the concept of subtractive openness “to carve”— designed with the intention of creating a building that is an extension of the ground, and is carved open to external air and light."
+  , "copy": "Visual and architectural designer of a 3D spatial proposal in Rhino, as well as isometric and blueprint designs to communicate the vision for a reimagined community center in Willard Park. Using Photoshop, visuals were created to demonstrate how community members would experience the space."
+  , "imageKey": "architecture"
+  , "indexImage": "index_ds3teu.jpg"
   , "fullscreen": true
   , "images":
-      [ { "imageFile": "00_nl0ni3.jpg"
-        , "imageText": "What do popular song lyrics say about cultural moods, concerns and political issues of different times? To answer this question and because no database of this information existed at the time, a Python web scraping script was developed to pull lyrics from the top Billboard charts since its inception in the early 1900's. Using a Java based IDE and natural language processing, frequencies of noun entities (such as \"I\" and \"you\"), as well as common verbs that express relationships between those entities (such as \"love\", or \"hate\") were visualized."
+      [ { "imageFile": "00_khd9dq.jpg"
+        , "imageText": "The Willard Park proposal is an architectural exploration of how an existing public space could be utilized to better serve the community while respecting the natual landscape."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "01_bs8nk7.jpg"
-        , "imageText": "With this data visualization topical patterns of time became evident, as song lyrics from different decades reveal societal patterns and trending topics."
+      , { "imageFile": "01_uhyxpu.jpg"
+        , "imageText": "Designed to communicate a multi-dimensional exploration of how layered designs would operate cohesively. The foundational earthen mound informs the basis of the design. The building’s structure is extended from the topography and the interior courtyard carved out. The main body of the structure is surrounded by the mounded earth. The building is created by a balance between curvature and angular cuts."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "02_ydrfxz.jpg"
-        , "imageText": "Frequency of keywords were used to weight their size (more frequent use of a noun phrase resulted in a larger font size), and bézier curves to visualization semantic linkages between different keyword entities."
+      , { "imageFile": "02_qk6jfj.jpg"
+        , "imageText": "Detailed layouts were created to show how users would utilize the space; providing public restrooms, office spaces for staff and community spaces for events and classes."
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "03_n2gnmo.jpg"
+        , "imageText": "A top-level view of a green roof design integrated into the natural landscape that also provides additional usable space for community members to explore and use for recreational purposes."
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "04_zy6i7b.jpg"
+        , "imageText": "The green roof design integrates into the natural landscape of the park and creates a seamless extension, the open-air corridor and rooms are made of planked concrete as an affordable and durable option that represents organic materials; with steel guard railings built along the walkable green roof around the courtyard for safety. And large glass windows allow external views into the interior, and provide light to all the rooms."
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "05_ytalbo.jpg"
+        , "imageText": "The courtyard plays with natural materiality: stone, wood, earthen supports for a vertical garden, as well as contain interior trees and small garden areas. The vertical gardens in the courtyard reinforce the connection of the structure as emergent from the earth."
         , "imageType": "screenshot"
         }
       ]
   , "skills":
       [ "Visual Design"
-      , "Data Visualization"
-      , "Development"
+      , "Architecture"
       ]
   }
 ]

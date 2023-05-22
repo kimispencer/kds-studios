@@ -18,6 +18,8 @@
 
 .homepageAboveFold {
   @extend .grid;
+  padding-top: 10vmax;
+  padding-bottom: 10vmax;
 }
 
 .aboveFoldHeader {
@@ -65,6 +67,7 @@
 @media screen and (min-width: $desktop_breakpoint) {
   .homepageAboveFold {
     min-height: 75vh;
+    padding: 0;
   }
 
   .aboveFoldHeader {
