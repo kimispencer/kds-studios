@@ -80,7 +80,7 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
       <div className={styles.projectDetailSummarySlide}>
         <div className={styles.projectDetailSummary}>
           <div className={styles.projectDetailSummaryDescription}>
-            <h5>{project.copy}</h5>
+            <h5>{project.summary}</h5>
             {(project.siteUrl || project.supplementalUrl) &&
               <div className={styles.projectLinksContainer}>
                 {project.siteUrl &&

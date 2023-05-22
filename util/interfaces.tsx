@@ -10,7 +10,7 @@ export interface Project {
   title: string;
   subtitle: string;
   description: string;
-  copy: string
+  summary: string
   imageKey: string;
   indexImage: string;
   images: ProjectImage[];
