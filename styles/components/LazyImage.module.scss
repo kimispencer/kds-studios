@@ -30,6 +30,7 @@
 }
 
 .lazyImage {
+  display: block;
   object-fit: cover;
   position: relative !important;
   top: 0;

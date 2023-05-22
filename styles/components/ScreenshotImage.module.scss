@@ -1,41 +1,21 @@
 @import 'variables';
 
-@mixin fullImageAspectRatio {
-  aspect-ratio: 20/14;
-  // fallback
-  @supports not (aspect-ratio: 20/14) {
-    padding-bottom: calc(14 / 20 * 100%);
-    height: 0;
-  }
-}
-
-@mixin scrollableImageAspectRatio {
-  aspect-ratio: 16/10;
-  // fallback
-  @supports not (aspect-ratio: 16/10) {
-    padding-bottom: calc(10 / 16 * 100%);
-    height: 0;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-}
-
 .screenshotImageContainer {
   position: relative;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  @include fullImageAspectRatio;
+  @include fullBleedAspectRatio;
 }
 
 .screenshotScrollContainer {
   position: absolute;
+  @include screenshotAspectRatio;
 
   &.scrollable {
     overflow: scroll;
     width: 80%;
-    @include scrollableImageAspectRatio;
   }
   &.fullscreen {
     overflow: hidden;
@@ -43,7 +23,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-    @include fullImageAspectRatio;
   }
 }
 
