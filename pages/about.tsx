@@ -37,10 +37,10 @@ const About = () => {
           <p>CV available upon request.</p>
           <br/>
           <div className={styles.logoContainer}>
-            <Link href="https://github.com/kimispencer" target="_blank">
+            <Link href="https://www.linkedin.com/in/kimispencer/" target="_blank">
               <SvgIcon type="LinkedIn" />
             </Link>
-            <Link href="https://www.linkedin.com/in/kimispencer/" target="_blank">
+            <Link href="https://github.com/kimispencer" target="_blank">
               <SvgIcon type="Github" />
             </Link>
           </div>
