@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://kimispencer.com
-
-# Sitemaps
-Sitemap: https://kimispencer.com/sitemap.xml
