@@ -25,8 +25,8 @@ const Home = () => {
               alt="Featured work"
             />
           </div>
-          <h5 className={styles.featuredWorkText}>Responsive website design and development for a NYC based fashion line.</h5>
-          <Link href="/projects/the-arrivals" className={styles.featuredWorkLink}><h5>View project</h5></Link>
+          <h4 className={styles.featuredWorkText}>Responsive website design and development for a NYC based fashion line.</h4>
+          <Link href="/projects/the-arrivals" className={styles.featuredWorkLink}><h4>View project</h4></Link>
         </div>
         <h4 className={styles.homepageSlideText}>Kimi Spencer is a product designer, engineer & founder of KDS Studios, a digital product studio that focuses on design and development.</h4>
         <Link href="/projects" className={styles.homepageSlideLink}>
@@ -48,12 +48,12 @@ const Home = () => {
               alt="Featured work"
             />
           </div>
-          <h5 className={styles.featuredWorkText}>Website and UI component library design and development for an LA based packaging company.</h5>
-          <Link href="/projects/lumi" className={styles.featuredWorkLink}><h5>View project</h5></Link>
+          <h4 className={styles.featuredWorkText}>Website and UI component library design and development for an LA based packaging company.</h4>
+          <Link href="/projects/lumi" className={styles.featuredWorkLink}><h4>View project</h4></Link>
         </div>
         <h4 className={styles.homepageSlideText}>KDS Studios creates digital identity and experiences through concept development, UI/UX & visual design, and creative coding solutions.</h4>
         <Link href="/skills" className={styles.homepageSlideLink}>
-          <h4>Learn more</h4>
+          <h4>View all skills</h4>
       </Link>
       </div>
       <div className={styles.homepageSlide}>
@@ -62,7 +62,7 @@ const Home = () => {
           style={{backgroundImage: "url(" + getImageUrl("homepage", "/background-00_wyt8pr.jpg") + ")"}}
         >
           <h2>Amazing clients, amazing products</h2>
-          <Link href="/projects/" className={styles.featuredWorkLink}><h5>View all projects</h5></Link>
+          <Link href="/projects/" className={styles.featuredWorkLink}><h4>View all projects</h4></Link>
         </div>
       </div>
     </div>
