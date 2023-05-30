@@ -32,8 +32,8 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
     <div className={styles.projectDetailPage}>
       <div className={styles.projectDetailAboveFold}>
         <div className={styles.projectDetailAboveFoldContent}>
-          <h3 className={styles.projectDetailAboveFoldHeader}>{project.title}</h3>
-          <h3>{project.description}</h3>
+          <h2 className={styles.projectDetailAboveFoldHeader}>{project.title}</h2>
+          <h2>{project.description}</h2>
         </div>
       </div>
       <div className={styles.projectDetailImagesContainer}>

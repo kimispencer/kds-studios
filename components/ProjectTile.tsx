@@ -25,7 +25,7 @@ const ProjectTile = ({ project, priority }: ProjectTileProps) => {
           {/* <figcaption>image caption</figcaption> */}
         </figure>
         <div className={styles.projectTileHoverText}>
-          <h2>{project.title}</h2>
+          <h3>{project.title}</h3>
           <p>{project.subtitle}</p>
         </div>
       </article>

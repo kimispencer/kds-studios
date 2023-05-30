@@ -35,10 +35,10 @@ const tools: Tool[] =
     },
     { title: "Software languages"
     , description:
-        [ "React"
-        , "TypeScript & JavaScript"
+        [ "TypeScript & JavaScript"
+        , "HTML & CSS/SASS/LESS"
+        , "React"
         , "NextJS"
-        , "HTML/CSS/SASS/LESS"
         , "Git"
         ]
     },
