@@ -23,26 +23,27 @@
   display: block;
 }
 
-.homepageSlideBackgroundImage {
-  width: 100%;
-  height: 100%;
+.homepageBackgroundImageContainer {
+  position: relative;
+}
+
+.homepageImageOverlay {
+  position: relative;
   color: white;
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-size: cover;
-  background-position: center;
   padding: calc(#{$defaultSpacing} * 4) 0;
 }
 
 .homepageImageContainer {
-  position: relative;
   width: 90%;
   margin: calc(#{$defaultSpacing} * 2) 0;
   @include screenshotAspectRatio;
 }
+
 
 .featuredWorkText {
   padding: 0 $defaultSpacing;
