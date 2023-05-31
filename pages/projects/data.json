@@ -94,7 +94,7 @@
       ]
   },
   { "id": 3
-  , "slug": "the-arrivals"
+  , "slug": "arrivals"
   , "siteUrl": "https://thearrivals.com/"
   , "title": "The Arrivals"
   , "subtitle": "UI/UX, Development"
@@ -133,7 +133,7 @@
       ]
   },
   { "id": 4
-  , "slug": "suited-magazine"
+  , "slug": "suited"
   , "siteUrl": "https://suitedmagazine.com/"
   , "title": "SUITED Magazine"
   , "subtitle": "UI/UX, Development"

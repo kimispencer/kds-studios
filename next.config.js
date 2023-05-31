@@ -9,6 +9,34 @@ const nextConfig = {
   images: {
     domains: ['res.cloudinary.com'],
   },
+  async rewrites() {
+    return [
+      {
+        source: '/resume',
+        destination: '/about',
+      },
+      {
+        source: '/contact',
+        destination: '/about',
+      },
+      {
+        source: '/projects/computer-vision',
+        destination: '/projects',
+      },
+      {
+        source: '/projects/live-visuals',
+        destination: '/projects',
+      },
+      {
+        source: '/projects/plusign',
+        destination: '/projects',
+      },
+      {
+        source: '/projects/rga',
+        destination: '/projects',
+      },
+    ]
+  },
 }
 
 module.exports = nextConfig
