@@ -1,4 +1,4 @@
-import LazyImage from '@/components/LazyImage'
+import LoadingImage from '@/components/LoadingImage'
 import { ProjectImage } from '@/util/interfaces'
 import ScreenshotImage from "@/components/ScreenshotImage"
 import { concatClassnames } from '@/util/functions'
@@ -24,7 +24,7 @@ const DeviceFrame = ({ priority, image, imageKey, backgroundColor, fullscreen }:
                 styles.deviceScreen
               )}
             >
-              <LazyImage
+              <LoadingImage
                 priority={priority}
                 keyString={imageKey + "-" + image.imageFile}
                 imageKey={imageKey}
@@ -51,7 +51,7 @@ const DeviceFrame = ({ priority, image, imageKey, backgroundColor, fullscreen }:
                 styles.deviceScreen
               )}
             >
-              <LazyImage
+              <LoadingImage
                 priority={priority}
                 keyString={imageKey + "-" + image.imageFile}
                 imageKey={imageKey}

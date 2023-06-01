@@ -1,4 +1,4 @@
-import LazyImage from '@/components/LazyImage'
+import LoadingImage from '@/components/LoadingImage'
 import { ProjectImage } from '@/util/interfaces'
 import { concatClassnames } from '@/util/functions'
 import styles from '@/styles/components/ScreenshotImage.module.scss'
@@ -20,7 +20,7 @@ const ScreenshotImage = ({ priority, image, imageKey, backgroundColor, fullscree
           !fullscreen ? styles.scrollable : styles.fullscreen
         )}
       >
-        <LazyImage
+        <LoadingImage
           priority={priority}
           keyString={imageKey + "-" + image.imageFile}
           imageKey={imageKey}

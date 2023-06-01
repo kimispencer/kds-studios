@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { useEffect, useState, CSSProperties } from 'react'
 import { concatClassnames, getImageUrl, getBase64ImageUrl } from '@/util/functions'
-import styles from '@/styles/components/LazyImage.module.scss'
+import styles from '@/styles/components/LoadingImage.module.scss'
 
 type Props = {
   priority: boolean
@@ -13,7 +13,7 @@ type Props = {
   style_?: CSSProperties
 }
 
-const LazyImage = ({ priority, keyString, imageKey, fileName, alt, className, style_ }: Props) => {
+const LoadingImage = ({ priority, keyString, imageKey, fileName, alt, className, style_ }: Props) => {
   const [isLoading, setLoading] = useState(true)
   const [blurDataURL, setBlurDataURL] = useState('')
 
@@ -27,7 +27,7 @@ const LazyImage = ({ priority, keyString, imageKey, fileName, alt, className, st
   }, [imageKey, fileName])
 
   return (
-    <div className={styles.lazyImageContainer}>
+    <div className={styles.loadingImageContainer}>
       {!blurDataURL ?
         <div className={styles.loadingSpinnerContainer}>
           <div className={styles.loadingSpinner}></div>
@@ -42,7 +42,7 @@ const LazyImage = ({ priority, keyString, imageKey, fileName, alt, className, st
             placeholder="blur"
             blurDataURL={blurDataURL}
             className={concatClassnames(
-              styles.lazyImage
+              styles.loadingImage
               , isLoading
                   ? styles.loading
                   : concatClassnames(styles.loaded, className ? className : "")
@@ -55,4 +55,4 @@ const LazyImage = ({ priority, keyString, imageKey, fileName, alt, className, st
   )
 }
 
-export default LazyImage
+export default LoadingImage

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import LazyImage from '@/components/LazyImage'
+import LoadingImage from '@/components/LoadingImage'
 import { getImageUrl } from '@/util/functions'
 import styles from '@/styles/pages/Home.module.scss'
 
@@ -42,7 +42,7 @@ const Home = () => {
           <div className={styles.homepageImageOverlay}>
             <h2>Featured Work</h2>
             <div className={styles.homepageImageContainer}>
-              <LazyImage
+              <LoadingImage
                 priority={true}
                 keyString="featuredWork"
                 imageKey={imageKey}
@@ -69,7 +69,7 @@ const Home = () => {
           <div className={styles.homepageImageOverlay}>
             <h2>Case Study</h2>
             <div className={styles.homepageImageContainer}>
-              <LazyImage
+              <LoadingImage
                 priority={false}
                 keyString="caseStudy"
                 imageKey={imageKey}

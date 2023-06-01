@@ -1,4 +1,4 @@
-import LazyImage from '@/components/LazyImage'
+import LoadingImage from '@/components/LoadingImage'
 import Link from 'next/link'
 import { Project } from '@/util/interfaces';
 import styles from '@/styles/components/ProjectTile.module.scss'
@@ -14,7 +14,7 @@ const ProjectTile = ({ project, priority }: ProjectTileProps) => {
       href="projects/[slug]" as={`/projects/${project.slug}`} className={styles.projectLink }>
       <article className={styles.projectTile}>
         <figure className={styles.figure}>
-          <LazyImage
+          <LoadingImage
             priority={priority}
             keyString={project.slug}
             imageKey={project.imageKey}

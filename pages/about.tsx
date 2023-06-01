@@ -1,6 +1,6 @@
 
 import Link from 'next/link'
-import LazyImage from '@/components/LazyImage'
+import LoadingImage from '@/components/LoadingImage'
 import SvgIcon from '@/components/SvgIcon'
 import styles from '@/styles/pages/About.module.scss'
 
@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className={styles.aboutPage}>
       <figure className={styles.aboutImage}>
-        <LazyImage
+        <LoadingImage
           priority={true}
           keyString={"about-00"}
           imageKey="about"
