@@ -7,11 +7,13 @@ import styles from '@/styles/pages/Home.module.scss'
 type BackgroundImageProps = {
   alt: string
   src: string
+  priority: boolean
 }
 
-const BackgroundImage = ({ alt, src }: BackgroundImageProps) => {
+const BackgroundImage = ({ alt, src, priority }: BackgroundImageProps) => {
   return (
     <Image
+      priority={priority}
       alt={alt}
       src={getImageUrl("homepage", src)}
       quality={50}
@@ -33,6 +35,7 @@ const Home = () => {
       <div className={styles.homepageSlide}>
         <div className={styles.homepageBackgroundImageContainer}>
           <BackgroundImage
+            priority={true}
             alt="Featured work background image"
             src="featured-work-00-alt_aqzgfn.jpg"
           />
@@ -59,6 +62,7 @@ const Home = () => {
       <div className={styles.homepageSlide}>
         <div className={styles.homepageBackgroundImageContainer}>
           <BackgroundImage
+            priority={false}
             alt="Case study background image"
             src="/featured-work-01_w941ex.jpg"
           />
@@ -66,7 +70,7 @@ const Home = () => {
             <h2>Case Study</h2>
             <div className={styles.homepageImageContainer}>
               <LazyImage
-                priority={true}
+                priority={false}
                 keyString="caseStudy"
                 imageKey={imageKey}
                 fileName="featured-project-01-alt_qvfeay.jpg"
@@ -85,6 +89,7 @@ const Home = () => {
       <div className={styles.homepageSlide}>
         <div className={styles.homepageBackgroundImageContainer}>
           <BackgroundImage
+            priority={false}
             alt="All projects background image"
             src="/background-00_wyt8pr.jpg"
           />
