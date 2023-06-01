@@ -26,11 +26,11 @@ const skills: Skill[] =
 const tools: Tool[] =
   [ { title: "Design tools"
     , description:
-        [ "Figma"
-        , "Sketch"
+        [ "Figma & Sketch"
         , "Adobe Illustrator"
         , "Adobe Photoshop"
         , "Adobe InDesign"
+        , "Rhino 3D "
         ]
     },
     { title: "Software languages"
