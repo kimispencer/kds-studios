@@ -21,6 +21,7 @@ const ProjectTile = ({ project, priority }: ProjectTileProps) => {
             fileName={project.indexImage}
             alt={project.title}
             className={styles.projectImage}
+            sizes="(max-width: 768px) 100vw, 50vw"
           />
           {/* <figcaption>image caption</figcaption> */}
         </figure>

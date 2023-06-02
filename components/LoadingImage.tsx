@@ -9,6 +9,7 @@ type Props = {
   imageKey: string
   fileName: string
   alt: string
+  sizes?: string
   className?: string
   style_?: CSSProperties
 }
@@ -38,7 +39,7 @@ const LoadingImage = ({ priority, keyString, imageKey, fileName, alt, className,
             src={getImageUrl(imageKey, fileName)}
             alt={alt}
             fill
-            quality={75}
+            quality={50}
             placeholder="blur"
             blurDataURL={blurDataURL}
             className={concatClassnames(

@@ -16,7 +16,7 @@ const BackgroundImage = ({ alt, src, priority }: BackgroundImageProps) => {
       priority={priority}
       alt={alt}
       src={getImageUrl("homepage", src)}
-      quality={50}
+      quality={25}
       fill
       style={{
         objectFit: 'cover',
