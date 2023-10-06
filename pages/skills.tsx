@@ -15,11 +15,11 @@ const skills: Skill[] =
     { title: "Visual Design"
     , description: "Creating design systems & visual libraries to establish a brand voice and maintain cohesiveness across various digital user experiences."
     },
-    { title: "UX Strategy"
+    { title: "UX Research"
     , description: "Conducting user research, A/B testing and analysis to understand user behaviors and best serve their needs in the digital product experience."
     },
-    { title: "Content Strategy"
-    , description: "Helping brands plan, create and develop content to promote their online experiences and products."
+    { title: "Design Strategy"
+    , description: "Helping brands plan, create and strategize design priorities to promote their digital experiences and products."
     }
   ]
 
