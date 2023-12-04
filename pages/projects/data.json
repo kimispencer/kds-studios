@@ -4,42 +4,57 @@
   , "siteUrl": "https://www.smarty.ai/"
   , "title": "Smarty AI"
   , "subtitle": "UI/UX"
-  , "description": "Smarty unifies task management & calendar scheduling into one clean application. Powered with a natural language processing interface, users can enter text to create tasks, events, scheduling links and more."
-  , "summary": "Lead product designer, creating the foundational core interface for Smarty's responsive desktop & mobile app, and Chrome extension. Working closely with the CEO and engineering team, created the foundational UI component library and app interfaces, as well as conducted user research & testing."
+  , "description": "Smarty unifies task management & calendar scheduling into one clean application. Powered by AI with a natural language processing interface, users can enter text to create tasks, events, scheduling links and more."
+  , "summary": "Lead product designer, creating the foundational core interface for Smarty's responsive desktop & mobile app, and Chrome extension. Working closely with the CEO and engineering team, created the foundational UI component library and app interfaces, synthesized user research & testing into a research-backed design system, as well as aided with design strategy for the product roadmap. Smarty AI is still in active development."
   , "backgroundColor": "#17486D"
   , "imageKey": "smarty"
   , "indexImage": "index_mcyprd.png"
   , "fullscreen": false
   , "images":
       [ { "imageFile": "desktop-00-alt_wnqbk1.jpg"
-        , "imageText": "To communicate the capabilities of Smarty's suite of scheduling & task management tools, a marketing site was designed with animated visual content & graphics to demonstrate how Smarty can help users."
+        , "imageText": "Smarty is an AI-powered productivity tool, built on top of an NLP (natural language processing) and artificial intelligence engine. As Lead Product Designer synthesized user research into validated value propositions & created the initial design system for the app interface and strategized goals for the product roadmap."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-01_sjfnjb.jpg"
-        , "imageText": "After user testing and research, the sign-up experience was designed to let first-time users explore the app interface without requiring any login or form information. Thus lowering the barrier of entry for new users to experience Smarty's feature set, as well as onboard to the app through engagement with the platform itself."
+      , { "imageFile": "/2023-Dec/user-persona_zdlbdk.png"
+        , "imageText": "Our target key personas were identified as executive assistants and agency professionals. From there we created user journey maps, persona profiles, as well as conducted rounds of user interviews & testing with interactive mockups to validate our value proposition. In our interviews we focused on how people organize & structure their schedule over the course of week, and what were their pain points & goals when planning out their objectives for their calendar."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-02_n7owis.jpg"
-        , "imageText": "Powered by a natural language processing interface, the Smarty app lets users build content through a purely textual UI, such as the / command to create Tasks, Notes, Events and Scheduling Links. Both calendar events and tasks list were designed to be unified into one clean view, allowing users to more efficiently use their time without context switching between multiple applications."
+      , { "imageFile": "/2023-Dec/customer-journey-map_dm7pwb.png"
+        , "imageText": "After conducting rounds of user research and discovery, we summarized the product's strategy into a Jobs to Be Done statement: 'When I’m newly overwhelmed by an overflowing plate and the meetings/tasks keep coming, I want to easily track my workload (via smart visualization and automatic re-prioritization), so I can have mental clarity and confidence each day.' Additionally, market analysis was conducted to a create competitive feature matrix to analyze where there are market gaps & opportunities for users to have a better scheduling tool."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-03_v9ig3f.jpg"
-        , "imageText": "Based on user research of existing systems & methodologies Smarty's target demographic use to handle managing tasks & scheduling events, the app was designed to emphasize a clean minimal UI so users can focus on what's important. To add contextual information when required, users can simply type as they would in a physical notebook or calendar, triggering natural language driven actions."
+      , { "imageFile": "/2023-Dec/homepage_-_list_view_command_menu_anmzgb.jpg"
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-04_v8uelm.jpg"
-        , "imageText": "Smarty handles task management and scheduling for users, and the AI powered auto-scheduling feature allows users to avoid conflicts and prioritize their most important tasks. The UI was designed to help automate actions for users but still let them have discrete control."
+      , { "imageFile": "/2023-Dec/homepage_-_calendar_view_command_menu_q372ma.jpg"
+        , "imageText": "Based on our insights from user research & market analysis, and supported by an examination of existing systems & methodologies Smarty was built on top of a natural language processing interface, and the app UI was designed to let users build content through a purely textual interface. With the power of a `/` command to create Tasks, Notes, Events and Scheduling Links. To add contextual information when required users can simply type as they would in a physical notebook or calendar, triggering natural language driven actions, such as `@tomorrow`."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-05_eymraa.jpg"
-        , "imageText": "Users can also view their scheduled Tasks & Events in a calendar UI view, and create shareable Scheduling Links. Free times are auto-detected, and reminders go out automatically; with the app design streamlined to help users take the work out of connecting with others, so they can focus on the activity at hand itself not scheduling it."
+      , { "imageFile": "/2023-Dec/homepage_-_calendar_view_commend_menu_v2_dgkyqf.jpg "
+        , "imageText": ""
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "/2023-Dec/homepage_-_list_view_command_tarusq.jpg"
+        , "imageText": ""
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "/2023-Dec/homepage_-_list_view_pdpmyu.jpg"
+        , "imageText": "The UI was designed to help automate actions for users but still let them have discrete control with a clean minimal interface (inspired by the analog foundation of paper notebooks) but powered by NLP & AI to automate actions so users can focus on what's important. As well as support of third-party integrations so users can seamlessly integrate their existing workflows and content, without having to context switch between multiple applications."
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "/2023-Dec/homepage_-_scheduled_tasks_with_conflict_resolution_with_auto-schedule_logged_in_user_cxbaho.jpg"
+        , "imageText": "Smarty handles task management and event scheduling for users with an AI powered auto-scheduling feature, allowing users to avoid conflicts and automate re-prioritization of their most important tasks & events. Free times are auto-detected, and reminders go out automatically; with the app design streamlined to help users take the work out of managing their agenda, so they can focus on the activity at hand itself not scheduling it."
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "/2023-Dec/homepage_-_calendar_view_u4djsf.jpg"
+        , "imageText": "In addition to a rich text editor interface to organize & schedule, user can also visualize time blocking of their tasks & events with a robust calendar interface. As gathered from our user research, our target ICP (ideal customer persona) prefers to use a text-based editor to jot down their schedule but also see it visually laid out into a calendar interface, as well as utilize a drag/drop UI to re-organize and schedule."
         , "imageType": "screenshot"
         }
       ]
   , "skills":
       [ "Product Design"
-      , "UI/UX Design"
-      , "User Research"
+      , "Modular UI Component Library & Design System"
+      , "UI/UX Design & Research"
       ]
   },
   { "id": 2
@@ -89,7 +104,7 @@
     ]
   , "skills":
       [ "Product Design"
-      , "UI Component Design"
+      , "Modular UI Component Library & Design System"
       , "Development"
       ]
   },
@@ -258,7 +273,7 @@
       ]
   , "skills":
       [ "Product Design"
-      , "UI/UX Design"
+      , "UI/UX Design & Research"
       , "Development"
       ]
   },
