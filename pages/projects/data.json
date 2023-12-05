@@ -23,31 +23,47 @@
         , "imageText": "After conducting rounds of user research and discovery, we summarized the product's strategy into a Jobs to Be Done statement: 'When I’m newly overwhelmed by an overflowing plate and the meetings/tasks keep coming, I want to easily track my workload (via smart visualization and automatic re-prioritization), so I can have mental clarity and confidence each day.' Additionally, market analysis was conducted to a create competitive feature matrix to analyze where there are market gaps & opportunities for users to have a better scheduling tool."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "/2023-Dec/homepage_-_list_view_command_menu_anmzgb.jpg"
+      , { "imageFile": "/2023-Dec/list-view/00_homepage_-_list_view_r08dcw.jpg"
         , "imageType": "screenshot"
         }
-      , { "imageFile": "/2023-Dec/homepage_-_calendar_view_command_menu_q372ma.jpg"
-        , "imageText": "Based on our insights from user research & market analysis, and supported by an examination of existing systems & methodologies Smarty was built on top of a natural language processing interface, and the app UI was designed to let users build content through a purely textual interface. With the power of a `/` command to create Tasks, Notes, Events and Scheduling Links. To add contextual information when required users can simply type as they would in a physical notebook or calendar, triggering natural language driven actions, such as `@tomorrow`."
+      , { "imageFile": "/2023-Dec/list-view/00a_homepage_-_list_view_omxdky.jpg"
+        , "imageText": "Based on our insights from user research & market analysis, and supported by an examination of existing systems & methodologies Smarty was built on top of a natural language processing interface, and the app UI was designed to let users build content through a purely textual interface. With the power of a `/` command to create Tasks, Notes, Events and Scheduling Links. To add contextual information when required users can simply type as they would in a physical notebook or planner, triggering natural language driven actions, such as `@tomorrow` or `@before end of week during working hours`, etc."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "/2023-Dec/homepage_-_calendar_view_commend_menu_v2_dgkyqf.jpg"
+      , { "imageFile": "/2023-Dec/list-view/01_homepage_-_list_view_command_hy2og0.jpg"
         , "imageText": ""
         , "imageType": "screenshot"
         }
-      , { "imageFile": "/2023-Dec/homepage_-_list_view_command_tarusq.jpg"
+      , { "imageFile": "/2023-Dec/list-view/02_homepage_-_list_view_command_d4f4yg.jpg"
         , "imageText": ""
         , "imageType": "screenshot"
         }
-      , { "imageFile": "/2023-Dec/homepage_-_list_view_pdpmyu.jpg"
-        , "imageText": "The UI was designed to help automate actions for users but still let them have discrete control with a clean minimal interface (inspired by the analog foundation of paper notebooks) but powered by NLP & AI to automate actions so users can focus on what's important. As well as support of third-party integrations so users can seamlessly integrate their existing workflows and content, without having to context switch between multiple applications."
+      , { "imageFile": "/2023-Dec/list-view/03_homepage_-_list_view_command_lgpqs8.jpg"
+        , "imageText": "The UI was designed to help automate actions for users but still let them have discrete control with a clean minimal interface (inspired by the analog foundation of paper notebooks) but powered by NLP & AI to automate scheduling into free time blocks based on priority so users can focus on what's important. As well as support of third-party integrations so users can seamlessly integrate their existing workflows and content, without having to context switch between multiple applications."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "/2023-Dec/homepage_-_scheduled_tasks_with_conflict_resolution_with_auto-schedule_logged_in_user_cxbaho.jpg"
-        , "imageText": "Smarty handles task management and event scheduling for users with an AI powered auto-scheduling feature, allowing users to avoid conflicts and automate re-prioritization of their most important tasks & events. Free times are auto-detected, and reminders go out automatically; with the app design streamlined to help users take the work out of managing their agenda, so they can focus on the activity at hand itself not scheduling it."
+      , { "imageFile": "/2023-Dec/list-view/homepage_-_scheduled_tasks_with_conflict_resolution_with_auto-schedule_logged_in_user_sjvqoi.jpg"
+        , "imageText": "Smarty handles task management and event scheduling for users with the AI powered auto-scheduling feature, allowing users to avoid conflicts and automate rescheduling of their most important tasks & events. Free times are auto-detected, and reminders go out automatically; with the app design streamlined to help users take the work out of managing their agenda, so they can focus on the activity at hand itself not scheduling it."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "/2023-Dec/homepage_-_calendar_view_u4djsf.jpg"
-        , "imageText": "In addition to a rich text editor interface to organize & schedule, user can also visualize time blocking of their tasks & events with a robust calendar interface. As gathered from our user research, our target ICP (ideal customer persona) prefers to use a text-based editor to jot down their schedule but also see it visually laid out into a calendar interface, as well as utilize a drag/drop UI to re-organize and schedule."
+      , { "imageFile": "/2023-Dec/calendar-view/00_homepage_-_calendar_view_iugyu7.jpg"
+        , "imageText": ""
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "/2023-Dec/calendar-view/01_homepage_-_calendar_view_gytvao.jpg"
+        , "imageText": ""
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "/2023-Dec/calendar-view/02_homepage_-_calendar_view_commend_menu_active_ttsqxj.jpg"
+        , "imageText": ""
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "/2023-Dec/calendar-view//04_homepage_-_calendar_view_commend_menu_active_dcul2e.jpg"
+        , "imageText": "In addition to a rich text editor interface to organize & schedule, user can also visualize time blocking of their tasks & events with a robust calendar interface. Unified across the app by a global command menu, users can input tasks & events textually from both the list view interface as well as the calendar view; as well as leveraging the drag/drop interface of the calendar UI to re-order and reschedule their time blocks."
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "/2023-Dec/list-view/04_homepage_-_list_view_sd4vca.jpg"
+        , "imageText": ""
         , "imageType": "screenshot"
         }
       ]
