@@ -5,7 +5,7 @@
   , "title": "Smarty AI"
   , "subtitle": "UI/UX, User research"
   , "description": "Smarty unifies task management & calendar scheduling into one clean application. Powered by AI with a natural language processing interface, users can enter text to create tasks, events, scheduling links and more."
-  , "summary": "Lead product designer, creating the foundational core interface for Smarty's responsive desktop & mobile app, and Chrome extension. Working closely with the CEO and engineering team, created the foundational UI component library and app interfaces, synthesized user research & testing into a research-backed design system, as well as aided with design strategy for the product roadmap. Smarty AI is still in active development."
+  , "summary": "Principle product designer, creating the foundational core interface for Smarty's responsive desktop & mobile app, and Chrome extension. Working closely with the CEO and engineering team, created the foundational UI component library and app interfaces, synthesized user research & testing into a research-backed design system, as well as provided design strategy for the product roadmap & operated as a product manager. Smarty AI is still in active development."
   , "backgroundColor": "#17486D"
   , "imageKey": "smarty"
   , "indexImage": "index_mcyprd.png"
@@ -42,7 +42,7 @@
         , "imageText": "The UI was designed to help automate actions for users but still let them have discrete control with a clean minimal interface (inspired by the analog foundation of paper notebooks) but powered by NLP & AI to automate scheduling into free time blocks based on priority so users can focus on what's important. As well as support of third-party integrations so users can seamlessly integrate their existing workflows and content, without having to context switch between multiple applications."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "/2023-Dec/list-view/homepage_-_scheduled_tasks_with_conflict_resolution_with_auto-schedule_logged_in_user_sjvqoi.jpg"
+      , { "imageFile": "/2023-Dec/list-view/homepage_-_scheduled_tasks_with_conflict_resolution_with_auto-schedule_logged_in_user_bhycwu.jpg"
         , "imageText": "Smarty handles task management and event scheduling for users with the AI powered auto-scheduling feature, allowing users to avoid conflicts and automate rescheduling of their most important tasks & events. Free times are auto-detected, and reminders go out automatically; with the app design streamlined to help users take the work out of managing their agenda, so they can focus on the activity at hand itself not scheduling it."
         , "imageType": "screenshot"
         }
@@ -68,9 +68,9 @@
         }
       ]
   , "skills":
-      [ "Product Design"
-      , "Modular UI Component Library & Design System"
+      [ "Product Design & Strategy"
       , "UI/UX Design & Research"
+      , "Modular UI Component Library & Design System"
       ]
   },
   { "id": 2
@@ -82,7 +82,7 @@
       }
   , "title": "Lumi"
   , "subtitle": "UI/UX, Development"
-  , "description": "Lumi helps e-commerce companies produce custom packaging and handle supply chain logistics, with the goal of making custom manufacturing as scalable as the web."
+  , "description": "Lumi helps e-commerce companies produce custom packaging and handle supply chain logistics, with the goal of making custom manufacturing more sustainable and as scalable as the web."
   , "summary": "Product designer and developer of a modular UI component library to maintain cohesiveness across Lumi's various app user interfaces and visual design. Senior front-end engineer contributing to the migration of Lumi's web applications into a strongly-typed functional programming language, on top of a React framework."
   , "backgroundColor": "#9E9B1C"
   , "imageKey": "lumi"
@@ -113,15 +113,15 @@
         , "imageText": "The manufacturer dashboard utilizes the same UI component library to standardize visual cohesiveness, but with a UX focus on the manufacturer's need to respond to consumer brand requests, providing quotes, feedback, and status updates."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "ui-components_ahj0vm.jpg"
-        , "imageText": "A modular UI component library example for a LabeledField input. By designing and utilizing a reusable modular component library & establishing a design system, each app targeted for a specific user demographic maintained visual branding consistency and user experience."
+      , { "imageFile": "UI-components-card-grid_unmvsh.png"
+        , "imageText": "A modular UI component library example for a responsive CardGrid component layout. By designing and utilizing a reusable modular component library & establishing a scalable design system, each app targeted for a specific user demographic maintained visual branding consistency and user experience."
         , "imageType": "screenshot"
         }
     ]
   , "skills":
       [ "Product Design"
       , "Modular UI Component Library & Design System"
-      , "Development"
+      , "Front-end Development"
       ]
   },
   { "id": 3
@@ -130,7 +130,7 @@
   , "title": "The Arrivals"
   , "subtitle": "UI/UX, Development"
   , "description": "The Arrivals is a NYC based fashion line focusing on classic, architecturally-inspired garments crafted to last a lifetime and exclusively available online."
-  , "summary": "Lead product designer & front-end engineer responsible for the creation and implementation of interface designs for a responsive, cross-platform e-commerce web app. Translating marketing needs and promotions into a highly polished user experience, as well as designing and developing bi-weekly interactive campaigns, supported multiple product launches, and improved the site interface based on A/B studies."
+  , "summary": "Principle product designer & front-end engineer responsible for the creation and implementation of interface designs for a responsive, cross-platform e-commerce web app. Translating marketing needs and promotions into a highly polished user experience, as well as designing and developing bi-weekly interactive campaigns, supported multiple product launches, and improved the site interface based on A/B studies."
   , "backgroundColor": "#36060A"
   , "imageKey": "arrivals"
   , "indexImage": "index_zpp9zz.jpg"
@@ -160,7 +160,7 @@
   , "skills":
       [ "Product Design"
       , "UI/UX Design & Research"
-      , "Development"
+      , "Front-end Development"
       ]
   },
   { "id": 4
@@ -199,7 +199,7 @@
   , "skills":
       [ "Product Design"
       , "UI/UX Design & Research"
-      , "Development"
+      , "Front-end Development"
       ]
   },
   { "id": 5
@@ -226,7 +226,8 @@
         }
       ]
   , "skills":
-      [ "Visual Design"
+      [ "Creative Direction"
+      , "Visual Design"
       , "Data Visualization"
       , "Development"
       ]
@@ -255,7 +256,7 @@
   , "skills":
       [ "Product Design"
       , "UI/UX Design & Research"
-      , "Development"
+      , "Front-end Development"
       ]
   },
   { "id": 7
@@ -264,7 +265,7 @@
   , "title": "Tom Tom Magazine"
   , "subtitle": "UI/UX, Development"
   , "description": "Tom Tom Magazine is a quarterly print magazine and website based out of New York City. It is the only magazine in the world that is dedicated to female drummers."
-  , "summary": "Lead designer & developer for Tom Tom's e-commerce platform to leverage site visits into opportunities to sell the publication or goods related to the brand. Using the Shopify CMS a custom responsive template theme was designed and developed for the Tom Tom store."
+  , "summary": "Lead product designer & developer for Tom Tom's e-commerce platform to leverage site visits into opportunities to sell the publication or goods related to the brand. Using the Shopify CMS a custom responsive template theme was designed and developed for the Tom Tom store."
   , "backgroundColor": "#466638"
   , "imageKey": "tom-tom"
   , "indexImage": "index_qlv9aq.jpg"
@@ -290,7 +291,7 @@
   , "skills":
       [ "Product Design"
       , "UI/UX Design & Research"
-      , "Development"
+      , "Front-end Development"
       ]
   },
   { "id": 8
@@ -329,8 +330,9 @@
         }
       ]
   , "skills":
-      [ "Visual Design"
-      , "Architecture"
+      [ "Creative Direction"
+      , "Visual Design"
+      , "Architectural Design"
       ]
   }
 ]
