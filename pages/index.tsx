@@ -41,15 +41,17 @@ const Home = () => {
           />
           <div className={styles.homepageImageOverlay}>
             <h2>Featured Work</h2>
-            <div className={styles.homepageImageContainer}>
-              <LoadingImage
-                priority={true}
-                keyString="featuredWork"
-                imageKey={imageKey}
-                fileName="featured-project-00_vkava1.jpg"
-                alt="Featured work"
-              />
-            </div>
+            <Link href="/projects/arrivals" className={styles.featuredWorkImageLink}>
+              <div className={styles.homepageImageContainer}>
+                <LoadingImage
+                  priority={true}
+                  keyString="featuredWork"
+                  imageKey={imageKey}
+                  fileName="featured-project-00_vkava1.jpg"
+                  alt="Featured work"
+                />
+              </div>
+            </Link>
             <h4 className={styles.featuredWorkText}>Responsive website design and development for a NYC based fashion line.</h4>
             <Link href="/projects/arrivals" className={styles.featuredWorkLink}><h4>View project</h4></Link>
           </div>
@@ -68,15 +70,17 @@ const Home = () => {
           />
           <div className={styles.homepageImageOverlay}>
             <h2>Case Study</h2>
-            <div className={styles.homepageImageContainer}>
-              <LoadingImage
-                priority={false}
-                keyString="caseStudy"
-                imageKey={imageKey}
-                fileName="featured-project-01-alt_qvfeay.jpg"
-                alt="Case study"
-              />
-            </div>
+            <Link href="/projects/lumi" className={styles.featuredWorkImageLink}>
+              <div className={styles.homepageImageContainer}>
+                <LoadingImage
+                  priority={false}
+                  keyString="caseStudy"
+                  imageKey={imageKey}
+                  fileName="featured-project-01-alt_qvfeay.jpg"
+                  alt="Case study"
+                />
+              </div>
+            </Link>
             <h4 className={styles.featuredWorkText}>Website and UI component library design and development for an LA based packaging company.</h4>
             <Link href="/projects/lumi" className={styles.featuredWorkLink}><h4>View project</h4></Link>
           </div>

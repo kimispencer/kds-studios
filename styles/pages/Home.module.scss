@@ -53,6 +53,13 @@
   margin-top: calc(#{$defaultSpacing} * 2);
 }
 
+.featuredWorkImageLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
 /* Large Tablet or Desktop */
 @media screen and (min-width: $desktop_breakpoint) {
   .homepageAboveFold {
