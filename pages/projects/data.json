@@ -15,11 +15,11 @@
         , "imageText": "Smarty is an AI-powered productivity tool, built on top of an NLP (natural language processing) and artificial intelligence engine. As Lead Product Designer synthesized user research into validated value propositions & created the initial design system for the app interface and strategized goals for the product roadmap."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "/2023-Dec/user-persona_zdlbdk.png"
+      , { "imageFile": "/2023-Dec/user-research/user-persona_zkofzx.png"
         , "imageText": "Our target key personas were identified as executive assistants and agency professionals. From there we created user journey maps, persona profiles, as well as conducted rounds of user interviews & testing with interactive mockups to validate our value proposition. In our interviews we focused on how people organize & structure their schedule over the course of week, and what were their pain points & goals when planning out their objectives for their calendar."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "/2023-Dec/customer-journey-map_dm7pwb.png"
+      , { "imageFile": "/2023-Dec/user-research/customer-journey-map_dadn9p.png"
         , "imageText": "After conducting rounds of user research and discovery, we summarized the product's strategy into a Jobs to Be Done statement: 'When I’m newly overwhelmed by an overflowing plate and the meetings/tasks keep coming, I want to easily track my workload (via smart visualization and automatic re-prioritization), so I can have mental clarity and confidence each day.' Additionally, market analysis was conducted to a create competitive feature matrix to analyze where there are market gaps & opportunities for users to have a better scheduling tool."
         , "imageType": "screenshot"
         }
@@ -105,11 +105,19 @@
         , "imageText": "From the brand dashboard, not only can companies customize, track and create new packaging but also in addition to disposal information, share their environmental mission, link to their sustainability page, and share as much information about their packaging as desired. "
         , "imageType": "screenshot"
         }
-      , { "imageFile": "lumi-ID-desktop-FJ-profile_azbnjg"
+      , { "imageFile": "lumi-ID-desktop-FJ-profile_azbnjg.jpg"
         , "imageText": ""
         , "imageType": "screenshot"
         }
-      , { "imageFile": "lumi-ID-desktop-FJ-settings-detail_lgnjot"
+      , { "imageFile": "lumi-ID-desktop-FJ-settings-detail_lgnjot.jpg"
+        , "imageText": ""
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "lumi-ID-sample-code_fu7cgd.png"
+        , "imageText": ""
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "lumi-lumicodes-photography_psehau.jpg"
         , "imageText": ""
         , "imageType": "screenshot"
         }
