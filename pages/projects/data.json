@@ -1,5 +1,5 @@
 [
-  { "id": 1
+  { "id": 0
   , "slug": "smarty"
   , "siteUrl": "https://www.smarty.ai/"
   , "title": "Smarty AI"
@@ -73,6 +73,52 @@
       , "Modular UI Component Library & Design System"
       ]
   },
+  { "id": 1
+  , "slug": "lumi-id"
+  , "siteUrl": "https://www.lumi.com/id"
+  , "title": "Lumi ID"
+  , "subtitle": "UI/UX, Development"
+  , "description": "Lumi ID is a digital identification tool that gives users accurate, localized information about how brand packaging is made, and how to recycle it responsibly with a single QR code."
+  , "summary": "Product designer and front-end developer of a mobile-first digital experience triggered from physical products via QR codes to support sustainability & transparency in packaging."
+  , "backgroundColor": "#E9BD98"
+  , "imageKey": "lumi-id"
+  , "indexImage": "index_fhzdbn.jpg"
+  , "fullscreen": false
+  , "images":
+      [ { "imageFile": "Lumi-ID-homepage_jiawcg.png"
+        , "imageText": "Lumi ID integrates seamlessly with branding, messaging and physical product. Lumi ID generates a QR code that can be printed on any packaging including boxes, envelopes, jars, bottles, cans, tubes, publications, labels and collateral. As new platform features and best practices become available, packaging information stays accurate without requiring print plate changes."
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "lumi-ID-phone_mmayf0.jpg"
+        , "imageText": "With a mobile-first approach, customers can scan QR codes on packaging materials to learn more about a brands's sustainability efforts, the life cycle of the packaging materials itself, and how to recycle it with up-to-date, localized disposal options using the latest best practices."
+        , "imageType": "iphone"
+        }
+      , { "imageFile": "lumi-ID-phone-search-results_aslypn.jpg"
+        , "imageText": "Every city has its own regulations, which can make it difficult for customer service teams to answer questions accurately. Lumi ID is a universal system for every type of packaging tied to real-time data, giving users accurate information about a brand's packaging materials, mission and certifications."
+        , "imageType": "iphone"
+        }
+      , { "imageFile": "lumi-ID-desktop-landing_fcxtwg.jpg"
+        , "imageText": ""
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "lumi-ID-desktop-search-results_r8kawo.jpg"
+        , "imageText": "From the brand dashboard, not only can companies customize, track and create new packaging but also in addition to disposal information, share their environmental mission, link to their sustainability page, and share as much information about their packaging as desired. "
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "lumi-ID-desktop-FJ-profile_azbnjg"
+        , "imageText": ""
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "lumi-ID-desktop-FJ-settings-detail_lgnjot"
+        , "imageText": ""
+        , "imageType": "screenshot"
+        }
+      ]
+  , "skills":
+      [ "Product design"
+      , "Front-end Development"
+      ]
+  },
   { "id": 2
   , "slug": "lumi"
   , "siteUrl": "https://www.lumi.com/"
@@ -84,7 +130,7 @@
   , "subtitle": "UI/UX, Development"
   , "description": "Lumi helps e-commerce companies produce custom packaging and handle supply chain logistics, with the goal of making custom manufacturing more sustainable and as scalable as the web."
   , "summary": "Product designer and developer of a modular UI component library to maintain cohesiveness across Lumi's various app user interfaces and visual design. Senior front-end engineer contributing to the migration of Lumi's web applications into a strongly-typed functional programming language, on top of a React framework."
-  , "backgroundColor": "#9E9B1C"
+  , "backgroundColor": "#DBD624"
   , "imageKey": "lumi"
   , "indexImage": "index_twciyu.png"
   , "fullscreen": false
