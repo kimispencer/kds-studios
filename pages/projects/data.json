@@ -5,7 +5,7 @@
   , "title": "Smarty AI"
   , "subtitle": "UI/UX, User research"
   , "description": "Smarty unifies task management & calendar scheduling into one clean application. Powered by AI with a natural language processing interface, users can enter text to create tasks, events, scheduling links and more."
-  , "summary": "Principle product designer, creating the foundational core interface for Smarty's responsive desktop & mobile app, and Chrome extension. Working closely with the CEO and engineering team, created the foundational UI component library and app interfaces, synthesized user research & testing into a research-backed design system, as well as provided design strategy for the product roadmap & operated as a product manager. Smarty AI is still in active development."
+  , "summary": "Principle product designer, creating the foundational core interface for Smarty's responsive desktop & mobile app, and Chrome extension. Working closely with the CEO and engineering team, created the foundational UI component library and app interfaces, synthesized user research & testing into a research-backed design system, as well as provided design strategy for the product roadmap & assisted as a product manager. Smarty AI is still in active development."
   , "backgroundColor": "#17486D"
   , "imageKey": "smarty"
   , "indexImage": "index_mcyprd.png"
@@ -94,7 +94,7 @@
         , "imageType": "iphone"
         }
       , { "imageFile": "lumi-ID-phone-search-results_aslypn.jpg"
-        , "imageText": "Every city has its own regulations, which can make it difficult for customer service teams to answer questions accurately. Lumi ID is a universal system for every type of packaging tied to real-time data, giving users accurate information about a brand's packaging materials, mission and certifications."
+        , "imageText": "Every city has its own regulations, which can make it difficult for customer service teams to answer questions accurately. Lumi ID is a universal system for every type of packaging tied to real-time data, giving users accurate information about a brand's packaging materials, sustainability mission and certifications."
         , "imageType": "iphone"
         }
       , { "imageFile": "lumi-ID-desktop-landing_fcxtwg.jpg"
@@ -176,14 +176,14 @@
   , "title": "The Arrivals"
   , "subtitle": "UI/UX, Development"
   , "description": "The Arrivals is a NYC based fashion line focusing on classic, architecturally-inspired garments crafted to last a lifetime and exclusively available online."
-  , "summary": "Principle product designer & front-end engineer responsible for the creation and implementation of interface designs for a responsive, cross-platform e-commerce web app. Translating marketing needs and promotions into a highly polished user experience, as well as designing and developing bi-weekly interactive campaigns, supported multiple product launches, and improved the site interface based on A/B studies."
+  , "summary": "Principle product designer & front-end engineer responsible for the creation and implementation of interface designs for a responsive, cross-platform e-commerce web app. Translating marketing needs and promotions into a highly polished user experience, as well as designing and developing bi-weekly interactive campaigns, supporting multiple product launches, and improved the site interface based on A/B studies."
   , "backgroundColor": "#36060A"
   , "imageKey": "arrivals"
   , "indexImage": "index_zpp9zz.jpg"
   , "fullscreen": false
   , "images":
       [ { "imageFile": "desktop-00-alt_jg0jcn.jpg"
-        , "imageText": "As a high-end NYC fashion line, The Arrivals required bi-weekly interactive campaigns, supporting multiple product launches. Creating new campaign designs in regular sprint intervals required standardization of the Arrival's branded visual design system and prioritizing high impact & fast turn over of designs."
+        , "imageText": "As a high-end NYC fashion line, The Arrivals required bi-weekly interactive campaigns, supporting continuous product launches. Creating new campaign designs in regular sprint intervals required standardization of the Arrival's branded visual design system and prioritizing high impact & fast turn over of designs."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-01_wzpfw6.jpg"
@@ -310,7 +310,7 @@
   , "siteUrl": "https://tomtommag.com/"
   , "title": "Tom Tom Magazine"
   , "subtitle": "UI/UX, Development"
-  , "description": "Tom Tom Magazine is a quarterly print magazine and website based out of New York City. It is the only magazine in the world that is dedicated to female drummers."
+  , "description": "Tom Tom Magazine is a quarterly print magazine and website based out of New York City. It is the only magazine in the world that is dedicated to female-identifying drummers."
   , "summary": "Lead product designer & developer for Tom Tom's e-commerce platform to leverage site visits into opportunities to sell the publication or goods related to the brand. Using the Shopify CMS a custom responsive template theme was designed and developed for the Tom Tom store."
   , "backgroundColor": "#466638"
   , "imageKey": "tom-tom"
@@ -330,7 +330,7 @@
         , "imageType": "iphone"
         }
       , { "imageFile": "phone-01_b8mg99.png"
-        , "imageText": "As well as the mobile designs for the e-commerce site experience."
+        , "imageText": "As well as responsive designs for the e-commerce site experience to leverage conversions across devices."
         , "imageType": "iphone"
         }
       ]
