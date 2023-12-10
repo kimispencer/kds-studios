@@ -89,31 +89,31 @@
         , "imageText": "Lumi ID integrates seamlessly with branding, messaging and physical product. Lumi ID generates a QR code that can be printed on any packaging including boxes, envelopes, jars, bottles, cans, tubes, publications, labels and collateral. As new platform features and best practices become available, packaging information stays accurate without requiring print plate changes."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "lumi-ID-phone_mmayf0.jpg"
+      , { "imageFile": "lumi-ID-phone_ni8wr0.jpg"
         , "imageText": "With a mobile-first approach, customers can scan QR codes on packaging materials to learn more about a brands's sustainability efforts, the life cycle of the packaging materials itself, and how to recycle it with up-to-date, localized disposal options using the latest best practices."
         , "imageType": "iphone"
         }
-      , { "imageFile": "lumi-ID-phone-search-results_aslypn.jpg"
+      , { "imageFile": "lumi-ID-phone-search-results_lwrovs.jpg"
         , "imageText": "Every city has its own regulations, which can make it difficult for customer service teams to answer questions accurately. Lumi ID is a universal system for every type of packaging tied to real-time data, giving users accurate information about a brand's packaging materials, sustainability mission and certifications."
         , "imageType": "iphone"
         }
-      , { "imageFile": "lumi-ID-desktop-landing_fcxtwg.jpg"
+      , { "imageFile": "lumi-ID-desktop-landing_fmkv6b.jpg"
         , "imageText": ""
         , "imageType": "screenshot"
         }
-      , { "imageFile": "lumi-ID-desktop-search-results_r8kawo.jpg"
+      , { "imageFile": "lumi-ID-desktop-search-results_mtwirg.jpg"
         , "imageText": "From the brand dashboard, not only can companies customize, track and create new packaging but also in addition to disposal information, share their environmental mission, link to their sustainability page, and share as much information about their packaging as desired. "
         , "imageType": "screenshot"
         }
-      , { "imageFile": "lumi-ID-desktop-FJ-profile_azbnjg.jpg"
+      , { "imageFile": "lumi-ID-desktop-FJ-profile_rtezgo.jpg"
         , "imageText": ""
         , "imageType": "screenshot"
         }
-      , { "imageFile": "lumi-ID-desktop-FJ-settings-detail_lgnjot.jpg"
+      , { "imageFile": "lumi-ID-desktop-FJ-settings-detail_fs4klu.jpg"
         , "imageText": ""
         , "imageType": "screenshot"
         }
-      , { "imageFile": "lumi-ID-sample-code_fu7cgd.png"
+      , { "imageFile": "lumi-ID-sample-code_infbme.png"
         , "imageText": ""
         , "imageType": "screenshot"
         }
@@ -137,7 +137,7 @@
   , "title": "Lumi"
   , "subtitle": "UI/UX, Development"
   , "description": "Lumi helps e-commerce companies produce custom packaging and handle supply chain logistics, with the goal of making custom manufacturing more sustainable and as scalable as the web."
-  , "summary": "Product designer and developer of a modular UI component library to maintain cohesiveness across Lumi's various app user interfaces and visual design. Senior front-end engineer contributing to the migration of Lumi's web applications into a strongly-typed functional programming language, on top of a React framework."
+  , "summary": "Product designer and developer of a modular UI component library to maintain cohesiveness across Lumi's various app user interfaces and visual design; as well as the creation of a B2B marketplace providing transparency & improving efficiency in supply chain logistics, and guiding brands to find manufacturers best suited to fulfill their packaging needs. Senior front-end engineer contributing to the migration of Lumi's web applications into a strongly-typed functional programming language, on top of a React framework."
   , "backgroundColor": "#DBD624"
   , "imageKey": "lumi"
   , "indexImage": "index_twciyu.png"
@@ -148,27 +148,31 @@
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-01_crelk5.png"
-        , "imageText": "Initial design focus was to standardize the app experience by establishing a modular UI component library for both the consumer brand-facing dashboard and the manufacturer-facing dashboard. For the buyer's app, users needed to be able to easily create & purchase any custom packaging needs."
+        , "imageText": "Initial design focus was to standardize the app experience by establishing a modular UI component library for both the consumer brand-facing dashboard and the manufacturer-facing dashboard. For the buyer's app, users needed to be able to easily create & purchase from a catalog of packaging products."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-02_esmwtr.png"
-        , "imageText": "Consumer brand users needed to be able to select and specify their packaging requirements and designs, so the app interface was designed to assist users in making informed decisions with high-density data about packaging products, flow into the cart & payment funnel, and view essential information about quantity & price."
+        , "imageText": "Because consumer brand users requested to a higher level of specificity for their branded packaging requirements and designs, the app interface was updated from a default catalog UI to a customizable form interface to assist users in creating detailed customizable packaging. Allowing brand users to submit their custom packaging specifications, design files & proofs into a guided workflow that then submitted packaging requests into a B2B marketplace of manufacturers that could respond to customers' requests with detailed quoting information on order fulfillment & next steps."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "flapjack-00-supplier-recommendations-alt_ebe1g3.jpg"
-        , "imageText": "To assist consumer brands in comparing across a marketplace of many manufacturers, an interface was created for displaying rich data regarding packaging specifications, quote comparisons and lead times."
+      , { "imageFile": "2023-Dec/FJ-items-page_ehtyzj.jpg"
+        , "imageText": "Manufacturers responses to customers' custom packaging needs were displayed in a high-density data UI reflecting the nuances of producing each custom packaging product, essential information about projected quotes (quantity, price & turnaround times), as well as linking to detailed profiles about the manufacturer themselves, allowing brand users to easily compare across different possible manufacturing resources."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "flapjack-00-supplier-profile-alt-2_hq20qf.jpg"
-        , "imageText": "From the manufacturer's perspective, they needed to be able to market themselves to prospective consumer brands. So an app UI to create unique manufacturer profiles with detailed information about their products & services and a scorecard rating was designed."
+      , { "imageFile": "2023-Dec/FJ-quoting-page_ws5te3.jpg"
+        , "imageText": "To assist consumer brands in comparing across an ecosystem of many manufacturers, a marketplace reference UI was created for displaying rich data regarding each manufacturer's production capabilities, location & shipping times, sustainability efforts, and reviews from other consumer brands."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "bravo-00_a5b3uk.jpg"
-        , "imageText": "The manufacturer dashboard utilizes the same UI component library to standardize visual cohesiveness, but with a UX focus on the manufacturer's need to respond to consumer brand requests, providing quotes, feedback, and status updates."
+      , { "imageFile": "2023-Dec/FJ-network-page_wpm5zq.jpg"
+        , "imageText": "Manufacturers could respond to each customers' custom packaging needs from their own focused app UI, supporting a marketplace of potential opportunities, customers' direct requests for custom packaging, and to track & manage potential orders."
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "2023-Dec/Bravo-opportunities-page_yik29s.jpg"
+        , "imageText": "The manufacturer dashboard utilizes the same UI component library to standardize visual cohesiveness, but with a UX focus on the manufacturer's need to respond to consumer brand requests, providing quotes, feedback, status updates, and tracking order fulfillment."
         , "imageType": "screenshot"
         }
       , { "imageFile": "UI-components-card-grid_unmvsh.png"
-        , "imageText": "A modular UI component library example for a responsive CardGrid component layout. By designing and utilizing a reusable modular component library & establishing a scalable design system, each app targeted for a specific user demographic maintained visual branding consistency and user experience."
+        , "imageText": "A modular UI component library example for a responsive CardGrid component layout. By designing and utilizing a reusable modular component library & establishing a scalable design system, each app targeted for a specific user demographic (consumer brands & manufacturers/suppliers) maintained visual Lumi branding consistency and user experience."
         , "imageType": "screenshot"
         }
     ]
@@ -287,68 +291,6 @@
       ]
   },
   { "id": 6
-  , "slug": "onomie"
-  , "siteUrl": "https://onomie.com/"
-  , "title": "Onomie"
-  , "subtitle": "UI/UX, Development"
-  , "description": "Onomie is a direct-to-consumer cosmetics brand that is a cross between skincare and makeup. Created to simplify beauty by combining clinically-validated skincare formulas with advanced makeup technology."
-  , "summary": "Lead product designer & front-end engineer for Onomie to help it stand out from a competitive market by featuring interactive trials and science backed beauty products."
-  , "backgroundColor": "#ECD9D4"
-  , "imageKey": "onomie"
-  , "indexImage": "index_znl5gq.jpg"
-  , "fullscreen": false
-  , "images":
-      [ { "imageFile": "desktop-00-alt_garycg.jpg"
-        , "imageText": "Onomie is an e-commerce brand using scientific backing for its skincare and makeup products. To emphasize the power of Onomie's skincare products on the site, interactive before & after UI sliders and visual illustrations were used to demonstrate the quality of product ingredients and effect on skin improvement."
-        , "imageType": "screenshot"
-        }
-      , { "imageFile": "phone-00_xlzqhw.jpg"
-        , "imageText": "As an e-commerce site, the experience was designed mobile-first, so users could experience and purchase Onomie products on a variety of devices."
-        , "imageType": "iphone"
-        }
-      ]
-  , "skills":
-      [ "Product Design"
-      , "UI/UX Design & Research"
-      , "Front-end Development"
-      ]
-  },
-  { "id": 7
-  , "slug": "tom-tom-magazine"
-  , "siteUrl": "https://tomtommag.com/"
-  , "title": "Tom Tom Magazine"
-  , "subtitle": "UI/UX, Development"
-  , "description": "Tom Tom Magazine is a quarterly print magazine and website based out of New York City. It is the only magazine in the world that is dedicated to female-identifying drummers."
-  , "summary": "Lead product designer & developer for Tom Tom's e-commerce platform to leverage site visits into opportunities to sell the publication or goods related to the brand. Using the Shopify CMS a custom responsive template theme was designed and developed for the Tom Tom store."
-  , "backgroundColor": "#466638"
-  , "imageKey": "tom-tom"
-  , "indexImage": "index_qlv9aq.jpg"
-  , "fullscreen": false
-  , "images":
-      [ { "imageFile": "desktop-00-alt_flcebt.jpg"
-        , "imageText": "As a print publication Tom Tom Magazine needed a digital site that reflected their focus on music related content."
-        , "imageType": "screenshot"
-        }
-      , { "imageFile": "desktop-01_apeeoi.png"
-        , "imageText": "Additionally an e-commerce site was needed for users to purchase branded products, and was built by creating a custom Shopify template with CMS integration. Allowing team members to easily track inventory and sales related data."
-        , "imageType": "screenshot"
-        }
-      , { "imageFile": "phone-00_g3ussj.jpg"
-        , "imageText": "Responsive mobile-first designs were implemented to create a seamless experience on across a variety of devices for users."
-        , "imageType": "iphone"
-        }
-      , { "imageFile": "phone-01_b8mg99.png"
-        , "imageText": "As well as responsive designs for the e-commerce site experience to leverage conversions across devices."
-        , "imageType": "iphone"
-        }
-      ]
-  , "skills":
-      [ "Product Design"
-      , "UI/UX Design & Research"
-      , "Front-end Development"
-      ]
-  },
-  { "id": 8
   , "slug": "architecture"
   , "title": "Willard Park"
   , "subtitle": "Visual design, Architecture"
@@ -387,6 +329,68 @@
       [ "Creative Direction"
       , "Visual Design"
       , "Architectural Design"
+      ]
+  },
+  { "id": 7
+  , "slug": "onomie"
+  , "siteUrl": "https://onomie.com/"
+  , "title": "Onomie"
+  , "subtitle": "UI/UX, Development"
+  , "description": "Onomie is a direct-to-consumer cosmetics brand that is a cross between skincare and makeup. Created to simplify beauty by combining clinically-validated skincare formulas with advanced makeup technology."
+  , "summary": "Lead product designer & front-end engineer for Onomie to help it stand out from a competitive market by featuring interactive trials and science backed beauty products."
+  , "backgroundColor": "#ECD9D4"
+  , "imageKey": "onomie"
+  , "indexImage": "index_znl5gq.jpg"
+  , "fullscreen": false
+  , "images":
+      [ { "imageFile": "desktop-00-alt_garycg.jpg"
+        , "imageText": "Onomie is an e-commerce brand using scientific backing for its skincare and makeup products. To emphasize the power of Onomie's skincare products on the site, interactive before & after UI sliders and visual illustrations were used to demonstrate the quality of product ingredients and effect on skin improvement."
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "phone-00_xlzqhw.jpg"
+        , "imageText": "As an e-commerce site, the experience was designed mobile-first, so users could experience and purchase Onomie products on a variety of devices."
+        , "imageType": "iphone"
+        }
+      ]
+  , "skills":
+      [ "Product Design"
+      , "UI/UX Design & Research"
+      , "Front-end Development"
+      ]
+  },
+  { "id": 8
+  , "slug": "tom-tom-magazine"
+  , "siteUrl": "https://tomtommag.com/"
+  , "title": "Tom Tom Magazine"
+  , "subtitle": "UI/UX, Development"
+  , "description": "Tom Tom Magazine is a quarterly print magazine and website based out of New York City. It is the only magazine in the world that is dedicated to female-identifying drummers."
+  , "summary": "Lead product designer & developer for Tom Tom's e-commerce platform to leverage site visits into opportunities to sell the publication or goods related to the brand. Using the Shopify CMS a custom responsive template theme was designed and developed for the Tom Tom store."
+  , "backgroundColor": "#466638"
+  , "imageKey": "tom-tom"
+  , "indexImage": "index_qlv9aq.jpg"
+  , "fullscreen": false
+  , "images":
+      [ { "imageFile": "desktop-00-alt_flcebt.jpg"
+        , "imageText": "As a print publication Tom Tom Magazine needed a digital site that reflected their focus on music related content."
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "desktop-01_apeeoi.png"
+        , "imageText": "Additionally an e-commerce site was needed for users to purchase branded products, and was built by creating a custom Shopify template with CMS integration. Allowing team members to easily track inventory and sales related data."
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "phone-00_g3ussj.jpg"
+        , "imageText": "Responsive mobile-first designs were implemented to create a seamless experience on across a variety of devices for users."
+        , "imageType": "iphone"
+        }
+      , { "imageFile": "phone-01_b8mg99.png"
+        , "imageText": "As well as responsive designs for the e-commerce site experience to leverage conversions across devices."
+        , "imageType": "iphone"
+        }
+      ]
+  , "skills":
+      [ "Product Design"
+      , "UI/UX Design & Research"
+      , "Front-end Development"
       ]
   }
 ]
