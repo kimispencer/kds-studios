@@ -90,11 +90,11 @@
         , "imageType": "screenshot"
         }
       , { "imageFile": "lumi-ID-phone_ni8wr0.jpg"
-        , "imageText": "With a mobile-first approach, customers can scan QR codes on packaging materials to learn more about a brands's sustainability efforts, the life cycle of the packaging materials itself, and how to recycle it with up-to-date, localized disposal options using the latest best practices."
+        , "imageText": "With a mobile-first approach, customers can scan QR codes on packaging materials to learn more about a brand's sustainability efforts, the life cycle of the packaging materials itself, and how to recycle it with up-to-date, localized disposal options using the latest best practices."
         , "imageType": "iphone"
         }
       , { "imageFile": "lumi-ID-phone-search-results_lwrovs.jpg"
-        , "imageText": "Every city has its own regulations, which can make it difficult for customer service teams to answer questions accurately. Lumi ID is a universal system for every type of packaging tied to real-time data, giving users accurate information about a brand's packaging materials, sustainability mission and certifications."
+        , "imageText": "Every city has its own regulations, which can make it difficult for a brand's customer service teams to answer questions accurately. Lumi ID is a universal system for every type of packaging tied to real-time data, giving users accurate information about a brand's packaging materials, sustainability mission and certifications."
         , "imageType": "iphone"
         }
       , { "imageFile": "lumi-ID-desktop-landing_fmkv6b.jpg"
@@ -102,7 +102,7 @@
         , "imageType": "screenshot"
         }
       , { "imageFile": "lumi-ID-desktop-search-results_mtwirg.jpg"
-        , "imageText": "From the brand dashboard, not only can companies customize, track and create new packaging but also in addition to disposal information, share their environmental mission, link to their sustainability page, and share as much information about their packaging as desired. "
+        , "imageText": "From the brand's dashboard, not only can companies customize, order and track new packaging but also in addition to disposal information, share their environmental mission, link to their sustainability page, and share as much information about their packaging as desired. "
         , "imageType": "screenshot"
         }
       , { "imageFile": "lumi-ID-desktop-FJ-profile_rtezgo.jpg"
@@ -144,7 +144,7 @@
   , "fullscreen": false
   , "images":
       [ { "imageFile": "desktop-00-alt_zivikv.jpg"
-        , "imageText": "Lumi provides services to users that are consumer brands in need of packaging, as well as packaging suppliers & manufacturers. To communicate to these multiple user demographics a marketing site was designed to provide tailored content to both buyers and suppliers."
+        , "imageText": "Lumi provides services to users that are consumer brands in need of packaging, as well as packaging manufacturers responding to requests & orders. To communicate to these multiple user demographics a marketing site was designed to provide tailored content to both consumer brand buyers and packaging suppliers."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-01_crelk5.png"
@@ -152,11 +152,11 @@
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-02_esmwtr.png"
-        , "imageText": "Because consumer brand users requested to a higher level of specificity for their branded packaging requirements and designs, the app interface was updated from a default catalog UI to a customizable form interface to assist users in creating detailed customizable packaging. Allowing brand users to submit their custom packaging specifications, design files & proofs into a guided workflow that then submitted packaging requests into a B2B marketplace of manufacturers that could respond to customers' requests with detailed quoting information on order fulfillment & next steps."
+        , "imageText": "Because consumer brand users requested a higher level of specificity for their branded packaging requirements and designs, the app interface was updated from a default catalog UI to a customizable form interface to assist users in creating detailed customizable packaging. Allowing brands to submit their custom specifications, design files & proofs into a guided workflow that then submitted packaging requests into a B2B marketplace of manufacturers that could respond to brand requests with detailed quoting information on order fulfillment & next steps."
         , "imageType": "screenshot"
         }
       , { "imageFile": "2023-Dec/FJ-items-page_ehtyzj.jpg"
-        , "imageText": "Manufacturers responses to customers' custom packaging needs were displayed in a high-density data UI reflecting the nuances of producing each custom packaging product, essential information about projected quotes (quantity, price & turnaround times), as well as linking to detailed profiles about the manufacturer themselves, allowing brand users to easily compare across different possible manufacturing resources."
+        , "imageText": "Manufacturers' responses to brands' custom packaging needs were displayed in a high-density data UI reflecting the nuances of producing each custom product, essential information about projected quotes (quantity, price & turnaround times), as well as linking to detailed profiles about the manufacturer themselves, allowing brands to easily compare across different possible manufacturing resources."
         , "imageType": "screenshot"
         }
       , { "imageFile": "2023-Dec/FJ-quoting-page_ws5te3.jpg"
@@ -164,7 +164,7 @@
         , "imageType": "screenshot"
         }
       , { "imageFile": "2023-Dec/FJ-network-page_wpm5zq.jpg"
-        , "imageText": "Manufacturers could respond to each customers' custom packaging needs from their own focused app UI, supporting a marketplace of potential opportunities, customers' direct requests for custom packaging, and to track & manage potential orders."
+        , "imageText": "Manufacturers could respond to each brands' custom packaging needs from their own focused app UI, supporting a marketplace of potential opportunities, buyers' direct requests for custom packaging, and to track & manage potential orders."
         , "imageType": "screenshot"
         }
       , { "imageFile": "2023-Dec/Bravo-opportunities-page_yik29s.jpg"
@@ -233,7 +233,7 @@
   , "indexImage": "index_cxa5mu.jpg"
   , "fullscreen": false
   , "images":
-      [ { "imageFile": "desktop-00-alt_nzitee.jpg"
+      [ { "imageFile": "desktop-02-alt_lxw4wk.jpg"
         , "imageText": "As a print publication, translating the SUITED experience online focused on designing a UI that highlights rich imagery and featured content. As content needed to be regularly updated, a custom CMS driven template was created on top of the SquareSpace developer platform."
         , "imageType": "screenshot"
         }
@@ -241,7 +241,7 @@
         , "imageText": "Because SUITED's initial experience was their printed content, the site was designed to highlight previous issues and leverage site visits into opportunities for users to order hard copies."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "desktop-02-alt_lxw4wk.jpg"
+      , { "imageFile": "desktop-00-alt_nzitee.jpg"
         , "imageText": "SUITED magazine's aesthetic is minimal, black & white and high-end. The site was designed to emphasize the physical experience into a fashion and art focused digital site."
         , "imageType": "screenshot"
         }

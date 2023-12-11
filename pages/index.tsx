@@ -52,7 +52,7 @@ const Home = () => {
                 />
               </div>
             </Link>
-            <h4 className={styles.featuredWorkText}>Responsive website design and development for a NYC based fashion line.</h4>
+            <h4 className={styles.featuredWorkText}>Responsive website design & development for an architecturally-inspired NYC based fashion line.</h4>
             <Link href="/projects/arrivals" className={styles.featuredWorkLink}><h4>View project</h4></Link>
           </div>
         </div>
@@ -81,7 +81,7 @@ const Home = () => {
                 />
               </div>
             </Link>
-            <h4 className={styles.featuredWorkText}>Website and UI component library design and development for an LA based packaging company.</h4>
+            <h4 className={styles.featuredWorkText}>Design & development of a modular UI design system for an LA based sustainable packaging marketplace.</h4>
             <Link href="/projects/lumi" className={styles.featuredWorkLink}><h4>View project</h4></Link>
           </div>
         </div>
