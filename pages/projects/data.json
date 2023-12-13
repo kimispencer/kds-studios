@@ -5,7 +5,7 @@
   , "title": "Smarty AI"
   , "subtitle": "UI/UX, User research"
   , "description": "Smarty unifies task management & calendar scheduling into one clean application. Powered by AI with a natural language processing interface, users can enter text to create tasks, events, scheduling links and more."
-  , "summary": "Principle product designer, creating the foundational core interface for Smarty's responsive desktop & mobile app, and Chrome extension. Working closely with the CEO and engineering team, created the foundational UI component library and app interfaces, synthesized user research & testing into a research-backed design system, as well as provided design strategy for the product roadmap & assisted as a product manager. Smarty AI is still in active development."
+  , "summary": "Principle product designer, creating the core interface for Smarty. Working closely with the CEO and engineering team, created the foundational UI component library and app interfaces, synthesized user research & testing into a research-backed design system, as well as provided design strategy for the product roadmap. Smarty AI is still in active development."
   , "backgroundColor": "#17486D"
   , "imageKey": "smarty"
   , "indexImage": "index_mcyprd.png"
@@ -16,18 +16,27 @@
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2023-Dec/user-research/user-persona_zkofzx.png"
-        , "imageText": "Our target key personas were identified as executive assistants and agency professionals. From there we created user journey maps, persona profiles, as well as conducted rounds of user interviews & testing with interactive mockups to validate our value proposition. In our interviews we focused on how people organize & structure their schedule over the course of week, and what were their pain points & goals when planning out their objectives for their calendar."
+        , "imageText": "Our target personas were identified as executive assistants and agency professionals. From there we created persona profiles, user journey maps, as well as conducted rounds of user interviews. In our interviews we focused on how people organize & structure their schedule over the course of week, and what were their pain points & goals when planning out objectives for their calendar."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "/2023-Dec/user-research/customer-journey-map_dadn9p.png"
-        , "imageText": "After conducting rounds of user research and discovery, we summarized the product's strategy into a Jobs to Be Done statement: 'When I’m newly overwhelmed by an overflowing plate and the meetings/tasks keep coming, I want to easily track my workload (via smart visualization and automatic re-prioritization), so I can have mental clarity and confidence each day.' Additionally, market analysis was conducted to a create competitive feature matrix to analyze where there are market gaps & opportunities for users to have a better scheduling tool."
+      , { "imageFile": "/2023-Dec/user-research/user-journey-map-v4_tqea0i.png"
+        , "imageText": "A user journey map was created to visualize the flow of how users planned & scheduled with their existing tools & workflows, and discovered new productivity tools & methodologies. Tracking their actions, feelings & questions, as well as touchpoints & opportunities in each step of their flow. Our original hypothesis was then compared to or validated by the insights we gathered from our user research discovery phase."
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "/2023-Dec/user-research/value-proposition-mapping_rxt7px.png"
+        , "imageText": "From several rounds of user interviews we summarized 3 different possible value propositions and organized our findings by each group, to see where there was overlap & distinction. Additionally, market analysis was conducted to a create competitive feature matrix to analyze where there are market gaps & opportunities for users to have a better scheduling tool."
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "/2023-Dec/user-research/feature-set_fqpor2.png"
+        , "imageText": "After conducting rounds of user research and discovery, we summarized the product's strategy into a Jobs to Be Done statement: 'When I’m newly overwhelmed by an overflowing plate and the meetings/tasks keep coming, I want to easily track my workload (via smart visualization and automatic re-prioritization), so I can have mental clarity and confidence each day.' And synthesized our findings into a feature set that would help alleiviate user's pain points & help them more easily accomplish their goals."
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2023-Dec/list-view/00_homepage_-_list_view_r08dcw.jpg"
+        , "imageText": "Based on our insights from user research & market analysis, and supported by an examination of existing systems & methodologies, Smarty was built on top of a natural language processing interface with intelligent AI auto-scheduling that would automatically reschedule tasks & events based on priority and schedule changes. The app UI was designed to let users build content through a purely textual interface with a mimimal/clean aesthetic to aid them in keeping focus on their tasks at hand."
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2023-Dec/list-view/00a_homepage_-_list_view_omxdky.jpg"
-        , "imageText": "Based on our insights from user research & market analysis, and supported by an examination of existing systems & methodologies Smarty was built on top of a natural language processing interface, and the app UI was designed to let users build content through a purely textual interface. With the power of a `/` command to create Tasks, Notes, Events and Scheduling Links. To add contextual information when required users can simply type as they would in a physical notebook or planner, triggering natural language driven actions, such as `@tomorrow` or `@before end of week during working hours`, etc."
+        , "imageText": "With the power of a `/` command to create Tasks, Notes, Events and Scheduling Links. To add contextual information when required users can simply type as they would in a physical notebook or planner, triggering natural language driven actions, such as `@tomorrow` or `@before end of week during working hours`, etc."
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2023-Dec/list-view/01_homepage_-_list_view_command_hy2og0.jpg"
@@ -46,6 +55,10 @@
         , "imageText": "Smarty handles task management and event scheduling for users with the AI powered auto-scheduling feature, allowing users to avoid conflicts and automate rescheduling of their most important tasks & events. Free times are auto-detected, and reminders go out automatically; with the app design streamlined to help users take the work out of managing their agenda, so they can focus on the activity at hand itself not scheduling it."
         , "imageType": "screenshot"
         }
+      , { "imageFile": "/2023-Dec/list-view/homepage_-_list_view_calendar_panel_compare_bqq6wa.jpg"
+        , "imageText": "Users can also visually compare their list view to a calendar time block layout to see how any given day is structured, and drag/drop between the two interfaces. In addition to the rich text editor view to organize & schedule, user can also create content & visualize organization of their tasks & events with the robust calendar interface as their primary view, backed by the time management research methodology of 'time blocking'. Unified across the app by a global command menu to create content textually from any touch point."
+        , "imageType": "screenshot"
+        }
       , { "imageFile": "/2023-Dec/calendar-view/00_homepage_-_calendar_view_iugyu7.jpg"
         , "imageText": ""
         , "imageType": "screenshot"
@@ -59,11 +72,7 @@
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2023-Dec/calendar-view//04_homepage_-_calendar_view_commend_menu_active_dcul2e.jpg"
-        , "imageText": "In addition to a rich text editor interface to organize & schedule, user can also visualize time blocking of their tasks & events with a robust calendar interface. Unified across the app by a global command menu, users can input tasks & events textually from both the list view interface as well as the calendar view; as well as leveraging the drag/drop interface of the calendar UI to re-order and reschedule their time blocks."
-        , "imageType": "screenshot"
-        }
-      , { "imageFile": "/2023-Dec/list-view/04_homepage_-_list_view_sd4vca.jpg"
-        , "imageText": ""
+        , "imageText": "Smarty is still in active development, with additional features being tested with interactive prototypes for usability and diary studies on our beta version demo."
         , "imageType": "screenshot"
         }
       ]
@@ -152,7 +161,15 @@
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-02_esmwtr.png"
-        , "imageText": "Because consumer brand users requested a higher level of specificity for their branded packaging requirements and designs, the app interface was updated from a default catalog UI to a customizable form interface to assist users in creating detailed customizable packaging. Allowing brands to submit their custom specifications, design files & proofs into a guided workflow that then submitted packaging requests into a B2B marketplace of manufacturers that could respond to brand requests with detailed quoting information on order fulfillment & next steps."
+        , "imageText": "Because consumer brand users requested a higher level of specificity for their branded packaging requirements and designs, UX research was performed to map out the workflows for a consumer brand's custom packaging item needs to creation, and then submitting into either a direct quote request for a manufacturer to respond to or into a marketplace of manufacturers to be bid upon. "
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "2023-Dec/Workflow_-_Item_to_Quote_Request_wtesir.png"
+        , "imageText": "As well as a reciporcal flow for how manufacturers could respond to consumer brand's direct packaging quote requests, view potential opportunities to bid upon, and in turn manage accepted quotes into order fulfillment."
+        , "imageType": "screenshot"
+        }
+      , { "imageFile": "2023-Dec/Workflow_-_Responding_to_opportunities_y7kf8s.png"
+        , "imageText": "Based on this research, the app interface was updated from a default catalog UI to a customizable form interface to assist consumer brand users in creating detailed customizable packaging & matching them to their best suited manfacturer. Allowing brands to create their custom specifications, add design files & proofs into a guided workflow that then submitted packaging requests into a B2B marketplace of manufacturers that could respond to brand requests with detailed quoting information on pricing, order fulfillment & next steps."
         , "imageType": "screenshot"
         }
       , { "imageFile": "2023-Dec/FJ-items-page_ehtyzj.jpg"
