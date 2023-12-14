@@ -23,12 +23,8 @@
         , "imageText": "A user journey map was created to visualize the flow of how users planned & scheduled with their existing tools & workflows, and discovered new productivity tools & methodologies. Tracking their actions, feelings & questions, as well as touchpoints & opportunities in each step of their flow. Our original hypothesis was then compared to or validated by the insights we gathered from our user research discovery phase."
         , "imageType": "screenshot"
         }
-      , { "imageFile": "/2023-Dec/user-research/value-proposition-mapping_rxt7px.png"
-        , "imageText": "From several rounds of user interviews we summarized 3 different possible value propositions and organized our findings by each group, to see where there was overlap & distinction. Additionally, market analysis was conducted to a create competitive feature matrix to analyze where there are market gaps & opportunities for users to have a better scheduling tool."
-        , "imageType": "screenshot"
-        }
       , { "imageFile": "/2023-Dec/user-research/feature-set_fqpor2.png"
-        , "imageText": "After conducting rounds of user research and discovery, we summarized the product's strategy into a Jobs to Be Done statement: 'When I’m newly overwhelmed by an overflowing plate and the meetings/tasks keep coming, I want to easily track my workload (via smart visualization and automatic re-prioritization), so I can have mental clarity and confidence each day.' And synthesized our findings into a feature set that would help alleiviate user's pain points & help them more easily accomplish their goals."
+        , "imageText": "After conducting rounds of user interviews and discovery, we summarized 3 different possible value propositions and organized our findings by each user group, to see where there was overlap & distinction. Synthesized into a Jobs to Be Done statement: 'When I’m newly overwhelmed by an overflowing plate and the meetings/tasks keep coming, I want to easily track my workload (via smart visualization and automatic re-prioritization), so I can have mental clarity and confidence each day.' Translated into a feature set emphasizing: a simple/clean UI, task tracking & management, automated scheduling & supporting integrations."
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2023-Dec/list-view/00_homepage_-_list_view_r08dcw.jpg"
