@@ -24,11 +24,11 @@
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2023-Dec/user-research/feature-set_fqpor2.png"
-        , "imageText": "After conducting rounds of user interviews and discovery, we summarized 3 different possible value propositions and organized our findings by each user group, to see where there was overlap & distinction. Synthesized into a Jobs to Be Done statement: 'When I’m newly overwhelmed by an overflowing plate and the meetings/tasks keep coming, I want to easily track my workload (via smart visualization and automatic re-prioritization), so I can have mental clarity and confidence each day.' Translated into a feature set emphasizing: a simple/clean UI, task tracking & management, automated scheduling & supporting integrations."
+        , "imageText": "After conducting rounds of user interviews and discovery, we summarized 3 different possible value propositions and organized our findings by each user group, to see where there was overlap & distinction. Synthesized into a Jobs to Be Done statement: 'When I’m newly overwhelmed by an overflowing plate and the meetings/tasks keep coming, I want to easily track my workload (via smart visualization and automatic re-prioritization), so I can have mental clarity and confidence each day.' Translated into a feature set emphasizing: a simple/clean UI, task tracking & management, automated scheduling, and supporting integrations."
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2023-Dec/list-view/00_homepage_-_list_view_r08dcw.jpg"
-        , "imageText": "Based on our insights from user research & market analysis, and supported by an examination of existing systems & methodologies, Smarty was built on top of a natural language processing interface with intelligent AI auto-scheduling that would automatically reschedule tasks & events based on priority and schedule changes. The app UI was designed to let users build content through a purely textual interface with a mimimal/clean aesthetic to aid them in keeping focus on their tasks at hand."
+        , "imageText": "Based on our insights from user research & market analysis, and supported by an examination of existing systems & methodologies, Smarty was built on top of a natural language processing engine with AI auto-scheduling that would reschedule tasks & events based on priority and schedule changes. The app UI was designed to let users build content through a purely textual interface with a minimal/clean aesthetic."
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2023-Dec/list-view/00a_homepage_-_list_view_omxdky.jpg"
@@ -40,19 +40,19 @@
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2023-Dec/list-view/02_homepage_-_list_view_command_d4f4yg.jpg"
-        , "imageText": ""
+        , "imageText": "The UI was designed to help automate actions for users but still let them have discrete control with a clean minimal interface (inspired by the analog foundation of paper notebooks) and powered by NLP & AI to automate scheduling into free time blocks based on priority so users can focus on what's important. As well as support of third-party integrations so users can seamlessly integrate their existing workflows and content, without having to context switch between multiple applications."
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2023-Dec/list-view/03_homepage_-_list_view_command_lgpqs8.jpg"
-        , "imageText": "The UI was designed to help automate actions for users but still let them have discrete control with a clean minimal interface (inspired by the analog foundation of paper notebooks) but powered by NLP & AI to automate scheduling into free time blocks based on priority so users can focus on what's important. As well as support of third-party integrations so users can seamlessly integrate their existing workflows and content, without having to context switch between multiple applications."
-        , "imageType": "screenshot"
-        }
-      , { "imageFile": "/2023-Dec/list-view/homepage_-_scheduled_tasks_with_conflict_resolution_with_auto-schedule_logged_in_user_bhycwu.jpg"
         , "imageText": "Smarty handles task management and event scheduling for users with the AI powered auto-scheduling feature, allowing users to avoid conflicts and automate rescheduling of their most important tasks & events. Free times are auto-detected, and reminders go out automatically; with the app design streamlined to help users take the work out of managing their agenda, so they can focus on the activity at hand itself not scheduling it."
         , "imageType": "screenshot"
         }
+      , { "imageFile": "/2023-Dec/list-view/homepage_-_scheduled_tasks_with_conflict_resolution_with_auto-schedule_logged_in_user_bhycwu.jpg"
+        , "imageText": "Users can also visually compare their list view to a calendar time block layout to see how any given day is structured, and drag/drop between the two interfaces. In addition to the rich text editor view to organize & schedule, user can also create content & visualize organization of their tasks & events with the robust calendar interface as their primary view, backed by the time management research methodology of 'time boxing'. Unified across the app by a global command menu to create content textually from any touch point."
+        , "imageType": "screenshot"
+        }
       , { "imageFile": "/2023-Dec/list-view/homepage_-_list_view_calendar_panel_compare_bqq6wa.jpg"
-        , "imageText": "Users can also visually compare their list view to a calendar time block layout to see how any given day is structured, and drag/drop between the two interfaces. In addition to the rich text editor view to organize & schedule, user can also create content & visualize organization of their tasks & events with the robust calendar interface as their primary view, backed by the time management research methodology of 'time blocking'. Unified across the app by a global command menu to create content textually from any touch point."
+        , "imageText": ""
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2023-Dec/calendar-view/00_homepage_-_calendar_view_iugyu7.jpg"
