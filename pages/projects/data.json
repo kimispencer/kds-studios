@@ -8,7 +8,6 @@
   , "backgroundColor": "#17486D"
   , "imageKey": "smarty"
   , "indexImage": "index_mcyprd.png"
-  , "fullscreen": false
   , "sections":
       [ { "imageFile": "desktop-00-alt_wnqbk1.jpg"
         , "projectSectionText":
@@ -16,6 +15,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "/2023-Dec/user-research/user-persona_zkofzx.png"
         , "projectSectionText":
@@ -23,6 +23,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "/2023-Dec/user-research/user-journey-map-v4_tqea0i.png"
         , "projectSectionText":
@@ -30,6 +31,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "/2023-Dec/user-research/feature-set_fqpor2.png"
         , "projectSectionText":
@@ -37,6 +39,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "/2024-Feb/homepage_-_list_view_dwmrlo.jpg"
         , "projectSectionText":
@@ -44,6 +47,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "/2024-Feb/homepage_-_list_view-1_youh3a.jpg"
         , "projectSectionText":
@@ -51,6 +55,7 @@
             , "textType": "none"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "/2024-Feb/homepage_-_list_view_command_so5ghv.jpg"
         , "projectSectionText":
@@ -58,6 +63,7 @@
             , "textType": "none"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "/2024-Feb/homepage_-_list_view_command-1_u869si.jpg"
         , "projectSectionText":
@@ -65,6 +71,7 @@
           , "textType": "none"
           }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "/2024-Feb/homepage_-_scheduled_tasks_with_conflict_resolution_with_auto-schedule_logged_in_user_hzekzo.jpg"
         , "projectSectionText":
@@ -72,6 +79,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "/2024-Feb/homepage_-_calendar_view_ejetpg.jpg"
         , "projectSectionText":
@@ -79,6 +87,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       ]
   , "skills":
@@ -112,6 +121,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "lumi-ID-phone_ni8wr0.jpg"
         , "projectSectionText":
@@ -119,6 +129,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "iphone"
+        , "fullscreen": false
         }
       , { "imageFile": "lumi-ID-phone-search-results_lwrovs.jpg"
         , "projectSectionText":
@@ -126,6 +137,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "iphone"
+        , "fullscreen": false
         }
       , { "imageFile": "lumi-ID-desktop-landing_fmkv6b.jpg"
         , "projectSectionText":
@@ -133,6 +145,7 @@
             , "textType": "none"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "lumi-ID-desktop-search-results_mtwirg.jpg"
         , "projectSectionText":
@@ -140,6 +153,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "lumi-ID-desktop-FJ-profile_rtezgo.jpg"
         , "projectSectionText":
@@ -147,6 +161,7 @@
             , "textType": "none"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "lumi-ID-desktop-FJ-settings-detail_fs4klu.jpg"
         , "projectSectionText":
@@ -154,6 +169,7 @@
             , "textType": "none"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "lumi-ID-sample-code_infbme.png"
         , "projectSectionText":
@@ -161,6 +177,7 @@
             , "textType": "none"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "lumi-lumicodes-photography_psehau.jpg"
         , "projectSectionText":
@@ -168,6 +185,7 @@
             , "textType": "none"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       ]
   , "skills":
@@ -203,6 +221,7 @@
             , "textType": "columns"
             }
         , "imageType": "none"
+        , "fullscreen": false
         }
       , { "imageFile": "desktop-00-alt_zivikv.jpg"
         , "projectSectionHeader": "Context"
@@ -211,6 +230,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "desktop-01_crelk5.png"
         , "projectSectionHeader": "Where we started"
@@ -219,6 +239,7 @@
             , "textType": "columns"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "desktop-02_esmwtr.png"
         , "projectSectionHeader": "The problem"
@@ -227,13 +248,15 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "2023-Dec/Workflow_-_Item_to_Quote_Request_wtesir.png"
-        , "imageType": "screenshot"
         , "projectSectionText":
             { "textCopy": ""
             , "textType": "none"
             }
+        , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "projectSectionHeader": "Example of text only"
         , "projectSectionText":
@@ -244,6 +267,7 @@
             , "textType": "columns"
             }
         , "imageType": "none"
+        , "fullscreen": false
         }
       , { "imageFile": "2023-Dec/Workflow_-_Responding_to_opportunities_y7kf8s.png"
         , "projectSectionHeader": "The solution"
@@ -252,6 +276,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "2023-Dec/FJ-items-page_ehtyzj.jpg"
         , "projectSectionHeader": "Comparing quotes"
@@ -260,6 +285,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "2023-Dec/FJ-quoting-page_ws5te3.jpg"
         , "projectSectionHeader": "Picking the right supplier"
@@ -268,6 +294,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "2023-Dec/FJ-network-page_wpm5zq.jpg"
         , "projectSectionHeader": "A dashboard for suppliers"
@@ -276,6 +303,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "2023-Dec/Bravo-opportunities-page_yik29s.jpg"
         , "projectSectionText":
@@ -283,6 +311,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "UI-components-card-grid_unmvsh.png"
         , "projectSectionText":
@@ -290,6 +319,7 @@
             , "textType": "paragraph"
           }
         , "imageType": "screenshot"
+        , "fullscreen": true
         }
     ]
   , "skills":
@@ -317,7 +347,6 @@
   , "backgroundColor": "#36060A"
   , "imageKey": "arrivals"
   , "indexImage": "index_zpp9zz.jpg"
-  , "fullscreen": false
   , "sections":
       [ { "imageFile": "desktop-00-alt_jg0jcn.jpg"
         , "projectSectionText":
@@ -325,6 +354,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "desktop-01_wzpfw6.jpg"
         , "projectSectionText":
@@ -332,6 +362,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "desktop-02-alt_qpzl9s.jpg"
         , "projectSectionText":
@@ -339,6 +370,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "phone-00-alt_klkoug.jpg"
         , "projectSectionHeader": "Context"
@@ -347,6 +379,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "iphone"
+        , "fullscreen": false
         }
       , { "imageFile": "phone-01_mi5u4f.jpg"
         , "projectSectionText":
@@ -354,6 +387,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "iphone"
+        , "fullscreen": false
         }
       ]
   , "skills":
@@ -388,6 +422,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "desktop-01-alt_sh0epo.jpg"
         , "projectSectionText":
@@ -395,6 +430,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "desktop-00-alt_nzitee.jpg"
         , "projectSectionText":
@@ -402,6 +438,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "phone-00_fhkper.jpg"
         , "projectSectionText":
@@ -409,6 +446,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "iphone"
+        , "fullscreen": false
         }
       , { "imageFile": "phone-01_dpupjy.jpg"
         , "projectSectionText":
@@ -416,6 +454,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "iphone"
+        , "fullscreen": false
         }
       ]
   , "skills":
@@ -448,6 +487,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "01_bs8nk7.jpg"
         , "projectSectionText":
@@ -455,6 +495,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       , { "imageFile": "02_ydrfxz.jpg"
         , "projectSectionText":
@@ -462,6 +503,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
         }
       ]
   , "skills":

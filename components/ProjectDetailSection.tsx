@@ -53,7 +53,7 @@ const ProjectDetailSection = ({ key, section, project }: Props) => {
             section={section}
             imageKey={project.imageKey}
             backgroundColor={project.backgroundColor}
-            fullscreen={project.fullscreen}
+            fullscreen={section.fullscreen}
           />
         </div>
       )

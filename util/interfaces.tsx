@@ -14,7 +14,6 @@ export interface Project {
   indexImage: string;
   sections: ProjectSection[];
   backgroundColor?: string;
-  fullscreen: boolean;
   skills: string[];
   industry: string[];
   productType: string[];
@@ -24,9 +23,10 @@ export interface Project {
 
 export interface ProjectSection {
   projectSectionHeader: string;
-  projectSectionText: ProjectSectionText; //string;
+  projectSectionText: ProjectSectionText;
   imageFile: string;
   imageType: "iphone" | "screenshot" | "none";
+  fullscreen: boolean;
 }
 
 export interface ProjectSectionText {
