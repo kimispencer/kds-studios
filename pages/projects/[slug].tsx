@@ -37,7 +37,27 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
             <h5>{project.summary}</h5>
             <div className={styles.projectDetailsHeadline}>
               <div className={styles.projectDetailsHeadlineContainer}>
-                <p>client/role/skills</p>
+                <div className={styles.projectHeadlineColumn}>
+                  <p className={styles.projectHeadlineTitle}>Skills:</p>
+                  {project.skills.map((skill, i) => {
+                    return (<p key={i} className={styles.projectHeadlineText}>{skill}</p>)
+                    })
+                  }
+                </div>
+                <div className={styles.projectHeadlineColumn}>
+                  <p className={styles.projectHeadlineTitle}>Product:</p>
+                  {project.productType.map((p, i) => {
+                    return (<p key={i} className={styles.projectHeadlineText}>{p}</p>)
+                    })
+                  }
+                </div>
+                <div className={styles.projectHeadlineColumn}>
+                  <p className={styles.projectHeadlineTitle}>Industry:</p>
+                  {project.industry.map((industry, i) => {
+                    return (<p key={i} className={styles.projectHeadlineText}>{industry}</p>)
+                    })
+                  }
+                </div>
               </div>
             </div>
           </div>

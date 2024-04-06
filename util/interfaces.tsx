@@ -16,6 +16,8 @@ export interface Project {
   backgroundColor?: string;
   fullscreen: boolean;
   skills: string[];
+  industry: string[];
+  productType: string[];
   siteUrl?: string;
   supplementalUrl?: Url;
 }

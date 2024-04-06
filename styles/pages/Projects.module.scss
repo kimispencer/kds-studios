@@ -7,7 +7,6 @@
 .projectDetailAboveFold {
   @extend .grid;
   padding-top: 10vmax;
-  padding-bottom: 10vmax;
 }
 
 .projectDetailAboveFoldContent {
@@ -23,12 +22,26 @@
 }
 
 .projectDetailsHeadline {
-  border-top: 1px solid white;
+  border-top: 1px solid $whiteMutedFontColor;
   margin-top: calc(#{$defaultSpacing} * 2);
-}
-
-.projectDetailsHeadlineContainer {
-  margin-top: calc(#{$defaultSpacing} * 2);
+  .projectDetailsHeadlineContainer {
+    margin-top: calc(#{$defaultSpacing} * 2);
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    .projectHeadlineColumn {
+      margin-bottom: $defaultSpacing;
+    }
+    .projectHeadlineTitle {
+      @extend .smallFont;
+      @extend .uppercase;
+    }
+    .projectHeadlineText {
+    }
+    & p {
+      margin-top: calc(#{$defaultSpacing} / 2);
+    }
+  }
 }
 
 .projectDetailFooterSection {
@@ -46,8 +59,21 @@
 
 /* Large Tablet or Desktop */
 @media screen and (min-width: $desktop_breakpoint) {
+  .projectDetailAboveFold {
+    padding-bottom: 10vmax;
+  }
+
   .projectDetailAboveFoldContent {
     grid-area: 1/5/11/23;
+  }
+
+  .projectDetailsHeadline {
+    .projectDetailsHeadlineContainer {
+      flex-flow: row;
+      .projectHeadlineColumn {
+        margin-bottom: 0;
+      }
+    }
   }
 
   .projectDetailFooterSection {
@@ -56,5 +82,12 @@
 
   .projectDetailFooter {
     grid-area: 1/5/11/23;
+  }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .projectDetailsHeadline, .projectDetailFooterSection {
+    border-color: #{$darkMutedFontColor};
   }
 }
