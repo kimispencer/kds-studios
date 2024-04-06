@@ -11,7 +11,7 @@ type Props = {
   project: Project
 }
 
-const ProjectSection = ({ key, section, project }: Props) => {
+const ProjectSectionComponent = ({ key, section, project }: Props) => {
   switch (section.imageType) {
     case "iphone":
       return (
@@ -43,16 +43,16 @@ const ProjectSection = ({ key, section, project }: Props) => {
           key={project.slug + "-" + key}
           className={concatClassnames(styles.projectDetailImageSlide, styles.screenshot)}
         >
-          <div className={styles.screenshotImageTextContainer}>
-              {section.projectSectionText.textType !== "none"
-                ?
-                  <div className={styles.screenshotImageText}>
-                    <h4 className={styles.screenshotImageTextHeader}>{section.projectSectionHeader}</h4>
-                    <h5>{section.projectSectionText.textCopy}</h5>
-                  </div>
-                : <></>
-              }
-          </div>
+          {section.projectSectionText.textType !== "none"
+            ?
+            <div className={styles.screenshotImageTextContainer}>
+              <div className={styles.screenshotImageText}>
+                <h4 className={styles.screenshotImageTextHeader}>{section.projectSectionHeader}</h4>
+                <h5>{section.projectSectionText.textCopy}</h5>
+              </div>
+            </div>
+            : <></>
+          }
           <ScreenshotImage
             priority={key == 0 ? true : false}
             section={section}
@@ -84,4 +84,4 @@ const ProjectSection = ({ key, section, project }: Props) => {
   }
 }
 
-export default ProjectSection
+export default ProjectSectionComponent

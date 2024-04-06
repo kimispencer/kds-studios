@@ -121,15 +121,7 @@
   , "indexImage": "index_twciyu.png"
   , "fullscreen": false
   , "sections":
-      [ { "imageFile": "desktop-00-alt_zivikv.jpg"
-        , "projectSectionHeader": "Context"
-        , "projectSectionText":
-            { "textCopy": "Lumi provides services to users that are consumer brands in need of packaging, as well as packaging manufacturers responding to requests & orders. To communicate to these multiple user demographics a marketing site was designed to provide tailored content to both consumer brand buyers and packaging suppliers."
-            , "textType": "paragraph"
-            }
-        , "imageType": "screenshot"
-        }
-      , { "projectSectionHeader": "Example of text only"
+      [ { "projectSectionHeader": "Example of text only"
         , "projectSectionText":
             { "columnCopy":
                 [ "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor interdum massa in accumsan. Nulla vel elit et sem pellentesque mollis. Nullam pretium dolor lobortis nibh sodales, vel bibendum tortor ultrices."
@@ -138,6 +130,14 @@
             , "textType": "columns"
             }
         , "imageType": "none"
+        }
+      , { "imageFile": "desktop-00-alt_zivikv.jpg"
+        , "projectSectionHeader": "Context"
+        , "projectSectionText":
+            { "textCopy": "Lumi provides services to users that are consumer brands in need of packaging, as well as packaging manufacturers responding to requests & orders. To communicate to these multiple user demographics a marketing site was designed to provide tailored content to both consumer brand buyers and packaging suppliers."
+            , "textType": "paragraph"
+            }
+        , "imageType": "screenshot"
         }
       , { "imageFile": "lumi-ID-phone_ni8wr0.jpg"
         , "projectSectionHeader": "Hello iPhone"
@@ -177,6 +177,16 @@
             { "textCopy": ""
             , "textType": "none"
             }
+        }
+      , { "projectSectionHeader": "Example of text only"
+        , "projectSectionText":
+            { "columnCopy":
+                [ "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor interdum massa in accumsan. Nulla vel elit et sem pellentesque mollis. Nullam pretium dolor lobortis nibh sodales, vel bibendum tortor ultrices."
+                , "Vivamus condimentum nulla vitae mollis bibendum. Proin nunc mauris, egestas sit amet cursus a, pharetra at libero. Pellentesque accumsan sed justo ut laoreet. Phasellus tincidunt ex felis, eu facilisis felis consectetur ac. Phasellus eu tellus non orci suscipit ullamcorper id nec elit. Morbi malesuada ipsum nec congue condimentum."
+                ]
+            , "textType": "columns"
+            }
+        , "imageType": "none"
         }
       , { "imageFile": "2023-Dec/Workflow_-_Responding_to_opportunities_y7kf8s.png"
         , "projectSectionHeader": "The solution"

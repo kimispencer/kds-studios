@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: center;
   @include fullBleedAspectRatio;
+  border: 1px dashed pink;
 }
 
 .screenshotScrollContainer {
@@ -28,4 +29,11 @@
 
 .screenshotImage {
   height: auto !important;
+}
+
+/* Large Tablet or Desktop */
+@media screen and (min-width: $desktop_breakpoint) {
+  .screenshotImageContainer {
+    margin-bottom: calc(#{$defaultSpacing} * 2);
+  }
 }

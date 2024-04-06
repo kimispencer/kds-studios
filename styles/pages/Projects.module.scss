@@ -36,6 +36,9 @@
   flex-flow: column;
   align-items: center;
   justify-content: space-between;
+  &.iphone {
+    flex-flow: column-reverse;
+  }
 }
 
 .screenshotImageTextContainer {
@@ -102,15 +105,17 @@
     }
     &.iphone {
       flex-flow: row;
-      padding-bottom: calc(#{$defaultSpacing} * 2);
+      padding: calc(#{$defaultSpacing} * 2) 0;
       &:nth-child(even) {
         flex-flow: row-reverse;
       }
     }
   }
 
+
+
   .deviceImageTextContainer, .screenshotImageTextContainer {
-    padding: calc(#{$defaultSpacing} * 2) 0;
+    padding-bottom: calc(#{$defaultSpacing} * 2);
   }
 
   .projectSectionColumnTextContainer {
