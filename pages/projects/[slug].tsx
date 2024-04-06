@@ -67,6 +67,7 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
         return (
             <ProjectDetailSection
               key={i}
+              priority={i == 0 ? true : false}
               section={section}
               project={project}
             />

@@ -6,21 +6,18 @@ import styles from '@/styles/components/ProjectDetailSection.module.scss'
 
 
 type Props = {
-  key: number
+  priority: boolean
   section: ProjectSection
   project: Project
 }
 
-const ProjectDetailSection = ({ key, section, project }: Props) => {
+const ProjectDetailSection = ({ priority, section, project }: Props) => {
   switch (section.imageType) {
     case "iphone":
       return (
-        <div
-          key={project.slug + "-" + key}
-          className={concatClassnames(styles.projectDetailSection, styles.iphone)}
-        >
+        <div className={concatClassnames(styles.projectDetailSection, styles.iphone)}>
           <DeviceFrame
-            priority={key == 0 ? true : false}
+            priority
             section={section}
             imageKey={project.imageKey}
           />
@@ -34,10 +31,7 @@ const ProjectDetailSection = ({ key, section, project }: Props) => {
       )
     case "screenshot":
       return (
-        <div
-          key={project.slug + "-" + key}
-          className={concatClassnames(styles.projectDetailSection, styles.screenshot)}
-        >
+        <div className={concatClassnames(styles.projectDetailSection, styles.screenshot)}>
           {section.projectSectionText.textType !== "none"
             ?
             <div className={styles.textContainer}>
@@ -49,7 +43,7 @@ const ProjectDetailSection = ({ key, section, project }: Props) => {
             : <></>
           }
           <ScreenshotImage
-            priority={key == 0 ? true : false}
+            priority
             section={section}
             imageKey={project.imageKey}
             backgroundColor={project.backgroundColor}

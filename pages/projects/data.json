@@ -313,6 +313,30 @@
         , "imageType": "screenshot"
         , "fullscreen": false
         }
+      , { "imageFile": "test/design-system-img-aspect-ratio_nsyl62.png"
+        , "projectSectionText":
+            { "textCopy": "A modular UI component library example for a responsive CardGrid component layout. By designing and utilizing a reusable modular component library & establishing a scalable design system, each app targeted for a specific user demographic (consumer brands & manufacturers/suppliers) maintained visual Lumi branding consistency and user experience."
+            , "textType": "paragraph"
+          }
+        , "imageType": "screenshot"
+        , "fullscreen": true
+        }
+      , { "imageFile": "test/design-system-img-25_16_cjcdsa.png"
+        , "projectSectionText":
+            { "textCopy": "A modular UI component library example for a responsive CardGrid component layout. By designing and utilizing a reusable modular component library & establishing a scalable design system, each app targeted for a specific user demographic (consumer brands & manufacturers/suppliers) maintained visual Lumi branding consistency and user experience."
+            , "textType": "paragraph"
+          }
+        , "imageType": "screenshot"
+        , "fullscreen": true
+        }
+      , { "imageFile": "test/design-system-img_ycgcex.png"
+        , "projectSectionText":
+            { "textCopy": "A modular UI component library example for a responsive CardGrid component layout. By designing and utilizing a reusable modular component library & establishing a scalable design system, each app targeted for a specific user demographic (consumer brands & manufacturers/suppliers) maintained visual Lumi branding consistency and user experience."
+            , "textType": "paragraph"
+          }
+        , "imageType": "screenshot"
+        , "fullscreen": true
+        }
       , { "imageFile": "UI-components-card-grid_unmvsh.png"
         , "projectSectionText":
             { "textCopy": "A modular UI component library example for a responsive CardGrid component layout. By designing and utilizing a reusable modular component library & establishing a scalable design system, each app targeted for a specific user demographic (consumer brands & manufacturers/suppliers) maintained visual Lumi branding consistency and user experience."
