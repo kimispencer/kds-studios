@@ -86,6 +86,14 @@
       , "UI/UX Design & Research"
       , "Modular UI Component Library & Design System"
       ]
+  , "industry":
+      [ "Packaging design"
+      , "Supply chain logistics"
+      ]
+  , "productType":
+      [ "B2B marketplace"
+      , "SaSS"
+      ]
   },
   { "id": 1
   , "slug": "lumi-id"
@@ -165,6 +173,14 @@
   , "skills":
       [ "Product design"
       , "Front-end Development"
+      ]
+  , "industry":
+      [ "Packaging design"
+      , "Supply chain logistics"
+      ]
+  , "productType":
+      [ "B2B marketplace"
+      , "SaSS"
       ]
   },
   { "id": 2
@@ -345,6 +361,14 @@
       , "UI/UX Design & Research"
       , "Front-end Development"
       ]
+  , "industry":
+      [ "Packaging design"
+      , "Supply chain logistics"
+      ]
+  , "productType":
+      [ "B2B marketplace"
+      , "SaSS"
+      ]
   },
   { "id": 4
   , "slug": "suited"
@@ -399,6 +423,14 @@
       , "UI/UX Design & Research"
       , "Front-end Development"
       ]
+  , "industry":
+      [ "Packaging design"
+      , "Supply chain logistics"
+      ]
+  , "productType":
+      [ "B2B marketplace"
+      , "SaSS"
+      ]
   },
   { "id": 5
   , "slug": "data-visualization"
@@ -437,6 +469,14 @@
       , "Visual Design"
       , "Data Visualization"
       , "Development"
+      ]
+  , "industry":
+      [ "Packaging design"
+      , "Supply chain logistics"
+      ]
+  , "productType":
+      [ "B2B marketplace"
+      , "SaSS"
       ]
   }
 ]

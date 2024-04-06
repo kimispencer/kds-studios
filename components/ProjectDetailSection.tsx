@@ -23,8 +23,6 @@ const ProjectDetailSection = ({ key, section, project }: Props) => {
             priority={key == 0 ? true : false}
             section={section}
             imageKey={project.imageKey}
-            backgroundColor={project.backgroundColor}
-            fullscreen={project.fullscreen}
           />
           <div className={styles.deviceImageTextContainer}>
             <div className={styles.deviceImageText}>
