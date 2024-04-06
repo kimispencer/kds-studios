@@ -31,56 +31,7 @@
   margin-top: calc(#{$defaultSpacing} * 2);
 }
 
-.projectDetailImageSlide {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: space-between;
-  &.iphone {
-    flex-flow: column-reverse;
-  }
-}
-
-.screenshotImageTextContainer {
-  @extend .grid;
-}
-
-.screenshotImageTextHeader {
-  margin-bottom: $defaultSpacing;
-}
-
-.screenshotImageText {
-  gap: $defaultSpacing;
-  grid-area: 5 / 1 / 5 / 26;
-  border: 1px dashed blue;
-}
-
-.projectSectionColumnTextContainer {
-  border: 1px dashed;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-between;
-  gap: $defaultSpacing;
-  .projectSectionColumnText {
-    flex-basis: 100%;
-  }
-}
-
-.deviceImageTextContainer {
-  padding: calc(#{$defaultSpacing} * 2) 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.deviceImageText {
-  display: flex;
-  flex-flow: column;
-  gap: $defaultSpacing;
-}
-
-.projectDetailFooterSlide {
+.projectDetailFooterSection {
   @extend .grid;
   border-top: 1px solid #{$whiteMutedFontColor};
 }
@@ -99,40 +50,7 @@
     grid-area: 1/5/11/23;
   }
 
-  .projectDetailImageSlide {
-    &.desktop {
-      flex-flow: column;
-    }
-    &.iphone {
-      flex-flow: row;
-      padding: calc(#{$defaultSpacing} * 2) 0;
-      &:nth-child(even) {
-        flex-flow: row-reverse;
-      }
-    }
-  }
-
-  .deviceImageTextContainer, .screenshotImageTextContainer {
-    padding-bottom: calc(#{$defaultSpacing} * 2);
-  }
-
-  .projectSectionColumnTextContainer {
-    flex-flow: row;
-  }
-
-  .screenshotImageTextContainer {
-    grid-template-rows: auto;
-  }
-
-  .screenshotImageText {
-    grid-area: 1/5/11/23;
-  }
-
-  .deviceImageText {
-    max-width: 60%;
-  }
-
-  .projectDetailFooterSlide {
+  .projectDetailFooterSection {
     padding: calc(#{$defaultSpacing} * 2) 0;
   }
 

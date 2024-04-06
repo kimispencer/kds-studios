@@ -2,7 +2,7 @@ import { Project, ProjectSection } from '@/util/interfaces'
 import { concatClassnames } from '@/util/functions'
 import DeviceFrame from "@/components/DeviceFrame"
 import ScreenshotImage from "@/components/ScreenshotImage"
-import styles from '@/styles/pages/Projects.module.scss'
+import styles from '@/styles/components/ProjectDetailSection.module.scss'
 
 
 type Props = {
@@ -11,16 +11,13 @@ type Props = {
   project: Project
 }
 
-const ProjectSectionComponent = ({ key, section, project }: Props) => {
+const ProjectDetailSection = ({ key, section, project }: Props) => {
   switch (section.imageType) {
     case "iphone":
       return (
         <div
           key={project.slug + "-" + key}
-          className={concatClassnames(
-            styles.projectDetailImageSlide,
-            styles.iphone
-          )}
+          className={concatClassnames(styles.projectDetailSection, styles.iphone)}
         >
           <DeviceFrame
             priority={key == 0 ? true : false}
@@ -31,7 +28,7 @@ const ProjectSectionComponent = ({ key, section, project }: Props) => {
           />
           <div className={styles.deviceImageTextContainer}>
             <div className={styles.deviceImageText}>
-              <h4 className={styles.screenshotImageTextHeader}>{section.projectSectionHeader}</h4>
+              <h4 className={styles.textHeader}>{section.projectSectionHeader}</h4>
               <h5>{section.projectSectionText.textCopy}</h5>
             </div>
           </div>
@@ -41,13 +38,13 @@ const ProjectSectionComponent = ({ key, section, project }: Props) => {
       return (
         <div
           key={project.slug + "-" + key}
-          className={concatClassnames(styles.projectDetailImageSlide, styles.screenshot)}
+          className={concatClassnames(styles.projectDetailSection, styles.screenshot)}
         >
           {section.projectSectionText.textType !== "none"
             ?
-            <div className={styles.screenshotImageTextContainer}>
-              <div className={styles.screenshotImageText}>
-                <h4 className={styles.screenshotImageTextHeader}>{section.projectSectionHeader}</h4>
+            <div className={styles.textContainer}>
+              <div className={styles.textWrapper}>
+                <h4 className={styles.textHeader}>{section.projectSectionHeader}</h4>
                 <h5>{section.projectSectionText.textCopy}</h5>
               </div>
             </div>
@@ -64,14 +61,14 @@ const ProjectSectionComponent = ({ key, section, project }: Props) => {
       )
     case "none":
       return (
-        <div className={styles.screenshotImageTextContainer}>
-          <div className={styles.screenshotImageText}>
-            <h4 className={styles.screenshotImageTextHeader}>{section.projectSectionHeader}</h4>
+        <div className={styles.textContainer}>
+          <div className={styles.textWrapper}>
+            <h4 className={styles.textHeader}>{section.projectSectionHeader}</h4>
             {section.projectSectionText.textType == "columns"
-              ? <div className={styles.projectSectionColumnTextContainer}>
+              ? <div className={styles.columnTextContainer}>
                   {section.projectSectionText.columnCopy.map((copy, i) => {
                     return (
-                      <h5 className={styles.projectSectionColumnText} key={i}>{copy}</h5>
+                      <h5 className={styles.columnText} key={i}>{copy}</h5>
                     )
                   })}
                 </div>
@@ -84,4 +81,4 @@ const ProjectSectionComponent = ({ key, section, project }: Props) => {
   }
 }
 
-export default ProjectSectionComponent
+export default ProjectDetailSection

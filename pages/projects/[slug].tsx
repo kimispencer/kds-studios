@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { concatClassnames } from '@/util/functions'
 import { Project } from '@/util/interfaces'
 import ProjectNav from "@/components/ProjectNav"
-import ProjectSection from "@/components/ProjectSection"
+import ProjectDetailSection from "@/components/ProjectDetailSection"
 import ScreenshotImage from "@/components/ScreenshotImage"
 import styles from '@/styles/pages/Projects.module.scss'
 
@@ -37,25 +37,23 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
             <h5>{project.summary}</h5>
             <div className={styles.projectDetailsHeadline}>
               <div className={styles.projectDetailsHeadlineContainer}>
-                <p>hello</p>
+                <p>client/role/skills</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className={styles.projectDetailImagesContainer}>
-        {project.sections.map((section, i) => {
-          return (
-            <ProjectSection
+      {project.sections.map((section, i) => {
+        return (
+            <ProjectDetailSection
               key={i}
               section={section}
               project={project}
             />
           )
         })
-        }
-      </div>
-      <div className={styles.projectDetailFooterSlide}>
+      }
+      <div className={styles.projectDetailFooterSection}>
         <div className={styles.projectDetailFooter}>
           {(project.siteUrl || project.supplementalUrl) &&
             <div className={styles.projectLinksContainer}>
@@ -73,10 +71,8 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
           }
           <div className={styles.projectSkills}>
             {project.skills.map((skill, i) => {
-              return (
-                <h4 key={i}>{skill}</h4>
-              )
-            })
+              return (<h4 key={i}>{skill}</h4>)
+              })
             }
           </div>
         </div>

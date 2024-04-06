@@ -1,0 +1,83 @@
+@import 'variables';
+
+.projectDetailSection {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  &.iphone {
+    flex-flow: column-reverse;
+  }
+}
+
+.deviceImageTextContainer {
+  padding: calc(#{$defaultSpacing} * 2) 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  .deviceImageText {
+    display: flex;
+    flex-flow: column;
+    gap: $defaultSpacing;
+  }
+}
+
+.textContainer {
+  @extend .grid;
+  .textWrapper {
+    gap: $defaultSpacing;
+    grid-area: 5 / 1 / 5 / 26;
+    border: 1px dashed blue;
+  }
+}
+
+.columnTextContainer {
+  border: 1px dashed;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  gap: $defaultSpacing;
+  .columnText {
+    flex-basis: 100%;
+  }
+}
+
+.textHeader {
+  margin-bottom: $defaultSpacing;
+}
+
+/* Large Tablet or Desktop */
+@media screen and (min-width: $desktop_breakpoint) {
+  .projectDetailSection {
+    &.desktop {
+      flex-flow: column;
+    }
+    &.iphone {
+      flex-flow: row;
+      padding: calc(#{$defaultSpacing} * 2) 0;
+      &:nth-child(even) {
+        flex-flow: row-reverse;
+      }
+    }
+  }
+
+  .deviceImageTextContainer, .textContainer {
+    padding-bottom: calc(#{$defaultSpacing} * 2);
+  }
+
+  .deviceImageText {
+    max-width: 60%;
+  }
+
+  .textContainer {
+    grid-template-rows: auto;
+    .textWrapper {
+      grid-area: 1/5/11/23;
+    }
+  }
+
+  .columnTextContainer {
+    flex-flow: row;
+  }
+}
