@@ -140,6 +140,15 @@
         , "imageType": "none"
         }
       , { "imageFile": "lumi-ID-phone_ni8wr0.jpg"
+        , "projectSectionHeader": "Hello iPhone"
+        , "projectSectionText":
+            { "textCopy": "With a mobile-first approach, customers can scan QR codes on packaging materials to learn more about a brand's sustainability efforts, the life cycle of the packaging materials itself, and how to recycle it with up-to-date, localized disposal options using the latest best practices."
+            , "textType": "paragraph"
+            }
+        , "imageType": "iphone"
+        }
+      , { "imageFile": "lumi-ID-phone_ni8wr0.jpg"
+        , "projectSectionHeader": "Hello iPhone"
         , "projectSectionText":
             { "textCopy": "With a mobile-first approach, customers can scan QR codes on packaging materials to learn more about a brand's sustainability efforts, the life cycle of the packaging materials itself, and how to recycle it with up-to-date, localized disposal options using the latest best practices."
             , "textType": "paragraph"
@@ -164,7 +173,10 @@
         }
       , { "imageFile": "2023-Dec/Workflow_-_Item_to_Quote_Request_wtesir.png"
         , "imageType": "screenshot"
-        , "projectSectionText": ""
+        , "projectSectionText":
+            { "textCopy": ""
+            , "textType": "none"
+            }
         }
       , { "imageFile": "2023-Dec/Workflow_-_Responding_to_opportunities_y7kf8s.png"
         , "projectSectionHeader": "The solution"

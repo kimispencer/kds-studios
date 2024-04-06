@@ -35,6 +35,11 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
           <h2>{project.description}</h2>
           <div className={styles.projectSummary}>
             <h5>{project.summary}</h5>
+            <div className={styles.projectDetailsHeadline}>
+              <div className={styles.projectDetailsHeadlineContainer}>
+                <p>hello</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -22,6 +22,15 @@
   margin-top: calc(#{$defaultSpacing} * 2);
 }
 
+.projectDetailsHeadline {
+  border-top: 1px solid white;
+  margin-top: calc(#{$defaultSpacing} * 2);
+}
+
+.projectDetailsHeadlineContainer {
+  margin-top: calc(#{$defaultSpacing} * 2);
+}
+
 .projectDetailImageSlide {
   display: flex;
   flex-flow: column;
@@ -31,6 +40,10 @@
 
 .screenshotImageTextContainer {
   @extend .grid;
+}
+
+.screenshotImageTextHeader {
+  margin-bottom: $defaultSpacing;
 }
 
 .screenshotImageText {

@@ -28,7 +28,7 @@ export interface ProjectSection {
 }
 
 export interface ProjectSectionText {
-  textType: "paragraph" | "columns";
+  textType: "paragraph" | "columns" | "none";
   textCopy: string;
   columnCopy: string[];
 }
