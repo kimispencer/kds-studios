@@ -11,43 +11,73 @@
   , "fullscreen": false
   , "sections":
       [ { "imageFile": "desktop-00-alt_wnqbk1.jpg"
-        , "projectSectionText": "Smarty is an AI-powered productivity tool, built on top of an NLP (natural language processing) and artificial intelligence engine. As Lead Product Designer synthesized user research into validated value propositions & created the initial design system for the app interface and strategized goals for the product roadmap."
+        , "projectSectionText":
+            { "textCopy": "Smarty is an AI-powered productivity tool, built on top of an NLP (natural language processing) and artificial intelligence engine. As Lead Product Designer synthesized user research into validated value propositions & created the initial design system for the app interface and strategized goals for the product roadmap."
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2023-Dec/user-research/user-persona_zkofzx.png"
-        , "projectSectionText": "Our target personas were identified as executive assistants and agency professionals. From there we created persona profiles, user journey maps, as well as conducted rounds of user interviews. In our interviews we focused on how people organize & structure their schedule over the course of week, and what were their pain points & goals when planning out objectives for their calendar."
+        , "projectSectionText":
+            { "textCopy": "Our target personas were identified as executive assistants and agency professionals. From there we created persona profiles, user journey maps, as well as conducted rounds of user interviews. In our interviews we focused on how people organize & structure their schedule over the course of week, and what were their pain points & goals when planning out objectives for their calendar."
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2023-Dec/user-research/user-journey-map-v4_tqea0i.png"
-        , "projectSectionText": "A user journey map was created to visualize the flow of how users planned & scheduled with their existing tools & workflows, and discovered new productivity tools & methodologies. Tracking their actions, feelings & questions, as well as touchpoints & opportunities in each step of their flow. Our original hypothesis was then compared to or validated by the insights we gathered from our user research discovery phase."
+        , "projectSectionText":
+            { "textCopy": "A user journey map was created to visualize the flow of how users planned & scheduled with their existing tools & workflows, and discovered new productivity tools & methodologies. Tracking their actions, feelings & questions, as well as touchpoints & opportunities in each step of their flow. Our original hypothesis was then compared to or validated by the insights we gathered from our user research discovery phase."
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2023-Dec/user-research/feature-set_fqpor2.png"
-        , "projectSectionText": "After conducting rounds of user interviews and discovery, we summarized 3 different possible value propositions and organized our findings by each user group, to see where there was overlap & distinction. Synthesized into a Jobs to Be Done statement: 'When I’m newly overwhelmed by an overflowing plate and the meetings/tasks keep coming, I want to easily track my workload (via smart visualization and automatic re-prioritization), so I can have mental clarity and confidence each day.' Translated into a feature set emphasizing: a simple/clean UI, task tracking & management, automated scheduling, and supporting integrations."
+        , "projectSectionText":
+            { "textCopy": "After conducting rounds of user interviews and discovery, we summarized 3 different possible value propositions and organized our findings by each user group, to see where there was overlap & distinction. Synthesized into a Jobs to Be Done statement: 'When I’m newly overwhelmed by an overflowing plate and the meetings/tasks keep coming, I want to easily track my workload (via smart visualization and automatic re-prioritization), so I can have mental clarity and confidence each day.' Translated into a feature set emphasizing: a simple/clean UI, task tracking & management, automated scheduling, and supporting integrations."
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2024-Feb/homepage_-_list_view_dwmrlo.jpg"
-        , "projectSectionText": "Based on our insights from user research & market analysis, and supported by an examination of existing systems & methodologies, Smarty was built on top of a natural language processing engine with AI auto-scheduling that would reschedule tasks & events based on priority and schedule changes. The app UI was designed to let users build content through a textual interface, allowing users to conversationally input tasks and scheduled them."
+        , "projectSectionText":
+            { "textCopy": "Based on our insights from user research & market analysis, and supported by an examination of existing systems & methodologies, Smarty was built on top of a natural language processing engine with AI auto-scheduling that would reschedule tasks & events based on priority and schedule changes. The app UI was designed to let users build content through a textual interface, allowing users to conversationally input tasks and scheduled them."
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2024-Feb/homepage_-_list_view-1_youh3a.jpg"
-        , "projectSectionText": ""
+        , "projectSectionText":
+            { "textCopy": ""
+            , "textType": "none"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2024-Feb/homepage_-_list_view_command_so5ghv.jpg"
-        , "projectSectionText": ""
+        , "projectSectionText":
+            { "textCopy": ""
+            , "textType": "none"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2024-Feb/homepage_-_list_view_command-1_u869si.jpg"
-        , "projectSectionText": ""
+        , "projectSectionText":
+          { "textCopy": ""
+          , "textType": "none"
+          }
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2024-Feb/homepage_-_scheduled_tasks_with_conflict_resolution_with_auto-schedule_logged_in_user_hzekzo.jpg"
-        , "projectSectionText": "Smarty handles task management and event scheduling for users with the AI powered auto-scheduling feature, allowing users to avoid conflicts and automate rescheduling of their most important tasks & events. Free times are auto-detected, and reminders go out automatically; with the app design streamlined to help users take the work out of managing their agenda, so they can focus on the activity at hand itself not scheduling it."
+        , "projectSectionText":
+            { "textCopy": "Smarty handles task management and event scheduling for users with the AI powered auto-scheduling feature, allowing users to avoid conflicts and automate rescheduling of their most important tasks & events. Free times are auto-detected, and reminders go out automatically; with the app design streamlined to help users take the work out of managing their agenda, so they can focus on the activity at hand itself not scheduling it."
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2024-Feb/homepage_-_calendar_view_ejetpg.jpg"
-        , "projectSectionText": "Users can also visually compare their list view to a calendar time block layout to see how any given day is structured, and drag/drop between the two interfaces. In addition to the rich text editor view to organize & schedule, user can also create content & visualize organization of their tasks & events with the robust calendar interface as their primary view, backed by the time management research methodology of 'time boxing'."
+        , "projectSectionText":
+            { "textCopy": "Users can also visually compare their list view to a calendar time block layout to see how any given day is structured, and drag/drop between the two interfaces. In addition to the rich text editor view to organize & schedule, user can also create content & visualize organization of their tasks & events with the robust calendar interface as their primary view, backed by the time management research methodology of 'time boxing'."
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
       ]
@@ -69,39 +99,66 @@
   , "fullscreen": false
   , "sections":
       [ { "imageFile": "Lumi-ID-homepage_jiawcg.png"
-        , "projectSectionText": "Lumi ID integrates seamlessly with branding, messaging and physical product. Lumi ID generates a QR code that can be printed on any packaging including boxes, envelopes, jars, bottles, cans, tubes, publications, labels and collateral. As new platform features and best practices become available, packaging information stays accurate without requiring print plate changes."
+        , "projectSectionText":
+            { "textCopy": "Lumi ID integrates seamlessly with branding, messaging and physical product. Lumi ID generates a QR code that can be printed on any packaging including boxes, envelopes, jars, bottles, cans, tubes, publications, labels and collateral. As new platform features and best practices become available, packaging information stays accurate without requiring print plate changes."
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "lumi-ID-phone_ni8wr0.jpg"
-        , "projectSectionText": "With a mobile-first approach, customers can scan QR codes on packaging materials to learn more about a brand's sustainability efforts, the life cycle of the packaging materials itself, and how to recycle it with up-to-date, localized disposal options using the latest best practices."
+        , "projectSectionText":
+            { "textCopy": "With a mobile-first approach, customers can scan QR codes on packaging materials to learn more about a brand's sustainability efforts, the life cycle of the packaging materials itself, and how to recycle it with up-to-date, localized disposal options using the latest best practices."
+            , "textType": "paragraph"
+            }
         , "imageType": "iphone"
         }
       , { "imageFile": "lumi-ID-phone-search-results_lwrovs.jpg"
-        , "projectSectionText": "Every city has its own regulations, which can make it difficult for a brand's customer service teams to answer questions accurately. Lumi ID is a universal system for every type of packaging tied to real-time data, giving users accurate information about a brand's packaging materials, sustainability mission and certifications."
+        , "projectSectionText":
+            { "textCopy": "Every city has its own regulations, which can make it difficult for a brand's customer service teams to answer questions accurately. Lumi ID is a universal system for every type of packaging tied to real-time data, giving users accurate information about a brand's packaging materials, sustainability mission and certifications."
+            , "textType": "paragraph"
+            }
         , "imageType": "iphone"
         }
       , { "imageFile": "lumi-ID-desktop-landing_fmkv6b.jpg"
-        , "projectSectionText": ""
+        , "projectSectionText":
+            { "textCopy": ""
+            , "textType": "none"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "lumi-ID-desktop-search-results_mtwirg.jpg"
-        , "projectSectionText": "From the brand's dashboard, not only can companies customize, order and track new packaging but also in addition to disposal information, share their environmental mission, link to their sustainability page, and share as much information about their packaging as desired. "
+        , "projectSectionText":
+            { "textCopy": "From the brand's dashboard, not only can companies customize, order and track new packaging but also in addition to disposal information, share their environmental mission, link to their sustainability page, and share as much information about their packaging as desired. "
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "lumi-ID-desktop-FJ-profile_rtezgo.jpg"
-        , "projectSectionText": ""
+        , "projectSectionText":
+            { "textCopy": ""
+            , "textType": "none"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "lumi-ID-desktop-FJ-settings-detail_fs4klu.jpg"
-        , "projectSectionText": ""
+        , "projectSectionText":
+            { "textCopy": ""
+            , "textType": "none"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "lumi-ID-sample-code_infbme.png"
-        , "projectSectionText": ""
+        , "projectSectionText":
+            { "textCopy": ""
+            , "textType": "none"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "lumi-lumicodes-photography_psehau.jpg"
-        , "projectSectionText": ""
+        , "projectSectionText":
+            { "textCopy": ""
+            , "textType": "none"
+            }
         , "imageType": "screenshot"
         }
       ]
@@ -253,24 +310,39 @@
   , "fullscreen": false
   , "sections":
       [ { "imageFile": "desktop-00-alt_jg0jcn.jpg"
-        , "projectSectionText": "As a high-end NYC fashion line, The Arrivals required bi-weekly interactive campaigns, supporting continuous product launches. Creating new campaign designs in regular sprint intervals required standardization of the Arrival's branded visual design system and prioritizing high impact & fast turn over of designs."
+        , "projectSectionText":
+            { "textCopy": "As a high-end NYC fashion line, The Arrivals required bi-weekly interactive campaigns, supporting continuous product launches. Creating new campaign designs in regular sprint intervals required standardization of the Arrival's branded visual design system and prioritizing high impact & fast turn over of designs."
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-01_wzpfw6.jpg"
-        , "projectSectionText": "The interactive e-commerce store was designed & developed to display the rich array of products in multiple-styles, with a focus on the consumer user navigation experience by creating sorting filters based on best selling, price or inventory."
+        , "projectSectionText":
+            { "textCopy": "The interactive e-commerce store was designed & developed to display the rich array of products in multiple-styles, with a focus on the consumer user navigation experience by creating sorting filters based on best selling, price or inventory."
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-02-alt_qpzl9s.jpg"
-        , "projectSectionText": "Product detail pages needed to display rich imagery detailing the product's aesthetic as well as information regarding fit, materials, and allowing users to receive contextual information before making a purchase commitment. As well as designed to provide suggestions of similar product styles to leverage user interest. "
+        , "projectSectionText":
+            { "textCopy": "Product detail pages needed to display rich imagery detailing the product's aesthetic as well as information regarding fit, materials, and allowing users to receive contextual information before making a purchase commitment. As well as designed to provide suggestions of similar product styles to leverage user interest. "
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "phone-00-alt_klkoug.jpg"
         , "projectSectionHeader": "Context"
-        , "projectSectionText": "As an e-commerce brand, The Arrivals needed mobile-first designs so users could view and purchase products across any device type, and a responsive website UX was designed & developed."
+        , "projectSectionText":
+            { "textCopy": "As an e-commerce brand, The Arrivals needed mobile-first designs so users could view and purchase products across any device type, and a responsive website UX was designed & developed."
+            , "textType": "paragraph"
+            }
         , "imageType": "iphone"
         }
       , { "imageFile": "phone-01_mi5u4f.jpg"
-        , "projectSectionText": "With an emphasis on its architectural roots, a structural & textured UI was created focusing on visually displaying compelling imagery and video content."
+        , "projectSectionText":
+            { "textCopy": "With an emphasis on its architectural roots, a structural & textured UI was created focusing on visually displaying compelling imagery and video content."
+            , "textType": "paragraph"
+            }
         , "imageType": "iphone"
         }
       ]
@@ -293,23 +365,38 @@
   , "fullscreen": false
   , "sections":
       [ { "imageFile": "desktop-02-alt_lxw4wk.jpg"
-        , "projectSectionText": "As a print publication, translating the SUITED experience online focused on designing a UI that highlights rich imagery and featured content. As content needed to be regularly updated, a custom CMS driven template was created on top of the SquareSpace developer platform."
+        , "projectSectionText":
+            { "textCopy": "As a print publication, translating the SUITED experience online focused on designing a UI that highlights rich imagery and featured content. As content needed to be regularly updated, a custom CMS driven template was created on top of the SquareSpace developer platform."
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-01-alt_sh0epo.jpg"
-        , "projectSectionText": "Because SUITED's initial experience was their printed content, the site was designed to highlight previous issues and leverage site visits into opportunities for users to order hard copies."
+        , "projectSectionText":
+            { "textCopy": "Because SUITED's initial experience was their printed content, the site was designed to highlight previous issues and leverage site visits into opportunities for users to order hard copies."
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-00-alt_nzitee.jpg"
-        , "projectSectionText": "SUITED magazine's aesthetic is minimal, black & white and high-end. The site was designed to emphasize the physical experience into a fashion and art focused digital site."
+        , "projectSectionText":
+            { "textCopy": "SUITED magazine's aesthetic is minimal, black & white and high-end. The site was designed to emphasize the physical experience into a fashion and art focused digital site."
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "phone-00_fhkper.jpg"
-        , "projectSectionText": "Mobile accessibility was of importance so users could experience the site across a variety of devices. The site was designed and developed mobile-first."
+        , "projectSectionText":
+            { "textCopy": "Mobile accessibility was of importance so users could experience the site across a variety of devices. The site was designed and developed mobile-first."
+            , "textType": "paragraph"
+            }
         , "imageType": "iphone"
         }
       , { "imageFile": "phone-01_dpupjy.jpg"
-        , "projectSectionText": "With the mobile device UX in mind, the mobile app version of the site prioritized the rich imagery and content to be viewed as easily on phones as desktops."
+        , "projectSectionText":
+            { "textCopy": "With the mobile device UX in mind, the mobile app version of the site prioritized the rich imagery and content to be viewed as easily on phones as desktops."
+            , "textType": "paragraph"
+            }
         , "imageType": "iphone"
         }
       ]
@@ -330,15 +417,24 @@
   , "fullscreen": true
   , "sections":
       [ { "imageFile": "00_nl0ni3.jpg"
-        , "projectSectionText": "What do popular song lyrics say about cultural moods, concerns and political issues of different times? To answer this question and because no database of this information existed at the time, a Python web scraping script was developed to pull lyrics from the top Billboard charts since its inception in the early 1900's. Using a Java based IDE and natural language processing, frequencies of noun entities (such as \"I\" and \"you\"), as well as common verbs that express relationships between those entities (such as \"love\", or \"hate\") were visualized."
+        , "projectSectionText":
+            { "textCopy": "What do popular song lyrics say about cultural moods, concerns and political issues of different times? To answer this question and because no database of this information existed at the time, a Python web scraping script was developed to pull lyrics from the top Billboard charts since its inception in the early 1900's. Using a Java based IDE and natural language processing, frequencies of noun entities (such as \"I\" and \"you\"), as well as common verbs that express relationships between those entities (such as \"love\", or \"hate\") were visualized."
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "01_bs8nk7.jpg"
-        , "projectSectionText": "With this data visualization, topical patterns over time became evident as song lyrics from different decades reveal societal patterns and trending topics."
+        , "projectSectionText":
+            { "textCopy": "With this data visualization, topical patterns over time became evident as song lyrics from different decades reveal societal patterns and trending topics."
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "02_ydrfxz.jpg"
-        , "projectSectionText": "Frequency of keywords were used to weight their size (more frequent use of a noun phrase resulted in a larger font size), and bézier curves to visualization semantic linkages between different keyword entities."
+        , "projectSectionText":
+            { "textCopy": "Frequency of keywords were used to weight their size (more frequent use of a noun phrase resulted in a larger font size), and bézier curves to visualization semantic linkages between different keyword entities."
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
       ]
