@@ -34,9 +34,6 @@
 }
 
 .screenshotImageText {
-  grid-area: 5/1/5/26;
-  display: flex;
-  flex-flow: column;
   gap: $defaultSpacing;
 }
 
@@ -48,7 +45,7 @@
   width: 100%;
 }
 
-.deviceImageText {
+.deviceImageText, .screenshotImageText {
   display: flex;
   flex-flow: column;
   gap: $defaultSpacing;

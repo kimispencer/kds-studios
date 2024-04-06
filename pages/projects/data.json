@@ -121,7 +121,11 @@
   , "indexImage": "index_twciyu.png"
   , "fullscreen": false
   , "images":
-      [ { "imageFile": "desktop-00-alt_zivikv.jpg"
+      [ { "imageHeader": "Example of text only"
+        , "imageText": "Lorem ipsum"
+        , "imageType": "none"
+        }
+      , { "imageFile": "desktop-00-alt_zivikv.jpg"
         , "imageHeader": "Context"
         , "imageText": "Lumi provides services to users that are consumer brands in need of packaging, as well as packaging manufacturers responding to requests & orders. To communicate to these multiple user demographics a marketing site was designed to provide tailored content to both consumer brand buyers and packaging suppliers."
         , "imageType": "screenshot"
@@ -176,7 +180,6 @@
   },
   { "id": 3
   , "slug": "arrivals"
-
   , "title": "The Arrivals"
   , "subtitle": "UI/UX, Development"
   , "description": "The Arrivals is a NYC based fashion line focusing on classic, architecturally-inspired garments crafted to last a lifetime and exclusively available online."
@@ -199,6 +202,7 @@
         , "imageType": "screenshot"
         }
       , { "imageFile": "phone-00-alt_klkoug.jpg"
+        , "imageHeader": "Context"
         , "imageText": "As an e-commerce brand, The Arrivals needed mobile-first designs so users could view and purchase products across any device type, and a responsive website UX was designed & developed."
         , "imageType": "iphone"
         }

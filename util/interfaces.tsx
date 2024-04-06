@@ -6,7 +6,6 @@ export interface Tab {
 export interface Project {
   id: number;
   slug: string;
-  active?: boolean;
   title: string;
   subtitle: string;
   description: string;
@@ -14,18 +13,27 @@ export interface Project {
   imageKey: string;
   indexImage: string;
   images: ProjectImage[];
+  // sections: ProjectSection[];
   backgroundColor?: string;
   fullscreen: boolean;
   skills: string[];
   siteUrl?: string;
   supplementalUrl?: Url;
 }
+
 export interface ProjectImage {
   imageHeader: string;
   imageFile: string;
   imageText: string;
-  imageType: "iphone" | "desktop" | "screenshot";
+  imageType: "iphone" | "screenshot" | "none";
 }
+
+// export interface ProjectSection {
+//   sectionType: "vertical" | "horizontal";
+//   sectionImage?: ProjectImage | "none";
+//   sectionHeader: string;
+//   sectionText: string;
+// }
 
 interface Url {
   path: string;

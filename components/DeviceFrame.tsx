@@ -41,34 +41,6 @@ const DeviceFrame = ({ priority, image, imageKey, backgroundColor, fullscreen }:
           <div className="device-power"></div>
         </div>
       )
-    case "desktop":
-      return (
-        <div className="device device-macbook-pro">
-          <div className="device-frame">
-            <div
-              className={concatClassnames(
-                "device-screen",
-                styles.deviceScreen
-              )}
-            >
-              <LoadingImage
-                priority={priority}
-                keyString={imageKey + "-" + image.imageFile}
-                imageKey={imageKey}
-                fileName={image.imageFile}
-                alt={image.imageText}
-                className={styles.deviceImage}
-              />
-            </div>
-          </div>
-          <div className="device-stripe"></div>
-          <div className="device-header"></div>
-          <div className="device-sensors"></div>
-          <div className="device-btns"></div>
-          <div className="device-power"></div>
-          <div className="device-home"></div>
-        </div>
-      )
     default:
       return (
         <ScreenshotImage

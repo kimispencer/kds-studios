@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { concatClassnames } from '@/util/functions'
 import { Project } from '@/util/interfaces'
 import ProjectNav from "@/components/ProjectNav"
-import DeviceFrame from "@/components/DeviceFrame"
+import ProjectSection from "@/components/ProjectSection"
 import ScreenshotImage from "@/components/ScreenshotImage"
 import styles from '@/styles/pages/Projects.module.scss'
 
@@ -41,46 +41,11 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
       <div className={styles.projectDetailImagesContainer}>
         {project.images.map((image, i) => {
           return (
-            image.imageType === "desktop" || image.imageType === "iphone"
-            ? <div
-                key={project.slug + "-" + i}
-                className={concatClassnames(
-                  styles.projectDetailImageSlide,
-                  image.imageType === "desktop" ? styles.desktop : styles.iphone
-                )}
-              >
-                <DeviceFrame
-                  priority={i == 0 ? true : false}
-                  image={image}
-                  imageKey={project.imageKey}
-                  backgroundColor={project.backgroundColor}
-                  fullscreen={project.fullscreen}
-                />
-                <div className={styles.deviceImageTextContainer}>
-                  <div className={styles.deviceImageText}>
-                    <h4>{image.imageHeader}</h4>
-                    <h5>{image.imageText}</h5>
-                  </div>
-                </div>
-              </div>
-            : <div
-                key={project.slug + "-" + i}
-                className={concatClassnames(styles.projectDetailImageSlide, styles.screenshot)}
-              >
-                <ScreenshotImage
-                  priority={i == 0 ? true : false}
-                  image={image}
-                  imageKey={project.imageKey}
-                  backgroundColor={project.backgroundColor}
-                  fullscreen={project.fullscreen}
-                />
-                <div className={styles.screenshotImageTextContainer}>
-                  <div className={styles.screenshotImageText}>
-                    <h4>{image.imageHeader}</h4>
-                    <h5>{image.imageText}</h5>
-                  </div>
-                </div>
-              </div>
+            <ProjectSection
+              key={i}
+              image={image}
+              project={project}
+            />
           )
         })
         }
