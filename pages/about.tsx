@@ -30,7 +30,7 @@ const About = () => {
           </Link>
         </div>
         <div className={styles.aboutDescription}>
-          <p>KDS Studios is a digital studio and the design practice of Kimi Spencer, a product designer & software engineer with a Masters degree in Interactive Technology and Design from NYU Tisch, and a Bachelors degree from UC Berkeley.</p>
+          <p>KDS Studios is a digital studio and the design practice of Kimi Spencer, a product designer & former software engineer with a Masters degree in Interactive Technology and Design from NYU Tisch, and a Bachelors degree from UC Berkeley.</p>
           <br/>
           <p>At KDS Studios she has worked with clients from San Francisco startups to NYC digital agencies; spanning industries from interactive advertising, online magazines/publications, AI driven applications, to high-end fashion.</p>
           <br/>

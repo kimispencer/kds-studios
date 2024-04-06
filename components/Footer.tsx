@@ -17,7 +17,7 @@ const Footer = () => {
           <h4>Contact</h4>
       </Link>
       <br/>
-      <p className={styles.copyRight}>© KDS Studios Inc 2023</p>
+      <p className={styles.copyRight}>© KDS Studios Inc 2024</p>
     </div>
   )
 }

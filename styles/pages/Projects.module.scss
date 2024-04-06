@@ -35,6 +35,9 @@
 
 .screenshotImageText {
   grid-area: 5/1/5/26;
+  display: flex;
+  flex-flow: column;
+  gap: $defaultSpacing;
 }
 
 .deviceImageTextContainer {
@@ -43,6 +46,12 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+.deviceImageText {
+  display: flex;
+  flex-flow: column;
+  gap: $defaultSpacing;
 }
 
 .projectDetailFooterSlide {

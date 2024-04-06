@@ -57,7 +57,10 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
                   fullscreen={project.fullscreen}
                 />
                 <div className={styles.deviceImageTextContainer}>
-                  <h5 className={styles.deviceImageText}>{image.imageText}</h5>
+                  <div className={styles.deviceImageText}>
+                    <h4>{image.imageHeader}</h4>
+                    <h5>{image.imageText}</h5>
+                  </div>
                 </div>
               </div>
             : <div
@@ -72,7 +75,10 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
                   fullscreen={project.fullscreen}
                 />
                 <div className={styles.screenshotImageTextContainer}>
-                  <h5 className={styles.screenshotImageText}>{image.imageText}</h5>
+                  <div className={styles.screenshotImageText}>
+                    <h4>{image.imageHeader}</h4>
+                    <h5>{image.imageText}</h5>
+                  </div>
                 </div>
               </div>
           )

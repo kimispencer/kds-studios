@@ -1,7 +1,6 @@
 [
   { "id": 0
   , "slug": "smarty"
-  , "siteUrl": "https://www.smarty.ai/"
   , "title": "Smarty AI"
   , "subtitle": "UI/UX, User research"
   , "description": "Smarty unifies task management & calendar scheduling into one clean application. Powered by AI with a natural language processing interface, users can enter text to create tasks, events, scheduling links and more."
@@ -60,7 +59,6 @@
   },
   { "id": 1
   , "slug": "lumi-id"
-  , "siteUrl": "https://www.lumi.com/id"
   , "title": "Lumi ID"
   , "subtitle": "UI/UX, Development"
   , "description": "Lumi ID is a digital identification tool that gives users accurate, localized information about how brand packaging is made, and how to recycle it responsibly with a single QR code."
@@ -114,49 +112,50 @@
   },
   { "id": 2
   , "slug": "lumi"
-  , "siteUrl": "https://www.lumi.com/"
-  , "supplementalUrl":
-      { "path": "https://lumihq.github.io/purescript-lumi-components/#/v2/box"
-      , "name": "View UI component library"
-      }
   , "title": "Lumi"
   , "subtitle": "UI/UX, Development"
   , "description": "Lumi helps e-commerce companies produce custom packaging and handle supply chain logistics, with the goal of making custom manufacturing more sustainable and as scalable as the web."
-  , "summary": "Product designer and developer of a modular UI component library to maintain cohesiveness across Lumi's various app user interfaces and visual design; as well as the creation of a B2B marketplace providing transparency & improving efficiency in supply chain logistics, and guiding brands to find manufacturers best suited to fulfill their packaging needs. Senior front-end engineer contributing to the migration of Lumi's web applications into a strongly-typed functional programming language, on top of a React framework."
+  , "summary": "Product designer and developer transforming Lumi from an e-commerce platform into a B2B marketplace connecting brands to packaging supplies; providing users with transparency & improving efficiency in supply chain logistics, and guiding brands to find manufacturers best suited to fulfill their packaging needs. As well as the creation of a design system & modular UI component library to maintain cohesiveness across Lumi's various app user interfaces and visual design"
   , "backgroundColor": "#DBD624"
   , "imageKey": "lumi"
   , "indexImage": "index_twciyu.png"
   , "fullscreen": false
   , "images":
       [ { "imageFile": "desktop-00-alt_zivikv.jpg"
+        , "imageHeader": "Context"
         , "imageText": "Lumi provides services to users that are consumer brands in need of packaging, as well as packaging manufacturers responding to requests & orders. To communicate to these multiple user demographics a marketing site was designed to provide tailored content to both consumer brand buyers and packaging suppliers."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-01_crelk5.png"
+        , "imageHeader": "Where we started"
         , "imageText": "Initial design focus was to standardize the app experience by establishing a modular UI component library for both the consumer brand-facing dashboard and the manufacturer-facing dashboard. For the buyer's app, users needed to be able to easily create & purchase from a catalog of packaging products."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-02_esmwtr.png"
-        , "imageText": "Because consumer brand users requested a higher level of specificity for their branded packaging requirements and designs, UX research was performed to map out the workflows for a consumer brand's custom packaging item needs to creation, and then submitting into either a direct quote request for a manufacturer to respond to or into a marketplace of manufacturers to be bid upon. "
+        , "imageHeader": "The problem"
+        , "imageText": "Because consumer brand users required a high level of specificity for their branded packaging requirements and our in-house CX team managed the flow of information between brands & suppliers, as Lumi scaled with more users this resulted in communication bottlenecks & errors. UX research was performed to map out the workflows for a consumer brand's custom packaging item needs from creation, to production & delivery. And how suppliers managed receiving & responding to orders."
         , "imageType": "screenshot"
         }
       , { "imageFile": "2023-Dec/Workflow_-_Item_to_Quote_Request_wtesir.png"
-        , "imageText": "As well as a reciporcal flow for how manufacturers could respond to consumer brand's direct packaging quote requests, view potential opportunities to bid upon, and in turn manage accepted quotes into order fulfillment."
         , "imageType": "screenshot"
         }
       , { "imageFile": "2023-Dec/Workflow_-_Responding_to_opportunities_y7kf8s.png"
-        , "imageText": "Based on this research, the app interface was updated from a default catalog UI to a customizable form interface to assist consumer brand users in creating detailed customizable packaging & matching them to their best suited manfacturer. Allowing brands to create their custom specifications, add design files & proofs into a guided workflow that then submitted packaging requests into a B2B marketplace of manufacturers that could respond to brand requests with detailed quoting information on pricing, order fulfillment & next steps."
+        , "imageHeader": "The solution"
+        , "imageText": "Based on this research, the app interface was updated from a default catalog UI to a customizable form interface to assist consumer brand users in creating detailed customizable packaging & matching them to their best suited manfacturer. Allowing brands to create their custom specifications, add design files & proofs into a guided workflow that then submitted packaging requests into a B2B marketplace of manufacturers that could respond to brand requests via a messaging interface with detailed quoting information on pricing, order fulfillment & next steps."
         , "imageType": "screenshot"
         }
       , { "imageFile": "2023-Dec/FJ-items-page_ehtyzj.jpg"
+        , "imageHeader": "Comparing quotes"
         , "imageText": "Manufacturers' responses to brands' custom packaging needs were displayed in a high-density data UI reflecting the nuances of producing each custom product, essential information about projected quotes (quantity, price & turnaround times), as well as linking to detailed profiles about the manufacturer themselves, allowing brands to easily compare across different possible manufacturing resources."
         , "imageType": "screenshot"
         }
       , { "imageFile": "2023-Dec/FJ-quoting-page_ws5te3.jpg"
+        , "imageHeader": "Picking the right supplier"
         , "imageText": "To assist consumer brands in comparing across an ecosystem of many manufacturers, a marketplace reference UI was created for displaying rich data regarding each manufacturer's production capabilities, location & shipping times, sustainability efforts, and reviews from other consumer brands."
         , "imageType": "screenshot"
         }
       , { "imageFile": "2023-Dec/FJ-network-page_wpm5zq.jpg"
+        , "imageHeader": "A dashboard for suppliers"
         , "imageText": "Manufacturers could respond to each brands' custom packaging needs from their own focused app UI, supporting a marketplace of potential opportunities, buyers' direct requests for custom packaging, and to track & manage potential orders."
         , "imageType": "screenshot"
         }
@@ -177,7 +176,7 @@
   },
   { "id": 3
   , "slug": "arrivals"
-  , "siteUrl": "https://thearrivals.com/"
+
   , "title": "The Arrivals"
   , "subtitle": "UI/UX, Development"
   , "description": "The Arrivals is a NYC based fashion line focusing on classic, architecturally-inspired garments crafted to last a lifetime and exclusively available online."
@@ -281,109 +280,6 @@
       , "Visual Design"
       , "Data Visualization"
       , "Development"
-      ]
-  },
-  { "id": 6
-  , "slug": "architecture"
-  , "title": "Willard Park"
-  , "subtitle": "Visual design, Architecture"
-  , "description": "A proposal for a new Willard Park Community Center (located in Berkeley, CA) inspired by the action word “emergence” and the concept of subtractive openness “to carve”— designed with the intention of creating a building that is an extension of the ground, and is carved open to external air and light."
-  , "summary": "Visual and architectural designer of a 3D spatial proposal in Rhino, as well as isometric and blueprint designs to communicate the vision for a reimagined community center in Willard Park. Using Photoshop, visuals were created to demonstrate how community members would experience the space."
-  , "imageKey": "architecture"
-  , "indexImage": "index_ds3teu.jpg"
-  , "fullscreen": true
-  , "images":
-      [ { "imageFile": "00_khd9dq.jpg"
-        , "imageText": "The Willard Park proposal is an architectural exploration of how an existing public space could be utilized to better serve the community while respecting the natual landscape."
-        , "imageType": "screenshot"
-        }
-      , { "imageFile": "01_uhyxpu.jpg"
-        , "imageText": "Designed to communicate a multi-dimensional exploration of how layered designs would operate cohesively. The foundational earthen mound informs the basis of the design. The building’s structure is extended from the topography and the interior courtyard carved out. The main body of the structure is surrounded by the mounded earth. The building is created by a balance between curvature and angular cuts."
-        , "imageType": "screenshot"
-        }
-      , { "imageFile": "02_qk6jfj.jpg"
-        , "imageText": "Detailed layouts were created to show how users would utilize the space; providing public restrooms, office spaces for staff and community spaces for events and classes."
-        , "imageType": "screenshot"
-        }
-      , { "imageFile": "03_n2gnmo.jpg"
-        , "imageText": "A top-level view of a green roof design integrated into the natural landscape that also provides additional usable space for community members to explore and use for recreational purposes."
-        , "imageType": "screenshot"
-        }
-      , { "imageFile": "04_zy6i7b.jpg"
-        , "imageText": "The green roof design integrates into the natural landscape of the park and creates a seamless extension, the open-air corridor and rooms are made of planked concrete as an affordable and durable option that represents organic materials; with steel guard railings built along the walkable green roof around the courtyard for safety. And large glass windows allow external views into the interior, and provide light to all the rooms."
-        , "imageType": "screenshot"
-        }
-      , { "imageFile": "05_ytalbo.jpg"
-        , "imageText": "The courtyard plays with natural materiality: stone, wood, earthen supports for a vertical garden, as well as contain interior trees and small garden areas. The vertical gardens in the courtyard reinforce the connection of the structure as emergent from the earth."
-        , "imageType": "screenshot"
-        }
-      ]
-  , "skills":
-      [ "Creative Direction"
-      , "Visual Design"
-      , "Architectural Design"
-      ]
-  },
-  { "id": 7
-  , "slug": "onomie"
-  , "siteUrl": "https://onomie.com/"
-  , "title": "Onomie"
-  , "subtitle": "UI/UX, Development"
-  , "description": "Onomie is a direct-to-consumer cosmetics brand that is a cross between skincare and makeup. Created to simplify beauty by combining clinically-validated skincare formulas with advanced makeup technology."
-  , "summary": "Lead product designer & front-end engineer for Onomie to help it stand out from a competitive market by featuring interactive trials and science backed beauty products."
-  , "backgroundColor": "#ECD9D4"
-  , "imageKey": "onomie"
-  , "indexImage": "index_znl5gq.jpg"
-  , "fullscreen": false
-  , "images":
-      [ { "imageFile": "desktop-00-alt_garycg.jpg"
-        , "imageText": "Onomie is an e-commerce brand using scientific backing for its skincare and makeup products. To emphasize the power of Onomie's skincare products on the site, interactive before & after UI sliders and visual illustrations were used to demonstrate the quality of product ingredients and effect on skin improvement."
-        , "imageType": "screenshot"
-        }
-      , { "imageFile": "phone-00_xlzqhw.jpg"
-        , "imageText": "As an e-commerce site, the experience was designed mobile-first, so users could experience and purchase Onomie products on a variety of devices."
-        , "imageType": "iphone"
-        }
-      ]
-  , "skills":
-      [ "Product Design"
-      , "UI/UX Design & Research"
-      , "Front-end Development"
-      ]
-  },
-  { "id": 8
-  , "slug": "tom-tom-magazine"
-  , "siteUrl": "https://tomtommag.com/"
-  , "title": "Tom Tom Magazine"
-  , "subtitle": "UI/UX, Development"
-  , "description": "Tom Tom Magazine is a quarterly print magazine and website based out of New York City. It is the only magazine in the world that is dedicated to female-identifying drummers."
-  , "summary": "Lead product designer & developer for Tom Tom's e-commerce platform to leverage site visits into opportunities to sell the publication or goods related to the brand. Using the Shopify CMS a custom responsive template theme was designed and developed for the Tom Tom store."
-  , "backgroundColor": "#466638"
-  , "imageKey": "tom-tom"
-  , "indexImage": "index_qlv9aq.jpg"
-  , "fullscreen": false
-  , "images":
-      [ { "imageFile": "desktop-00-alt_flcebt.jpg"
-        , "imageText": "As a print publication Tom Tom Magazine needed a digital site that reflected their focus on music related content."
-        , "imageType": "screenshot"
-        }
-      , { "imageFile": "desktop-01_apeeoi.png"
-        , "imageText": "Additionally an e-commerce site was needed for users to purchase branded products, and was built by creating a custom Shopify template with CMS integration. Allowing team members to easily track inventory and sales related data."
-        , "imageType": "screenshot"
-        }
-      , { "imageFile": "phone-00_g3ussj.jpg"
-        , "imageText": "Responsive mobile-first designs were implemented to create a seamless experience on across a variety of devices for users."
-        , "imageType": "iphone"
-        }
-      , { "imageFile": "phone-01_b8mg99.png"
-        , "imageText": "As well as responsive designs for the e-commerce site experience to leverage conversions across devices."
-        , "imageType": "iphone"
-        }
-      ]
-  , "skills":
-      [ "Product Design"
-      , "UI/UX Design & Research"
-      , "Front-end Development"
       ]
   }
 ]

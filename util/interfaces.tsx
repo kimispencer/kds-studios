@@ -21,6 +21,7 @@ export interface Project {
   supplementalUrl?: Url;
 }
 export interface ProjectImage {
+  imageHeader: string;
   imageFile: string;
   imageText: string;
   imageType: "iphone" | "desktop" | "screenshot";
