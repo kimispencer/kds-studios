@@ -39,11 +39,11 @@ const ProjectDetailPage: NextPage<Props> = ({ project, projects }: Props) => {
         </div>
       </div>
       <div className={styles.projectDetailImagesContainer}>
-        {project.images.map((image, i) => {
+        {project.sections.map((section, i) => {
           return (
             <ProjectSection
               key={i}
-              image={image}
+              section={section}
               project={project}
             />
           )

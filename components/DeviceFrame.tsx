@@ -1,19 +1,19 @@
 import LoadingImage from '@/components/LoadingImage'
-import { ProjectImage } from '@/util/interfaces'
+import { ProjectSection } from '@/util/interfaces'
 import ScreenshotImage from "@/components/ScreenshotImage"
 import { concatClassnames } from '@/util/functions'
 import styles from '@/styles/components/DeviceFrame.module.scss'
 
 type Props = {
   priority: boolean
-  image: ProjectImage
+  section: ProjectSection
   imageKey: string
   backgroundColor?: string
   fullscreen: boolean
 }
 
-const DeviceFrame = ({ priority, image, imageKey, backgroundColor, fullscreen }: Props) => {
-  switch (image.imageType) {
+const DeviceFrame = ({ priority, section, imageKey, backgroundColor, fullscreen }: Props) => {
+  switch (section.imageType) {
     case "iphone":
       return (
         <div className="device device-iphone-x">
@@ -26,10 +26,10 @@ const DeviceFrame = ({ priority, image, imageKey, backgroundColor, fullscreen }:
             >
               <LoadingImage
                 priority={priority}
-                keyString={imageKey + "-" + image.imageFile}
+                keyString={imageKey + "-" + section.imageFile}
                 imageKey={imageKey}
-                fileName={image.imageFile}
-                alt={image.imageText}
+                fileName={section.imageFile}
+                alt={section.projectSectionHeader}
                 className={styles.deviceImage}
               />
             </div>
@@ -45,7 +45,7 @@ const DeviceFrame = ({ priority, image, imageKey, backgroundColor, fullscreen }:
       return (
         <ScreenshotImage
           priority={priority}
-          image={image}
+          section={section}
           imageKey={imageKey}
           backgroundColor={backgroundColor}
           fullscreen={fullscreen}

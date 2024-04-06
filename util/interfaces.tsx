@@ -12,8 +12,7 @@ export interface Project {
   summary: string
   imageKey: string;
   indexImage: string;
-  images: ProjectImage[];
-  // sections: ProjectSection[];
+  sections: ProjectSection[];
   backgroundColor?: string;
   fullscreen: boolean;
   skills: string[];
@@ -21,19 +20,18 @@ export interface Project {
   supplementalUrl?: Url;
 }
 
-export interface ProjectImage {
-  imageHeader: string;
+export interface ProjectSection {
+  projectSectionHeader: string;
+  projectSectionText: ProjectSectionText; //string;
   imageFile: string;
-  imageText: string;
   imageType: "iphone" | "screenshot" | "none";
 }
 
-// export interface ProjectSection {
-//   sectionType: "vertical" | "horizontal";
-//   sectionImage?: ProjectImage | "none";
-//   sectionHeader: string;
-//   sectionText: string;
-// }
+export interface ProjectSectionText {
+  textType: "paragraph" | "columns";
+  textCopy: string;
+  columnCopy: string[];
+}
 
 interface Url {
   path: string;

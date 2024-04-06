@@ -35,6 +35,19 @@
 
 .screenshotImageText {
   gap: $defaultSpacing;
+  grid-area: 5 / 1 / 5 / 26;
+  border: 1px dashed blue;
+}
+
+.projectSectionColumnTextContainer {
+  border: 1px dashed;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  gap: $defaultSpacing;
+  .projectSectionColumnText {
+    flex-basis: 100%;
+  }
 }
 
 .deviceImageTextContainer {
@@ -45,7 +58,7 @@
   width: 100%;
 }
 
-.deviceImageText, .screenshotImageText {
+.deviceImageText {
   display: flex;
   flex-flow: column;
   gap: $defaultSpacing;
@@ -85,6 +98,10 @@
 
   .deviceImageTextContainer, .screenshotImageTextContainer {
     padding: calc(#{$defaultSpacing} * 2) 0;
+  }
+
+  .projectSectionColumnTextContainer {
+    flex-flow: row;
   }
 
   .screenshotImageTextContainer {

@@ -1,17 +1,17 @@
 import LoadingImage from '@/components/LoadingImage'
-import { ProjectImage } from '@/util/interfaces'
+import { ProjectSection } from '@/util/interfaces'
 import { concatClassnames } from '@/util/functions'
 import styles from '@/styles/components/ScreenshotImage.module.scss'
 
 type Props = {
   priority: boolean
-  image: ProjectImage
+  section: ProjectSection
   imageKey: string
   backgroundColor?: string
   fullscreen: boolean
 }
 
-const ScreenshotImage = ({ priority, image, imageKey, backgroundColor, fullscreen }: Props) => {
+const ScreenshotImage = ({ priority, section, imageKey, backgroundColor, fullscreen }: Props) => {
   return (
     <div className={styles.screenshotImageContainer} style={{backgroundColor: fullscreen ? "" : backgroundColor}}>
       <div
@@ -22,10 +22,10 @@ const ScreenshotImage = ({ priority, image, imageKey, backgroundColor, fullscree
       >
         <LoadingImage
           priority={priority}
-          keyString={imageKey + "-" + image.imageFile}
+          keyString={imageKey + "-" + section.imageFile}
           imageKey={imageKey}
-          fileName={image.imageFile}
-          alt={image.imageText}
+          fileName={section.imageFile}
+          alt={section.projectSectionHeader}
           className={styles.screenshotImage}
         />
       </div>

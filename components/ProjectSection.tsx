@@ -1,4 +1,4 @@
-import { Project, ProjectImage } from '@/util/interfaces'
+import { Project, ProjectSection } from '@/util/interfaces'
 import { concatClassnames } from '@/util/functions'
 import DeviceFrame from "@/components/DeviceFrame"
 import ScreenshotImage from "@/components/ScreenshotImage"
@@ -7,12 +7,12 @@ import styles from '@/styles/pages/Projects.module.scss'
 
 type Props = {
   key: number
-  image: ProjectImage
+  section: ProjectSection
   project: Project
 }
 
-const ProjectSection = ({ key, image, project }: Props) => {
-  switch (image.imageType) {
+const ProjectSection = ({ key, section, project }: Props) => {
+  switch (section.imageType) {
     case "iphone":
       return (
         <div
@@ -24,15 +24,15 @@ const ProjectSection = ({ key, image, project }: Props) => {
         >
           <DeviceFrame
             priority={key == 0 ? true : false}
-            image={image}
+            section={section}
             imageKey={project.imageKey}
             backgroundColor={project.backgroundColor}
             fullscreen={project.fullscreen}
           />
           <div className={styles.deviceImageTextContainer}>
             <div className={styles.deviceImageText}>
-              <h4>{image.imageHeader}</h4>
-              <h5>{image.imageText}</h5>
+              <h4>{section.projectSectionHeader}</h4>
+              <h5>{section.projectSectionText.textCopy}</h5>
             </div>
           </div>
         </div>
@@ -45,15 +45,15 @@ const ProjectSection = ({ key, image, project }: Props) => {
         >
           <ScreenshotImage
             priority={key == 0 ? true : false}
-            image={image}
+            section={section}
             imageKey={project.imageKey}
             backgroundColor={project.backgroundColor}
             fullscreen={project.fullscreen}
           />
           <div className={styles.screenshotImageTextContainer}>
             <div className={styles.screenshotImageText}>
-              <h4>{image.imageHeader}</h4>
-              <h5>{image.imageText}</h5>
+              <h4>{section.projectSectionHeader}</h4>
+              <h5>{section.projectSectionText.textCopy}</h5>
             </div>
           </div>
         </div>
@@ -62,8 +62,17 @@ const ProjectSection = ({ key, image, project }: Props) => {
       return (
         <div className={styles.screenshotImageTextContainer}>
           <div className={styles.screenshotImageText}>
-            <h4>{image.imageHeader}</h4>
-            <h5>{image.imageText}</h5>
+            <h4>{section.projectSectionHeader}</h4>
+            {section.projectSectionText.textType == "columns"
+              ? <div className={styles.projectSectionColumnTextContainer}>
+                  {section.projectSectionText.columnCopy.map((copy, i) => {
+                    return (
+                      <h5 className={styles.projectSectionColumnText} key={i}>{copy}</h5>
+                    )
+                  })}
+                </div>
+              : <h5>{section.projectSectionText.textCopy}</h5>
+            }
           </div>
         </div>
       )

@@ -9,45 +9,45 @@
   , "imageKey": "smarty"
   , "indexImage": "index_mcyprd.png"
   , "fullscreen": false
-  , "images":
+  , "sections":
       [ { "imageFile": "desktop-00-alt_wnqbk1.jpg"
-        , "imageText": "Smarty is an AI-powered productivity tool, built on top of an NLP (natural language processing) and artificial intelligence engine. As Lead Product Designer synthesized user research into validated value propositions & created the initial design system for the app interface and strategized goals for the product roadmap."
+        , "projectSectionText": "Smarty is an AI-powered productivity tool, built on top of an NLP (natural language processing) and artificial intelligence engine. As Lead Product Designer synthesized user research into validated value propositions & created the initial design system for the app interface and strategized goals for the product roadmap."
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2023-Dec/user-research/user-persona_zkofzx.png"
-        , "imageText": "Our target personas were identified as executive assistants and agency professionals. From there we created persona profiles, user journey maps, as well as conducted rounds of user interviews. In our interviews we focused on how people organize & structure their schedule over the course of week, and what were their pain points & goals when planning out objectives for their calendar."
+        , "projectSectionText": "Our target personas were identified as executive assistants and agency professionals. From there we created persona profiles, user journey maps, as well as conducted rounds of user interviews. In our interviews we focused on how people organize & structure their schedule over the course of week, and what were their pain points & goals when planning out objectives for their calendar."
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2023-Dec/user-research/user-journey-map-v4_tqea0i.png"
-        , "imageText": "A user journey map was created to visualize the flow of how users planned & scheduled with their existing tools & workflows, and discovered new productivity tools & methodologies. Tracking their actions, feelings & questions, as well as touchpoints & opportunities in each step of their flow. Our original hypothesis was then compared to or validated by the insights we gathered from our user research discovery phase."
+        , "projectSectionText": "A user journey map was created to visualize the flow of how users planned & scheduled with their existing tools & workflows, and discovered new productivity tools & methodologies. Tracking their actions, feelings & questions, as well as touchpoints & opportunities in each step of their flow. Our original hypothesis was then compared to or validated by the insights we gathered from our user research discovery phase."
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2023-Dec/user-research/feature-set_fqpor2.png"
-        , "imageText": "After conducting rounds of user interviews and discovery, we summarized 3 different possible value propositions and organized our findings by each user group, to see where there was overlap & distinction. Synthesized into a Jobs to Be Done statement: 'When I’m newly overwhelmed by an overflowing plate and the meetings/tasks keep coming, I want to easily track my workload (via smart visualization and automatic re-prioritization), so I can have mental clarity and confidence each day.' Translated into a feature set emphasizing: a simple/clean UI, task tracking & management, automated scheduling, and supporting integrations."
+        , "projectSectionText": "After conducting rounds of user interviews and discovery, we summarized 3 different possible value propositions and organized our findings by each user group, to see where there was overlap & distinction. Synthesized into a Jobs to Be Done statement: 'When I’m newly overwhelmed by an overflowing plate and the meetings/tasks keep coming, I want to easily track my workload (via smart visualization and automatic re-prioritization), so I can have mental clarity and confidence each day.' Translated into a feature set emphasizing: a simple/clean UI, task tracking & management, automated scheduling, and supporting integrations."
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2024-Feb/homepage_-_list_view_dwmrlo.jpg"
-        , "imageText": "Based on our insights from user research & market analysis, and supported by an examination of existing systems & methodologies, Smarty was built on top of a natural language processing engine with AI auto-scheduling that would reschedule tasks & events based on priority and schedule changes. The app UI was designed to let users build content through a textual interface, allowing users to conversationally input tasks and scheduled them."
+        , "projectSectionText": "Based on our insights from user research & market analysis, and supported by an examination of existing systems & methodologies, Smarty was built on top of a natural language processing engine with AI auto-scheduling that would reschedule tasks & events based on priority and schedule changes. The app UI was designed to let users build content through a textual interface, allowing users to conversationally input tasks and scheduled them."
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2024-Feb/homepage_-_list_view-1_youh3a.jpg"
-        , "imageText": ""
+        , "projectSectionText": ""
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2024-Feb/homepage_-_list_view_command_so5ghv.jpg"
-        , "imageText": ""
+        , "projectSectionText": ""
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2024-Feb/homepage_-_list_view_command-1_u869si.jpg"
-        , "imageText": ""
+        , "projectSectionText": ""
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2024-Feb/homepage_-_scheduled_tasks_with_conflict_resolution_with_auto-schedule_logged_in_user_hzekzo.jpg"
-        , "imageText": "Smarty handles task management and event scheduling for users with the AI powered auto-scheduling feature, allowing users to avoid conflicts and automate rescheduling of their most important tasks & events. Free times are auto-detected, and reminders go out automatically; with the app design streamlined to help users take the work out of managing their agenda, so they can focus on the activity at hand itself not scheduling it."
+        , "projectSectionText": "Smarty handles task management and event scheduling for users with the AI powered auto-scheduling feature, allowing users to avoid conflicts and automate rescheduling of their most important tasks & events. Free times are auto-detected, and reminders go out automatically; with the app design streamlined to help users take the work out of managing their agenda, so they can focus on the activity at hand itself not scheduling it."
         , "imageType": "screenshot"
         }
       , { "imageFile": "/2024-Feb/homepage_-_calendar_view_ejetpg.jpg"
-        , "imageText": "Users can also visually compare their list view to a calendar time block layout to see how any given day is structured, and drag/drop between the two interfaces. In addition to the rich text editor view to organize & schedule, user can also create content & visualize organization of their tasks & events with the robust calendar interface as their primary view, backed by the time management research methodology of 'time boxing'."
+        , "projectSectionText": "Users can also visually compare their list view to a calendar time block layout to see how any given day is structured, and drag/drop between the two interfaces. In addition to the rich text editor view to organize & schedule, user can also create content & visualize organization of their tasks & events with the robust calendar interface as their primary view, backed by the time management research methodology of 'time boxing'."
         , "imageType": "screenshot"
         }
       ]
@@ -67,41 +67,41 @@
   , "imageKey": "lumi-id"
   , "indexImage": "index_fhzdbn.jpg"
   , "fullscreen": false
-  , "images":
+  , "sections":
       [ { "imageFile": "Lumi-ID-homepage_jiawcg.png"
-        , "imageText": "Lumi ID integrates seamlessly with branding, messaging and physical product. Lumi ID generates a QR code that can be printed on any packaging including boxes, envelopes, jars, bottles, cans, tubes, publications, labels and collateral. As new platform features and best practices become available, packaging information stays accurate without requiring print plate changes."
+        , "projectSectionText": "Lumi ID integrates seamlessly with branding, messaging and physical product. Lumi ID generates a QR code that can be printed on any packaging including boxes, envelopes, jars, bottles, cans, tubes, publications, labels and collateral. As new platform features and best practices become available, packaging information stays accurate without requiring print plate changes."
         , "imageType": "screenshot"
         }
       , { "imageFile": "lumi-ID-phone_ni8wr0.jpg"
-        , "imageText": "With a mobile-first approach, customers can scan QR codes on packaging materials to learn more about a brand's sustainability efforts, the life cycle of the packaging materials itself, and how to recycle it with up-to-date, localized disposal options using the latest best practices."
+        , "projectSectionText": "With a mobile-first approach, customers can scan QR codes on packaging materials to learn more about a brand's sustainability efforts, the life cycle of the packaging materials itself, and how to recycle it with up-to-date, localized disposal options using the latest best practices."
         , "imageType": "iphone"
         }
       , { "imageFile": "lumi-ID-phone-search-results_lwrovs.jpg"
-        , "imageText": "Every city has its own regulations, which can make it difficult for a brand's customer service teams to answer questions accurately. Lumi ID is a universal system for every type of packaging tied to real-time data, giving users accurate information about a brand's packaging materials, sustainability mission and certifications."
+        , "projectSectionText": "Every city has its own regulations, which can make it difficult for a brand's customer service teams to answer questions accurately. Lumi ID is a universal system for every type of packaging tied to real-time data, giving users accurate information about a brand's packaging materials, sustainability mission and certifications."
         , "imageType": "iphone"
         }
       , { "imageFile": "lumi-ID-desktop-landing_fmkv6b.jpg"
-        , "imageText": ""
+        , "projectSectionText": ""
         , "imageType": "screenshot"
         }
       , { "imageFile": "lumi-ID-desktop-search-results_mtwirg.jpg"
-        , "imageText": "From the brand's dashboard, not only can companies customize, order and track new packaging but also in addition to disposal information, share their environmental mission, link to their sustainability page, and share as much information about their packaging as desired. "
+        , "projectSectionText": "From the brand's dashboard, not only can companies customize, order and track new packaging but also in addition to disposal information, share their environmental mission, link to their sustainability page, and share as much information about their packaging as desired. "
         , "imageType": "screenshot"
         }
       , { "imageFile": "lumi-ID-desktop-FJ-profile_rtezgo.jpg"
-        , "imageText": ""
+        , "projectSectionText": ""
         , "imageType": "screenshot"
         }
       , { "imageFile": "lumi-ID-desktop-FJ-settings-detail_fs4klu.jpg"
-        , "imageText": ""
+        , "projectSectionText": ""
         , "imageType": "screenshot"
         }
       , { "imageFile": "lumi-ID-sample-code_infbme.png"
-        , "imageText": ""
+        , "projectSectionText": ""
         , "imageType": "screenshot"
         }
       , { "imageFile": "lumi-lumicodes-photography_psehau.jpg"
-        , "imageText": ""
+        , "projectSectionText": ""
         , "imageType": "screenshot"
         }
       ]
@@ -120,55 +120,96 @@
   , "imageKey": "lumi"
   , "indexImage": "index_twciyu.png"
   , "fullscreen": false
-  , "images":
-      [ { "imageHeader": "Example of text only"
-        , "imageText": "Lorem ipsum"
-        , "imageType": "none"
-        }
-      , { "imageFile": "desktop-00-alt_zivikv.jpg"
-        , "imageHeader": "Context"
-        , "imageText": "Lumi provides services to users that are consumer brands in need of packaging, as well as packaging manufacturers responding to requests & orders. To communicate to these multiple user demographics a marketing site was designed to provide tailored content to both consumer brand buyers and packaging suppliers."
+  , "sections":
+      [ { "imageFile": "desktop-00-alt_zivikv.jpg"
+        , "projectSectionHeader": "Context"
+        , "projectSectionText":
+            { "textCopy": "Lumi provides services to users that are consumer brands in need of packaging, as well as packaging manufacturers responding to requests & orders. To communicate to these multiple user demographics a marketing site was designed to provide tailored content to both consumer brand buyers and packaging suppliers."
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
+      , { "projectSectionHeader": "Example of text only"
+        , "projectSectionText":
+            { "columnCopy":
+                [ "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor interdum massa in accumsan. Nulla vel elit et sem pellentesque mollis. Nullam pretium dolor lobortis nibh sodales, vel bibendum tortor ultrices."
+                , "Vivamus condimentum nulla vitae mollis bibendum. Proin nunc mauris, egestas sit amet cursus a, pharetra at libero. Pellentesque accumsan sed justo ut laoreet. Phasellus tincidunt ex felis, eu facilisis felis consectetur ac. Phasellus eu tellus non orci suscipit ullamcorper id nec elit. Morbi malesuada ipsum nec congue condimentum."
+                ]
+            , "textType": "columns"
+            }
+        , "imageType": "none"
+        }
+      , { "imageFile": "lumi-ID-phone_ni8wr0.jpg"
+        , "projectSectionText":
+            { "textCopy": "With a mobile-first approach, customers can scan QR codes on packaging materials to learn more about a brand's sustainability efforts, the life cycle of the packaging materials itself, and how to recycle it with up-to-date, localized disposal options using the latest best practices."
+            , "textType": "paragraph"
+            }
+        , "imageType": "iphone"
+        }
       , { "imageFile": "desktop-01_crelk5.png"
-        , "imageHeader": "Where we started"
-        , "imageText": "Initial design focus was to standardize the app experience by establishing a modular UI component library for both the consumer brand-facing dashboard and the manufacturer-facing dashboard. For the buyer's app, users needed to be able to easily create & purchase from a catalog of packaging products."
+        , "projectSectionHeader": "Where we started"
+        , "projectSectionText":
+            { "textCopy": "Initial design focus was to standardize the app experience by establishing a modular UI component library for both the consumer brand-facing dashboard and the manufacturer-facing dashboard. For the buyer's app, users needed to be able to easily create & purchase from a catalog of packaging products."
+            , "textType": "columns"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-02_esmwtr.png"
-        , "imageHeader": "The problem"
-        , "imageText": "Because consumer brand users required a high level of specificity for their branded packaging requirements and our in-house CX team managed the flow of information between brands & suppliers, as Lumi scaled with more users this resulted in communication bottlenecks & errors. UX research was performed to map out the workflows for a consumer brand's custom packaging item needs from creation, to production & delivery. And how suppliers managed receiving & responding to orders."
+        , "projectSectionHeader": "The problem"
+        , "projectSectionText":
+            { "textCopy": "Because consumer brand users required a high level of specificity for their branded packaging requirements and our in-house CX team managed the flow of information between brands & suppliers, as Lumi scaled with more users this resulted in communication bottlenecks & errors. UX research was performed to map out the workflows for a consumer brand's custom packaging item needs from creation, to production & delivery. And how suppliers managed receiving & responding to orders."
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "2023-Dec/Workflow_-_Item_to_Quote_Request_wtesir.png"
         , "imageType": "screenshot"
+        , "projectSectionText": ""
         }
       , { "imageFile": "2023-Dec/Workflow_-_Responding_to_opportunities_y7kf8s.png"
-        , "imageHeader": "The solution"
-        , "imageText": "Based on this research, the app interface was updated from a default catalog UI to a customizable form interface to assist consumer brand users in creating detailed customizable packaging & matching them to their best suited manfacturer. Allowing brands to create their custom specifications, add design files & proofs into a guided workflow that then submitted packaging requests into a B2B marketplace of manufacturers that could respond to brand requests via a messaging interface with detailed quoting information on pricing, order fulfillment & next steps."
+        , "projectSectionHeader": "The solution"
+        , "projectSectionText":
+            { "textCopy": "Based on this research, the app interface was updated from a default catalog UI to a customizable form interface to assist consumer brand users in creating detailed customizable packaging & matching them to their best suited manfacturer. Allowing brands to create their custom specifications, add design files & proofs into a guided workflow that then submitted packaging requests into a B2B marketplace of manufacturers that could respond to brand requests via a messaging interface with detailed quoting information on pricing, order fulfillment & next steps."
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "2023-Dec/FJ-items-page_ehtyzj.jpg"
-        , "imageHeader": "Comparing quotes"
-        , "imageText": "Manufacturers' responses to brands' custom packaging needs were displayed in a high-density data UI reflecting the nuances of producing each custom product, essential information about projected quotes (quantity, price & turnaround times), as well as linking to detailed profiles about the manufacturer themselves, allowing brands to easily compare across different possible manufacturing resources."
+        , "projectSectionHeader": "Comparing quotes"
+        , "projectSectionText":
+            { "textCopy": "Manufacturers' responses to brands' custom packaging needs were displayed in a high-density data UI reflecting the nuances of producing each custom product, essential information about projected quotes (quantity, price & turnaround times), as well as linking to detailed profiles about the manufacturer themselves, allowing brands to easily compare across different possible manufacturing resources."
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "2023-Dec/FJ-quoting-page_ws5te3.jpg"
-        , "imageHeader": "Picking the right supplier"
-        , "imageText": "To assist consumer brands in comparing across an ecosystem of many manufacturers, a marketplace reference UI was created for displaying rich data regarding each manufacturer's production capabilities, location & shipping times, sustainability efforts, and reviews from other consumer brands."
+        , "projectSectionHeader": "Picking the right supplier"
+        , "projectSectionText":
+            { "textCopy": "To assist consumer brands in comparing across an ecosystem of many manufacturers, a marketplace reference UI was created for displaying rich data regarding each manufacturer's production capabilities, location & shipping times, sustainability efforts, and reviews from other consumer brands."
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "2023-Dec/FJ-network-page_wpm5zq.jpg"
-        , "imageHeader": "A dashboard for suppliers"
-        , "imageText": "Manufacturers could respond to each brands' custom packaging needs from their own focused app UI, supporting a marketplace of potential opportunities, buyers' direct requests for custom packaging, and to track & manage potential orders."
+        , "projectSectionHeader": "A dashboard for suppliers"
+        , "projectSectionText":
+            { "textCopy": "Manufacturers could respond to each brands' custom packaging needs from their own focused app UI, supporting a marketplace of potential opportunities, buyers' direct requests for custom packaging, and to track & manage potential orders."
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "2023-Dec/Bravo-opportunities-page_yik29s.jpg"
-        , "imageText": "The manufacturer dashboard utilizes the same UI component library to standardize visual cohesiveness, but with a UX focus on the manufacturer's need to respond to consumer brand requests, providing quotes, feedback, status updates, and tracking order fulfillment."
+        , "projectSectionText":
+            { "textCopy": "The manufacturer dashboard utilizes the same UI component library to standardize visual cohesiveness, but with a UX focus on the manufacturer's need to respond to consumer brand requests, providing quotes, feedback, status updates, and tracking order fulfillment."
+            , "textType": "paragraph"
+            }
         , "imageType": "screenshot"
         }
       , { "imageFile": "UI-components-card-grid_unmvsh.png"
-        , "imageText": "A modular UI component library example for a responsive CardGrid component layout. By designing and utilizing a reusable modular component library & establishing a scalable design system, each app targeted for a specific user demographic (consumer brands & manufacturers/suppliers) maintained visual Lumi branding consistency and user experience."
+        , "projectSectionText":
+            { "textCopy": "A modular UI component library example for a responsive CardGrid component layout. By designing and utilizing a reusable modular component library & establishing a scalable design system, each app targeted for a specific user demographic (consumer brands & manufacturers/suppliers) maintained visual Lumi branding consistency and user experience."
+            , "textType": "paragraph"
+          }
         , "imageType": "screenshot"
         }
     ]
@@ -188,26 +229,26 @@
   , "imageKey": "arrivals"
   , "indexImage": "index_zpp9zz.jpg"
   , "fullscreen": false
-  , "images":
+  , "sections":
       [ { "imageFile": "desktop-00-alt_jg0jcn.jpg"
-        , "imageText": "As a high-end NYC fashion line, The Arrivals required bi-weekly interactive campaigns, supporting continuous product launches. Creating new campaign designs in regular sprint intervals required standardization of the Arrival's branded visual design system and prioritizing high impact & fast turn over of designs."
+        , "projectSectionText": "As a high-end NYC fashion line, The Arrivals required bi-weekly interactive campaigns, supporting continuous product launches. Creating new campaign designs in regular sprint intervals required standardization of the Arrival's branded visual design system and prioritizing high impact & fast turn over of designs."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-01_wzpfw6.jpg"
-        , "imageText": "The interactive e-commerce store was designed & developed to display the rich array of products in multiple-styles, with a focus on the consumer user navigation experience by creating sorting filters based on best selling, price or inventory."
+        , "projectSectionText": "The interactive e-commerce store was designed & developed to display the rich array of products in multiple-styles, with a focus on the consumer user navigation experience by creating sorting filters based on best selling, price or inventory."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-02-alt_qpzl9s.jpg"
-        , "imageText": "Product detail pages needed to display rich imagery detailing the product's aesthetic as well as information regarding fit, materials, and allowing users to receive contextual information before making a purchase commitment. As well as designed to provide suggestions of similar product styles to leverage user interest. "
+        , "projectSectionText": "Product detail pages needed to display rich imagery detailing the product's aesthetic as well as information regarding fit, materials, and allowing users to receive contextual information before making a purchase commitment. As well as designed to provide suggestions of similar product styles to leverage user interest. "
         , "imageType": "screenshot"
         }
       , { "imageFile": "phone-00-alt_klkoug.jpg"
-        , "imageHeader": "Context"
-        , "imageText": "As an e-commerce brand, The Arrivals needed mobile-first designs so users could view and purchase products across any device type, and a responsive website UX was designed & developed."
+        , "projectSectionHeader": "Context"
+        , "projectSectionText": "As an e-commerce brand, The Arrivals needed mobile-first designs so users could view and purchase products across any device type, and a responsive website UX was designed & developed."
         , "imageType": "iphone"
         }
       , { "imageFile": "phone-01_mi5u4f.jpg"
-        , "imageText": "With an emphasis on its architectural roots, a structural & textured UI was created focusing on visually displaying compelling imagery and video content."
+        , "projectSectionText": "With an emphasis on its architectural roots, a structural & textured UI was created focusing on visually displaying compelling imagery and video content."
         , "imageType": "iphone"
         }
       ]
@@ -228,25 +269,25 @@
   , "imageKey": "suited"
   , "indexImage": "index_cxa5mu.jpg"
   , "fullscreen": false
-  , "images":
+  , "sections":
       [ { "imageFile": "desktop-02-alt_lxw4wk.jpg"
-        , "imageText": "As a print publication, translating the SUITED experience online focused on designing a UI that highlights rich imagery and featured content. As content needed to be regularly updated, a custom CMS driven template was created on top of the SquareSpace developer platform."
+        , "projectSectionText": "As a print publication, translating the SUITED experience online focused on designing a UI that highlights rich imagery and featured content. As content needed to be regularly updated, a custom CMS driven template was created on top of the SquareSpace developer platform."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-01-alt_sh0epo.jpg"
-        , "imageText": "Because SUITED's initial experience was their printed content, the site was designed to highlight previous issues and leverage site visits into opportunities for users to order hard copies."
+        , "projectSectionText": "Because SUITED's initial experience was their printed content, the site was designed to highlight previous issues and leverage site visits into opportunities for users to order hard copies."
         , "imageType": "screenshot"
         }
       , { "imageFile": "desktop-00-alt_nzitee.jpg"
-        , "imageText": "SUITED magazine's aesthetic is minimal, black & white and high-end. The site was designed to emphasize the physical experience into a fashion and art focused digital site."
+        , "projectSectionText": "SUITED magazine's aesthetic is minimal, black & white and high-end. The site was designed to emphasize the physical experience into a fashion and art focused digital site."
         , "imageType": "screenshot"
         }
       , { "imageFile": "phone-00_fhkper.jpg"
-        , "imageText": "Mobile accessibility was of importance so users could experience the site across a variety of devices. The site was designed and developed mobile-first."
+        , "projectSectionText": "Mobile accessibility was of importance so users could experience the site across a variety of devices. The site was designed and developed mobile-first."
         , "imageType": "iphone"
         }
       , { "imageFile": "phone-01_dpupjy.jpg"
-        , "imageText": "With the mobile device UX in mind, the mobile app version of the site prioritized the rich imagery and content to be viewed as easily on phones as desktops."
+        , "projectSectionText": "With the mobile device UX in mind, the mobile app version of the site prioritized the rich imagery and content to be viewed as easily on phones as desktops."
         , "imageType": "iphone"
         }
       ]
@@ -265,17 +306,17 @@
   , "imageKey": "data-viz"
   , "indexImage": "index_ojot2o.jpg"
   , "fullscreen": true
-  , "images":
+  , "sections":
       [ { "imageFile": "00_nl0ni3.jpg"
-        , "imageText": "What do popular song lyrics say about cultural moods, concerns and political issues of different times? To answer this question and because no database of this information existed at the time, a Python web scraping script was developed to pull lyrics from the top Billboard charts since its inception in the early 1900's. Using a Java based IDE and natural language processing, frequencies of noun entities (such as \"I\" and \"you\"), as well as common verbs that express relationships between those entities (such as \"love\", or \"hate\") were visualized."
+        , "projectSectionText": "What do popular song lyrics say about cultural moods, concerns and political issues of different times? To answer this question and because no database of this information existed at the time, a Python web scraping script was developed to pull lyrics from the top Billboard charts since its inception in the early 1900's. Using a Java based IDE and natural language processing, frequencies of noun entities (such as \"I\" and \"you\"), as well as common verbs that express relationships between those entities (such as \"love\", or \"hate\") were visualized."
         , "imageType": "screenshot"
         }
       , { "imageFile": "01_bs8nk7.jpg"
-        , "imageText": "With this data visualization, topical patterns over time became evident as song lyrics from different decades reveal societal patterns and trending topics."
+        , "projectSectionText": "With this data visualization, topical patterns over time became evident as song lyrics from different decades reveal societal patterns and trending topics."
         , "imageType": "screenshot"
         }
       , { "imageFile": "02_ydrfxz.jpg"
-        , "imageText": "Frequency of keywords were used to weight their size (more frequent use of a noun phrase resulted in a larger font size), and bézier curves to visualization semantic linkages between different keyword entities."
+        , "projectSectionText": "Frequency of keywords were used to weight their size (more frequent use of a noun phrase resulted in a larger font size), and bézier curves to visualization semantic linkages between different keyword entities."
         , "imageType": "screenshot"
         }
       ]
