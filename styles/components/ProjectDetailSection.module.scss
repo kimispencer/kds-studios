@@ -28,16 +28,14 @@
   .textWrapper {
     gap: $defaultSpacing;
     grid-area: 5 / 1 / 5 / 26;
-    border: 1px dashed blue;
   }
 }
 
 .columnTextContainer {
-  border: 1px dashed;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  gap: $defaultSpacing;
+  gap: calc(#{$defaultSpacing} * 2);
   .columnText {
     flex-basis: 100%;
   }

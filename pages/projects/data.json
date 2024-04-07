@@ -205,52 +205,23 @@
   , "slug": "lumi"
   , "title": "Lumi"
   , "subtitle": "UI/UX, Development"
-  , "description": "Lumi helps e-commerce companies produce custom packaging and handle supply chain logistics, with the goal of making custom manufacturing more sustainable and as scalable as the web."
-  , "summary": "Product designer and developer transforming Lumi from an e-commerce platform into a B2B marketplace connecting brands to packaging supplies; providing users with transparency & improving efficiency in supply chain logistics, and guiding brands to find manufacturers best suited to fulfill their packaging needs. As well as the creation of a design system & modular UI component library to maintain cohesiveness across Lumi's various app user interfaces and visual design"
+  , "description": "Lumi helps businesses produce custom packaging and handle supply chain logistics."
+  , "summary": "Product designer and UI developer transforming Lumi from an e-commerce platform into a B2B marketplace connecting businesses to packaging manufacturers. Providing users with custom packaging & improved efficiency in supply chain logistics, as well as the creation of a design system & modular UI component library to maintain cohesiveness across Lumi's various app user interfaces and visual design"
   , "backgroundColor": "#DBD624"
   , "imageKey": "lumi"
   , "indexImage": "index_twciyu.png"
   , "fullscreen": false
   , "sections":
-      [ { "projectSectionHeader": "Example of text only"
-        , "projectSectionText":
-            { "columnCopy":
-                [ "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor interdum massa in accumsan. Nulla vel elit et sem pellentesque mollis. Nullam pretium dolor lobortis nibh sodales, vel bibendum tortor ultrices."
-                , "Vivamus condimentum nulla vitae mollis bibendum. Proin nunc mauris, egestas sit amet cursus a, pharetra at libero. Pellentesque accumsan sed justo ut laoreet. Phasellus tincidunt ex felis, eu facilisis felis consectetur ac. Phasellus eu tellus non orci suscipit ullamcorper id nec elit. Morbi malesuada ipsum nec congue condimentum."
-                ]
-            , "textType": "columns"
-            }
-        , "imageType": "none"
-        , "fullscreen": false
-        }
-      , { "imageFile": "desktop-00-alt_zivikv.jpg"
-        , "projectSectionHeader": "Context"
-        , "projectSectionText":
-            { "textCopy": "Lumi provides services to users that are consumer brands in need of packaging, as well as packaging manufacturers responding to requests & orders. To communicate to these multiple user demographics a marketing site was designed to provide tailored content to both consumer brand buyers and packaging suppliers."
-            , "textType": "paragraph"
-            }
-        , "imageType": "screenshot"
-        , "fullscreen": false
-        }
-      , { "imageFile": "desktop-01_crelk5.png"
+      [ { "imageFile": "desktop-01_crelk5.png"
         , "projectSectionHeader": "Where we started"
         , "projectSectionText":
-            { "textCopy": "Initial design focus was to standardize the app experience by establishing a modular UI component library for both the consumer brand-facing dashboard and the manufacturer-facing dashboard. For the buyer's app, users needed to be able to easily create & purchase from a catalog of packaging products."
-            , "textType": "columns"
+            { "textCopy": "Originally Lumi operated as an e-commerce catalog of pre-defined packaging materials that businesses could apply branded designs to. However, if users wanted customized designs or unique packaging options, their requests had to be handled manually by customer experience representatives & packaging design experts."
+            , "textType": "paragraph"
             }
         , "imageType": "screenshot"
         , "fullscreen": false
         }
       , { "imageFile": "desktop-02_esmwtr.png"
-        , "projectSectionHeader": "The problem"
-        , "projectSectionText":
-            { "textCopy": "Because consumer brand users required a high level of specificity for their branded packaging requirements and our in-house CX team managed the flow of information between brands & suppliers, as Lumi scaled with more users this resulted in communication bottlenecks & errors. UX research was performed to map out the workflows for a consumer brand's custom packaging item needs from creation, to production & delivery. And how suppliers managed receiving & responding to orders."
-            , "textType": "paragraph"
-            }
-        , "imageType": "screenshot"
-        , "fullscreen": false
-        }
-      , { "imageFile": "2023-Dec/Workflow_-_Item_to_Quote_Request_wtesir.png"
         , "projectSectionText":
             { "textCopy": ""
             , "textType": "none"
@@ -258,36 +229,46 @@
         , "imageType": "screenshot"
         , "fullscreen": false
         }
-      , { "projectSectionHeader": "Example of text only"
+      , { "projectSectionHeader": "The problem"
+        , "projectSectionText":
+            { "textCopy": "Because many business users required a high level of specificity for their branded packaging requirements and our in-house CX team managed the flow of information between businesses & packaging manufactures, as Lumi scaled with more users this resulted in communication bottlenecks & production errors."
+            , "textType": "paragraph"
+            }
+        , "imageType": "none"
+        }
+      , { "imageFile": "April 2024/User_research_sden3e.png"
         , "projectSectionText":
             { "columnCopy":
-                [ "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor interdum massa in accumsan. Nulla vel elit et sem pellentesque mollis. Nullam pretium dolor lobortis nibh sodales, vel bibendum tortor ultrices."
-                , "Vivamus condimentum nulla vitae mollis bibendum. Proin nunc mauris, egestas sit amet cursus a, pharetra at libero. Pellentesque accumsan sed justo ut laoreet. Phasellus tincidunt ex felis, eu facilisis felis consectetur ac. Phasellus eu tellus non orci suscipit ullamcorper id nec elit. Morbi malesuada ipsum nec congue condimentum."
+                [ "UX research was performed to map out the workflows for a consumer brand's custom packaging item needs from creation, to production & delivery; and how suppliers managed receiving & responding to orders."
+                , "As well as gathering insights on how packaging suppliers review orders from clients, and the process to respond & bid on these potential opportunities."
                 ]
             , "textType": "columns"
             }
-        , "imageType": "none"
-        , "fullscreen": false
-        }
-      , { "imageFile": "2023-Dec/Workflow_-_Responding_to_opportunities_y7kf8s.png"
-        , "projectSectionHeader": "The solution"
-        , "projectSectionText":
-            { "textCopy": "Based on this research, the app interface was updated from a default catalog UI to a customizable form interface to assist consumer brand users in creating detailed customizable packaging & matching them to their best suited manfacturer. Allowing brands to create their custom specifications, add design files & proofs into a guided workflow that then submitted packaging requests into a B2B marketplace of manufacturers that could respond to brand requests via a messaging interface with detailed quoting information on pricing, order fulfillment & next steps."
-            , "textType": "paragraph"
-            }
         , "imageType": "screenshot"
-        , "fullscreen": false
+        , "fullscreen": true
         }
       , { "imageFile": "2023-Dec/FJ-items-page_ehtyzj.jpg"
-        , "projectSectionHeader": "Comparing quotes"
+        , "projectSectionHeader": "The solution"
         , "projectSectionText":
-            { "textCopy": "Manufacturers' responses to brands' custom packaging needs were displayed in a high-density data UI reflecting the nuances of producing each custom product, essential information about projected quotes (quantity, price & turnaround times), as well as linking to detailed profiles about the manufacturer themselves, allowing brands to easily compare across different possible manufacturing resources."
-            , "textType": "paragraph"
+            { "columnCopy":
+                [ "Based on this research, the app interface was updated from a catalog UI to a dashboard interface optimized for business users to create detailed customizable packaging & allowing them to select their best suited packaging supplier."
+                , "To aid brands in creating their custom specifications, a guided workflow UI was designed that provided step-by-step instructions for users to add custom specifications, design files & proofs, and then submit into a B2B marketplace of manufacturers for comparative quoting."
+                ]
+            , "textType": "columns"
             }
         , "imageType": "screenshot"
         , "fullscreen": false
         }
       , { "imageFile": "2023-Dec/FJ-quoting-page_ws5te3.jpg"
+        , "projectSectionHeader": "Comparing quotes"
+        , "projectSectionText":
+            { "textCopy": "Manufacturers' responses to packaging needs were displayed in a high-density data UI reflecting the nuances of producing each custom product, essential information about projected quotes (quantity, price & turnaround times), as well as linking to detailed profiles about the manufacturer themselves, allowing brands to easily compare across different possible manufacturing resources."
+            , "textType": "paragraph"
+            }
+        , "imageType": "screenshot"
+        , "fullscreen": false
+        }
+      , { "imageFile": "2023-Dec/FJ-network-page_wpm5zq.jpg"
         , "projectSectionHeader": "Picking the right supplier"
         , "projectSectionText":
             { "textCopy": "To assist consumer brands in comparing across an ecosystem of many manufacturers, a marketplace reference UI was created for displaying rich data regarding each manufacturer's production capabilities, location & shipping times, sustainability efforts, and reviews from other consumer brands."
@@ -296,54 +277,43 @@
         , "imageType": "screenshot"
         , "fullscreen": false
         }
-      , { "imageFile": "2023-Dec/FJ-network-page_wpm5zq.jpg"
+      , { "imageFile": "2023-Dec/Bravo-opportunities-page_yik29s.jpg"
         , "projectSectionHeader": "A dashboard for suppliers"
         , "projectSectionText":
-            { "textCopy": "Manufacturers could respond to each brands' custom packaging needs from their own focused app UI, supporting a marketplace of potential opportunities, buyers' direct requests for custom packaging, and to track & manage potential orders."
-            , "textType": "paragraph"
+            { "columnCopy":
+                [ "Manufacturers could respond to each custom packaging request from their own focused product UI, supporting a marketplace of potential opportunities, buyers' direct requests for custom packaging, and to track & manage potential orders."
+                , "The manufacturer dashboard utilizes the same UI component library to standardize visual cohesiveness, but with a UX focus on the manufacturer's need to respond to client requests, providing quotes, feedback, status updates, and tracking order fulfillment."
+                ]
+            , "textType": "columns"
             }
         , "imageType": "screenshot"
         , "fullscreen": false
         }
-      , { "imageFile": "2023-Dec/Bravo-opportunities-page_yik29s.jpg"
+      , { "imageFile": "April 2024/Lumi_design_system_faqypc"
+        , "projectSectionHeader": "Modular component library & design system"
         , "projectSectionText":
-            { "textCopy": "The manufacturer dashboard utilizes the same UI component library to standardize visual cohesiveness, but with a UX focus on the manufacturer's need to respond to consumer brand requests, providing quotes, feedback, status updates, and tracking order fulfillment."
+            { "columnCopy":
+              [ "Designed & built a reusable modular component library based on atomic design principles to establish a scalable design system."
+              , "This allowed our team to maintain branded consistency & improve turnaround efficiency for each of the marketplace's product touch points (a targeted dashboard application for business & packaging suppliers)."
+              ]
+            , "textType": "columns"
+          }
+        , "imageType": "screenshot"
+        , "fullscreen": true
+        }
+      , { "projectSectionHeader": "The results"
+        , "projectSectionText":
+            { "textCopy": "With the transition to a B2B marketplace application from the prior iteration as a packaging design catalog interface, our team reduced average quote request response time by 85% and increased sales hours per client by 30%. Thus allowing Lumi to scale up in numbers of users, improving the custom packaging experience, adding transparency for our users, and increasing sales."
             , "textType": "paragraph"
             }
-        , "imageType": "screenshot"
-        , "fullscreen": false
+        , "imageType": "none"
         }
-      , { "imageFile": "test/design-system-img-aspect-ratio_nsyl62.png"
+      , { "projectSectionHeader": "Retrospective"
         , "projectSectionText":
-            { "textCopy": "A modular UI component library example for a responsive CardGrid component layout. By designing and utilizing a reusable modular component library & establishing a scalable design system, each app targeted for a specific user demographic (consumer brands & manufacturers/suppliers) maintained visual Lumi branding consistency and user experience."
+            { "textCopy": "Although the product redesign into a B2B marketplace produced tangible results & increased conversions, there was friction around assuming that most businesses were familiar with the nuances of detailed packaging design requirements. As an improvement to the UX, creating a more visual walkthrough with more explicit guided steps would better leverage the experience for businesses that had less complicated needs."
             , "textType": "paragraph"
-          }
-        , "imageType": "screenshot"
-        , "fullscreen": true
-        }
-      , { "imageFile": "test/design-system-img-25_16_cjcdsa.png"
-        , "projectSectionText":
-            { "textCopy": "A modular UI component library example for a responsive CardGrid component layout. By designing and utilizing a reusable modular component library & establishing a scalable design system, each app targeted for a specific user demographic (consumer brands & manufacturers/suppliers) maintained visual Lumi branding consistency and user experience."
-            , "textType": "paragraph"
-          }
-        , "imageType": "screenshot"
-        , "fullscreen": true
-        }
-      , { "imageFile": "test/design-system-img_ycgcex.png"
-        , "projectSectionText":
-            { "textCopy": "A modular UI component library example for a responsive CardGrid component layout. By designing and utilizing a reusable modular component library & establishing a scalable design system, each app targeted for a specific user demographic (consumer brands & manufacturers/suppliers) maintained visual Lumi branding consistency and user experience."
-            , "textType": "paragraph"
-          }
-        , "imageType": "screenshot"
-        , "fullscreen": true
-        }
-      , { "imageFile": "UI-components-card-grid_unmvsh.png"
-        , "projectSectionText":
-            { "textCopy": "A modular UI component library example for a responsive CardGrid component layout. By designing and utilizing a reusable modular component library & establishing a scalable design system, each app targeted for a specific user demographic (consumer brands & manufacturers/suppliers) maintained visual Lumi branding consistency and user experience."
-            , "textType": "paragraph"
-          }
-        , "imageType": "screenshot"
-        , "fullscreen": true
+            }
+        , "imageType": "none"
         }
     ]
   , "skills":
@@ -503,7 +473,6 @@
   , "summary": "Creative director & developer of a data visualization examining language patterns in musical lyrics over time, revealing cultural trends and moods of different time periods as expressed in top-charting songs. Presented as large format digital images and print posters."
   , "imageKey": "data-viz"
   , "indexImage": "index_ojot2o.jpg"
-  , "fullscreen": true
   , "sections":
       [ { "imageFile": "00_nl0ni3.jpg"
         , "projectSectionText":
@@ -511,7 +480,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
-        , "fullscreen": false
+        , "fullscreen": true
         }
       , { "imageFile": "01_bs8nk7.jpg"
         , "projectSectionText":
@@ -519,7 +488,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
-        , "fullscreen": false
+        , "fullscreen": true
         }
       , { "imageFile": "02_ydrfxz.jpg"
         , "projectSectionText":
@@ -527,7 +496,7 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
-        , "fullscreen": false
+        , "fullscreen": true
         }
       ]
   , "skills":
