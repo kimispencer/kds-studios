@@ -9,17 +9,17 @@ const skills: Skill[] =
     { title: "UI/UX Design"
     , description: "Creating design prototypes, high fidelity mockups & wireframes, and user journey maps; with a focus on designing modular reusable UI component libraries and design systems."
     },
-    { title: "Development"
-    , description: "Specializing in UI development & engineering solutions; with over 10 years experience in building responsive sites from e-commerce to high density data dashboards."
-    },
-    { title: "Visual Design"
-    , description: "Creating design systems & visual libraries to establish a brand voice and maintain cohesiveness across various digital user experiences."
-    },
     { title: "UX Research"
-    , description: "Conducting user research, A/B testing and analysis to understand user behaviors and best serve their needs in the digital product experience."
+    , description: "Conducting user research, A/B testing and analysis to understand user behaviors and best serve their needs with data-driven design decisions."
     },
     { title: "Design Strategy"
     , description: "Helping brands plan, create and strategize design priorities to promote their digital experiences and products."
+    },
+    { title: "Visual Design"
+    , description: "Creating design systems & standardizing visual libraries to establish a brand voice and maintain cohesiveness across various digital user experiences."
+    },
+    { title: "Design technologist"
+    , description: "Experienced in UI development & technical design solutions; with over 10 years experience in building responsive products from e-commerce to high density data dashboards."
     }
   ]
 

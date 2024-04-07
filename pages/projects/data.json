@@ -105,103 +105,6 @@
       ]
   },
   { "id": 1
-  , "slug": "lumi-id"
-  , "title": "Lumi ID"
-  , "subtitle": "UI/UX, Development"
-  , "description": "Lumi ID is a digital identification tool that gives users accurate, localized information about how brand packaging is made, and how to recycle it responsibly with a single QR code."
-  , "summary": "Product designer and front-end developer of a mobile-first digital experience triggered from physical products via QR codes to support sustainability & transparency in packaging."
-  , "backgroundColor": "#E9BD98"
-  , "imageKey": "lumi-id"
-  , "indexImage": "index_fhzdbn.jpg"
-  , "fullscreen": false
-  , "sections":
-      [ { "imageFile": "Lumi-ID-homepage_jiawcg.png"
-        , "projectSectionText":
-            { "textCopy": "Lumi ID integrates seamlessly with branding, messaging and physical product. Lumi ID generates a QR code that can be printed on any packaging including boxes, envelopes, jars, bottles, cans, tubes, publications, labels and collateral. As new platform features and best practices become available, packaging information stays accurate without requiring print plate changes."
-            , "textType": "paragraph"
-            }
-        , "imageType": "screenshot"
-        , "fullscreen": false
-        }
-      , { "imageFile": "lumi-ID-phone_ni8wr0.jpg"
-        , "projectSectionText":
-            { "textCopy": "With a mobile-first approach, customers can scan QR codes on packaging materials to learn more about a brand's sustainability efforts, the life cycle of the packaging materials itself, and how to recycle it with up-to-date, localized disposal options using the latest best practices."
-            , "textType": "paragraph"
-            }
-        , "imageType": "iphone"
-        , "fullscreen": false
-        }
-      , { "imageFile": "lumi-ID-phone-search-results_lwrovs.jpg"
-        , "projectSectionText":
-            { "textCopy": "Every city has its own regulations, which can make it difficult for a brand's customer service teams to answer questions accurately. Lumi ID is a universal system for every type of packaging tied to real-time data, giving users accurate information about a brand's packaging materials, sustainability mission and certifications."
-            , "textType": "paragraph"
-            }
-        , "imageType": "iphone"
-        , "fullscreen": false
-        }
-      , { "imageFile": "lumi-ID-desktop-landing_fmkv6b.jpg"
-        , "projectSectionText":
-            { "textCopy": ""
-            , "textType": "none"
-            }
-        , "imageType": "screenshot"
-        , "fullscreen": false
-        }
-      , { "imageFile": "lumi-ID-desktop-search-results_mtwirg.jpg"
-        , "projectSectionText":
-            { "textCopy": "From the brand's dashboard, not only can companies customize, order and track new packaging but also in addition to disposal information, share their environmental mission, link to their sustainability page, and share as much information about their packaging as desired. "
-            , "textType": "paragraph"
-            }
-        , "imageType": "screenshot"
-        , "fullscreen": false
-        }
-      , { "imageFile": "lumi-ID-desktop-FJ-profile_rtezgo.jpg"
-        , "projectSectionText":
-            { "textCopy": ""
-            , "textType": "none"
-            }
-        , "imageType": "screenshot"
-        , "fullscreen": false
-        }
-      , { "imageFile": "lumi-ID-desktop-FJ-settings-detail_fs4klu.jpg"
-        , "projectSectionText":
-            { "textCopy": ""
-            , "textType": "none"
-            }
-        , "imageType": "screenshot"
-        , "fullscreen": false
-        }
-      , { "imageFile": "lumi-ID-sample-code_infbme.png"
-        , "projectSectionText":
-            { "textCopy": ""
-            , "textType": "none"
-            }
-        , "imageType": "screenshot"
-        , "fullscreen": false
-        }
-      , { "imageFile": "lumi-lumicodes-photography_psehau.jpg"
-        , "projectSectionText":
-            { "textCopy": ""
-            , "textType": "none"
-            }
-        , "imageType": "screenshot"
-        , "fullscreen": false
-        }
-      ]
-  , "skills":
-      [ "Product design"
-      , "User research"
-      , "UI/UX Development"
-      ]
-  , "industry":
-      [ "Sustainability"
-      ]
-  , "productType":
-      [ "Augmented reality"
-      , "Mobile application"
-      ]
-  },
-  { "id": 2
   , "slug": "lumi"
   , "title": "Lumi"
   , "subtitle": "UI/UX, Development"
@@ -330,6 +233,103 @@
   , "productType":
       [ "B2B marketplace"
       , "SaSS"
+      ]
+  },
+  { "id": 1
+  , "slug": "lumi-id"
+  , "title": "Lumi ID"
+  , "subtitle": "UI/UX, Development"
+  , "description": "Lumi ID is a digital identification tool that gives users accurate, localized information about how brand packaging is made, and how to recycle it responsibly with a single QR code."
+  , "summary": "Product designer and front-end developer of a mobile-first digital experience triggered from physical products via QR codes to support sustainability & transparency in packaging."
+  , "backgroundColor": "#E9BD98"
+  , "imageKey": "lumi-id"
+  , "indexImage": "index_fhzdbn.jpg"
+  , "fullscreen": false
+  , "sections":
+      [ { "imageFile": "Lumi-ID-homepage_jiawcg.png"
+        , "projectSectionText":
+            { "textCopy": "Lumi ID integrates seamlessly with branding, messaging and physical product. Lumi ID generates a QR code that can be printed on any packaging including boxes, envelopes, jars, bottles, cans, tubes, publications, labels and collateral. As new platform features and best practices become available, packaging information stays accurate without requiring print plate changes."
+            , "textType": "paragraph"
+            }
+        , "imageType": "screenshot"
+        , "fullscreen": false
+        }
+      , { "imageFile": "lumi-ID-phone_ni8wr0.jpg"
+        , "projectSectionText":
+            { "textCopy": "With a mobile-first approach, customers can scan QR codes on packaging materials to learn more about a brand's sustainability efforts, the life cycle of the packaging materials itself, and how to recycle it with up-to-date, localized disposal options using the latest best practices."
+            , "textType": "paragraph"
+            }
+        , "imageType": "iphone"
+        , "fullscreen": false
+        }
+      , { "imageFile": "lumi-ID-phone-search-results_lwrovs.jpg"
+        , "projectSectionText":
+            { "textCopy": "Every city has its own regulations, which can make it difficult for a brand's customer service teams to answer questions accurately. Lumi ID is a universal system for every type of packaging tied to real-time data, giving users accurate information about a brand's packaging materials, sustainability mission and certifications."
+            , "textType": "paragraph"
+            }
+        , "imageType": "iphone"
+        , "fullscreen": false
+        }
+      , { "imageFile": "lumi-ID-desktop-landing_fmkv6b.jpg"
+        , "projectSectionText":
+            { "textCopy": ""
+            , "textType": "none"
+            }
+        , "imageType": "screenshot"
+        , "fullscreen": false
+        }
+      , { "imageFile": "lumi-ID-desktop-search-results_mtwirg.jpg"
+        , "projectSectionText":
+            { "textCopy": "From the brand's dashboard, not only can companies customize, order and track new packaging but also in addition to disposal information, share their environmental mission, link to their sustainability page, and share as much information about their packaging as desired. "
+            , "textType": "paragraph"
+            }
+        , "imageType": "screenshot"
+        , "fullscreen": false
+        }
+      , { "imageFile": "lumi-ID-desktop-FJ-profile_rtezgo.jpg"
+        , "projectSectionText":
+            { "textCopy": ""
+            , "textType": "none"
+            }
+        , "imageType": "screenshot"
+        , "fullscreen": false
+        }
+      , { "imageFile": "lumi-ID-desktop-FJ-settings-detail_fs4klu.jpg"
+        , "projectSectionText":
+            { "textCopy": ""
+            , "textType": "none"
+            }
+        , "imageType": "screenshot"
+        , "fullscreen": false
+        }
+      , { "imageFile": "lumi-ID-sample-code_infbme.png"
+        , "projectSectionText":
+            { "textCopy": ""
+            , "textType": "none"
+            }
+        , "imageType": "screenshot"
+        , "fullscreen": false
+        }
+      , { "imageFile": "lumi-lumicodes-photography_psehau.jpg"
+        , "projectSectionText":
+            { "textCopy": ""
+            , "textType": "none"
+            }
+        , "imageType": "screenshot"
+        , "fullscreen": false
+        }
+      ]
+  , "skills":
+      [ "Product design"
+      , "User research"
+      , "UI/UX Development"
+      ]
+  , "industry":
+      [ "Sustainability"
+      ]
+  , "productType":
+      [ "Augmented reality"
+      , "Mobile application"
       ]
   },
   { "id": 3

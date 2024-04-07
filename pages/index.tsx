@@ -56,7 +56,7 @@ const Home = () => {
             <Link href="/projects/lumi" className={styles.featuredWorkLink}><h4>View project</h4></Link>
           </div>
         </div>
-        <h4 className={styles.homepageSlideText}>KDS Studios creates digital identity and experiences through concept development, UI/UX & visual design, and creative coding solutions.</h4>
+        <h4 className={styles.homepageSlideText}>KDS Studios creates digital identity and experiences through concept development, product strategy, UX research, and UI design.</h4>
         <Link href="/skills" className={styles.homepageSlideLink}>
           <h4>View all skills</h4>
         </Link>
@@ -85,7 +85,7 @@ const Home = () => {
             <Link href="/projects/arrivals" className={styles.featuredWorkLink}><h4>View project</h4></Link>
           </div>
         </div>
-        <h4 className={styles.homepageSlideText}>Kimi Spencer is a product designer, former UI/UX engineer & founder of KDS Studios, a digital product studio that focuses on design and development.</h4>
+        <h4 className={styles.homepageSlideText}>Kimi Spencer is a senior product designer, UI/UX technologist & founder of KDS Studios, a digital product studio that focuses on design and strategy.</h4>
         <Link href="/projects" className={styles.homepageSlideLink}>
           <h4>View all projects</h4>
         </Link>
