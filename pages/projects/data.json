@@ -92,16 +92,16 @@
       ]
   , "skills":
       [ "Product Design & Strategy"
-      , "UI/UX Design & Research"
-      , "Modular UI Component Library & Design System"
+      , "UX Research"
+      , "Design System"
       ]
   , "industry":
-      [ "Packaging design"
-      , "Supply chain logistics"
+      [ "Task management"
+      , "Calendar scheduling"
       ]
   , "productType":
-      [ "B2B marketplace"
-      , "SaSS"
+      [ "AI"
+      , "Natural Language Processing"
       ]
   },
   { "id": 1
@@ -190,15 +190,15 @@
       ]
   , "skills":
       [ "Product design"
-      , "Front-end Development"
+      , "User research"
+      , "UI/UX Development"
       ]
   , "industry":
-      [ "Packaging design"
-      , "Supply chain logistics"
+      [ "Sustainability"
       ]
   , "productType":
-      [ "B2B marketplace"
-      , "SaSS"
+      [ "Augmented reality"
+      , "Mobile application"
       ]
   },
   { "id": 2
@@ -317,11 +317,11 @@
         }
     ]
   , "skills":
-      [ "User research"
-      , "Product Design"
+      [ "Product Design"
+      , "User research"
       , "Design System"
       , "Component Library"
-      , "UI/UX Engineer"
+      , "UI/UX Development"
       ]
   , "industry":
       [ "Packaging design"
@@ -386,16 +386,13 @@
       ]
   , "skills":
       [ "Product Design"
-      , "UI/UX Design & Research"
-      , "Front-end Development"
+      , "UI/UX Development"
       ]
   , "industry":
-      [ "Packaging design"
-      , "Supply chain logistics"
+      [ "Fashion"
       ]
   , "productType":
-      [ "B2B marketplace"
-      , "SaSS"
+      [ "E-commerce"
       ]
   },
   { "id": 4
@@ -453,16 +450,15 @@
       ]
   , "skills":
       [ "Product Design"
-      , "UI/UX Design & Research"
-      , "Front-end Development"
+      , "UI/UX Development"
       ]
   , "industry":
-      [ "Packaging design"
-      , "Supply chain logistics"
+      [ "Fashion"
+      , "Editorial"
       ]
   , "productType":
-      [ "B2B marketplace"
-      , "SaSS"
+      [ "Digital publication"
+      , "E-commerce"
       ]
   },
   { "id": 5
@@ -506,12 +502,11 @@
       , "Development"
       ]
   , "industry":
-      [ "Packaging design"
-      , "Supply chain logistics"
+      [ "Music"
       ]
   , "productType":
-      [ "B2B marketplace"
-      , "SaSS"
+      [ "Data graphics"
+      , "Print"
       ]
   }
 ]
