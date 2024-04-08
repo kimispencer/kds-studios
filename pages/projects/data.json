@@ -63,7 +63,7 @@
         , "fullscreen": false
         }
       , { "projectSectionText":
-          { "textCopy": "Based on our insights from user research & market analysis, and supported by an examination of existing systems & methodologies, Smarty's UI was redesigned on top of a natural language processing engine with AI auto-scheduling that would reschedule tasks & events based on priority and schedule changes. The app UI was designed to let users build content through a clean textual interface, allowing users to conversationally input tasks and schedule them."
+          { "textCopy": "Based on our insights from user research & market analysis, and supported by an examination of existing systems & methodologies, Smarty's UI was redesigned on top of a natural language processing engine with AI auto-scheduling that will schedule tasks & events based on priority. The app UI was designed to let users build content through a clean textual interface, allowing users to conversationally create tasks/events and schedule them."
           , "textType": "paragraph"
           }
         , "imageType": "none"
@@ -82,18 +82,28 @@
         , "imageType": "screenshot"
         , "fullscreen": false
         }
-      , { "imageFile": "2024-April/smarty-original-calendar_w8rrtr.png"
-        , "projectSectionHeader": "Evaluating the original UI"
+      , { "projectSectionHeader": "Evaluating the original UI"
         , "projectSectionText":
-            { "textCopy": "The first version of the Smarty productivity app, focused on a calendar UI that required users to click on an icon CTAs to create new events or tasks. To create a new task for example, a right-hand panel would appear that was incredibly form heavy/dense. Testing from users indicated that this caused friction, as users wanted to quickly add tasks or events to their calendar without having to fill out a complicated form. And the UI needed some visual design improvements so prevent calendar time blocks from obstructing each other, and an established design system to maintain consistency across the interface."
+            { "textCopy": "The first version of the Smarty productivity app, focused on a calendar UI that required users to click on explicit CTAs to create new events or tasks. To create a new task for example, a right-hand panel would appear that required multiple form inputs to be filled. User testing revealed that this caused friction, and churn from engaging with the product."
             , "textType": "paragraph"
+            }
+        , "imageType": "none"
+        , "fullscreen": false
+        }
+        , { "imageFile": "2024-April/smarty-original-calendar_w8rrtr.png"
+        , "projectSectionText":
+            { "columnCopy":
+                [ "• Users wanted to quickly add tasks or events to their calendar without having to fill out a complicated form."
+                , "• The UI needed visual design improvements, and an established design system to maintain consistency across the interface."
+                ]
+            , "textType": "columns"
             }
         , "imageType": "screenshot"
         , "fullscreen": false
         }
       , { "projectSectionHeader": "A new purely textually scheduling interface"
         , "projectSectionText":
-            { "textCopy": "Informed by our research findings, a new app interface was designed focused on the core principles of 'simplicity & transparency' and 'a clean/minimal interface'. Additionally, from user testing we gathered that our target users wanted to be able to quickly jot down tasks or events at hand (without needing to fill out a time-consuming form). In addition to recognizing keywords via the NLP engine, Smarty is allows users to select 'AI auto-schedule' allowing users to let Smarty set scheduling automatically based on priority & the soonest time block available."
+            { "textCopy": "Informed by our research findings & user feedback, a new app interface was designed focused on the core principles of \"simplicity & transparency\" and \"a clean/minimal interface\". Additionally, from our research we learned that our target users wanted to be able to quickly jot down tasks or events at hand (without needing to fill out a time-consuming form) and have the product recognize parameters from keywords."
             , "textType": "paragraph"
             }
         , "imageType": "none"
@@ -114,7 +124,7 @@
       , { "imageFile": "2024-April/homepage_-_calendar_view_a5h9xw.jpg"
         , "projectSectionHeader": "Comparative focus views"
         , "projectSectionText":
-            { "textCopy": "Users can visually compare their calendar view to a purely textual list layout to see how any given day is structured, and drag/drop between the two interfaces. In addition to the command menu to textually organize & schedule, user can also create content & visualize organization of their tasks & events via the textual list panel or the traditional calendar interface of dragging & dropping."
+            { "textCopy": "Users can visually compare their calendar view to a textual list layout to see how any given day is structured, and drag/drop between the two interfaces. In addition to the command menu to textually organize & schedule, user can also create content & visualize organization of their tasks & events via the textual list panel or the default calendar interface."
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
@@ -122,7 +132,7 @@
         }
       , { "imageFile": "2024-April/homepage_-_list_view_larid1.jpg"
         , "projectSectionText":
-          { "textCopy": "As well as being able to toggle between the views, with list view now as the main interface and the calendar focused on today for visual comparison."
+          { "textCopy": "Additionally, user can toggle between the views; with list view as the main interface and the calendar as a panel for visual comparison."
           , "textType": "paragraph"
           }
         , "imageType": "screenshot"
@@ -131,7 +141,7 @@
       , { "imageFile": "2024-April/email-panel_qma637.jpg"
         , "projectSectionHeader": "Email integration"
         , "projectSectionText":
-          { "textCopy": "A powerful feature requested from users during testing & interviews, was to create follow-up tasks & events based on emails. With an integration to GMail, users can view their email inbox in comparison to their calendar schedule as well as easily create tasks or events that reference back to the email trigger."
+          { "textCopy": "A powerful feature requested from users during testing & interviews, was to create follow-up tasks & events based on emails. With an integration to GMail, users can view their email inbox in comparison to their schedule, and easily create tasks or events that reference back to the email trigger."
           , "textType": "paragraph"
           }
         , "imageType": "screenshot"
@@ -149,7 +159,7 @@
         , "projectSectionHeader": "Modular component library & design system"
         , "projectSectionText":
             { "columnCopy":
-              [ "Additionally to aid in design/dev efficiency, designed & built a reusable modular component library based on atomic design principles to establish a scalable design system."
+              [ "To aid in design/dev efficiency, I built a reusable modular component library based on atomic design principles to establish a scalable design system."
               , "This allowed Smarty to maintain branded consistency as new features are being developed."
               ]
             , "textType": "columns"
@@ -171,12 +181,12 @@
       , "Interface design"
       ]
   , "industry":
-      [ "Task management"
+      [ "AI/Natural Language Processing"
+      , "Task management"
       , "Calendar scheduling"
       ]
   , "productType":
-      [ "AI"
-      , "Natural Language Processing"
+      [ "Personal productivity app"
       ]
   },
   { "id": 1
