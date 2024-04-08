@@ -36,11 +36,11 @@ const Home = () => {
         <div className={styles.homepageBackgroundImageContainer}>
           <BackgroundImage
             priority={true}
-            alt="Case study background image"
-            src="/featured-work-01_w941ex.jpg"
+            alt="Featured work background image"
+            src="featured-work-01_w941ex.jpg"
           />
           <div className={styles.homepageImageOverlay}>
-            <h2>Case Study</h2>
+            <h2>Featured Work</h2>
             <Link href="/projects/lumi" className={styles.featuredWorkImageLink}>
               <div className={styles.homepageImageContainer}>
                 <LoadingImage
@@ -65,28 +65,28 @@ const Home = () => {
         <div className={styles.homepageBackgroundImageContainer}>
           <BackgroundImage
             priority={false}
-            alt="Featured work background image"
-            src="featured-work-00-alt_aqzgfn.jpg"
+            alt="Case study background image"
+            src="index_mcyprd_fsnsp0.jpg"
           />
           <div className={styles.homepageImageOverlay}>
-            <h2>Featured Work</h2>
-            <Link href="/projects/arrivals" className={styles.featuredWorkImageLink}>
+            <h2>Case study</h2>
+            <Link href="/projects/smarty" className={styles.featuredWorkImageLink}>
               <div className={styles.homepageImageContainer}>
                 <LoadingImage
                   priority={false}
                   keyString="featuredWork"
                   imageKey={imageKey}
-                  fileName="featured-project-00_vkava1.jpg"
+                  fileName="www.smarty_1_jqi2j4.jpg"
                   alt="Featured work"
                 />
               </div>
             </Link>
-            <h4 className={styles.featuredWorkText}>A responsive e-commerce site for an architecturally-inspired NYC based fashion line.</h4>
-            <Link href="/projects/arrivals" className={styles.featuredWorkLink}><h4>View project</h4></Link>
+            <h4 className={styles.featuredWorkText}>A personally productivity app with a natural language interface, powered by AI.</h4>
+            <Link href="/projects/smarty" className={styles.featuredWorkLink}><h4>View project</h4></Link>
           </div>
         </div>
         <h4 className={styles.homepageSlideText}>Kimi Spencer is a senior product designer, UI/UX engineer & founder of KDS Studios, a digital product studio that focuses on design and strategy.</h4>
-        <Link href="/projects" className={styles.homepageSlideLink}>
+        <Link href="/projects/smarty" className={styles.homepageSlideLink}>
           <h4>View all projects</h4>
         </Link>
       </div>

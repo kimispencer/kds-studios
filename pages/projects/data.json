@@ -17,7 +17,7 @@
         , "imageType": "none"
         , "fullscreen": false
         }
-      , { "imageFile": "/2023-Dec/user-research/user-persona_zkofzx.png"
+      , { "imageFile": "2023-Dec/user-research/user-persona_zkofzx.png"
         , "projectSectionHeader": "User research"
         , "projectSectionText":
             { "textCopy": "Our target personas were identified as executive assistants and other professionals overwhelmed with scheduling obligations. From there we created persona profiles, user journey maps, as well as conducted rounds of user interviews. In our interviews we focused on how people organize & structure their schedule over the course of week, and what were their pain points & goals when planning out objectives for their calendar."
@@ -26,7 +26,7 @@
         , "imageType": "screenshot"
         , "fullscreen": false
         }
-      , { "imageFile": "/2024-April/EA_journey_map_imon7h.png"
+      , { "imageFile": "2024-April/EA_journey_map_imon7h.png"
         , "projectSectionHeader": "Pain point mapping"
         , "projectSectionText":
             { "textCopy": "A pain point map was created to visualize the flow of how users planned & scheduled with their existing tools & workflows. Tracking their actions, feelings & questions, as well as points of friction that could be leveraged into opportunities in each step of their flow."
@@ -44,7 +44,7 @@
         , "fullscreen": false
         }
       , { "projectSectionText":
-            { "textCopy": "'When I’m newly overwhelmed by an overflowing plate and the meetings/tasks keep coming, I want to easily track my workload (via smart visualization and automatic re-prioritization), so I can have mental clarity and confidence each day.'"
+            { "textCopy": "\"When I’m newly overwhelmed by an overflowing plate and the meetings/tasks keep coming, I want to easily track my workload (via smart visualization and automatic re-prioritization), so I can have mental clarity and confidence each day.\""
             , "textType": "quote"
             }
         , "imageType": "none"
@@ -69,7 +69,7 @@
         , "imageType": "none"
         , "fullscreen": false
         }
-      , { "imageFile": "/2023-Dec/user-research/feature-set_fqpor2.png"
+      , { "imageFile": "2023-Dec/user-research/feature-set_fqpor2.png"
         , "projectSectionHeader": "Design principles"
         , "projectSectionText":
           { "columnCopy":
@@ -82,7 +82,7 @@
         , "imageType": "screenshot"
         , "fullscreen": false
         }
-      , { "imageFile": "/2024-April/smarty-original-calendar_w8rrtr.png"
+      , { "imageFile": "2024-April/smarty-original-calendar_w8rrtr.png"
         , "projectSectionHeader": "Evaluating the original UI"
         , "projectSectionText":
             { "textCopy": "The first version of the Smarty productivity app, focused on a calendar UI that required users to click on an icon CTAs to create new events or tasks. To create a new task for example, a right-hand panel would appear that was incredibly form heavy/dense. Testing from users indicated that this caused friction, as users wanted to quickly add tasks or events to their calendar without having to fill out a complicated form. And the UI needed some visual design improvements so prevent calendar time blocks from obstructing each other, and an established design system to maintain consistency across the interface."
@@ -91,7 +91,7 @@
         , "imageType": "screenshot"
         , "fullscreen": false
         }
-      , { "projectSectionHeader": "A powerfully, purely textually scheduling interface"
+      , { "projectSectionHeader": "A new purely textually scheduling interface"
         , "projectSectionText":
             { "textCopy": "Informed by our research findings, a new app interface was designed focused on the core principles of 'simplicity & transparency' and 'a clean/minimal interface'. Additionally, from user testing we gathered that our target users wanted to be able to quickly jot down tasks or events at hand (without needing to fill out a time-consuming form). In addition to recognizing keywords via the NLP engine, Smarty is allows users to select 'AI auto-schedule' allowing users to let Smarty set scheduling automatically based on priority & the soonest time block available."
             , "textType": "paragraph"
@@ -99,7 +99,7 @@
         , "imageType": "none"
         , "fullscreen": false
         }
-      , { "imageFile": "/2024-April/smarty-update2_xwedkz.gif"
+      , { "imageFile": "2024-April/smarty-update2_xwedkz.gif"
         , "projectSectionText":
             { "columnCopy":
                 [ "• Powered by natural language"
@@ -111,7 +111,7 @@
         , "imageType": "screenshot"
         , "fullscreen": false
         }
-      , { "imageFile": "/2024-April/homepage_-_calendar_view_a5h9xw.jpg"
+      , { "imageFile": "2024-April/homepage_-_calendar_view_a5h9xw.jpg"
         , "projectSectionHeader": "Comparative focus views"
         , "projectSectionText":
             { "textCopy": "Users can visually compare their calendar view to a purely textual list layout to see how any given day is structured, and drag/drop between the two interfaces. In addition to the command menu to textually organize & schedule, user can also create content & visualize organization of their tasks & events via the textual list panel or the traditional calendar interface of dragging & dropping."
@@ -120,7 +120,7 @@
         , "imageType": "screenshot"
         , "fullscreen": false
         }
-      , { "imageFile": "/2024-April/homepage_-_list_view_larid1.jpg"
+      , { "imageFile": "2024-April/homepage_-_list_view_larid1.jpg"
         , "projectSectionText":
           { "textCopy": "As well as being able to toggle between the views, with list view now as the main interface and the calendar focused on today for visual comparison."
           , "textType": "paragraph"
@@ -128,7 +128,7 @@
         , "imageType": "screenshot"
         , "fullscreen": false
         }
-      , { "imageFile": "/2024-April/email-panel_qma637.jpg"
+      , { "imageFile": "2024-April/email-panel_qma637.jpg"
         , "projectSectionHeader": "Email integration"
         , "projectSectionText":
           { "textCopy": "A powerful feature requested from users during testing & interviews, was to create follow-up tasks & events based on emails. With an integration to GMail, users can view their email inbox in comparison to their calendar schedule as well as easily create tasks or events that reference back to the email trigger."
@@ -137,13 +137,25 @@
         , "imageType": "screenshot"
         , "fullscreen": false
         }
-      , { "imageFile": "/2024-April/email-reference_hx5vko.jpg"
+      , { "imageFile": "2024-April/email-reference_hx5vko.jpg"
         , "projectSectionText":
           { "textCopy": ""
           , "textType": "none"
           }
         , "imageType": "screenshot"
         , "fullscreen": false
+        }
+      , { "imageFile": "2024-April/Smarty_design_system_ugs2y9.jpg"
+        , "projectSectionHeader": "Modular component library & design system"
+        , "projectSectionText":
+            { "columnCopy":
+              [ "Additionally to aid in design/dev efficiency, designed & built a reusable modular component library based on atomic design principles to establish a scalable design system."
+              , "This allowed Smarty to maintain branded consistency as new features are being developed."
+              ]
+            , "textType": "columns"
+          }
+        , "imageType": "screenshot"
+        , "fullscreen": true
         }
       , { "projectSectionHeader": "In summary"
         , "projectSectionText":
@@ -255,7 +267,7 @@
         , "imageType": "screenshot"
         , "fullscreen": false
         }
-      , { "imageFile": "April 2024/Lumi_design_system_faqypc"
+      , { "imageFile": "April 2024/Lumi_design_system_faqypc.jpg"
         , "projectSectionHeader": "Modular component library & design system"
         , "projectSectionText":
             { "columnCopy":
@@ -310,6 +322,7 @@
   , "fullscreen": false
   , "sections":
       [ { "imageFile": "Lumi-ID-homepage_jiawcg.png"
+        , "projectSectionHeader": "Context"
         , "projectSectionText":
             { "textCopy": "Lumi ID integrates seamlessly with branding, messaging and physical product. Lumi ID generates a QR code that can be printed on any packaging including boxes, envelopes, jars, bottles, cans, tubes, publications, labels and collateral. As new platform features and best practices become available, packaging information stays accurate without requiring print plate changes."
             , "textType": "paragraph"
@@ -318,14 +331,16 @@
         , "fullscreen": false
         }
       , { "imageFile": "lumi-ID-phone_ni8wr0.jpg"
+        , "projectSectionHeader": "A Mobile first approach"
         , "projectSectionText":
-            { "textCopy": "With a mobile-first approach, customers can scan QR codes on packaging materials to learn more about a brand's sustainability efforts, the life cycle of the packaging materials itself, and how to recycle it with up-to-date, localized disposal options using the latest best practices."
+            { "textCopy": "With their smart phone, customers of an e-commerce brand can scan QR codes on packaging materials to learn more about a brand's sustainability efforts, the life cycle of the packaging materials itself, and how to recycle it with up-to-date, localized disposal options using the latest best practices."
             , "textType": "paragraph"
             }
         , "imageType": "iphone"
         , "fullscreen": false
         }
       , { "imageFile": "lumi-ID-phone-search-results_lwrovs.jpg"
+        , "projectSectionHeader": "Real-time localized recycling"
         , "projectSectionText":
             { "textCopy": "Every city has its own regulations, which can make it difficult for a brand's customer service teams to answer questions accurately. Lumi ID is a universal system for every type of packaging tied to real-time data, giving users accurate information about a brand's packaging materials, sustainability mission and certifications."
             , "textType": "paragraph"
@@ -333,25 +348,10 @@
         , "imageType": "iphone"
         , "fullscreen": false
         }
-      , { "imageFile": "lumi-ID-desktop-landing_fmkv6b.jpg"
-        , "projectSectionText":
-            { "textCopy": ""
-            , "textType": "none"
-            }
-        , "imageType": "screenshot"
-        , "fullscreen": false
-        }
-      , { "imageFile": "lumi-ID-desktop-search-results_mtwirg.jpg"
-        , "projectSectionText":
-            { "textCopy": "From the brand's dashboard, not only can companies customize, order and track new packaging but also in addition to disposal information, share their environmental mission, link to their sustainability page, and share as much information about their packaging as desired. "
-            , "textType": "paragraph"
-            }
-        , "imageType": "screenshot"
-        , "fullscreen": false
-        }
       , { "imageFile": "lumi-ID-desktop-FJ-profile_rtezgo.jpg"
+        , "projectSectionHeader": "Brand narrative"
         , "projectSectionText":
-            { "textCopy": ""
+            { "textCopy": "From the brand's dashboard, not only can companies provide localized recycling information and life cycle information about their packaging, but also share their brand's environmental mission and link to their sustainability page."
             , "textType": "none"
             }
         , "imageType": "screenshot"
@@ -374,8 +374,9 @@
         , "fullscreen": false
         }
       , { "imageFile": "lumi-lumicodes-photography_psehau.jpg"
+        , "projectSectionHeader": "Augmented Reality for a healthier planet"
         , "projectSectionText":
-            { "textCopy": ""
+            { "textCopy": "From physical touch points (on an e-commerce brand's packaging materials) users can scan the QR code from their phone to learn more about the brand's sustainability efforts, the life cycle of their packaging materials, and how best to recycle the materials based on localized information."
             , "textType": "none"
             }
         , "imageType": "screenshot"
@@ -399,13 +400,14 @@
   , "slug": "arrivals"
   , "title": "The Arrivals"
   , "subtitle": "UI/UX, Development"
-  , "description": "The Arrivals is a NYC based fashion line focusing on classic, architecturally-inspired garments crafted to last a lifetime and exclusively available online."
+  , "description": "The Arrivals is a NYC based fashion line focusing on classic, architecturally-inspired garments exclusively available online."
   , "summary": "Principle product designer & front-end engineer responsible for the creation and implementation of interface designs for a responsive, cross-platform e-commerce web app. Translating marketing needs and promotions into a highly polished user experience, as well as designing and developing bi-weekly interactive campaigns, supporting multiple product launches, and improved the site interface based on A/B studies."
   , "backgroundColor": "#36060A"
   , "imageKey": "arrivals"
   , "indexImage": "index_zpp9zz.jpg"
   , "sections":
       [ { "imageFile": "desktop-00-alt_jg0jcn.jpg"
+        , "projectSectionHeader": "Context"
         , "projectSectionText":
             { "textCopy": "As a high-end NYC fashion line, The Arrivals required bi-weekly interactive campaigns, supporting continuous product launches. Creating new campaign designs in regular sprint intervals required standardization of the Arrival's branded visual design system and prioritizing high impact & fast turn over of designs."
             , "textType": "paragraph"
@@ -414,23 +416,25 @@
         , "fullscreen": false
         }
       , { "imageFile": "desktop-01_wzpfw6.jpg"
+        , "projectSectionHeader": "Leveraging interest"
         , "projectSectionText":
-            { "textCopy": "The interactive e-commerce store was designed & developed to display the rich array of products in multiple-styles, with a focus on the consumer user navigation experience by creating sorting filters based on best selling, price or inventory."
+            { "textCopy": "The interactive e-commerce store was designed & developed to display the rich array of products in multiple-styles, with a focus on the consumer user navigation experience by creating sorting filters based on best selling, price or inventory. With user analysis we learned that many of our customers purchased item regardless of traditional fashion categories of 'Men' vs. 'Women' so we introduced a filter option for 'Genderless' apparel items."
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
         , "fullscreen": false
         }
       , { "imageFile": "desktop-02-alt_qpzl9s.jpg"
+        , "projectSectionHeader": "Detailed garment information & product suggestions"
         , "projectSectionText":
-            { "textCopy": "Product detail pages needed to display rich imagery detailing the product's aesthetic as well as information regarding fit, materials, and allowing users to receive contextual information before making a purchase commitment. As well as designed to provide suggestions of similar product styles to leverage user interest. "
+            { "textCopy": "Product detail pages needed to display rich imagery detailing the product's aesthetic as well as information regarding fit, materials, and allowing users to receive contextual information before making a purchase commitment. As well as a UI design to provide suggestions of similar product styles to convert user interest into more potential purchasing options."
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
         , "fullscreen": false
         }
       , { "imageFile": "phone-00-alt_klkoug.jpg"
-        , "projectSectionHeader": "Context"
+        , "projectSectionHeader": "View/buy from anywhere"
         , "projectSectionText":
             { "textCopy": "As an e-commerce brand, The Arrivals needed mobile-first designs so users could view and purchase products across any device type, and a responsive website UX was designed & developed."
             , "textType": "paragraph"
@@ -439,11 +443,20 @@
         , "fullscreen": false
         }
       , { "imageFile": "phone-01_mi5u4f.jpg"
+        , "projectSectionHeader": "An architectural interface"
         , "projectSectionText":
             { "textCopy": "With an emphasis on its architectural roots, a structural & textured UI was created focusing on visually displaying compelling imagery and video content."
             , "textType": "paragraph"
             }
         , "imageType": "iphone"
+        , "fullscreen": false
+        }
+      , { "projectSectionHeader": "The results"
+        , "projectSectionText":
+            { "textCopy": "Creating The Arrivals e-commerce platform from 0-1 launch resulted in 30% year-over-year revenue growth from our debut. The Arrivals became a globally recognized outerwear leader and won  Fast Company's 'Most Innovative Companies' award for design excellence."
+            , "textType": "paragraph"
+            }
+        , "imageType": "none"
         , "fullscreen": false
         }
       ]
@@ -471,6 +484,7 @@
   , "fullscreen": false
   , "sections":
       [ { "imageFile": "desktop-02-alt_lxw4wk.jpg"
+        , "projectSectionHeader": "Context"
         , "projectSectionText":
             { "textCopy": "As a print publication, translating the SUITED experience online focused on designing a UI that highlights rich imagery and featured content. As content needed to be regularly updated, a custom CMS driven template was created on top of the SquareSpace developer platform."
             , "textType": "paragraph"
@@ -479,6 +493,7 @@
         , "fullscreen": false
         }
       , { "imageFile": "desktop-01-alt_sh0epo.jpg"
+        , "projectSectionHeader": "Foundations to print"
         , "projectSectionText":
             { "textCopy": "Because SUITED's initial experience was their printed content, the site was designed to highlight previous issues and leverage site visits into opportunities for users to order hard copies."
             , "textType": "paragraph"
@@ -487,6 +502,7 @@
         , "fullscreen": false
         }
       , { "imageFile": "desktop-00-alt_nzitee.jpg"
+        , "projectSectionHeader": "Minimalist aesthetic"
         , "projectSectionText":
             { "textCopy": "SUITED magazine's aesthetic is minimal, black & white and high-end. The site was designed to emphasize the physical experience into a fashion and art focused digital site."
             , "textType": "paragraph"
@@ -495,6 +511,7 @@
         , "fullscreen": false
         }
       , { "imageFile": "phone-00_fhkper.jpg"
+        , "projectSectionHeader": "View from any device"
         , "projectSectionText":
             { "textCopy": "Mobile accessibility was of importance so users could experience the site across a variety of devices. The site was designed and developed mobile-first."
             , "textType": "paragraph"
@@ -503,11 +520,20 @@
         , "fullscreen": false
         }
       , { "imageFile": "phone-01_dpupjy.jpg"
+        , "projectSectionHeader": "Strong imagery & typography"
         , "projectSectionText":
-            { "textCopy": "With the mobile device UX in mind, the mobile app version of the site prioritized the rich imagery and content to be viewed as easily on phones as desktops."
+            { "textCopy": "With its roots as a print publication, the UI was designed to emphasize the rich imagery & strong typography of the editorial."
             , "textType": "paragraph"
             }
         , "imageType": "iphone"
+        , "fullscreen": false
+        }
+      , { "projectSectionHeader": "Analysis"
+        , "projectSectionText":
+            { "textCopy": "Working directly with the Creative Director & Editor-in-Chief, SUITED's digital debut expanded their user base to a global scale without the limitations of requiring a physical copy of the publication. From 0-1 launch, SUITED doubled engagement with users and increased print sales from app purchases by 15%."
+            , "textType": "paragraph"
+            }
+        , "imageType": "none"
         , "fullscreen": false
         }
       ]
@@ -532,13 +558,31 @@
   , "summary": "Creative director & developer of a data visualization examining language patterns in musical lyrics over time, revealing cultural trends and moods of different time periods as expressed in top-charting songs. Presented as large format digital images and print posters."
   , "imageKey": "data-viz"
   , "indexImage": "index_ojot2o.jpg"
+  , "backgroundColor": "#010101"
   , "sections":
-      [ { "imageFile": "00_nl0ni3.jpg"
+      [ { "imageFile": "word-list_v3tkrr.jpg"
         , "projectSectionHeader": "The question"
         , "projectSectionText":
-            { "textCopy": "What do popular song lyrics say about cultural moods, concerns and political issues of different times? To answer this question and because no database of this information existed at the time, a Python web scraping script was developed to pull lyrics from the top Billboard charts since its inception in the early 1900's. Using a Java based IDE and natural language processing, frequencies of noun entities (such as \"I\" and \"you\"), as well as common verbs that express relationships between those entities (such as \"love\", or \"hate\") were visualized."
+            { "textCopy": "What do popular song lyrics say about cultural moods, concerns and political issues of different times? To answer this question and because no database of this information existed at the time, a Python web scraping script was developed to pull lyrics from the top Billboard charts since its inception in the early 1900's."
             , "textType": "paragraph"
             }
+        , "imageType": "screenshot"
+        , "fullscreen": false
+        }
+      , { "imageFile": "1970-word-list_apjwgs.jpg"
+        , "projectSectionText":
+            { "textCopy": ""
+            , "textType": "none"
+            }
+        , "imageType": "screenshot"
+        , "fullscreen": false
+        }
+      , { "imageFile": "00_nl0ni3.jpg"
+        , "projectSectionHeader": "Visualizing the data"
+        , "projectSectionText":
+          { "textCopy": "Using a Java based IDE and natural language processing, frequencies of noun entities (such as \"I\" and \"you\"), as well as common verbs that express relationships between those entities (such as \"love\", or \"hate\") were visualized."
+          , "textType": "none"
+          }
         , "imageType": "screenshot"
         , "fullscreen": true
         }
@@ -548,12 +592,28 @@
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
-        , "fullscreen": true
+        , "fullscreen": false
         }
       , { "imageFile": "02_ydrfxz.jpg"
         , "projectSectionText":
             { "textCopy": "Frequency of keywords were used to weight their size (more frequent use of a noun phrase resulted in a larger font size), and bézier curves to visualization semantic linkages between different keyword entities."
             , "textType": "paragraph"
+            }
+        , "imageType": "screenshot"
+        , "fullscreen": false
+        }
+      , { "imageFile": "03_yxsgpe.jpg"
+        , "projectSectionText":
+            { "textCopy": ""
+            , "textType": "none"
+            }
+        , "imageType": "screenshot"
+        , "fullscreen": true
+        }
+      , { "imageFile": "04_eazea6.jpg"
+        , "projectSectionText":
+            { "textCopy": ""
+            , "textType": "none"
             }
         , "imageType": "screenshot"
         , "fullscreen": true
