@@ -3,69 +3,141 @@
   , "slug": "smarty"
   , "title": "Smarty AI"
   , "subtitle": "UI/UX, User research"
-  , "description": "Smarty unifies task management & calendar scheduling into one clean application. Powered by AI with a natural language processing interface, users can enter text to create tasks, events, scheduling links and more."
-  , "summary": "Principle product designer, creating the core interface for Smarty. Working closely with the CEO and engineering team, created the foundational UI component library and app interfaces, synthesized user research & testing into a research-backed design system, as well as provided design strategy for the product roadmap. Smarty AI is still in active development."
+  , "description": "Smarty unifies task management & calendar scheduling into one clean application powered by AI."
+  , "summary": "Principle product designer, creating the core interface for Smarty. Working closely with the CEO and engineering team, conducted user research and synthesized analysis into validated value propositions, created the foundational product app interface, as well as provided design strategy for the product roadmap. Smarty AI is still in active development."
   , "backgroundColor": "#17486D"
   , "imageKey": "smarty"
   , "indexImage": "index_mcyprd.png"
   , "sections":
-      [ { "imageFile": "desktop-00-alt_wnqbk1.jpg"
+      [ { "projectSectionHeader": "Context"
         , "projectSectionText":
-            { "textCopy": "Smarty is an AI-powered productivity tool, built on top of an NLP (natural language processing) and artificial intelligence engine. As Lead Product Designer synthesized user research into validated value propositions & created the initial design system for the app interface and strategized goals for the product roadmap."
+            { "textCopy": "Smarty is an AI-powered personal productivity tool, built on top of an NLP (natural language processing) interface and artificial intelligence engine. With the goal to let users enter free form text which Smarty automatically recognizes by keywords and generatively schedules: to create tasks, events, and convert emails into action items."
             , "textType": "paragraph"
             }
-        , "imageType": "screenshot"
+        , "imageType": "none"
         , "fullscreen": false
         }
       , { "imageFile": "/2023-Dec/user-research/user-persona_zkofzx.png"
+        , "projectSectionHeader": "User research"
         , "projectSectionText":
-            { "textCopy": "Our target personas were identified as executive assistants and agency professionals. From there we created persona profiles, user journey maps, as well as conducted rounds of user interviews. In our interviews we focused on how people organize & structure their schedule over the course of week, and what were their pain points & goals when planning out objectives for their calendar."
+            { "textCopy": "Our target personas were identified as executive assistants and other professionals overwhelmed with scheduling obligations. From there we created persona profiles, user journey maps, as well as conducted rounds of user interviews. In our interviews we focused on how people organize & structure their schedule over the course of week, and what were their pain points & goals when planning out objectives for their calendar."
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
         , "fullscreen": false
         }
-      , { "imageFile": "/2023-Dec/user-research/user-journey-map-v4_tqea0i.png"
+      , { "imageFile": "/2024-April/EA_journey_map_imon7h.png"
+        , "projectSectionHeader": "Pain point mapping"
         , "projectSectionText":
-            { "textCopy": "A user journey map was created to visualize the flow of how users planned & scheduled with their existing tools & workflows, and discovered new productivity tools & methodologies. Tracking their actions, feelings & questions, as well as touchpoints & opportunities in each step of their flow. Our original hypothesis was then compared to or validated by the insights we gathered from our user research discovery phase."
+            { "textCopy": "A pain point map was created to visualize the flow of how users planned & scheduled with their existing tools & workflows. Tracking their actions, feelings & questions, as well as points of friction that could be leveraged into opportunities in each step of their flow."
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
+        , "fullscreen": false
+        }
+      , { "projectSectionHeader": "Analysis"
+        , "projectSectionText":
+            { "textCopy": "After conducting rounds of user interviews and discovery, we summarized 3 different possible value propositions for our initial feature set & the core design principles, and organized our findings synthesized into a Jobs to Be Done statement:"
+            , "textType": "paragraph"
+            }
+        , "imageType": "none"
+        , "fullscreen": false
+        }
+      , { "projectSectionText":
+            { "textCopy": "'When I’m newly overwhelmed by an overflowing plate and the meetings/tasks keep coming, I want to easily track my workload (via smart visualization and automatic re-prioritization), so I can have mental clarity and confidence each day.'"
+            , "textType": "quote"
+            }
+        , "imageType": "none"
+        , "fullscreen": false
+        }
+      , { "projectSectionHeader": "Value propositions"
+        , "projectSectionText":
+          { "columnCopy":
+              [ "• Task tracking & management"
+              , "• Automated scheduling"
+              , "• Integrations"
+              ]
+          , "textType": "columns"
+          }
+        , "imageType": "none"
+        , "fullscreen": false
+        }
+      , { "projectSectionText":
+          { "textCopy": "Based on our insights from user research & market analysis, and supported by an examination of existing systems & methodologies, Smarty's UI was redesigned on top of a natural language processing engine with AI auto-scheduling that would reschedule tasks & events based on priority and schedule changes. The app UI was designed to let users build content through a clean textual interface, allowing users to conversationally input tasks and schedule them."
+          , "textType": "paragraph"
+          }
+        , "imageType": "none"
         , "fullscreen": false
         }
       , { "imageFile": "/2023-Dec/user-research/feature-set_fqpor2.png"
+        , "projectSectionHeader": "Design principles"
         , "projectSectionText":
-            { "textCopy": "After conducting rounds of user interviews and discovery, we summarized 3 different possible value propositions and organized our findings by each user group, to see where there was overlap & distinction. Synthesized into a Jobs to Be Done statement: 'When I’m newly overwhelmed by an overflowing plate and the meetings/tasks keep coming, I want to easily track my workload (via smart visualization and automatic re-prioritization), so I can have mental clarity and confidence each day.' Translated into a feature set emphasizing: a simple/clean UI, task tracking & management, automated scheduling, and supporting integrations."
+          { "columnCopy":
+              [ "• Simplicity & transparency"
+              , "• A clean/minimal interface"
+              , "• Easy to maintain"
+              ]
+          , "textType": "columns"
+          }
+        , "imageType": "screenshot"
+        , "fullscreen": false
+        }
+      , { "imageFile": "/2024-April/smarty-original-calendar_w8rrtr.png"
+        , "projectSectionHeader": "Evaluating the original UI"
+        , "projectSectionText":
+            { "textCopy": "The first version of the Smarty productivity app, focused on a calendar UI that required users to click on an icon CTAs to create new events or tasks. To create a new task for example, a right-hand panel would appear that was incredibly form heavy/dense. Testing from users indicated that this caused friction, as users wanted to quickly add tasks or events to their calendar without having to fill out a complicated form. And the UI needed some visual design improvements so prevent calendar time blocks from obstructing each other, and an established design system to maintain consistency across the interface."
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
         , "fullscreen": false
         }
-      , { "imageFile": "/2024-Feb/homepage_-_list_view_dwmrlo.jpg"
+      , { "projectSectionHeader": "A powerfully, purely textually scheduling interface"
         , "projectSectionText":
-            { "textCopy": "Based on our insights from user research & market analysis, and supported by an examination of existing systems & methodologies, Smarty was built on top of a natural language processing engine with AI auto-scheduling that would reschedule tasks & events based on priority and schedule changes. The app UI was designed to let users build content through a textual interface, allowing users to conversationally input tasks and scheduled them."
+            { "textCopy": "Informed by our research findings, a new app interface was designed focused on the core principles of 'simplicity & transparency' and 'a clean/minimal interface'. Additionally, from user testing we gathered that our target users wanted to be able to quickly jot down tasks or events at hand (without needing to fill out a time-consuming form). In addition to recognizing keywords via the NLP engine, Smarty is allows users to select 'AI auto-schedule' allowing users to let Smarty set scheduling automatically based on priority & the soonest time block available."
+            , "textType": "paragraph"
+            }
+        , "imageType": "none"
+        , "fullscreen": false
+        }
+      , { "imageFile": "/2024-April/smarty-update2_xwedkz.gif"
+        , "projectSectionText":
+            { "columnCopy":
+                [ "• Powered by natural language"
+                , "• Automated scheduling"
+                , "• A Form-free UI"
+                ]
+            , "textType": "columns"
+            }
+        , "imageType": "screenshot"
+        , "fullscreen": false
+        }
+      , { "imageFile": "/2024-April/homepage_-_calendar_view_a5h9xw.jpg"
+        , "projectSectionHeader": "Comparative focus views"
+        , "projectSectionText":
+            { "textCopy": "Users can visually compare their calendar view to a purely textual list layout to see how any given day is structured, and drag/drop between the two interfaces. In addition to the command menu to textually organize & schedule, user can also create content & visualize organization of their tasks & events via the textual list panel or the traditional calendar interface of dragging & dropping."
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
         , "fullscreen": false
         }
-      , { "imageFile": "/2024-Feb/homepage_-_list_view-1_youh3a.jpg"
+      , { "imageFile": "/2024-April/homepage_-_list_view_larid1.jpg"
         , "projectSectionText":
-            { "textCopy": ""
-            , "textType": "none"
-            }
+          { "textCopy": "As well as being able to toggle between the views, with list view now as the main interface and the calendar focused on today for visual comparison."
+          , "textType": "paragraph"
+          }
         , "imageType": "screenshot"
         , "fullscreen": false
         }
-      , { "imageFile": "/2024-Feb/homepage_-_list_view_command_so5ghv.jpg"
+      , { "imageFile": "/2024-April/email-panel_qma637.jpg"
+        , "projectSectionHeader": "Email integration"
         , "projectSectionText":
-            { "textCopy": ""
-            , "textType": "none"
-            }
+          { "textCopy": "A powerful feature requested from users during testing & interviews, was to create follow-up tasks & events based on emails. With an integration to GMail, users can view their email inbox in comparison to their calendar schedule as well as easily create tasks or events that reference back to the email trigger."
+          , "textType": "paragraph"
+          }
         , "imageType": "screenshot"
         , "fullscreen": false
         }
-      , { "imageFile": "/2024-Feb/homepage_-_list_view_command-1_u869si.jpg"
+      , { "imageFile": "/2024-April/email-reference_hx5vko.jpg"
         , "projectSectionText":
           { "textCopy": ""
           , "textType": "none"
@@ -73,27 +145,18 @@
         , "imageType": "screenshot"
         , "fullscreen": false
         }
-      , { "imageFile": "/2024-Feb/homepage_-_scheduled_tasks_with_conflict_resolution_with_auto-schedule_logged_in_user_hzekzo.jpg"
+      , { "projectSectionHeader": "In summary"
         , "projectSectionText":
-            { "textCopy": "Smarty handles task management and event scheduling for users with the AI powered auto-scheduling feature, allowing users to avoid conflicts and automate rescheduling of their most important tasks & events. Free times are auto-detected, and reminders go out automatically; with the app design streamlined to help users take the work out of managing their agenda, so they can focus on the activity at hand itself not scheduling it."
+            { "textCopy": "Smarty is still in active development, but based on prototype testing with users there is active interest in the product's email to task/event creation integration as well as resounding preference for the purely textual NLP driven UI to easily create & edit scheduling content without having to engage with multiple click-through behaviors with the previous form-heavy interface."
             , "textType": "paragraph"
             }
-        , "imageType": "screenshot"
-        , "fullscreen": false
-        }
-      , { "imageFile": "/2024-Feb/homepage_-_calendar_view_ejetpg.jpg"
-        , "projectSectionText":
-            { "textCopy": "Users can also visually compare their list view to a calendar time block layout to see how any given day is structured, and drag/drop between the two interfaces. In addition to the rich text editor view to organize & schedule, user can also create content & visualize organization of their tasks & events with the robust calendar interface as their primary view, backed by the time management research methodology of 'time boxing'."
-            , "textType": "paragraph"
-            }
-        , "imageType": "screenshot"
-        , "fullscreen": false
+        , "imageType": "none"
         }
       ]
   , "skills":
       [ "Product Design & Strategy"
       , "UX Research"
-      , "Design System"
+      , "Interface design"
       ]
   , "industry":
       [ "Task management"
@@ -109,7 +172,7 @@
   , "title": "Lumi"
   , "subtitle": "UI/UX, Development"
   , "description": "Lumi helps businesses produce custom packaging and handle supply chain logistics."
-  , "summary": "Product designer and UI developer transforming Lumi from an e-commerce platform into a B2B marketplace connecting businesses to packaging manufacturers. Providing users with custom packaging & improved efficiency in supply chain logistics, as well as the creation of a design system & modular UI component library to maintain cohesiveness across Lumi's various app user interfaces and visual design"
+  , "summary": "Product designer and UI/UX developer transforming Lumi from an e-commerce platform into a B2B marketplace connecting businesses to packaging manufacturers. Providing users with custom packaging & improved efficiency in supply chain logistics, as well as the creation of a design system & modular UI component library to maintain cohesiveness across Lumi's various app user interfaces and visual design"
   , "backgroundColor": "#DBD624"
   , "imageKey": "lumi"
   , "indexImage": "index_twciyu.png"
@@ -118,7 +181,7 @@
       [ { "imageFile": "desktop-01_crelk5.png"
         , "projectSectionHeader": "Where we started"
         , "projectSectionText":
-            { "textCopy": "Originally Lumi operated as an e-commerce catalog of pre-defined packaging materials that businesses could apply branded designs to. However, if users wanted customized designs or unique packaging options, their requests had to be handled manually by customer experience representatives & packaging design experts."
+            { "textCopy": "Originally Lumi operated as an e-commerce catalog of predefined packaging materials that businesses could apply branded designs to. However, if users wanted customized designs or unique packaging options, their requests had to be handled manually by customer experience representatives & packaging design experts. And users were limited to Lumi's preselected packaging suppliers with little transparency around who would be manufacturing their packaging or the ability to compare quotes from different suppliers."
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
@@ -134,7 +197,7 @@
         }
       , { "projectSectionHeader": "The problem"
         , "projectSectionText":
-            { "textCopy": "Because many business users required a high level of specificity for their branded packaging requirements and our in-house CX team managed the flow of information between businesses & packaging manufactures, as Lumi scaled with more users this resulted in communication bottlenecks & production errors."
+            { "textCopy": "Because many business users required a high level of specificity for their branded packaging requirements and our in-house CX team managed the flow of information between businesses & packaging manufacturers, as Lumi scaled with more users this resulted in communication bottlenecks & production errors. And to better serve users' diverse packaging needs we wanted to allow businesses to compare across a network of packaging suppliers by cost or turn around times."
             , "textType": "paragraph"
             }
         , "imageType": "none"
@@ -142,8 +205,8 @@
       , { "imageFile": "April 2024/User_research_sden3e.png"
         , "projectSectionText":
             { "columnCopy":
-                [ "UX research was performed to map out the workflows for a consumer brand's custom packaging item needs from creation, to production & delivery; and how suppliers managed receiving & responding to orders."
-                , "As well as gathering insights on how packaging suppliers review orders from clients, and the process to respond & bid on these potential opportunities."
+                [ "UX research was performed to map out the workflows for a business's custom packaging needs from creation, to submitting out for quoting to either a specific manufacturer or to a marketplace of manufacturers for comparison."
+                , "Additionally we conducted an analysis on how packaging manufacturers' review potential orders from clients, and the process to respond & bid on these opportunities."
                 ]
             , "textType": "columns"
             }
@@ -154,7 +217,7 @@
         , "projectSectionHeader": "The solution"
         , "projectSectionText":
             { "columnCopy":
-                [ "Based on this research, the app interface was updated from a catalog UI to a dashboard interface optimized for business users to create detailed customizable packaging & allowing them to select their best suited packaging supplier."
+                [ "Based on this research, the app interface was redesigned from a catalog UI to a dashboard interface optimized for business users to create detailed customizable packaging & allowing them to select their best suited packaging supplier."
                 , "To aid brands in creating their custom specifications, a guided workflow UI was designed that provided step-by-step instructions for users to add custom specifications, design files & proofs, and then submit into a B2B marketplace of manufacturers for comparative quoting."
                 ]
             , "textType": "columns"
@@ -174,7 +237,7 @@
       , { "imageFile": "2023-Dec/FJ-network-page_wpm5zq.jpg"
         , "projectSectionHeader": "Picking the right supplier"
         , "projectSectionText":
-            { "textCopy": "To assist consumer brands in comparing across an ecosystem of many manufacturers, a marketplace reference UI was created for displaying rich data regarding each manufacturer's production capabilities, location & shipping times, sustainability efforts, and reviews from other consumer brands."
+            { "textCopy": "To assist businesses in comparing across an ecosystem of many manufacturers, a marketplace reference UI was created for displaying rich data regarding each manufacturer's production capabilities, location & shipping times, sustainability efforts, and reviews from other clients."
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
@@ -184,8 +247,8 @@
         , "projectSectionHeader": "A dashboard for suppliers"
         , "projectSectionText":
             { "columnCopy":
-                [ "Manufacturers could respond to each custom packaging request from their own focused product UI, supporting a marketplace of potential opportunities, buyers' direct requests for custom packaging, and to track & manage potential orders."
-                , "The manufacturer dashboard utilizes the same UI component library to standardize visual cohesiveness, but with a UX focus on the manufacturer's need to respond to client requests, providing quotes, feedback, status updates, and tracking order fulfillment."
+                [ "Manufacturers could respond to each custom packaging request from their own focused dashboard interface, supporting a marketplace of potential opportunities, buyers' direct requests for custom packaging, and to track & manage potential orders."
+                , "The manufacturer dashboard utilizes the same UI component library to standardize visual cohesiveness, but with a UX focus on the manufacture's need to respond to client requests, provide quotes, feedback, status updates, and tracking order fulfillment."
                 ]
             , "textType": "columns"
             }
@@ -196,8 +259,8 @@
         , "projectSectionHeader": "Modular component library & design system"
         , "projectSectionText":
             { "columnCopy":
-              [ "Designed & built a reusable modular component library based on atomic design principles to establish a scalable design system."
-              , "This allowed our team to maintain branded consistency & improve turnaround efficiency for each of the marketplace's product touch points (a targeted dashboard application for business & packaging suppliers)."
+              [ "As Lumi scaled into a B2B marketplace with multiple product dashboards, we designed & built a reusable modular component library based on atomic design principles to establish a scalable design system."
+              , "This allowed our team to maintain branded consistency & improve turnaround efficiency for new features in each of the B2B marketplace's product touch points."
               ]
             , "textType": "columns"
           }
@@ -206,7 +269,7 @@
         }
       , { "projectSectionHeader": "The results"
         , "projectSectionText":
-            { "textCopy": "With the transition to a B2B marketplace application from the prior iteration as a packaging design catalog interface, our team reduced average quote request response time by 85% and increased sales hours per client by 30%. Thus allowing Lumi to scale up in numbers of users, improving the custom packaging experience, adding transparency for our users, and increasing sales."
+            { "textCopy": "With the transition to a B2B marketplace application from the prior iteration as an e-commerce catalog interface with predefined packaging options, our team reduced average quote request response time by 85% and increased sales per client by 30%. Thus allowing Lumi to scale up in numbers of users, improving the custom packaging experience, adding transparency for our users, and increasing sales."
             , "textType": "paragraph"
             }
         , "imageType": "none"
@@ -471,6 +534,7 @@
   , "indexImage": "index_ojot2o.jpg"
   , "sections":
       [ { "imageFile": "00_nl0ni3.jpg"
+        , "projectSectionHeader": "The question"
         , "projectSectionText":
             { "textCopy": "What do popular song lyrics say about cultural moods, concerns and political issues of different times? To answer this question and because no database of this information existed at the time, a Python web scraping script was developed to pull lyrics from the top Billboard charts since its inception in the early 1900's. Using a Java based IDE and natural language processing, frequencies of noun entities (such as \"I\" and \"you\"), as well as common verbs that express relationships between those entities (such as \"love\", or \"hate\") were visualized."
             , "textType": "paragraph"

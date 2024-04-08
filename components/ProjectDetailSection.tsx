@@ -1,4 +1,4 @@
-import { Project, ProjectSection } from '@/util/interfaces'
+import { Project, ProjectSection, ProjectSectionText } from '@/util/interfaces'
 import { concatClassnames } from '@/util/functions'
 import DeviceFrame from "@/components/DeviceFrame"
 import ScreenshotImage from "@/components/ScreenshotImage"
@@ -50,27 +50,66 @@ const ProjectDetailSection = ({ priority, section, project }: Props) => {
 
 export default ProjectDetailSection
 
-type TextProps = {
+type TextContainerProps = {
   section: ProjectSection
 }
 
-const ProjectDetailText = ({ section }: TextProps) => {
+const ProjectDetailText = ({ section }: TextContainerProps) => {
   return (
     <div className={styles.textContainer}>
       <div className={styles.textWrapper}>
         <h4 className={styles.textHeader}>{section.projectSectionHeader}</h4>
-        {(section.projectSectionText.columnCopy) &&
-          section.projectSectionText.textType == "columns"
-          ? <div className={styles.columnTextContainer}>
-              {section.projectSectionText.columnCopy.map((copy, i) => {
-                return (
-                  <h5 className={styles.columnText} key={i}>{copy}</h5>
-                )
-              })}
-            </div>
-          : <h5>{section.projectSectionText.textCopy}</h5>
-        }
+        <ProjectTextCopy
+          sectionText={section.projectSectionText}
+        />
       </div>
     </div>
   )
 }
+
+type TextProps = {
+  sectionText: ProjectSectionText
+}
+
+const ProjectTextCopy = ({ sectionText }: TextProps) => {
+  switch (sectionText.textType) {
+    case "columns" :
+      return (
+        <div className={styles.columnTextContainer}>
+          {sectionText.columnCopy.map((copy, i) => {
+            return (
+              <h5 className={styles.columnText} key={i}>{copy}</h5>
+            )
+          })}
+        </div>
+      )
+    case "quote": return (
+      <blockquote className={styles.quote}>
+        <h5>{sectionText.textCopy}</h5>
+      </blockquote>
+    )
+    case "paragraph": return (<h5>{sectionText.textCopy}</h5>)
+    default: return (<h5>{sectionText.textCopy}</h5>)
+}
+}
+
+// const Foo = ({ section }: TextProps) => {
+//   return (
+//     <div className={styles.textContainer}>
+//       <div className={styles.textWrapper}>
+//         <h4 className={styles.textHeader}>{section.projectSectionHeader}</h4>
+//         {(section.projectSectionText.columnCopy) &&
+//           section.projectSectionText.textType == "columns"
+//           ? <div className={styles.columnTextContainer}>
+//               {section.projectSectionText.columnCopy.map((copy, i) => {
+//                 return (
+//                   <h5 className={styles.columnText} key={i}>{copy}</h5>
+//                 )
+//               })}
+//             </div>
+//           : <h5>{section.projectSectionText.textCopy}</h5>
+//         }
+//       </div>
+//     </div>
+//   )
+// }

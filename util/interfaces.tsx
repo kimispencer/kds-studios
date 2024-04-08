@@ -24,16 +24,15 @@ export interface Project {
 export interface ProjectSection {
   projectSectionHeader: string;
   projectSectionText: ProjectSectionText;
-  imageFile: string;
+  imageFile: string; // this should be ?string
   imageType: "iphone" | "screenshot" | "none";
   fullscreen: boolean;
 }
 
 export interface ProjectSectionText {
-  textType: "paragraph" | "columns" | "none";
-  textCopy?: string;
-  columnCopy?: string[];
-  rowCopy?: string[];
+  textType: "paragraph" | "columns" | "quote" | "none";
+  textCopy: string; // this should be ?string
+  columnCopy: string[]; // this should be ?string
 }
 
 interface Url {

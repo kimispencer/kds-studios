@@ -85,7 +85,7 @@ const Home = () => {
             <Link href="/projects/arrivals" className={styles.featuredWorkLink}><h4>View project</h4></Link>
           </div>
         </div>
-        <h4 className={styles.homepageSlideText}>Kimi Spencer is a senior product designer, UI/UX technologist & founder of KDS Studios, a digital product studio that focuses on design and strategy.</h4>
+        <h4 className={styles.homepageSlideText}>Kimi Spencer is a senior product designer, UI/UX engineer & founder of KDS Studios, a digital product studio that focuses on design and strategy.</h4>
         <Link href="/projects" className={styles.homepageSlideLink}>
           <h4>View all projects</h4>
         </Link>
