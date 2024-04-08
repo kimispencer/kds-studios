@@ -6,6 +6,7 @@ export interface Tab {
 export interface Project {
   id: number;
   slug: string;
+  active?: boolean;
   title: string;
   subtitle: string;
   description: string;
