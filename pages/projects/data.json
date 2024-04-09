@@ -138,7 +138,7 @@
         , "imageType": "screenshot"
         , "fullscreen": false
         }
-      , { "imageFile": "2024-April/email-panel_qma637.jpg"
+      , { "imageFile": "2024-April/homepage_-_calendar_view_integrations_panel_pwed2i.jpg"
         , "projectSectionHeader": "Email integration"
         , "projectSectionText":
           { "textCopy": "A powerful feature requested from users during testing & interviews, was to create follow-up tasks & events based on emails. With an integration to GMail, users can view their email inbox in comparison to their schedule, and easily create tasks or events that reference back to the email trigger."
