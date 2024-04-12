@@ -296,13 +296,6 @@
             }
         , "imageType": "none"
         }
-      , { "projectSectionHeader": "Retrospective"
-        , "projectSectionText":
-            { "textCopy": "Although the product redesign into a B2B marketplace produced tangible results & increased conversions, there was friction around assuming that most businesses were familiar with the nuances of detailed packaging design requirements. As an improvement to the UX, creating a more visual walkthrough with more explicit guided steps would better leverage the experience for businesses that had less complicated needs."
-            , "textType": "paragraph"
-            }
-        , "imageType": "none"
-        }
     ]
   , "skills":
       [ "Product Design"
