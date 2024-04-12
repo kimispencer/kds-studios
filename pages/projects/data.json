@@ -599,7 +599,7 @@
         }
       , { "imageFile": "02_ydrfxz.jpg"
         , "projectSectionText":
-            { "textCopy": "Frequency of keywords were used to weight their size (more frequent use of a noun phrase resulted in a larger font size), and bézier curves to visualization semantic linkages between different keyword entities."
+            { "textCopy": "Frequency of keywords were used to weight their size (more frequent use of a noun phrase resulted in a larger font size), and bézier curves to visualize semantic linkages between different keyword entities."
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
