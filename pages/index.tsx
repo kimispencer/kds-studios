@@ -86,7 +86,7 @@ const Home = () => {
           </div>
         </div>
         <h4 className={styles.homepageSlideText}>Kimi Spencer is a senior product designer, UI/UX engineer & founder of KDS Studios, a digital product studio that focuses on design and strategy.</h4>
-        <Link href="/projects/smarty" className={styles.homepageSlideLink}>
+        <Link href="/projects/" className={styles.homepageSlideLink}>
           <h4>View all projects</h4>
         </Link>
       </div>
