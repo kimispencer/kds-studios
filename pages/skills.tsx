@@ -12,11 +12,11 @@ const skills: Skill[] =
     { title: "UX Research"
     , description: "Conducting user research, A/B testing and analysis to understand user behaviors and best serve their needs with data-driven design decisions."
     },
-    { title: "Design Strategy"
+    { title: "Product Strategy"
     , description: "Helping brands plan, create and strategize design priorities to promote their digital experiences and products."
     },
-    { title: "Visual Design"
-    , description: "Creating design systems & standardizing visual libraries to establish a brand voice and maintain cohesiveness across various digital user experiences."
+    { title: "Design systems"
+    , description: "Creating design systems & standardizing visual libraries into to establish a brand voice and maintain cohesiveness across various digital user experiences."
     },
     { title: "Design technologist"
     , description: "Experienced in UI development & technical design solutions; with over 10 years experience in building responsive products from e-commerce to high density data dashboards."
@@ -26,20 +26,18 @@ const skills: Skill[] =
 const tools: Tool[] =
   [ { title: "Design tools"
     , description:
-        [ "Figma & Sketch"
+        [ "Figma"
+        , "Sketch"
         , "Adobe Illustrator"
-        , "Adobe Photoshop"
-        , "Adobe InDesign"
-        , "Rhino 3D "
+        , "Notion"
         ]
     },
     { title: "Software languages"
     , description:
-        [ "TypeScript & JavaScript"
-        , "HTML & CSS/SASS/LESS"
-        , "React"
-        , "NextJS"
-        , "Git"
+        [ "HTML"
+        , "CSS"
+        , "TypeScript & JavaScript"
+        , "React & NextJS"
         ]
     },
     { title: "Technical tools"

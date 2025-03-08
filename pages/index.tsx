@@ -81,7 +81,7 @@ const Home = () => {
                 />
               </div>
             </Link>
-            <h4 className={styles.featuredWorkText}>A personal productivity app with a natural language interface, powered by AI.</h4>
+            <h4 className={styles.featuredWorkText}>A personal productivity application with a natural language interface, powered by AI.</h4>
             <Link href="/projects/smarty" className={styles.featuredWorkLink}><h4>View project</h4></Link>
           </div>
         </div>

@@ -82,25 +82,6 @@
         , "imageType": "screenshot"
         , "fullscreen": false
         }
-      , { "projectSectionHeader": "Evaluating the original UI"
-        , "projectSectionText":
-            { "textCopy": "The first version of the Smarty productivity app, focused on a calendar UI that required users to click on explicit CTAs to create new events or tasks. To create a new task for example, a right-hand panel would appear that required multiple form inputs to be filled. User testing revealed that this caused friction, and churn from engaging with the product."
-            , "textType": "paragraph"
-            }
-        , "imageType": "none"
-        , "fullscreen": false
-        }
-        , { "imageFile": "2024-April/smarty-original-calendar_w8rrtr.png"
-        , "projectSectionText":
-            { "columnCopy":
-                [ "• Users wanted to quickly add tasks or events to their calendar without having to fill out a complicated form."
-                , "• The UI needed visual design improvements, and an established design system to maintain consistency across the interface."
-                ]
-            , "textType": "columns"
-            }
-        , "imageType": "screenshot"
-        , "fullscreen": false
-        }
       , { "projectSectionHeader": "A new purely textually scheduling interface"
         , "projectSectionText":
             { "textCopy": "Informed by our research findings & user feedback, a new app interface was designed focused on the core principles of \"simplicity & transparency\" and \"a clean/minimal interface\". Additionally, from our research we learned that our target users wanted to be able to quickly jot down tasks or events at hand (without needing to fill out a time-consuming form) and have the product recognize parameters from keywords."
@@ -186,7 +167,7 @@
       , "Calendar scheduling"
       ]
   , "productType":
-      [ "Personal productivity app"
+      [ "Personal productivity application"
       ]
   },
   { "id": 1
@@ -291,7 +272,7 @@
         }
       , { "projectSectionHeader": "The results"
         , "projectSectionText":
-            { "textCopy": "With the transition to a B2B marketplace application from the prior iteration as an e-commerce catalog interface with predefined packaging options, our team reduced average quote request response time by 85% and increased sales per client by 30%. Thus allowing Lumi to scale up in numbers of users, improving the custom packaging experience, adding transparency for our users, and increasing sales."
+            { "textCopy": "With the transition to a B2B marketplace application from the prior iteration as an e-commerce catalog interface with predefined packaging options, our team reduced average quote request response time by 85%. Thus allowing Lumi to scale up in numbers of users, improving the custom packaging experience, adding transparency for our users, and increasing sales."
             , "textType": "paragraph"
             }
         , "imageType": "none"
@@ -471,7 +452,7 @@
       [ "Fashion"
       ]
   , "productType":
-      [ "E-commerce"
+      [ "E-commerce application"
       ]
   },
   { "id": 4
@@ -550,7 +531,7 @@
       ]
   , "productType":
       [ "Digital publication"
-      , "E-commerce"
+      , "E-commerce application"
       ]
   },
   { "id": 5
@@ -563,21 +544,12 @@
   , "indexImage": "index_ojot2o.jpg"
   , "backgroundColor": "#010101"
   , "sections":
-      [ { "imageFile": "word-list_v3tkrr.jpg"
-        , "projectSectionHeader": "The question"
+      [ { "projectSectionHeader": "The question"
         , "projectSectionText":
             { "textCopy": "What do popular song lyrics say about cultural moods, concerns and political issues of different times? To answer this question and because no database of this information existed at the time, a Python web scraping script was developed to pull lyrics from the top Billboard charts since its inception in the early 1900's."
             , "textType": "paragraph"
             }
-        , "imageType": "screenshot"
-        , "fullscreen": false
-        }
-      , { "imageFile": "1970-word-list_apjwgs.jpg"
-        , "projectSectionText":
-            { "textCopy": ""
-            , "textType": "none"
-            }
-        , "imageType": "screenshot"
+        , "imageType": "none"
         , "fullscreen": false
         }
       , { "imageFile": "00_nl0ni3.jpg"
@@ -632,7 +604,7 @@
       [ "Music"
       ]
   , "productType":
-      [ "Data graphics"
+      [ "Data visualization"
       , "Print"
       ]
   }
