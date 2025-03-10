@@ -461,7 +461,7 @@
   , "title": "SUITED Magazine"
   , "subtitle": "UI/UX, Development"
   , "description": "SUITED is a biannual fashion and art publication with a singular mission in mind: to celebrate those who have found what they are well-suited for."
-  , "summary": "Principle UI/UX designer and front-end engineer for the premier launch of the online edition SUITED magazine. Created a customized CMS driven template design built on top of the SquareSpace developer platform. Collaborated one-on-one with the Creative Director & Editor-in-Chief to translate the print publication brand into a digital experience."
+  , "summary": "Product designer and front-end engineer for the premier launch of the online edition SUITED magazine. Created a customized CMS driven template design built on top of the SquareSpace developer platform. Collaborated one-on-one with the Creative Director & Editor-in-Chief to translate the print publication brand into a digital experience."
   , "backgroundColor": "#010101"
   , "imageKey": "suited"
   , "indexImage": "index_cxa5mu.jpg"
@@ -561,21 +561,21 @@
         , "imageType": "screenshot"
         , "fullscreen": true
         }
-      , { "imageFile": "01_bs8nk7.jpg"
+      , { "imageFile": "02_ydrfxz.jpg"
         , "projectSectionText":
             { "textCopy": "With this data visualization, topical patterns over time became evident as song lyrics from different decades reveal societal patterns and trending topics."
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
-        , "fullscreen": false
+        , "fullscreen": true
         }
-      , { "imageFile": "02_ydrfxz.jpg"
+      , { "imageFile": "01_bs8nk7.jpg"
         , "projectSectionText":
             { "textCopy": "Frequency of keywords were used to weight their size (more frequent use of a noun phrase resulted in a larger font size), and bézier curves to visualize semantic linkages between different keyword entities."
             , "textType": "paragraph"
             }
         , "imageType": "screenshot"
-        , "fullscreen": false
+        , "fullscreen": true
         }
       , { "imageFile": "03_yxsgpe.jpg"
         , "projectSectionText":

@@ -16,10 +16,10 @@ const skills: Skill[] =
     , description: "Helping brands plan, create and strategize design priorities to promote their digital experiences and products."
     },
     { title: "Design systems"
-    , description: "Creating design systems & standardizing visual libraries into to establish a brand voice and maintain cohesiveness across various digital user experiences."
+    , description: "Creating design systems & standardizing visual libraries to establish a brand voice and maintain cohesiveness across various digital user experiences."
     },
     { title: "Design technologist"
-    , description: "Experienced in UI development & technical design solutions; with over 10 years experience in building responsive products from e-commerce to high density data dashboards."
+    , description: "Experienced in UI development & technical design solutions; with over 10 years experience in building responsive products."
     }
   ]
 
